@@ -1,0 +1,292 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Trenitalia</title>
+</head>
+			<style type="text/css">
+			.sfonfoBKG { height:700px;background: url(images/Skin_Cruscotto_2.jpg) no-repeat fixed;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+					background-size: cover;
+			}
+				.labelAXX {	font-family:arial,Verdana;font-size: 1.1em;font-weight: 500;margin-bottom: 15px;padding-bottom: 0;}
+				input[type=text]{background-color: #ffffff;	border:solid 1px #BFBDBD;color: #000000;height: 20px;padding-left:5px;width: 190px;	}
+				.logoTreni h1 {
+					font-family: arial,Verdana,sans-serif,Tahoma;
+					color: #DC002E;
+					font-size: 1.6em;
+					font-weight: normal;
+					margin: 0;
+					padding: 0;
+				}
+			</style>
+			<script language="Javascript">
+				var oggi = new Date();
+				
+				oggi.setDate(oggi.getDate());
+				
+				var giornoOggi	= oggi.getDate();
+				var meseOggi 	= oggi.getMonth() + 1;
+				var annoOggi	= oggi.getFullYear();
+				var OraOggi 	= oggi.getHours()+1;
+				
+				function CaricaDate() {
+				
+				document.formGen.datag.selectedIndex = giornoOggi
+				document.formGen.datam.selectedIndex = meseOggi
+				document.formGen.timsh.selectedIndex = OraOggi
+				document.formGen.datag_r.selectedIndex = giornoOggi-1
+				document.formGen.datam_r.selectedIndex = meseOggi-1
+				document.formGen.timsh_r.selectedIndex = OraOggi
+				
+				}
+				function DisabilitaData(){
+				document.formGen.datag_r.disabled=true;
+				document.formGen.datam_r.disabled=true;
+				document.formGen.dataa_r.disabled=true;
+				document.formGen.timsh_r.disabled=true;
+				}
+				function AbilitaData(){
+				document.formGen.datag_r.disabled=false;
+				document.formGen.datam_r.disabled=false;
+				document.formGen.dataa_r.disabled=false;
+				document.formGen.timsh_r.disabled=false;
+				}
+				function checkForm() {
+				var partenza = document.formGen.stazin.value;
+				var arrivo = document.formGen.stazout.value;
+				document.formGen.stazin_r.value = arrivo
+				document.formGen.stazout_r.value = partenza
+				}
+			</script>
+			<body onLoad="CaricaDate();">
+			<div class="sfonfoBKG">
+				<div style="background-color:#ffffff;width:600px;position:relative;left:505px;height:500px">
+					<div><br />
+						<img class="logoTreni" alt="Logo Trenitalia" src="images/logo.gif">
+					<br /><br />
+					</div>
+					<div class="logoTreni" style="font-family:arial, Verdana;font-size:25px;color:red;height:40px" >
+						Ricerca orari e acquisto biglietti
+					</div>
+					<div class="labelAXX" style="position:relative;left:10px;font-family:arial, Verdana;font-size:13px;height:40px">
+					<strong>Siamo spiacenti ma il sito trenitalia.com non è al momento disponibile per una manutenzione programmata.
+					<br />
+					Puoi comunque procedere con l'acquisto utilizzando il seguente form:</strong>
+					</div>
+					<div>
+						<div  style="padding:20px;border:5px solid #dedede;width:550px;font-family:arial, Verdana;font-size:14px;">
+								
+							<form id="formGen" name="formGen" action="http://orario.trenitalia.com/b2c/nppPriceTravelSolutions.do">
+								<div class="labelAXX">
+									<input tabindex="1" id="andata" name="car" value="0" checked="checked" type="radio" onclick="DisabilitaData()"/><label for="andata" class="labelAXX">Andata</label>
+									<input tabindex="2" id="ar" name="car" value="A" type="radio"  onclick="AbilitaData()" /><label for="ar" class="labelAXX">Andata/Ritorno</label>
+									
+								</div>
+								<div class="labelAXX">
+									<label for="stazin"><strong>Da</strong></label>&nbsp;<input style="width:325px" tabindex="3" name="stazin" id="stazin" title="Stazione di partenza" type="text" />
+								</div>
+								
+								<div class="labelAXX">
+						  <label for="stazout"><strong>A</strong></label>&nbsp;&nbsp;
+							<input  tabindex="4" name="stazout" id="stazout" title="Stazione di arrivo" type="text"  style="width:325px" />
+								</div>
+								<div class="labelAXX"><strong>Quando vuoi partire?</strong><br /><br />
+									<label for="datag">giorno</label>
+									<select tabindex="5" id="datag" class="data" name="datag">
+										<option value=""></option>
+										<option value="1">01</option>
+										<option value="2">02</option>
+										<option value="3">03</option>
+										<option value="4">04</option>
+										<option value="5">05</option>
+										<option value="6">06</option>
+										<option value="7">07</option>
+										<option value="8">08</option>
+										<option value="9">09</option>
+										<option value="10">10</option>
+										<option value="11">11</option>
+										<option value="12">12</option>
+										<option value="13">13</option>
+										<option value="14">14</option>
+										<option value="15">15</option>
+										<option value="16">16</option>
+										<option value="17">17</option>
+										<option value="18">18</option>
+										<option value="19">19</option>
+										<option value="20">20</option>
+										<option value="21">21</option>
+										<option value="22">22</option>
+										<option value="23">23</option>
+										<option value="24">24</option>
+										<option value="25">25</option>
+										<option value="26">26</option>
+										<option value="27">27</option>
+										<option value="28">28</option>
+										<option value="29">29</option>
+										<option value="30">30</option>
+										<option value="31">31</option>
+									</select>&nbsp;&nbsp;
+									<label for="datam">mese</label> 
+									<select tabindex="6" id="datam" name="datam" class="data">
+										<option value="" selected="selected"></option>
+										<option value="1">01</option>
+										<option value="2">02</option>
+										<option value="3">03</option>
+										<option value="4">04</option>
+										<option value="5">05</option>
+										<option value="6">06</option>
+										<option value="7">07</option>
+										<option value="8">08</option>
+										<option value="9">09</option>
+										<option value="10">10</option>
+										<option value="11">11</option>
+										<option value="12">12</option>
+									</select>&nbsp;&nbsp;
+									<label for="dataa">anno</label> 
+									<select tabindex="7" id="dataa" name="dataa" class="colored">
+										<option value="2014">2014</option>
+										<option value="2015">2015</option>
+										<option value="2016">2016</option>
+									</select>&nbsp;&nbsp;								
+									<label for="timsh">ora</label>&nbsp; 
+									<select tabindex="8" id="timsh" name="timsh" class="data">
+										<option value="" selected="selected"></option>
+										<option value="1">01</option>
+										<option value="2">02</option>
+										<option value="3">03</option>
+										<option value="4">04</option>
+										<option value="5">05</option>
+										<option value="6">06</option>
+										<option value="7">07</option>
+										<option value="8">08</option>
+										<option value="9">09</option>
+										<option value="10">10</option>
+										<option value="11">11</option>
+										<option value="12">12</option>
+										<option value="13">13</option>
+										<option value="14">14</option>
+										<option value="15">15</option>
+										<option value="16">16</option>
+										<option value="17">17</option>
+										<option value="18">18</option>
+										<option value="19">19</option>
+										<option value="20">20</option>
+										<option value="21">21</option>
+										<option value="22">22</option>
+										<option value="23">23</option>
+									</select>&nbsp;&nbsp;
+									
+								</div>
+								
+								<div class="labelAXX"><strong>Quando vuoi tornare?</strong><br /><br />
+									<label for="datag_r">giorno</label>
+									<select tabindex="9" id="datag_r" class="data" name="datag_r" disabled>
+										<option value="1">01</option>
+										<option value="2">02</option>
+										<option value="3">03</option>
+										<option value="4">04</option>
+										<option value="5">05</option>
+										<option value="6">06</option>
+										<option value="7">07</option>
+										<option value="8">08</option>
+										<option value="9">09</option>
+										<option value="10">10</option>
+										<option value="11">11</option>
+										<option value="12">12</option>
+										<option value="13">13</option>
+										<option value="14">14</option>
+										<option value="15">15</option>
+										<option value="16">16</option>
+										<option value="17">17</option>
+										<option value="18">18</option>
+										<option value="19">19</option>
+										<option value="20">20</option>
+										<option value="21">21</option>
+										<option value="22">22</option>
+										<option value="23">23</option>
+										<option value="24">24</option>
+										<option value="25">25</option>
+										<option value="26">26</option>
+										<option value="27">27</option>
+										<option value="28">28</option>
+										<option value="29">29</option>
+										<option value="30">30</option>
+										<option value="31">31</option>
+									</select>&nbsp;&nbsp;
+									<label for="datam_r">mese</label> 
+									<select tabindex="10" id="datam_r" name="datam_r" class="data" disabled>
+										<option value="1">01</option>
+										<option value="2">02</option>
+										<option value="3">03</option>
+										<option value="4">04</option>
+										<option value="5">05</option>
+										<option value="6">06</option>
+										<option value="7">07</option>
+										<option value="8">08</option>
+										<option value="9">09</option>
+										<option value="10">10</option>
+										<option value="11">11</option>
+										<option value="12">12</option>
+									</select>&nbsp;&nbsp;
+									<label for="dataa_r">anno</label> 
+									<select tabindex="11" id="dataa_r" name="dataa_r" class="colored" disabled>
+										<option value="2014" selected="selected">2014</option>
+										<option value="2015">2015</option>
+										<option value="2016">2016</option>
+									</select>&nbsp;&nbsp;
+									<label for="timsh_r">ora</label>&nbsp; 
+									<select tabindex="12" id="timsh_r" name="timsh_r" class="data" disabled>
+										<option value="1">01</option>
+										<option value="2">02</option>
+										<option value="3">03</option>
+										<option value="4">04</option>
+										<option value="5">05</option>
+										<option value="6">06</option>
+										<option value="7">07</option>
+										<option value="8">08</option>
+										<option value="9">09</option>
+										<option value="10">10</option>
+										<option value="11">11</option>
+										<option value="12">12</option>
+										<option value="13">13</option>
+										<option value="14">14</option>
+										<option value="15">15</option>
+										<option value="16">16</option>
+										<option value="17">17</option>
+										<option value="18">18</option>
+										<option value="19">19</option>
+										<option value="20">20</option>
+										<option value="21">21</option>
+										<option value="22">22</option>
+										<option value="23">23</option>
+									</select>&nbsp;&nbsp;
+
+									<div class="butAvantiSub2"><br />
+										 <input tabindex="13" name="button" type="image" src="images/Cerca.png" alt="Consulta l'orario" value="Invia" title="Consulta l'orario" onclick="return checkForm();"> 
+										 <!--<button  tabindex="13" type="submit" class="buttonFoglia roundedIECerca" name="button"  value="Invia" title="Consulta l'orario" onclick="return checkForm();">Invia</button>-->
+									</div>
+									<input id="stazin_r" name="stazin_r" value="Staz_DA" type="hidden" />
+									<input id="stazout_r" name="stazout_r" value="Staz_A" type="hidden" />
+									<input id="timsm" name="timsm" value="00" type="hidden" />
+									<input id="timsm_r" name="timsm_r" value="00" type="hidden" />
+									<input value="it" id="lang" name="lang" type="hidden" />
+									<input value="5" id="nreq" name="nreq" type="hidden" />
+									<input value="tcom" id="channel" name="channel" type="hidden" />
+									<input value="it" id="lang_r" name="lang_r" type="hidden" />
+									<input value="5" id="nreq_r" name="nreq_r" type="hidden" />
+									<input value="1" id="npag" name="npag" type="hidden" />
+									<input value="1" id="npag_r" name="npag_r" type="hidden" />
+									<input value="tcom" id="channel_r" name="channel_r" type="hidden" />
+								</div>
+							</form>
+						</div>	
+					</div>	
+								
+				</div>				
+			</div>
+	</body>
+</html>
+<!--################# FINE FORM ##########################-->	
