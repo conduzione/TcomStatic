@@ -1,0 +1,59 @@
+/*BANDI E GARE*/
+
+div.dettagli{padding:28px 33px; margin:0; height:auto !important; height:430px; min-height:430px;}
+div.dettagli img{float:left; padding-right:4px;}
+div.dettagliSommario{text-align:center; padding:1em 16px 20px 20px;}
+div.dettagliSommario div.text{font-size:1.1em;}
+
+div.dettagliR1 {padding:1em 16px 10px 20px;}
+div.dettagliR1 div.text{line-height:18px; padding-bottom:.5em; padding-top:.2em;}
+div.dettagliR1 div.text a.linkEsterno{color:#000; text-decoration:underline}
+div.dettagliR1 div.text a:hover.linkEsterno{color:#B30002; text-decoration:underline}
+div.dettagli div.text{line-height:18px; padding-top:.2em;}
+
+div.dettagliCont{padding:1em 0 10px 0;}
+div.dettagliContR2{padding:0 16px 0 20px;}
+div.dettagliR2 {float:left; padding:0 0 10px 0; color:#000;}
+div.dettagliR2 img{float:left; padding-right:4px;}
+div.dettagliR2 span.titolo1{padding:0 2em 10px 0;}
+div.dettagliR2 span.titolo2{font-weight:bold; padding:0 0 10px 0;}
+div.dettagliR2 span.testo{padding:0 2em 10px 0;}
+div.dettagliR2 span a, div.dettagliR3 a{color:#000; text-decoration:none;}
+div.dettagliR2 span a:hover, div.dettagliR3 a:hover{color:#B30002; text-decoration:underline;}
+div.dettagliR3 {padding:0 16px 10px 20px; color:#000; height:auto !important; height:30px; min-height:30px;}
+div.dettagliR3 div{padding:.4em 0;}
+div.dettagliR3 div img{float:left; padding:0 .4em 0 0; vertical-align:middle; border:0;}
+div.dettagliR3 div.frecciaLink{padding:.1em 0 .1em 1.7em;	background:url(/cms-file/common/img/freccia_puntatore.gif) no-repeat 2px 5px; line-height:1.5em}
+
+div.contListaLotti {padding:0; margin:0;} 
+div.contListaLotti table.dataTab {font-size:1em;}
+
+/*Box dettaglio */
+div.BoxdettagliTitolo{background:#B30002 url('/cms-file/common/img/bg_ancore2_tr.gif') top right no-repeat; padding:3px 12px 1px 12px; width:20%;}
+div.BoxdettagliTitolo h3{font-size:1.2em; color:#FFF; margin:0px}
+div.BoxdettagliTitolo2{color:#FFF; margin:0px;}
+div.BoxdettagliTitolo2 h3 {font-size:1.2em; margin:0;}
+div.BoxdettagliTitolo2 h3 span {background:#B30002 url('/cms-file/common/img/bg_ancore2_tr.gif') top right no-repeat; padding:3px 12px 1px 12px; display:inline-block; min-width:20%;}
+div.BoxdettagliTitolo3{font-size:1.2em; color:#FFF; margin:0px; font-weight:bold;}
+div.BoxdettagliTitolo3 span {background:#B30002 url('/cms-file/common/img/bg_ancore2_tr.gif') top right no-repeat; padding:3px 20px 1px 12px; display:inline-block;}
+div.BoxdettagliCont{padding:1.2em 0 10px 0; border:1px solid #999; border-top:2px solid #B30002; border-bottom:2px solid #B30002; background:#F9F9F9}
+div.BoxdettagliContR2{padding:.2em 16px 0 20px;}
+div.BoxdettagliR2 {float:left; padding:.2em 0 2px 0; color:#000;}
+div.BoxdettagliR2 img{float:left; padding-right:4px;}
+div.BoxdettagliR2 span.titolo1{padding:0 2em 10px 0;}
+div.BoxdettagliR2 span.titolo2{font-weight:bold; padding:0 0 5px 0;}                                    
+div.BoxdettagliR2 span.testo{padding:0 2em 10px 0;}
+div.BoxdettagliR2 span a{color:#000; text-decoration:none;}
+div.BoxdettagliR2 span a:hover{color:#B30002; text-decoration:underline;}
+div.BoxdettagliR4 {padding:0 16px 5px 20px; color:#000; height:auto !important; height:15px; min-height:15px;}
+div.BoxdettagliR4 div{padding:.2em 0 .2em 0;}
+div.BoxdettagliR4 div img{float:none; padding:0 .4em 0 0; vertical-align:middle; border:0;}
+div.BoxdettagliR4 div.frecciaLink{padding:.1em 0 .1em 1.7em;	background:url(/cms-file/common/img/freccia_puntatore.gif) no-repeat 2px 5px; line-height:1.5em}
+div.rigadot{height:1px; border-top:1px dotted #B30002; margin:5px 10px}
+div.leftcol{width:28%}
+
+div.dettagli a.linkInterno{color:#000; text-decoration:underline}
+div.dettagli a:hover.linkInterno{color:#B30002; text-decoration:underline}
+div.BoxdettagliTesto{padding:.3em 0 .3em 0; height:auto !important; height:1px; min-height:1px;}
+div.BoxdettagliTesto a.linkEsterno{color:#000; text-decoration:underline}
+div.BoxdettagliTesto a:hover.linkEsterno{color:#B30002; text-decoration:underline}

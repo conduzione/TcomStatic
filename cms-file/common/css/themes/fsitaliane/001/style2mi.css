@@ -1,0 +1,10 @@
+/**
+  * Versione style.css con menu primo livello a 2 voci 
+    * last-mod 10-03-2014 
+  */
+
+/*patch per 2 voci di menu*/
+.menu > ul > li {width: 49.999%;}				
+.menu > ul > li.last {width: 49.999%;}
+
+.resultBox > .title > .fright { display:none;}

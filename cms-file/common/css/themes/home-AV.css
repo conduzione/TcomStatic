@@ -1,0 +1,41 @@
+/* MODIFICATI */
+#headerHPFlash{background:url('../img/bg_header.gif') bottom left repeat-x; height:auto !important; padding:0; margin:0;	min-height:101px; height:101px; font-size:.7em}
+#headerHPFlash div.headerTop{padding:12px 25px 0 25px}
+#headerHPFlash div.headerTop div.headerRightNav img{float:right; border:none; padding:0 0 0 20px; margin-top:-2px}
+#headerHPFlash div.headerTop div.headerRightNav{margin-left:37%}
+#headerHPFlash div.ricerca{float:right; margin-top:-2px}
+#headerHPFlash div.ricerca p{padding:0; margin:0}
+#headerHPFlash div.headerRightNavLeft{float:right; margin-right:10px; white-space:nowrap}
+#headerHPFlash div.headerBottom{padding:0; margin:0; height:auto !important; min-height:71px; height:71px}
+#headerHPFlash div.headerBottomRight{float:left; padding:0;  width:2%; height:71px; text-align:right;position:absolute;z-index:1000;margin:0 0 0 3px;background-color:transparent;}
+html>/**/body #headerHPFlash div.headerBottomRight{margin:0 0 0 23px} /* Firefox */
+#headerHPFlash div.headerBottomRight img{}
+#headerHPFlash div.headerBottomLeft{padding:0; margin:0 0 0 2%; height:71px; background:url('../img/bg_header_dx-AV.gif') bottom right repeat-x}
+#headerHPFlash div.headerBottomLeftIn {padding:0; margin:0; height:71px; background:url('../img/bg-header-AV.gif') bottom left no-repeat;background-color:#fff;width:958px;}
+#headerHPFlash div.headerBottomLeftIn div.r1{height:60px; text-align:right; padding:0; margin:0}
+#headerHPFlash div.headerBottomLeftIn div.r2{padding:20px 0 0 0; height:42px; color:#FFF; font-weight:bold;  /*font-size:1.2em;*/ font-size:1.5em; text-align:center}
+.flashR2{padding-left:361px;padding-top:16px}
+.flashR2testo{width:437px;float:left}
+.flashR2Img{float:left;margin-top:7px}
+#headerHPFlash div.headerBottomLeftIn div.r2 a,
+#headerHPFlash div.headerBottomLeftIn div.r2 a:hover{color:#FFF; text-decoration:none}
+#headerHPFlash div.headerBottomLeftIn div.r1 img {border:none; margin:0; vertical-align:bottom}
+#navigation2{background-image:url(../img/bg-footer-AV.gif);background-repeat:repeat-x}
+
+
+
+/* COPIATI DA CONTENT.CSS */
+#navigation ul#menu1 li.M5cellaprima,
+#navigation2 ul#menu2 li.M5cellaprima{width:18%; background:url('../img/separatore.gif') right center no-repeat}
+#navigation ul#menu1 li.M5cellaunica,
+#navigation2 ul#menu2 li.M5cellaunica{width:16%; background:url('../img/separatore.gif') right center no-repeat}
+#navigation ul#menu1 li.M5cellaultima,
+#navigation2 ul#menu2 li.M5cellaultima{width:16%}
+
+
+#navigation2 ul#menu2 li.M5cellaprima{width:18%; background:url('../img/separatore.gif') right center no-repeat}
+#navigation2 ul#menu2 li.M5cellaunica{width:21%; background:url('../img/separatore.gif') right center no-repeat}
+#navigation2 ul#menu2 li.M5cellaultima{width:18%}
+
+
+

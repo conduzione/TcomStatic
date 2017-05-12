@@ -1,0 +1,17 @@
+#mooqueeStart{margin:0 0 0 10%; padding:0 0 0 12%;}
+/* position:realative and overflow:hidden are the only requirements */
+#scroller   {
+	/*border: solid 1px #C0C0C0;*/
+	padding: 2px 0;
+	width: 98%;
+  position:relative; overflow: hidden;}
+
+#tag        {padding:0; margin:0; line-height: .8em; background: #B30002;}
+/* #testP must contain all the text-sizing properties of #tag */
+#testP      {visibility:hidden; position:absolute; left:0; white-space:nowrap;}
+
+.example    {}  /* class styling as applied to scrolling text */
+
+#tag a{color #FFF; font-weight:normal; text-decoration:none; border:0; font-size:.7em;}
+#tag a:link, #tag a:visited{}
+#tag a:hover{text-decoration:underline;}

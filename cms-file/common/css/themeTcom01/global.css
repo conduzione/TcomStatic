@@ -1,0 +1,15 @@
+@import "style2011.css";
+
+@import "menu.css";
+@import "liteaccordion.css";
+@media only screen and (device-width: 768px) {
+			.navigationTrenitalia {
+				position:static;
+			}
+}
+
+@media only screen and (max-device-width: 480px) {
+			.navigationTrenitalia {
+				position:static;
+			}
+}

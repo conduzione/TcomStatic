@@ -1,0 +1,29 @@
+body{background: #E9E9E9; padding:0; margin:0; font-family: Arial, Tahoma, Helvetica, sans-serif; color:#333; font-weight:bold; font-size:.8em;}
+
+a{color:#000; text-decoration:none;}
+a:hover{color:#B30002; text-decoration:none;}
+img{border:none;}
+
+div.topLeft{height: 91px; background: #FFF url('/cms-file/common/img/webradio/topLeft.gif') top left repeat-x;}
+div.topRight{height: 91px; background: transparent url('/cms-file/common/img/webradio/topRight.gif') top right no-repeat;}
+div.topGrey{height:auto !important; height:20px; min-height:20px; padding:10px .5em; background:url('/cms-file/common/img/webradio/topGrey.gif') top left repeat-x;}
+div.contentMP{height:70px; text-align: center; background:#000 url('/cms-file/common/img/webradio/bg_mediaplayer.gif') 0 0 repeat-x; border-top:1px solid #000;}
+div.contentMPint{margin:-1px 0 0 0;}
+html>/**/body div.contentMPint{margin:0 0 0 0 !important;}/* FireFox*/
+div.contentButton{color: #FFF; padding:7px 0 12px 0; margin:0 12px; text-align:center; background:url('/cms-file/common/img/webradio/button_popup_av.gif') center center no-repeat; }
+.Button{text-decoration:none; font-size:16px; color:#FFF; display:block;}
+
+div.contboxLink{margin:0 padding:0; height:auto!important; height:120px; min-height:120px; }
+div.contboxLinkTl{margin:0 12px; padding:0; background:#FFF url('/cms-file/common/img/webradio/ang_tl.gif') top left no-repeat;}
+div.contboxLinkTr{background:url('/cms-file/common/img/webradio/ang_tr.gif') top right no-repeat;}
+div.contboxLinkBl{background:url('/cms-file/common/img/webradio/ang_bl.gif') bottom left no-repeat;}
+div.contboxLinkBr{background:url('/cms-file/common/img/webradio/ang_br.gif') bottom right no-repeat;}
+div.boxLink{padding:1em;}
+div.LinkRow{height:auto !important; height:24px; min-height:24px; width:294px; background:url('/cms-file/common/img/webradio/arrow_play.gif') center right no-repeat;}
+div.LinkRow a{display:block; width:294px; padding-top:4px;}
+div.LinkRowSel{height:auto !important; height:24px; min-height:24px; padding-top:6px; width:294px; background:url('/cms-file/common/img/webradio/link_onair.gif') center right no-repeat;}
+div.LinkRowSel span{width:294px; color:#B30002;}
+div.bottomSx{text-align:left; padding:8px 0 3px 25px; font-size:.8em; font-weight:normal;}
+div.bottom{text-align:right; padding: 4px 30px 3px 0;}
+div.bottom a{color:#B30002;}
+div.bottom a:hover{text-decoration:underline;}

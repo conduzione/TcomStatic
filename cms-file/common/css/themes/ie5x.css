@@ -1,0 +1,132 @@
+/*IE 5.5*/
+
+#HPheader div.headerBottomRightIn{overflow:visible;}
+#HPheader div.headerBottomRightIn div.R2 p{padding:2.5% 0 1% 0;}
+#HPheader div.headerBottomRightIn div.bannerLeft{padding:74px 0 0 100px; margin:0;}
+#HPheader div.headerBottomRightIn div.bannerRight p{height:72px; }
+#HPheader div.headerBottomRightIn div.bannerRight a{width:98%;}
+div.contentHpR1Right{margin-left:50.3%;}
+div.contentHpR1Left div.rbtopr h3,
+div.contentHpR1Right div.rbtopr h3{margin:4px 0 0 14px; padding:0;}
+div.contentHpR1IntTop,
+div.contentHpR1IntBot,
+div.Row1sxInt{overflow:visible;}
+
+input.campoR{width:234; height:20px;}
+
+.listaPuntoNero {list-style:square url(/cms-file/common/img/puntoNeroIE.gif) inside; text-indent:-.5em;}
+
+#navigation ul#menu1,
+#navigation ul#menu1 li{overflow:visible;}
+
+#content{overflow:visible; height:0;}
+#content div.contentLeft {display:inline;}
+#contentBox{height:0;}
+
+#content div.contentLeft ul#menu2 a.primoAttivo{padding:7px 0 6px 0;}
+#content div.contentLeft ul#menu2 a.Attivo{padding:13px 0 4px 0;}
+#content div.contentLeft ul#menu3{margin:0;}
+
+/*importanti*/
+#content div.contentLeft li#menu2,
+#content div.contentLeft li#menu3{display:inline;}
+#content div.contentLeft ul#menu2 a,
+#content div.contentLeft ul#menu3 a{height:0;}
+/*/importanti*/
+
+#menuNav{overflow:visible;}
+
+div.ContParag,
+div.RightColContentLinks,
+div.RightColTitoliSez h4,
+div.RightColImmBox div.staccoTxt,
+div.RightColContParag,
+div.ContAncore,
+div.RigaSeparazione,
+div.TornaSu,
+div.titoloPag,
+div.contcbox2{height:0;}/*Importante*/
+
+div.RightColImmBox{overflow:visible;}/*Importante*/
+div.RightColImmBox img{width:140px;}/*forza la larghezza dell'immagine per la risoluzione 800x600*/
+
+div.RightColTitoliSez,
+div.RightColImgParag{padding-left:3px;}
+div.RightColContParag p{margin-left:3px;}
+
+div.ArchivioImgLeft,
+div.ArchivioImgRight{margin-bottom:15px;}
+
+div.ArchivioImgLeft a,
+div.ArchivioImgRight a,
+div.ContImgParagWP a{background:url('/cms-file/common/img/freccia_puntatore.gif') 3px left no-repeat;}
+
+.BoxIntIconeLeft{margin-left:7px; padding-bottom:0;}
+.BoxIntIconeRight{padding-bottom:0; margin-right:0;}
+
+.BoxIntSocietImgDx div{padding-top:175px;}
+
+#AreaRiservata div{padding-bottom:2px;}
+
+#formGen .btnInviaCrusc{position:relative; top:2px;}
+
+div.contentHpR1IntTop,
+div.HpTrenContLeftBoxInt{overflow:visible;}
+
+div#cruscotto div.tab span.off{padding:10px;}
+div#cruscotto div.tab span.off a{padding:5px 0;}
+#cruscotto form label{width:100%;}
+
+div.contentHpR2Right{margin-left:50.3%;}
+div.contentHpR2Left1Dx{margin-left:50.2%;}
+div.contentHpR2Left2{margin-left:66.8%;}
+div.contentHpR2RightDx{margin-left:64%;}
+div.contentHpR2RightDxV2{margin-left:36%;}
+
+div.BoxIntDxBannerDx{height:1px;}
+div.HpTrenContLeftBoxIntDx .BoxIntAR{height:200px;}
+
+div.contHpGruppoRight div.Box2Left {width:48%; }
+div.contHpGruppoRight div.Box2Right{width:48%; margin-left:0; height:0; float:right;}
+
+.roundButtonGray div.roundCont p{ padding:0; margin:14px 12px 0 0;}
+.roundButtonCurve{width:32.6%;}
+
+div.ContBoxLabelAR div.BotForm div.R1{margin-top:-4px;}
+
+div.contentHpR1IntTopRight div.BoxIntAR div.BoxIntbotl,
+div.contentHpR1IntTopRight div.BoxIntAR div.BoxIntbotr, 
+div.contentHpR1IntTopRight div.BoxIntBeG div.BoxIntbotl, 
+div.contentHpR1IntTopRight div.BoxIntBeG div.BoxIntbotr,
+div.contentHpR1IntTopRight div.BoxIntxFor div.BoxIntbotl, 
+div.contentHpR1IntTopRight div.BoxIntxFor div.BoxIntbotr,
+div.contentHpR1IntTopLeft div.BoxSociet div.BoxIntbotl, 
+div.contentHpR1IntTopLeft div.BoxSociet div.BoxIntbotr{margin-top:-6px;}
+
+div.contentHpR1IntTopRight div.BoxIntSC div.BoxIntbotl, 
+div.contentHpR1IntTopRight div.BoxIntSC div.BoxIntbotr{margin-top:-1px;}
+
+div.contentHpR1IntBot div.BoxIntbotl, 
+div.contentHpR1IntBot div.BoxIntbotr{margin-top:-4px;}
+
+.BoxIntSocietImgDx div{padding:150px 0 1px 0;}
+
+#content div.FSNewsRight div.FSNewsRightCol{height:1px;}/*Importante!*/
+div.boxFotoSet div.boxFotoSetTop{padding:0; margin:0;}
+div.boxFotoSet div.boxFotoSetTop img{margin:4px 0 0 0; }
+
+div.contentHpR2Left1Sx img.arrowBanner,
+div.contentHpR2Left1Dx img.arrowBanner,
+div.contentHpR2Left2 img.arrowBanner,
+div.contentHpR2RightSx img.arrowBanner,
+div.contentHpR2RightSxV2 img.arrowBanner,
+div.contentHpR2RightDxV2 img.arrowBanner{margin:0; padding:130px 6px 0 0;}
+
+div.cboxIntTab{padding:24px 12px;}
+
+#footer,
+#footer div.bgRight{height:114px;}
+#footerTre,
+#footerTre div.bgRight{height:132px;}
+#footerFS,
+#footerFS div.bgRight{height:132px;}

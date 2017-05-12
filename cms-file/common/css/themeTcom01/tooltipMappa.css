@@ -1,0 +1,589 @@
+
+	/* global */
+div.ui-tooltipmap {
+  font-size: 1em;
+}
+.ui-tooltipmap-header,
+.ui-tooltipmap-content {
+  padding: 5px;
+}
+.ui-tooltipmap-header {
+  font-size: 1em;
+  margin: 0;
+  overflow: hidden;
+}
+
+.tooltipmap-title .tooltipmap-close {
+  float: right;
+  position: relative;
+}
+.tooltipmap-close img {
+  border: 0;
+}
+
+#tooltipmap-waitimage {
+  width: 43px;
+  height: 11px;
+  
+  /*background-image: url(/cms-file/immagini/trenitalia/mappa/wait.gif);*/
+}
+.tooltipmap-arrows {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: 11px;
+  height: 22px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  border-width: 0;
+}
+.tooltipmap-extra {
+  display: none;
+}
+
+/***************************************
+   =tooltipmapClass: 'default'
+-------------------------------------- */
+
+.tooltipmap-default,
+.tooltipmap-default .tooltipmap-outer {
+  background-color: #ffffff;
+}
+.tooltipmap-default .ui-tooltipmap-header {
+  background-color: #ffffff;
+}
+
+
+/*
+.tooltipmap-default #tooltipmap-outer {
+  position: relative;
+  margin: 0;
+  background-color: #d9d9c2;
+}
+.tooltipmap-default h3#tooltipmap-title {
+  margin: 0 0 5px;
+  padding: 8px 10px 4px;
+  font-size: 1.1em;
+  font-weight: normal;
+  background-color: #87876a;
+  color: #fff;
+}
+.tooltipmap-default #tooltipmap-title a {
+  color: #d9d9c2;
+  font-size: 0.95em;
+}
+.tooltipmap-default #tooltipmap-inner {
+  padding: 10px;
+}
+.tooltipmap-default div#tooltipmap-close {
+  text-align: right;
+  margin: 0 5px 5px;
+  color: #900;
+}
+*/
+/* default arrows */
+div.tooltipmap-default .tooltipmap-arrows {
+  border-width: 0;
+  background: transparent none;
+}
+div.clue-right-default .tooltipmap-arrows {
+  background-image: url(/cms-file/immagini/trenitalia/mappa/arrowleft.gif);
+}
+div.clue-left-default .tooltipmap-arrows {
+  background-image: url(/cms-file/immagini/trenitalia/mappa/arrowright.gif);
+  left: 100%;
+  margin-right: -11px;
+}
+div.clue-top-default .tooltipmap-arrows {
+  background-image: url(/cms-file/immagini/trenitalia/mappa/arrowdown.gif);
+  top: 100%;
+  left: 50%;
+  margin-left: -11px;
+  width: 22px;
+  height: 11px;
+}
+div.clue-bottom-default .tooltipmap-arrows {
+  background-image: url(/cms-file/immagini/trenitalia/mappa/arrowup.gif);
+  top: -11px;
+  left: 50%;
+  margin-left: -11px;
+  width: 22px;
+  height: 11px;
+}
+
+/***************************************
+   =tooltipmapClass: 'jtip'
+-------------------------------------- */
+.tooltipmap-jtip {
+  background-color: #fff;
+}
+.tooltipmap-jtip .tooltipmap-outer {
+  border: 2px solid #ccc;
+  position: relative;
+  background-color: #fff;
+}
+
+.tooltipmap-jtip .tooltipmap-inner {
+  padding: 5px;
+  display: inline-block;
+}
+.tooltipmap-jtip div.tooltipmap-close {
+  text-align: right;
+  margin: 0 5px 0;
+  color: #000000;
+}
+
+.tooltipmap-jtip .ui-tooltipmap-header {
+  background-color: #ccc;
+  padding: 6px;
+/*  margin-bottom: 1em;*/
+}
+
+/* jtip arrows */
+div.tooltipmap-jtip .tooltipmap-arrows {
+  border-width: 0;
+  background: transparent none;
+}
+div.clue-right-jtip .tooltipmap-arrows {
+  background-image: url(/cms-file/immagini/trenitalia/mappa/arrowleft.gif);
+}
+div.clue-left-jtip .tooltipmap-arrows {
+  background-image: url(/cms-file/immagini/trenitalia/mappa/arrowright.gif);
+  left: 100%;
+  margin-right: -11px;
+}
+div.clue-top-jtip .tooltipmap-arrows {
+  background-image: url(/cms-file/immagini/trenitalia/mappa/arrowdown.gif);
+  top: 100%;
+  left: 50%;
+  width: 22px;
+  height: 11px;
+  margin-left: -11px;
+}
+div.clue-bottom-jtip .tooltipmap-arrows {
+  background-image: url(/cms-file/immagini/trenitalia/mappa/arrowup.gif);
+  top: -11px;
+  left: 50%;
+  width: 22px;
+  height: 11px;
+  margin-left: -11px;
+}
+
+/***************************************
+   =tooltipmapClass: 'rounded'
+-------------------------------------- */
+.tooltipmap-rounded {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.tooltipmap-rounded .tooltipmap-outer {
+  background-color: #fff;
+}
+
+.tooltipmap-rounded  .tooltipmap-arrows {
+  border-color: #ccc;
+}
+
+/* need to be more specific here to override ThemeRoller defaults */
+div.tooltipmap-rounded  .tooltipmap-arrows {
+  font-size: 0;
+  line-height: 0%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  background: transparent none;
+}
+div.clue-right-rounded .tooltipmap-arrows {
+  border-width: 11px 11px 11px 0;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+div.clue-left-rounded .tooltipmap-arrows {
+  left: 100%;
+  margin-right: -11px;
+  border-width: 11px 0 11px 11px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+
+}
+div.clue-top-rounded .tooltipmap-arrows {
+  top: 100%;
+  left: 50%;
+  border-width: 11px 11px 0 11px;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+.clue-bottom-rounded .tooltipmap-arrows {
+  top: -11px;
+  left: 50%;
+  border-width: 0 11px 11px 11px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+
+}
+/* stupid IE6 HasLayout hack */
+.tooltipmap-rounded .tooltipmap-title,
+.tooltipmap-rounded .tooltipmap-inner {
+  zoom: 1;
+}
+
+ul.eventicitta  {
+list-style-image: url(/cms-file/immagini/trenitalia/mappa/elenco.png);
+font-size:12px;
+text-align:left;
+color:#000000;
+/*margin-left: -10px;
+margin-right: 5px;*/
+}
+
+/*STILI CITTA' SULLA CARTINA*/
+
+/*########## ROMA ################*/
+	.city_roma{
+	position:absolute;
+	right: 155px;
+    top: 244px;
+	font-size:13px;
+	text-align:left;
+	width:70px;
+	height: 20px;
+	color:#00000;
+	}
+	a.city_roma{Color:#b00000;text-decoration: none;font-weight:bold} 
+	a.city_roma:hover{Color:#000000;text-decoration: none;font-weight:bold}
+
+/*########## NAPOLI ################*/	
+	.city_napoli{
+	position:absolute;
+	right: 83px;
+    top: 290px;
+	font-size:13px;
+	text-align:left;
+	width:75px;
+	height: 20px;
+	color:#00000;
+	}
+	a.city_napoli{Color:#b00000;text-decoration: none;font-weight:bold} 
+	a.city_napoli:hover{Color:#000000;text-decoration: none;font-weight:bold}
+
+/*########## MILANO ################*/	
+	.city_milano{
+	position:absolute;
+	top:24px;
+	right:128px;	
+	font-size:13px;
+	text-align:left;
+	width:75px;
+	height: 20px;
+	color:#00000;
+	}
+	a.city_milano{Color:#b00000;text-decoration: none;font-weight:bold} 
+	a.city_milano:hover{Color:#000000;text-decoration: none;font-weight:bold}
+
+/*########## BOLOGNA ################*/	
+	
+.city_bologna{
+	position:absolute;
+	top:63px;
+	right:116px;	
+	font-size:13px;
+	text-align:left;
+	width:85px;
+	height: 20px;
+	color:#00000;
+	}
+	a.city_bologna{Color:#b00000;text-decoration: none;font-weight:bold} 
+	a.city_bologna:hover{Color:#000000;text-decoration: none;font-weight:bold}
+	
+/*########## TORINO ################*/	
+	
+.city_torino{
+	position:absolute;
+	top:45px;
+	right:158px;		
+	font-size:13px;
+	text-align:left;
+	width:70px;
+	height: 20px;
+	color:#00000;
+	}
+	a.city_torino{Color:#b00000;text-decoration: none;font-weight:bold} 
+	a.city_torino:hover{Color:#000000;text-decoration: none;font-weight:bold}
+/*########## BARDONECCHIA ################*/	
+	
+	.city_bardonecchia{
+	position:absolute;
+	top:44px;
+	right:140px;	
+	font-size:13px;
+	text-align:left;
+	width:129px;
+	height: 20px;
+	color:#00000;
+	}
+	a.city_bardonecchia{Color:#b00000;text-decoration: none;font-weight:bold} 
+	a.city_bardonecchia:hover{Color:#000000;text-decoration: none;font-weight:bold}
+/*########## PISA ################*/
+	.city_pisa{
+	position:absolute;
+	top:78px;
+	right:117px;		
+	font-size:13px;
+	text-align:left;
+	width:60px;
+	height: 20px;
+	color:#00000;
+	}
+	a.city_pisa{Color:#b00000;text-decoration: none;font-weight:bold} 
+	a.city_pisa:hover{Color:#000000;text-decoration: none;font-weight:bold}
+/*########## PADOVA ################*/
+	.city_padova{
+	position:absolute;
+	top:40px;
+	right:107px;		
+	font-size:13px;
+	text-align:left;
+	width:78px;
+	height: 20px;
+	color:#00000;
+	}
+	a.city_padova{Color:#b00000;text-decoration: none;font-weight:bold} 
+	a.city_padova:hover{Color:#000000;text-decoration: none;font-weight:bold}
+	
+/*########## VENEZIA ################*/
+	.city_venezia{
+	position:absolute;
+	top:32px;
+	right:103px;	
+	font-size:13px;
+	text-align:left;
+	width:80px;
+	height: 20px;
+	color:#00000;
+	}
+	a.city_venezia{Color:#b00000;text-decoration: none;font-weight:bold} 
+	a.city_venezia:hover{Color:#000000;text-decoration: none;font-weight:bold}
+	
+/*########## VERONA ################*/
+.city_verona{
+	position:absolute;
+	top:33px;
+	right:135px;	
+	font-size:13px;
+	text-align:left;
+	width:80px;
+	height: 20px;
+	color:#00000;
+	}
+	a.city_verona{Color:#b00000;text-decoration: none;font-weight:bold} 
+	a.city_verona:hover{Color:#000000;text-decoration: none;font-weight:bold}
+	
+	/*########## FIRENZE ################*/
+.city_firenze{
+	position:absolute;
+	top:101px;
+	right:90px;	
+	font-size:13px;
+	text-align:left;
+	width:80px;
+	height: 20px;
+	color:#00000;
+	}
+	a.city_firenze{Color:#b00000;text-decoration: none;font-weight:bold} 
+	a.city_firenze:hover{Color:#000000;text-decoration: none;font-weight:bold}
+	
+	/*########## LIVORNO ################*/
+.city_livorno{
+	position:absolute;
+	top:93px;
+	right:106px;	
+	font-size:13px;
+	text-align:left;
+	width:80px;
+	height: 20px;
+	color:#00000;
+	}
+	a.city_livorno{Color:#b00000;text-decoration: none;font-weight:bold} 
+	a.city_livorno:hover{Color:#000000;text-decoration: none;font-weight:bold}	
+	
+	/*########## GENOVA ################*/
+.city_genova{
+	position:absolute;
+	right: 138px;
+    top: 56px;
+	font-size:13px;
+	text-align:left;
+	width:80px;
+	height: 20px;
+	color:#00000;
+	}
+	a.city_genova{Color:#b00000;text-decoration: none;font-weight:bold} 
+	a.city_genova:hover{Color:#000000;text-decoration: none;font-weight:bold}	
+
+  /*########## TRIESTE ################*/	
+.city_trieste{
+	position:absolute;
+	top:25px;
+	right:83px;	
+	font-size:13px;
+	text-align:left;
+	width:80px;
+	height: 20px;
+	color:#00000;
+	}
+	a.city_trieste{Color:#b00000;text-decoration: none;font-weight:bold} 
+	a.city_trieste:hover{Color:#000000;text-decoration: none;font-weight:bold}	
+	
+	/*########## RIMINI ################*/	
+.city_rimini{
+	position:absolute;
+	top:70px;
+	right:101px;	
+	font-size:13px;
+	text-align:left;
+	width:80px;
+	height: 20px;
+	color:#00000;
+	}
+	a.city_rimini{Color:#b00000;text-decoration: none;font-weight:bold} 
+	a.city_rimini:hover{Color:#000000;text-decoration: none;font-weight:bold}	
+
+		/*########## SENIGALLIA ################*/	
+.city_senigallia{
+position:absolute;
+top:85px;
+right:90px;	
+font-size:13px;
+text-align:left;
+width:85px;
+height: 20px;
+color:#00000;
+}
+a.city_senigallia{Color:#b00000;text-decoration: none;font-weight:bold} 
+a.city_senigallia:hover{Color:#000000;text-decoration: none;font-weight:bold}	
+
+/*########## SORRENTO ################*/	
+.city_sorrento{
+position:absolute;
+top:154px;
+right:24px;	
+font-size:13px;
+text-align:left;
+width:85px;
+height: 20px;
+color:#00000;
+}
+a.city_sorrento{Color:#b00000;text-decoration: none;font-weight:bold} 
+a.city_sorrento:hover{Color:#000000;text-decoration: none;font-weight:bold}
+
+/*########## AREZZO ################*/	
+.city_arezzo{
+position:absolute;
+top:109px;
+right:82px;	
+font-size:13px;
+text-align:left;
+width:85px;
+height: 20px;
+color:#00000;
+}
+a.city_arezzo{Color:#b00000;text-decoration: none;font-weight:bold} 
+a.city_arezzo:hover{Color:#000000;text-decoration: none;font-weight:bold}
+
+/*########## ROVERETO ################*/	
+.city_rovereto{
+position:absolute;
+top:17px;
+right:100px;
+font-size:13px;
+text-align:left;
+width:85px;
+height: 20px;
+color:#00000;
+}
+a.city_rovereto{Color:#b00000;text-decoration: none;font-weight:bold} 
+a.city_rovereto:hover{Color:#000000;text-decoration: none;font-weight:bold}
+
+/*########## TRENTO ################*/	
+.city_trento{
+position:absolute;
+top:10px;
+right:100px;
+font-size:13px;
+text-align:left;
+width:85px;
+height: 20px;
+color:#00000;
+}
+a.city_trento{Color:#b00000;text-decoration: none;font-weight:bold} 
+a.city_trento:hover{Color:#000000;text-decoration: none;font-weight:bold}
+
+/*########## BARI ################*/	
+.city_bari{
+position:absolute;
+top:130px;
+right:26px;
+font-size:13px;
+text-align:left;
+width:85px;
+height: 20px;
+color:#00000;
+}
+a.city_bari{Color:#b00000;text-decoration: none;font-weight:bold} 
+a.city_bari:hover{Color:#000000;text-decoration: none;font-weight:bold}
+
+.backgroundMapRed{
+background-color:#ffffff;
+width:700px;
+height:560px;
+}
+.backgroundMapImage{
+background-image:url('/cms-file/immagini/trenitalia/mappa/sfondo.png');
+background-repeat:no-repeat;
+width:700px;
+height:478px;
+position: relative;
+}
+.backgroundMapCartina{
+ background-image:url('/cms-file/immagini/trenitalia/mappa/cartina.png');
+ background-repeat:no-repeat;
+ width:428px;
+ height:505px;
+ position: absolute;
+ left:260px;
+}
+.backgroundMapRedLine{
+/*background-image:url('/cms-file/immagini/trenitalia/mappa/sfondo_rosso.png');*/
+background-repeat:no-repeat;
+width:700px;
+height:91px;
+position: absolute;
+top:150px
+}
+#backgroundMapRedLineText{
+position:absolute;
+top:10px;
+left:15px;
+font-size:20px;
+text-align:left;
+color:#ffffff;
+}
+.backgroundMapRedLineTextBottom{
+position:absolute;
+top:497px;
+left: -245px;
+font-size:30px;
+text-align:left;
+color:#3d7bd0;
+font-weight:bold
+}
+

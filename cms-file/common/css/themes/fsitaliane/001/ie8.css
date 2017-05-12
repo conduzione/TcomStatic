@@ -1,0 +1,11 @@
+.menu > ul > li > ul{top:3.4em;border-bottom:3px solid #e1dfe2;}
+.footerBanner{border:1px solid #f4f4f4;}
+.footerBanner ul li{width:19%;}
+.formBiglietti label.ora{width:12%;}
+.formBiglietti input.ora{float:right;width:14%;}
+.disabled{filter:alpha(opacity=40);}
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled{filter: Alpha(Opacity=100);}
+.content{min-width:780px;}
+
+
+

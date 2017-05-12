@@ -1,0 +1,117 @@
+.conteinerCrossBarToolBar{width:850px;position:relative;margin-left:148px;text-align:left;}
+.contentCrossbar{font-size:13px!important;-webkit-text-size-adjust:none!important;text-align:left;margin:0 auto;background:#F7F7F9;width:98%;max-width:1000px;font-size:/*0.8em*/100%;}
+
+.crossBar{font-family : Arial, Helvetica, sans-serif;color:#3c3c3c;background-color:#dfdee0;border-bottom-right-radius:4px;border-bottom-left-radius:4px;position:relative;left:0px;width:822px}
+.crossBar ul{background: url(/cms-file/immagini/trenitalia/crossbar/logoFSrg.gif) no-repeat 1em center;padding:0 0 0 3em;list-style:none;margin:0;height:2em;}
+.crossBar a{color:#000;font-size:.85em;background: url(/cms-file/immagini/trenitalia/crossbar/arrowGrey.gif) no-repeat right center;padding-right:1em;text-decoration:none; font-weight:bold;}
+.crossBar a.linguaENG {background:none;}
+.crossBar a:hover{color:#dc002e;}
+.crossBar a.subMenuVoiceGrp.active, .crossBar a.subMenuVoiceScl.active {background-image:url(/cms-file/immagini/trenitalia/crossbar/arrowGreyDwn.gif);}
+.crossBar li{float:left;padding:.3em 1em;}
+.crossBar li.fright{float:right;}
+/*.crossBarSubMenu.subMenuSocial {display: block;} */
+.crossBarSubMenu {display:none; background:#cdccce url(/cms-file/immagini/trenitalia/crossbar/crossBarSMbg.gif) repeat-x top; width: 100%; padding-bottom:1em;}
+.crossBarSubMenu ul {float:left; background: none; display: block; border-right:1px dotted #000; height:auto; min-height:5em; height:auto !important; height:5em; width:22.5%; padding:0.8em 1%; margin-top:1em; }
+.crossBarSubMenu ul.last {border-right:0;}
+.crossBarSubMenu ul li {display:block; float:none; font-weight: normal; line-height:1.2em;}
+.crossBarSubMenu ul li a {font-weight: normal; background:url(/cms-file/immagini/trenitalia/crossbar/bgSubMenuList.gif) no-repeat top left; display:block; padding-left:1em; font-size:0.9em;}
+.crossBarSubMenu ul li a:hover {text-decoration:underline;}
+.subMenuClose {position:absolute; right:1em; bottom: 1em;}
+.subMenuClose a {color:#333333; text-decoration:none; background:url(/cms-file/immagini/trenitalia/crossbar/bgFooterChiudi.gif) no-repeat right; padding-right:12px; font-size:0.85em }
+.crossBarSubMenu .titSocial {font-weight: bold; line-height:1.2em; font-size:1.1em;padding-left: 1.5em;}
+.crossBarSubMenu.subMenuSocial ul li a, .crossBarSubMenu.subMenuSocial ul li { padding-right:0;}
+.crossBarSubMenu.subMenuSocial ul li a {font-size:0.9em;}
+/*.crossBarSubMenu.subMenuSocial ul {margin-left:1em; width:17.5%; padding-left:3.2em; padding-right:0.5%;  min-height:135px; height:auto !important; height:130px;}*/
+.crossBarSubMenu.subMenuSocial ul {margin-left:1em; width:12.8%; padding-left:3.2em; padding-right:0.5%;  min-height:135px; height:auto !important; height:130px;}
+.crossBarSubMenu ul.socialFB {background: url(/cms-file/immagini/trenitalia/crossbar/socialFB.gif) no-repeat top left;}
+.crossBarSubMenu ul.socialStorify { background: url(/cms-file/immagini/trenitalia/crossbar/socialStorify.gif) no-repeat top left;}
+.crossBarSubMenu ul.socialTwitter { background: url(/cms-file/immagini/trenitalia/crossbar/socialTwitter.gif) no-repeat top left;}
+.crossBarSubMenu ul.socialYouTube { background: url(/cms-file/immagini/trenitalia/crossbar/socialYouTube.gif) no-repeat top left;}
+.crossBarSubMenu ul.socialFlickr { background: url(/cms-file/immagini/trenitalia/crossbar/socialFlickr.gif) no-repeat top left;}
+.crossBarSubMenu ul.socialF4 { background: url(/cms-file/immagini/trenitalia/crossbar/socialF4.gif) no-repeat top left;}
+
+
+
+.cl {clear:both;height:0;line-height:0;font-size:0;display:block;}
+.fright{float:right;}
+.fleft{float:left;}
+.center{text-align:center;}
+form{display:inline;}
+.toolBar{background: #f7f7f9;}
+.toolBar ul{padding:0;list-style:none;margin:0;line-height:2.4em;}
+
+.toolBar a:hover{color:#dc002e;}
+/*.toolBar li{float:left;padding:0 1em;background: url(/cms-file/immagini/trenitalia/crossbar/toolbarPipe.gif) no-repeat right center;}*/
+.toolBar li{float:left;padding:0 1px;}
+.toolBar li:nth-child(3n){background-image:none;}
+.toolBar ul.font{height:auto;}
+.toolBar ul.font li{background-image:none;padding:0;}
+.font .f120{font-size:1em;line-height:1em;}
+.font .f140{font-size:1.2em;line-height:1em;}
+.toolBar li.fright{float:right;background-image:none;}
+.toolBar label{float:left;}
+.toolBar .search{float:left;background: url(searchStart.gif) no-repeat left center;margin:.3em 0 .3em 1em;}
+
+.toolBar .search .label{display:none;}
+.logo{background:#fff url(/cms-file/immagini/trenitalia/crossbar/bgLogo.gif) bottom repeat-x;padding: 0 0 0 41px;min-height:96px;}
+.logo img{width:70%;max-width:206px;height:auto;max-height:64px;margin:14px 0 0;float:left;}
+.titleFsNews{width:6em;float:left;font-size:1.1em;color:#dc002e;font-weight:bold;padding:.3em 0 .3em 1em;}
+.newsSlider{margin-left:8em;padding-bottom:0.3em;/*height:1.5em;*/}
+.newsSlider ul{margin:0;padding:.3em 0;list-style:none;}
+.newsSlider a{color:#333;font-size:.9em;}
+.newsSlider a:hover{color:#dc002e;}
+.alertBar {background:url(alertBarBg.png) #ffd200 0 0 repeat-x;}
+.alertBar.close {display:none;}
+.alertBarContent {background:url(alertBarIco.png) transparent 1em 1em no-repeat; padding:0.3em 1em 0.3em 3.5em;}
+.alertBarContent p{margin:1em;}
+.menu{position:relative;float:left;width:100%;clear:both;z-index:100;}
+.menu ul{padding:0;margin:0;list-style:none;}
+.menu > ul{background:#dc002e url(bgMenu.gif) center repeat-x;float:left;width:100%;}
+
+
+
+/* print */
+@media print{
+body {background: #fff;}
+.crossBar,.toolBar,.fsNews,.radio,.menu,.tools,.mainColSx,.socialTools,.footerMenu,.footer,.path{display:none;}
+.mainColDx {float:none;width:auto;margin-left:1em;}
+.contentCrossbar {width: 100%;max-width:100%;}
+.logo{background-image:none;min-height:0;padding:0;float:right;}
+.logo img {float:right;margin-right:12px;width: auto;margin-top:0;}
+}
+/* print */
+@media print{
+body {background: #fff;}
+.crossBar,.toolBar,.fsNews,.radio,.menu,.tools,.mainColSx,.socialTools,.footerMenu,.footer,.path{display:none;}
+.mainColDx {float:none;width:auto;margin-left:1em;}
+.contentCrossbar {width: 100%;max-width:100%;}
+.logo{background-image:none;min-height:0;padding:0;float:right;}
+.logo img {float:right;margin-right:12px;width: auto;margin-top:0;}
+}
+
+.socialNet {color: #898989;float:left;height: 20px;width: 148px;}/*CFVGN 13-04-12*/
+.socialNet span {float: left;font-size: 11px;margin: 3px 4px 0 0;}
+.socialNet ul {list-style: none outside none;margin: 0;}
+.socialNet ul li {clear: right;float: left;font-size: 11px;margin-right: 3px;width: 16px;}
+.socialNet ul .facebook a {background-position: 0 0;}
+.socialNet ul .twitter a {background-position: -16px 0;}
+.socialNet ul .delicious a {background-position: -32px 0;}
+.socialNet ul .digg a {background-position: -48px 0;}
+.socialNet ul .oknotizie a {background-position: -64px 0;width: 20px;}
+.socialNet li a {background-image: url(/cms-file/common/img/themeTcom01/sprite-SocialNetworkTreni.gif);background-repeat: no-repeat;display: block;height: 0;overflow: hidden;padding-top: 20px;}
+
+.toolBar input.searchInput {
+    padding: 0.1em 1em;
+}
+.toolBar input {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    float: left;
+    margin: 0;
+}
+.toolBar a, .toolBar label, .toolBar input {
+    color: #6F6F6F;
+    /*font-size: 0.85em;*/
+	font-size: 0.94em;
+    text-decoration: none;
+}

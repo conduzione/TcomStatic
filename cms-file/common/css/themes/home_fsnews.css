@@ -1,0 +1,424 @@
+/* 
+Modifica dello sfondo frecciarosa
+body{padding:0; margin:0; font-family:Arial, Helvetica, sans-serif; background: url("/cms-file/common/img/fr/BG_FRECCIAROSA.gif") repeat-y top center;}
+*/
+body{padding:0; margin:0; font-family:Arial, Helvetica, sans-serif; background:#F7F7F9}
+
+#wrapper{width:987px; margin:0 auto}
+html>/**/body #wrapper{width:991px; margin:0 auto}/*Firefox*/
+
+.clearDiv{clear:both}
+.clearLeft{clear:left}
+.clearRight{clear:right}
+
+.hidden{position:absolute;	left:-2000px; width:990px}
+
+.spazioTop20{margin-top:20px}
+.spazioTop10{margin-top:10px}
+
+a{color:#000; text-decoration:none}
+a:hover{color:#B30002; text-decoration:underline}
+a.selected{font-weight:bold; color:#B30002; text-decoration:none}
+a:hover.selected{text-decoration:underline}
+
+a.LinkFreccia{color:#000; padding-left:14px; margin:0; background:url(/cms-file/common/img/freccia_puntatore.gif) left center no-repeat}
+a:hover.LinkFreccia{color:#B30002}
+
+input, textarea{font-family:Arial; margin:0; padding:0; height:18px; font-size:1.2em; width:auto; border:1px solid #000}
+
+form{padding:0; margin:0; font-family:Arial; font-size:1em}
+
+p{padding:0; margin:0}
+
+.titoloredbold{font-weight:bold; font-size:1.4em; color:#B30002; margin:0px}
+.titoloredboldmed{font-weight:bold; font-size:1.2em; color:#B30002; margin:0px}
+.titoloredboldsmall{font-weight:bold; font-size:1em; color:#B30002; margin:0px}
+.titoloblackboldmed{font-weight:bold; font-size:1.2em; color:#000; margin:0px}
+.titolowhiteboldmed{font-weight:bold; font-size:1.2em; color:#FFF; margin:0px}
+
+.testoRosso{color:#B30002}
+
+.listaPuntoNero{display:list-item; list-style:square url(/cms-file/common/img/puntoNero.gif) inside;	padding:1px 0 1px 0px;	color:#000}
+
+img.AlignLeft{border:1px solid #C5C5C5; padding:1px; float:left; margin-right:14px}
+img.AlignLeft2{border:1px solid #C5C5C5; padding:1px; float:left; margin-right:38px}
+img.AlignLeftNoBorder{border:none; float:left; padding:0; margin:0}
+img.AlignCenter{border:1px solid #C5C5C5; padding:1px; margin:0}
+img.AlignRight{border:1px solid #C5C5C5; padding:1px; float:right; margin-left:14px}
+
+a img{border:none}
+
+.AlignRight{text-align:right}
+
+.RigaSeparazione{border-top:1px solid #E9E7EA; background:#FFF; padding:0 0 20px 0; margin:0 9px}
+.RigaSeparazione2{border-top:1px solid #E9E7EA; padding:0; margin:0}
+.RigaSeparazione3{border-top:3px solid #FFF; padding:0; margin:0}
+
+.top6{margin-top:6px}
+
+#container{background:#FFF; padding:0; margin:auto 0; text-align:left}
+
+/*Menu livello 1 - css sprite*/
+#menuLiv1{margin:0; padding:5px 24px; font-size:.8em; font-weight:bold; height:auto !important; height:20px; min-height:20px; background:#EAE8EB url(/cms-file/common/img/sprite-menuLiv1.gif) 0 -12px repeat-x}
+#menuLiv1 .int{position:relative; background:#FFF url(/cms-file/common/img/bg_menuLiv1_int.gif) 0 bottom repeat-x; border:1px solid #AFADAF; border-top:0px solid #FFF; padding:2px; margin:0; height:auto !important; height:20px; min-height:20px}
+#menuLiv1 .int .corner{position:absolute; background-image:url('/cms-file/common/img/sprite-menuLiv1.gif'); width:5px; height:5px}
+#menuLiv1 .int .topLeft{top:-1px; left:-1px; background-position:0px 0px}
+#menuLiv1 .int .topRight{top:-1px; right:-1px; background-position:-6px 0px}
+#menuLiv1 .int .botLeft{bottom:-2px; left:-1px; background-position:0px -6px}
+#menuLiv1 .int .botRight{bottom:-2px; right:-1px; background-position:-6px -6px}
+
+#menuLiv1 ul#menu1{list-style-type:none; margin:0; padding:0; text-align:center; width:100%; height:auto !important; height:20px; min-height:20px; overflow:hidden}
+#menuLiv1 #menu1 li{float:left; height:auto !important; height:20px; min-height:20px; overflow:hidden; line-height:1em; background:url(/cms-file/common/img/separatore.gif) right center no-repeat}
+#menuLiv1 #menu1 a{color:#000; display:block; text-decoration:none; padding:6px 0px}
+#menuLiv1 #menu1 a:hover{color:#B30002; text-decoration:underline}
+#menuLiv1 #menu1 a.menu1attivo{color:#B30002; text-decoration:none}
+#menuLiv1 #menu1 a:hover.menu1attivo{color:#B30002; text-decoration:underline}
+
+/*Menu 2 Link*/
+#menuLiv1 #menu1 li.M2cellaprima{width:49%}
+#menuLiv1 #menu1 li.M2cellaultima{width:49%; background-image:none}
+
+/*Menu 3 Link*/
+#menuLiv1 #menu1 li.M3cellaprima{width:32%}
+#menuLiv1 #menu1 li.M3cellaunica{width:34%}
+#menuLiv1 #menu1 li.M3cellaultima{width:32%; background-image:none}
+
+/*Menu 4 Link*/
+#menuLiv1 #menu1 li.M4cellaprima{width:24%}
+#menuLiv1 #menu1 li.M4cellaunica{width:25%}
+#menuLiv1 #menu1 li.M4cellaultima{width:24%; background-image:none}
+
+/*Menu 5 Link*/
+#menuLiv1 #menu1 li.M5cellaprima{width:18%}
+#menuLiv1 #menu1 li.M5cellaunica{width:21%}
+#menuLiv1 #menu1 li.M5cellaultima{width:18%; background-image:none}
+
+/*Menu 6 Link*/
+#menuLiv1 #menu1 li.M6cellaprima{width:15.5%}
+#menuLiv1 #menu1 li.M6cellaunica{width:17%}
+#menuLiv1 #menu1 li.M6cellaultima{width:15.5%; background-image:none}
+
+/*Menu 7 Link*/
+#menuLiv1 #menu1 li.M7cellaprima{width:12%}
+#menuLiv1 #menu1 li.M7cellaunica{width:15%}
+#menuLiv1 #menu1 li.M7cellaultima{width:12.3%; background-image:none}
+
+/*Menu 8 Link*/
+#menuLiv1 #menu1 li.M8cellaprima{width:9.5%}
+#menuLiv1 #menu1 li.M8cellaunica{width:13.3%}
+#menuLiv1 #menu1 li.M8cellaultima{width:9%; background-image:none}
+
+/*Menu 9 Link*/
+#menuLiv1 #menu1 li.M9cellaprima{width:8%}
+#menuLiv1 #menu1 li.M9cellaunica{width:12.2%}
+#menuLiv1 #menu1 li.M9cellaultima{width:5%; background-image:none}
+
+/*Contenuti*/
+#content{margin:0 24px; padding:0; font-size:.7em; overflow:hidden}
+.contentLeft{float:left; width:23%; margin:15px 0 10px 0; padding:0; position:relative; left:0; height:auto !important; height:312px; min-height:315px}
+.contentLeft div{padding:0; margin:0}
+.contentLeft h3{font-size:1em; font-family:arial; font-weight:bold; padding:0 0 3px 0; margin:0}
+.contentRight{margin:15px 0 0 0; padding:0 0 10px 0; width:77%; float:left; position:relative;	left:0}
+
+/*Header*/
+input.campoR{width:222px; height:16px; padding:2px 3px 2px 12px; border:0; font-size:1em; background:url('/cms-file/common/img/bg_input_ricerca.gif') 0 0 no-repeat; float:left}
+.buttonCerca{margin:0; width:56px; height:20px; border:0}
+.ricerca{float:right; margin-top:-2px}
+.ricerca p{padding:0; margin:0}
+#headerGruppo{background:url('/cms-file/common/img/bg_header.gif') bottom left repeat-x;	height:auto !important; padding:0; margin:0; min-height:145px; height:145px; font-size:.7em}
+#headerGruppo .headerTop{padding:12px 25px 0 25px}
+#headerGruppo .headerTop .headerLeftNav{width:36%; padding:0; margin:0; height:auto !important; min-height:10px; height:10px; float:left}
+#headerGruppo .headerTop .headerRightNav{margin-left:37%}
+#headerGruppo .headerRightNavLeft{float:right; margin-right:10px; white-space:nowrap}
+#headerGruppo .headerBottom{padding:0; margin:0; height:auto !important; min-height:122px; height:122px}
+#headerGruppo .headerBottomRight{float:left; padding:0; margin:0; width:25.6%; height:122px; text-align:right}
+#headerGruppo .headerBottomRight img{margin-top:20px}
+#headerGruppo .headerBottomLeft{padding:0; margin:0 0 0 26.8%; height:122px; background:url('/cms-file/common/img/bg_header_dx.gif') bottom right repeat-x}
+#headerGruppo .headerBottomLeftIn{padding:0; margin:0; height:122px; background:url('/cms-file/common/img/bg_header_gruppo.jpg') bottom left no-repeat}
+
+/*Footer*/
+#footerFS{background:#FFF url('/cms-file/common/img/bg_footer_tre.gif') bottom left repeat-x; height:auto; min-height:132px; font-size:.7em; text-align:right; margin:0; padding:0}
+#footerFS .bgRight{background:url('/cms-file/common/img/bg_footer_dx_tre.gif') top right no-repeat; width:auto; height:auto; min-height:132px; margin:0; padding:0}
+#footerFS .footerRightNav{float:right; width:auto; padding:15px 25px 0 0; margin:0}
+#footerFS .footerRightNavImg{float:right; width:auto; padding:13px 25px 0 0; margin:0}
+#footerFS .footerLeftNav{padding:15px 35px 0 0; float:right}
+#footerFS a, #footerFS span{color:#000}
+#footerFS a:hover{color:#B30002}
+#footerFS a.selected{color:#B30002}
+#footerFS img{border:none}
+
+.ContBoxCurva{margin:0 10px; padding:10px 0}
+.ContBoxCurva .TopTitolo{height:25px; margin:0px; padding-left:20px; background:#F5F4F6 url('/cms-file/common/img/bg_box_curva1.gif') right top no-repeat}
+.ContBoxCurva .TopTitolo2{height:29px; margin:0px; padding-left:20px; background:#F5F4F6 url('/cms-file/common/img/bg_box_curva1.gif') right top no-repeat}
+.ContBoxCurva .TopTitolo3{height:auto !important; min-height:14px; height:14px; margin:0px; padding:10px 0 0 12px; background:#F5F4F6}
+.ContBoxCurva .BotImgTesto{padding:6px 12px 10px 12px; margin:0; background:#F5F4F6; height:auto !important; height:62px; min-height:62px}
+.ContBoxCurva .BotImgTesto2{margin:0; background:#F5F4F6; height:auto !important; height:116px; min-height:120px}/*Add Fercredit*/
+.ContBoxCurva .BotImgTesto2 .contInner{height:auto !important; min-height:14px; height:14px; margin:0px; padding:10px 0 6px 12px}/*Add Fercredit*/
+.titoloredboldmed a{color:#B30002}
+
+.BoxViaggiatreno{border-top:6px solid #FFF; height:auto !important; height:104px; min-height:104px; background:url('/cms-file/common/img/bg_box_Cargo_ViaggiaTreno.gif') left top no-repeat}
+.BoxViaggiatreno div{height:auto !important; height:94px; min-height:94px; text-align:right; padding:10px 14px 0 0; background:url('/cms-file/common/img/bg_box_societ.gif') right top repeat-y}
+.BoxViaggiatreno p{padding:1.5em 1.2em 0 0}
+.BoxViaggiatreno img.arrowDx{position:relative; top:18px; left:9px; border:none}
+
+.ContBoxCurva3{margin:0 6px; padding:6px 0}
+
+.FSNewsLeft{float:left; width:25%; margin:15px 0 10px 0; padding:0; position:relative; left:0}
+.FSNewsLeftInt{margin-right:6px; padding:0}
+.FSNewsRight{margin:15px 0 0 0; padding:0 0 10px 0; width:75%; float:left}
+.FSNewsRight .FSNewsLeftCol{width:60%; float:left; margin:0; padding:0}
+.FSNewsRight .FSNewsLeftColSx{float:left; width:52%}
+.FSNewsRight .FSNewsLeftColDx{margin:0 0 0 53%}
+.FSNewsRight .FSNewsRightCol{margin:0 0 0 60%; padding:0 0 0 6px}
+
+/*Box News in Evidenza*/
+.boxFSNewsT6 .rowtit h3{padding:.8em .8em .6em .8em; font-weight:bold; font-size:1.2em; color:#B30002; margin:0px}
+.boxFSNewsT6 .rowtit h3 a{color:#B30002}
+.boxFSNewsT6 .rowimg{background:#C9C8CA; text-align:center; padding-top:3px; border:0}
+.boxFSNewsT6 .rowtxt{padding:.6em .8em .8em .8em}
+.boxFSNewsT6 .rowtxt a{color:#000}
+.boxFSNewsT6 .rowtxt a:hover{color:#B30002}
+.boxFSNewsT6 .rowtxt a.arrowLink {color:#B30002; font-weight: bold; padding-left:15px; background:url('/cms-file/common/img/freccia_puntatore.gif') 2px 0 no-repeat}
+
+/*Box Foto della Settimana*/
+.boxFSNewsT6 .boxFotoSetTop{text-align:center; padding:12px 0 10px 0}
+.boxFSNewsT6 .boxFotoSetBot{height:auto !important; min-height:20px; height:20px; padding:3px 0 3px 7px; line-height:12px; font-weight:bold; background-color:#E9E7EA}
+
+/*BOX INFOMOBILITA'*/
+.BoxInfomobFsNews{background:#EDECED url('/cms-file/common/img/bg_box_infomob-fsnews.gif') top right no-repeat; margin:0; padding:0; height:auto !important; height:160px; min-height:160px}
+.BoxInfomobFsNews h2{color:#B30002; font-size:1.2em; padding:5px 0 0 11px; margin:0}
+.BoxInfomobFsNews a{color:#B30002}
+.BoxInfomobFsNews .r1{margin:0; padding:0}
+.BoxInfomobFsNews .r1Left{float:left; width:57%; margin:0; padding:0}
+.r1Left p{padding:28px 0 0 11px; font-weight:bold}
+.BoxInfomobFsNews div.r1Right{margin:0 0 0 58%;  padding:0; text-align:right}
+.r1Right img {border:none}
+.BoxInfomobFsNews .r2{height:30px}
+.BoxInfomobFsNews .r3 ul{list-style-type:none; padding:5px 0 0 10px; margin:0; font-weight:bold; line-height:1.3em}
+.BoxInfomobFsNews .r3 a{color:#000}
+
+/*Box News*/
+#BoxNewsUp{padding:6px 12px 10px 12px; margin:0; background:#F5F4F6; height:auto !important;  height:202px; min-height:202px}
+#BoxNewsUp2{padding:3px 12px; margin:0; background:#F5F4F6; height:auto !important;  height:70px; min-height:70px}
+#BoxNewsUp2 .contBoxNews{margin:.5em 0; padding-bottom:5px}
+#BoxNews{padding:6px 0; margin:0}
+#BoxNews p{color:#B30002; font-weight:bold; padding:5px 0; margin:0; text-align:justify; line-height:1.1em}
+BoxNews a{font-weight:normal}
+#BoxNewsDown{background:#E6E5E7; padding:2px 12px 0 12px; margin:0; height:auto !important; height:20px;  min-height:20px}
+#RSS{float:left; padding-right:15px; margin:0; font-size:.9em}
+#RSS img{float:left; margin-right:2px; padding:0}
+#allNews{padding:0; margin:0}
+#allNews .r2{float:right; padding:2px 0 0 8px; background:url('/cms-file/common/img/arrowLink.gif') left center no-repeat}
+#allNews a{font-weight:bold; color:#B30002}
+
+/*Box News*/
+.TopTitFSNews{height:32px; margin:0px; padding-left:20px; background:#F5F4F6 url('/cms-file/common/img/bg_box_curva2.gif') top right no-repeat}
+.TopTitFSNews h4{margin-top:7px}
+.BoxFSNewsUp{padding:6px 12px; margin:0; background:#F5F4F6; height:auto !important;  height:134px; min-height:134px}
+.BoxFSNews{padding:6px 0; margin:0}
+.BoxFSNews .titoloredboldmed, .BoxFSNews .titoloredboldsmall{color:#B30002}
+.BoxFSNews p{color:#B30002; font-weight:bold; padding:5px 0; margin:0; text-align:justify; line-height:1.1em}
+.BoxFSNews a{font-weight:normal}
+.BoxFSNewsCenter{padding:6px 0}
+.FSNewsLeftCol .ContBoxCurva a.arrowLink{color:#B30002; font-weight: bold; padding-left:15px; background:url('/cms-file/common/img/freccia_puntatore.gif') 2px 0 no-repeat}
+html>/**/body .FSNewsLeftCol .ContBoxCurva a.arrowLink{color:#B30002; background:url('/cms-file/common/img/freccia_puntatore.gif') left center no-repeat}/*FireFox*/
+
+/*spalletta a destra*/
+.BoxFSNewsCenterLeft{float:right; width:144px; background:#E6E5E7; margin:0;  height:auto !important; height:60px; min-height:60px}
+.BoxFSNewsCenterLeft .titolo{padding:12px 8px 4px 8px}
+.BoxFSNewsCenterLeft .titolo img{border:1px solid #C5C5C5; padding:1px; margin:.3em 0 .1em 0}
+.BoxFSNewsCenterLeft .testo{padding:6px 8px; background:#F5F4F6}
+.BoxFSNewsCenterRight{margin:0 144px 0 0; padding:6px 0}
+.BoxFSNewsCenterRight .FSNewsImgInt {padding-right:12px}
+html>/**/body .BoxFSNewsCenterRight .FSNewsImgInt{overflow:hidden}/* FireFox*/
+
+/*spalletta a sinistra*/
+.BoxFSNewsCenterSpSx{float:left; width:144px; background:#E6E5E7; margin:0;  height:auto !important; height:60px; min-height:60px}
+.BoxFSNewsCenterSpSx .titolo{padding:12px 8px 4px 8px}
+.BoxFSNewsCenterSpSx .titolo img{border:1px solid #C5C5C5; padding:1px; margin:.3em 0 .1em 0}
+.BoxFSNewsCenterSpSx .titolo h3 { font-size: 1em; } /* FIX box-left(!) 28-10-2011 */
+.BoxFSNewsCenterSpSx .testo{padding:6px 8px 2px 8px; background:#F5F4F6}
+.BoxFSNewsCenterDx{ margin:0 0 0 144px; padding:6px 12px 6px 0;}
+.BoxFSNewsCenterDx .FSNewsImgInt{height:auto !important; height:40px; min-height:40px; border-top:1px solid #E1E1E1; padding:6px 0 4px 7px}
+html>/**/body .BoxFSNewsCenterDx .FSNewsImgInt{overflow:hidden;}/* FireFox*/
+.BoxFSNewsCenterDx .firstNews{border-top:0px}
+
+.BoxFSNewsCenter2{padding:6px 12px}
+.BoxFSNewsDown{padding:6px 12px}
+.FSNewsImgInt{height:auto !important; height:40px; min-height:40px; border-top:1px solid #E1E1E1; padding:6px 0 4px 0}
+.firstNews{border-top:0px}
+
+/*Box Ansa*/
+.boxAnsa{background:#56Af5D top right no-repeat; height:auto !important; height:100px; min-height:100px}
+.boxAnsa .tl{background:url('/cms-file/common/img/bg_boxAnsa_tl.gif') top left no-repeat; height:auto !important; height:100px; min-height:100px}
+.boxAnsa .tr{background:url('/cms-file/common/img/bg_boxAnsa_tr.gif') top right no-repeat; height:auto !important; height:100px; min-height:100px}
+.boxAnsa .bl{background:url('/cms-file/common/img/bg_boxAnsa_bl.gif') bottom left no-repeat; height:auto !important; height:100px; min-height:100px}
+.boxAnsa .br{background:url('/cms-file/common/img/bg_boxAnsa_br.gif') bottom right no-repeat; height:auto !important; height:100px; min-height:100px}
+.boxAnsa .title{padding:6px 0 0 28px}
+.boxAnsa .title h3{color:#FFF; font-size:1.3em; padding:0; margin:0}
+.boxAnsa .ico1{background:url('/cms-file/common/img/ico1_boxAnsa.gif') top left no-repeat}
+.boxAnsa .ico2{background:url('/cms-file/common/img/ico2_boxAnsa.gif') top left no-repeat}
+.boxAnsa .int_tl{background:#F5F4F6 url('/cms-file/common/img/bg_boxAnsa_int_tl.gif') top left no-repeat; margin:3px 6px 0 6px; height:auto !important; height:100px; min-height:100px}
+.boxAnsa .int_tr{background:url('/cms-file/common/img/bg_boxAnsa_int_tr.gif') top right no-repeat; height:auto !important; height:100px; min-height:100px}
+.boxAnsa .int_bl{background:url('/cms-file/common/img/bg_boxAnsa_int_bl.gif') bottom left no-repeat; height:auto !important; height:100px; min-height:100px}
+.boxAnsa .int_br{background:url('/cms-file/common/img/bg_boxAnsa_int_br.gif') bottom right no-repeat; height:auto !important; height:100px; min-height:100px}
+.boxAnsa .contIntNews{padding:8px 0}
+.boxAnsa .contIntNews .ore{padding-left:9px; border-bottom:1px dotted #000; color:#FFF; font-weight:bold; background:url('/cms-file/common/img/bg_oreAnsa.gif') top left no-repeat}
+.boxAnsa .contIntNews .newsAnsa{padding:2px 4px; background:url('/cms-file/common/img/bg_newsAnsahp.gif') top left repeat-x; height:auto !important; line-height:1em; height:16px; min-height:16px}
+.boxAnsa .contIntNews .newsAnsa a:hover{color:#38973F}
+.boxAnsa .contIntVideo{padding:4px 0}
+.contIntVideo .videoTop{width:208px; margin:0 auto; padding:116px 0 1px 0}
+.contIntVideo .videoTop .play{background:url('/cms-file/common/img/playAnsa.png') left top no-repeat; margin:0; height:auto !important; height:40px; min-height:40px}
+.contIntVideo .videoTop .play a{display:block; color:#FFF; font-size:1em; line-height:1em; padding:10px 0 0 35px}
+.contIntVideo .videoTop .play a:hover{color:#FFF}
+
+/*HP slide effects*/
+.boxAnsa .contIntVideo .videoBot{padding:5px 0 4px 0; background:url('/cms-file/common/img/bg_boxAnsa_VideoBot.gif') top center no-repeat}
+.boxSlideAnsaVideo{left:0px; width:180px; height:70px; overflow:auto; position:relative; float:left; z-index:2}
+.boxSlideAnsaVideo .scroll{height:70px;overflow:visible;position:relative; /*width:282px;*/}
+.boxMulti{width:86px;height:65px;position:relative;left:0px;top:5px;float:left;margin-right:8px; z-index:2}
+.boxMulti .img{margin:0 auto;position:relative;padding-top:1px;width:84px;height:63px;}
+.arrowLeft{float:left; height:72px;width:19px; position:relative; left:3px; top:30px; z-index:2}
+.arrowRight{height:72px; position:relative; left:0px; top:30px}
+.boxAnsa .botButton{text-align:center}
+.boxAnsa .botButton img{position:relative; top:-6px}
+
+/*Box Ultime Notizie FS*/
+#boxUltimeNews{background:#C9C8CA url('/cms-file/common/img/bg_boxUltimeNews.gif') 0 0 repeat-x; height:auto !important; height:250px; min-height:250px}
+#boxUltimeNews .tl{background:url('/cms-file/common/img/bg_boxUltimeNews_tl.gif') top left no-repeat; height:auto !important; height:250px; min-height:250px}
+#boxUltimeNews .tr{background:url('/cms-file/common/img/bg_boxUltimeNews_tr.gif') top right no-repeat; height:auto !important; height:250px; min-height:250px}
+#boxUltimeNews .bl{background:url('/cms-file/common/img/bg_boxUltimeNews_bl.gif') bottom left no-repeat; height:auto !important; height:250px; min-height:250px}
+#boxUltimeNews .br{background:url('/cms-file/common/img/bg_boxUltimeNews_br.gif') bottom right no-repeat; height:auto !important; height:250px; min-height:250px; padding-bottom:1px}
+#boxUltimeNews .title{padding:5px 0 0 12px}
+#boxUltimeNews .title h4{color:#FFF; font-size:1.2em; padding:0; margin:0}
+#boxUltimeNews .int{margin:10px; background:#F5F4F6 url('/cms-file/common/img/bg_boxUltimeNews_int.gif') bottom left repeat-x; height:auto !important; height:206px; min-height:206px}
+#boxUltimeNews .int .tl{background:url('/cms-file/common/img/boxUltimeNews_int_tl.gif') top left no-repeat; height:auto !important; height:206px; min-height:206px}
+#boxUltimeNews .int .tr{background:url('/cms-file/common/img/bg_boxUltimeNews_int_tr.gif') top right no-repeat; height:auto !important; height:206px; min-height:206px}
+#boxUltimeNews .int .bl{background:url('/cms-file/common/img/bg_boxUltimeNews_int_bl.gif') bottom left no-repeat; height:auto !important; height:206px; min-height:206px}
+#boxUltimeNews .int .br{background:url('/cms-file/common/img/bg_boxUltimeNews_int_br.gif') bottom right no-repeat; height:auto !important; height:206px; min-height:206px}
+#boxUltimeNews #BoxNewsUp{background:none; padding:6px 12px 10px 12px; margin:0; height:auto !important;  height:202px; min-height:202px}
+#boxUltimeNews #BoxNews{padding:6px 0; margin:0}
+#boxUltimeNews #BoxNews p{color:#B30002; font-weight:bold; padding:5px 0; margin:0; text-align:justify; line-height:1.1em}
+#boxUltimeNews #BoxNews a{font-weight:normal}
+#boxUltimeNews #BoxNewsDown{background:none; padding:2px 12px 0 12px; margin:0; height:auto !important; height:20px;  min-height:20px}
+#RSS{float:left; padding-right:15px; margin:0; font-size:.9em}
+#RSS img{float:left; margin-right:2px; padding:0}
+#allNews{padding:0; margin:0}
+#allNews .r2{float:right; padding:2px 0 0 8px; background:url('/cms-file/common/img/arrowLink.gif') left center no-repeat}
+#allNews a{font-weight:bold; color:#B30002}
+
+/*Box TAB*/
+.boxTab{overflow:hidden}
+.BoxTabBot{position:relative; padding:5px}
+.BoxTabTop{background:url('/cms-file/common/img/rowTab.gif') left bottom repeat-x; height:auto !important; height:24px; min-height:24px; position:relative; z-index:1}
+/*Immagine + testo*/
+.BoxTabBot{border:1px solid #C9C8CA; border-top:0; height:auto !important; height:84px; min-height:84px}
+.BoxTabBot img.AlignLeft{float:left; padding:0; margin:2px 4px 0 0}
+.BoxTabBot img.AlignRight{float:right; padding:0; margin:2px 0 0 4px}
+.BoxTabBot a{text-decoration:underline}
+.BoxTabBot a.arrowLink{color:#B30002; text-decoration:none; font-weight: bold; padding-left:15px; background:url('/cms-file/common/img/freccia_puntatore.gif') 0 2px no-repeat}
+.BoxTabBot a:hover.arrowLink{text-decoration:underline}
+.BoxTabBot span{color:#B30002; font-weight:bold}
+/* angoli stondati boxTab*/
+.boxTab .corner{position:absolute; background-image:url(/cms-file/common/img/sprite-bgboxtab.gif); width:5px; height:5px}
+.boxTab .botLeft{bottom:-1px; left:-1px; background-position:0 -18px}
+.boxTab .botRight{bottom:-1px; right:-1px; background-position:5px -18px}
+.boxTab .botRightTopTab{bottom:-4px; right:0px; background-position:5px 0px}
+.boxTab .topLeftOn{top:-1px; left:-1px; background-position:0 0px}
+.boxTab .topRightOn{top:-1px; right:-1px; background-position:5px 0px}
+.boxTab .topLeftOff{top:0px; left:0px; background-position:0 -6px}
+.boxTab .topRightOff{top:0px; right:0px; background-position:5px -6px}
+.boxTab .botLeftOff{bottom:-5px; left:0px; background-position:0px -12px}
+/* tab selezionato */
+.TabOn{float:left; height:14px; position:relative; padding:5px; border:1px solid #C9C8CA; border-bottom:0; background-color:#FFF; margin-right:1px}
+.TabOn a, .TabOn2 a{padding:0 8px 0 8px; display:block; font-weight:bold; font-size:1.1em}
+/* tab 2 */
+.TabOff1{float:left; height:14px; position:relative; padding:5px; background:#EB0103 url('/cms-file/common/img/gradientTabOff.gif') 0 0 repeat-y; margin:1px 1px 0 0}
+.TabOff2{float:left; height:14px; position:relative; padding:5px; background:#EB0103 url('/cms-file/common/img/gradientTabOff.gif') 0 0 repeat-y; margin:1px 1px 0 0}
+.TabOff1 a, .TabOff2 a{color:#FFF; padding:0px 8px 0 8px; display:block; font-weight:bold; font-size:1.1em}
+.TabOff1 a:hover, .TabOff2 a:hover{color:#FFF}
+
+/*Box Cerca*/
+.boxCerca{position:relative; padding:5px; background:#E2E1E3 url('/cms-file/common/img/gradientboxcerca.gif') left bottom repeat-x; height:30px}
+.boxCerca .corner{position:absolute; background-image:url(/cms-file/common/img/sprite-bgboxcerca.gif); width:5px; height:5px}
+.boxCerca .topLeft{top:0; left:0; background-position:0px 0px}
+.boxCerca .topRight{top:0; right:0; background-position:-6px 0px}
+.boxCerca .botLeft{bottom:0; left:0; background-position:-12px 0px}
+.boxCerca .botRight{bottom:0; right:0; background-position:0px -6px; width:22px; height:35px}
+.boxCerca .formCerca{padding:5px 0 0 4px}
+.boxCerca input.campoR{width:134px; height:18px; padding:4px 3px 0 4px; color:#898989; border:0; font-size:1em; background:url('/cms-file/common/img/bgcampocerca.gif') top left no-repeat; float:left}
+html>/**/body .boxCerca input.campoR{padding:3px 4px 0 4px}
+.boxCerca .buttonCerca{margin:0 0 0 -4px; width:56px; height:20px; border:0}
+
+/*4 Box News Primo piano*/
+.BoxFSNewsCenterBox4{position:relative; padding:0 8px; margin-bottom:6px; background:#FBFBFC; height:auto !important; height:8px; min-height:8px}
+.BoxFSNewsCenterBox4 .corner{position:absolute; background-image:url(/cms-file/common/img/sprite-bg4boxprimopiano.gif); width:8px; height:8px}
+.BoxFSNewsCenterBox4 .botLeft{bottom:0; left:0; background-position:0px 0px}
+.BoxFSNewsCenterBox4 .botRight{bottom:0; right:0; background-position:8px -0px}
+.BoxFSNewsCenterBox4 .Row{border-top:1px solid #CCC; background:url('/cms-file/common/img/row4boxprimopiano.gif') center center repeat-y}
+.BoxFSNewsCenterBox4 .boxLeft{float:left; width:50%}
+.BoxFSNewsCenterBox4 .boxRight{margin-left:51%}
+.BoxFSNewsCenterBox4 .FSNewsImgInt{height:auto !important; height:40px; min-height:40px; padding:6px; margin:0; border:0}
+.BoxFSNewsCenterBox4 .FSNewsImgInt img{border:1px solid #C5C5C5; padding:1px; margin:4px 0 2px 0}
+
+/*BOX FSNews - 5 tipologie*/
+.boxFSNews{position:relative; background:#FFF; padding:9px; height:auto !important; height:100px; min-height:100px; border:1px solid #ECEBEE}
+.boxFSNews .corner{position:absolute; background-image:url('/cms-file/common/img/sprite-boxFSNews.gif'); width:16px; height:16px}
+.boxFSNews .topLeft{top:-1px; left:-1px; background-position:0px 0px}
+.boxFSNews .topRight{top:-1px; right:-1px; background-position:-17px 0px}
+.boxFSNews .botLeft{bottom:-1px; left:-1px; background-position:0px -17px}
+.boxFSNews .botRight{bottom:-1px; right:-1px; background-position:-17px -17px}
+.boxFSNews .topLeftT2{top:-1px; left:-1px; background-position:-34px 1px; width:10px; height:30px; background-repeat:no-repeat}
+.boxFSNews .topLeftT4{top:-1px; left:-1px; background-position:-11px -80px}
+.boxFSNews .topRightT4{top:-1px; right:-1px; background-position:-29px -80px}
+.boxFSNews .topRightT2{top:-1px; right:-1px; background-position:0px -64px; width:10px; height:30px}
+.boxFSNews .title{background:url('/cms-file/common/img/boxFSNews_bgTop.gif') 0 0 repeat-x}
+.boxFSNews .type1, .boxFSNews .type3{position:relative; background:#E9E7EA; height:auto !important; height:100px; min-height:100px}
+.boxFSNews .trT1, .boxFSNews .trT2{top:0; right:0; background-position:0px 81px; width:45px; height:24px}
+.boxFSNews .type1 .title{height:auto !important; height:24px; min-height:24px}
+html>/**/body .boxFSNews .type3 .title{height:auto!important; height:10px; min-height:10px}/*Firefox - IE8*/
+.boxFSNews .type2{position:relative; background:#F5F4F6; height:auto !important; height:100px; min-height:100px}
+.boxFSNews .type2 .title{height:auto !important; height:24px; min-height:24px; border-bottom:10px solid #FFF; padding-bottom:5px}
+.boxFSNews .type2 h3{padding:4px 0 0 0}
+.ptopT2{padding-top:0px}
+.boxFSNews .trT3{top:0; right:0; background-position:0px 61px; width:45px; height:10px}
+.boxFSNews .type3 .title{height:10px}/*IE7*/
+.boxFSNews .type4{position:relative; background:#FFF; height:auto !important; height:100px; min-height:100px}
+.boxFSNews .type4 .ContBoxCurva{margin:0 0; padding:10px 0}
+.type4 .ContBoxCurva .BoxFSNewsUp h3{font-size:1.1em}
+.type4 .ContBoxCurva .BoxFSNewsCenterLeft h3{font-size:1em}
+.boxFSNews .txt{padding:10px; overflow:hidden!important; line-height:16px}
+.boxFSNews .txt h4{color:#B30002; padding:0; margin:0; font-size:1.1em;}
+.boxFSNews .txt a.arrowLink{color:#B30002; font-weight: bold; padding-left:15px; background:url('/cms-file/common/img/freccia_puntatore.gif') 0 3px no-repeat}
+.boxFSNews .txt img{border:1px solid #C5C5C5; padding:1px; margin:.3em 0 .1em 0;}
+.boxFSNews .txt img.alignL{float:left; margin:4px 4px 0 0}
+.boxFSNews .txt span{color:#B30002; font-size:1.1em; font-weight:bold}
+.RowBot{border-bottom:1px solid #D7D7D7}
+.boxFSNews h3{color:#FFF; font-size:1.3em; font-weight:bold; padding:4px 0 0 9px; margin:0}
+.boxFSNews h3 a{color:#FFF}
+.boxFSNews h3 a:hover{color:#FFF}
+/*Box Tipo 5*/
+.boxFSNewsT5{position:relative; background:#E6E5E7; padding:6px; height:auto !important; height:100px; min-height:100px}
+.boxFSNewsT5 .corner{position:absolute; background-image:url('/cms-file/common/img/sprite-boxFSNews.gif'); width:11px; height:11px}
+.boxFSNewsT5 .type5{position:relative; background:#FFF; height:auto !important; height:100px; min-height:100px}
+.boxFSNewsT5 .topLeftT5{top:0px; left:0px; background-position:0px -97px}
+.boxFSNewsT5 .topRightT5{top:0px; right:0px; background-position:-12px -97px}
+.boxFSNewsT5 .botLeftT5{bottom:0px; left:0px; background-position:-24px -97px}
+.boxFSNewsT5 .botRightT5{bottom:0px; right:0px; background-position:-21px -109px; width:6px; height:6px}
+.boxFSNewsT5 .curvaTop{margin:0; padding:0; background:url(/cms-file/common/img/bg_Box3_curvaTop.gif) right bottom no-repeat; height:34px}
+.boxFSNewsT5 .curvaTop p{padding:3px 0 0 6px; line-height:10px; font-weight:bold}
+.boxFSNewsT5 .curvaBot{margin:86px 0 0 0; padding:0; background:url(/cms-file/common/img/bg_Box3_curvaBot.gif) left bottom no-repeat; height:24px}
+.boxFSNewsT5 .curvaBot p{text-align:right; padding:3px 3px 0 0; line-height:10px; font-weight:bold}
+/*Box Tipo 6*/
+.boxFSNewsT6{position:relative; padding:0; height:auto !important; height:100px; min-height:100px}
+.boxFSNewsT6 .corner{position:absolute; background-image:url('/cms-file/common/img/sprite-boxFSNews.gif'); width:6px; height:6px}
+.boxFSNewsT6 .type6A{position:relative; background-color:#E9E7EA; height:auto !important; height:100px; min-height:100px}
+.boxFSNewsT6 .type6B{position:relative; background-color:#F7F6F8; height:auto !important; height:100px; min-height:100px}
+.boxFSNewsT6 .topLeftT6B{top:0px; left:0px; background-position:-28px -109px}
+.boxFSNewsT6 .topRightT6B{top:0px; right:0px; background-position:-35px -109px}
+.boxFSNewsT6 .botLeftT6B{bottom:0px; left:0px; background-position:-39px -103px}
+.boxFSNewsT6 .botRightT6B{bottom:0px; right:0px; background-position:-39px -96px}
+.boxFSNewsT6 .topLeftT6A{top:0px; left:0px; background-position:0px -109px}
+.boxFSNewsT6 .topRightT6A{top:0px; right:0px; background-position:-7px -109px}
+.boxFSNewsT6 .botLeftT6A{bottom:0px; left:0px; background-position:-14px -109px}
+.boxFSNewsT6 .botRightT6A{bottom:0px; right:0px; background-position:-21px -109px}

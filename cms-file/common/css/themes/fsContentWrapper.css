@@ -1,0 +1,30 @@
+/* BOX FS-CONTENT-WRAPPER */
+
+#fsContentWrapper{width:964px;margin-top:36px;}
+#fsContentWrapper .ContAncore .ancore{font-size:.9em}
+#fsContentWrapper p{margin:0px}
+#fsContentWrapper .ContParagSez .linkEsterno{font-size:.8em !important}
+#fsContentWrapper .ContParag .linkEsterno{font-size:12px !important}
+#fsContentWrapper .ContParagSez a.linkEsterno{text-decoration:none}
+#fsContentWrapper .ContParagSez a:hover.linkEsterno{color:#B30002; text-decoration:underline}
+#fsContentWrapper .ContParagTab .linkInterno{font-size:.9em !important}
+#fsContentWrapper .ContAncore .ancore a{color:#B30002; text-decoration:none}
+#fsContentWrapper .ContAncore .ancore a:hover{text-decoration:underline}
+#fsContentWrapper #contentBoxRightCol form{display:block; height:auto !important; height:100px/*IE6*/; overflow:hidden !important; overflow:visible/*IE6*/}
+#fsContentWrapper #contentBoxRightCol form input{margin:2px 0 6px 0}
+#fsContentWrapper .ContParag .formcruscotto{display:block}
+#fsContentWrapper .ricercaInfo input{border:1px solid #000}
+#fsContentWrapper .ricercaInfo .btnInvia{border:none}
+#botcerca{width:20px; height:16px}
+
+.calendar{font-size: 1.0em !important}
+
+.frecciaLink a { background-image: none; background-repeat: no-repeat; display: inline; padding-left: 0px; }
+div p a.linkEsterno, div p a.linkInterno { background-image: none; padding-left: 0px; margin-left: -7px; }
+
+#container_taglio_foglia_wrapped_box { display: none;}
+.path, .pathFoglia { color: #666B6D; line-height: 3em; padding-bottom: 5px; padding-top: 7px; }
+
+.spallaSx {background:none;}
+
+.titoloredbold { color: #DC002E; font-size: 2.32em; font-weight: normal; margin: 0; }

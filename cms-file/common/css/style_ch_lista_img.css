@@ -1,0 +1,144 @@
+/* FS News - ELENCO NOTIZIE (tipo ANSA) */
+body{padding:0; margin:0; font-family:Arial, Helvetica, sans-serif; background:#F7F7F9}
+
+.clearDiv{clear:both}
+.clearLeft{clear:left}
+.clearRight{clear:right}
+
+.hidden{position:absolute;	left:-2000px; width:990px}
+
+a{color:#000; text-decoration:none}
+a:hover{color:#B30002; text-decoration:underline}
+a.selected{font-weight:bold; color:#B30002; text-decoration:none}
+a:hover.selected{text-decoration:underline}
+
+input, textarea{font-family:Arial; margin:0; padding:0; height:18px; font-size:1.2em; width:auto; border:1px solid #000}
+
+form{padding:0; margin:0; font-family:Arial; font-size:1em}
+
+p{padding:0; margin:0}
+
+.titoloredbold{font-weight:bold; font-size:1.4em; color:#B30002; margin:0px}
+.titoloredboldmed{font-weight:bold; font-size:1.2em; color:#B30002; margin:0px}
+.titoloredboldsmall{font-weight:bold; font-size:1em; color:#B30002; margin:0px}
+.titoloblackboldmed{font-weight:bold; font-size:1.2em; color:#000; margin:0px}
+.titolowhiteboldmed{font-weight:bold; font-size:1.2em; color:#FFF; margin:0px}
+
+a img{border:none}
+
+.AlignRight{text-align:right}
+
+.top6{margin-top:6px}
+
+#container{background:#FFF; margin:0; padding:0}
+
+/* Menu livello 1 - css sprite */
+#menuLiv1{margin:0; padding:5px 24px; font-size:.8em; font-weight:bold; height:auto !important; height:20px; min-height:20px; background:#EAE8EB url(/cms-file/common/img/sprite-menuLiv1.gif) 0 -12px repeat-x}
+#menuLiv1 .int{position:relative; background:#FFF url(/cms-file/common/img/bg_menuLiv1_int.gif) 0 bottom repeat-x; border:1px solid #AFADAF; border-top:0px solid #FFF; padding:2px; margin:0; height:auto !important; height:20px; min-height:20px}
+#menuLiv1 .int .corner{position:absolute; background-image:url('/cms-file/common/img/sprite-menuLiv1.gif'); width:5px; height:5px}
+#menuLiv1 .int .topLeft{top:-1px; left:-1px; background-position:0px 0px}
+#menuLiv1 .int .topRight{top:-1px; right:-1px; background-position:-6px 0px}
+#menuLiv1 .int .botLeft{bottom:-2px; left:-1px; background-position:0px -6px}
+#menuLiv1 .int .botRight{bottom:-2px; right:-1px; background-position:-6px -6px}
+#menuLiv1 #menu1{list-style-type:none; margin:0; padding:0; text-align:center; width:100%; height:auto !important; height:20px; min-height:20px; overflow:hidden}
+#menu1 li{float:left; height:auto !important; height:20px; min-height:20px; overflow:hidden; line-height:1em; background:url(/cms-file/common/img/separatore.gif) right center no-repeat}
+#menu1 a{color:#000; display:block; text-decoration:none; padding:6px 0px}
+#menu1 a:hover{color:#B30002; text-decoration:underline}
+#menu1 a.menu1attivo{color:#B30002; text-decoration:none}
+#menu1 a:hover.menu1attivo{color:#B30002; text-decoration:underline}
+
+/*Menu 2 Link*/
+#menu1 li.M2cellaprima{width:49%}
+#menu1 li.M2cellaultima{width:49%; background-image:none}
+
+/*Menu 3 Link*/
+#menu1 li.M3cellaprima{width:32%}
+#menu1 li.M3cellaunica{width:34%}
+#menu1 li.M3cellaultima{width:32%; background-image:none}
+
+/*Menu 4 Link*/
+#menu1 li.M4cellaprima{width:24%}
+#menu1 li.M4cellaunica{width:25%}
+#menu1 li.M4cellaultima{width:24%; background-image:none}
+
+/*Menu 5 Link*/
+#menu1 li.M5cellaprima{width:18%}
+#menu1 li.M5cellaunica{width:21%}
+#menu1 li.M5cellaultima{width:18%; background-image:none}
+
+/*Menu 6 Link*/
+#menu1 li.M6cellaprima{width:15.5%}
+#menu1 li.M6cellaunica{width:17%}
+#menu1 li.M6cellaultima{width:15.5%; background-image:none}
+
+/*Menu 7 Link*/
+#menu1 li.M7cellaprima{width:12%}
+#menu1 li.M7cellaunica{width:15%}
+#menu1 li.M7cellaultima{width:12.3%; background-image:none}
+
+/*Menu 8 Link*/
+#menu1 li.M8cellaprima{width:9.5%}
+#menu1 li.M8cellaunica{width:13.3%}
+#menu1 li.M8cellaultima{width:9%; background-image:none}
+
+/*Menu 9 Link*/
+#menu1 li.M9cellaprima{width:8%}
+#menu1 li.M9cellaunica{width:12.2%}
+#menu1 li.M9cellaultima{width:5%; background-image:none}
+
+#content{margin:0 24px; padding:0; font-size:.7em; overflow:hidden;/* importante */}
+
+/*Menu di navigazione*/
+#menuNav{height:auto !important; height:22px; min-height:22px; overflow:hidden}
+span.navigator{float:left}
+span.navigator span.freccia{font-size:.8em; padding:0 4px 0 7px}
+span.navigator span.frecciaSearch{font-size:.8em;}
+span.navicon{float:right; padding-right:.80%}
+span.navicon img{padding:0 2px 0 12px}
+
+/*Box angoli stondati - Css Sprite*/
+.roundContBox{position:relative; margin:0; padding:9px; background:#FFF; border:1px solid #E9E7EA}
+.roundContBox .corner{position:absolute; width:6px; height:6px; background:url('/cms-file/common/img/sprite-roundContBox.gif')}
+.roundContBox .topLeft{top:-1px; left:-1px; background-position:0 0}
+.roundContBox .topRight{top:-1px; right:-1px; background-position:-7px 0px}
+.roundContBox .topRight2{top:-1px; right:-1px; background-position:-7px -14px}
+.roundContBox .botLeft{bottom:-1px; left:-1px; background-position:0 -7px}
+.roundContBox .botRight{bottom:-1px; right:-1px; background-position:-7px -7px}
+.bgtransp{background:transparent}
+
+#wrapper{width:987px; margin:0 auto}
+html>/**/body #wrapper{width:991px}/*Firefox*/
+#content{padding:20px 0}
+
+div.TopTitle .titolowhiteboldmed a{color:#FFF}
+
+/* Box Contenuti Notizie (Tipo Ansa) */
+#boxContElNews{float:left; width:930px}
+#boxContElNews .contdettNews{padding:0px}
+#boxContElNews .dettNews{margin:0; background:#FFF; padding:0; margin:0; height:auto !important; height:50px; min-height:50px}
+#boxContElNews .dettNews .topTitle{background:#B30002 url('/cms-file/common/img/bg_topTitleNewsAnsa.gif') top right repeat-x; color:#FFF; padding:10px; height:auto !important; height:50px; min-height:50px}
+#boxContElNews .dettNews .topTitle h3{font-size:1.6em; padding:0; margin:0}
+#boxContElNews .dettNews .topTitle h4{font-size:1.3em; padding:0; margin:0}
+#boxContElNews .dettNews .dataSx{font-size:1.1em; font-weight:bold; padding:0; margin:6px 0; background:url('/cms-file/common/img/bgSx_dataNewsAnsa.png') top left no-repeat; width:120px}
+#boxContElNews .dettNews .dataDx{padding:0; margin:0; background:url('/cms-file/common/img/bgDx_dataNewsAnsa.png') top right no-repeat}
+#boxContElNews .dettNews .data{height:15px; padding:2px 5px 1px 5px; margin:0 10px; background:#5A595B; text-align:center; color:#FFF}
+/*News*/
+#boxContElNews .dettNews .botNews{height:auto !important; height:50px; min-height:50px; margin-top:8px}
+#boxContElNews .dettNews .botNews .botNewsSx{height:auto !important; height:250px; min-height:250px; float:left; padding:14px 10px; width:360px;  border-right:1px dotted #000}
+#boxContElNews .dettNews .botNews .botNewsInt{height:auto !important; height:250px; min-height:250px; padding:14px 10px}
+#boxContElNews .dettNews .botNews .botNewsSx p,
+#boxContElNews .dettNews .botNews .botNewsInt p{padding:0; margin:0; font-size:1.1em; text-align:justify; line-height:20px}
+#boxContElNews .dettNews .botNews .botNewsDx{margin:0 0 0 390px; padding:14px 0}
+#boxContElNews .dettNews .botNews .greenTxt{padding:14px 0 0 0}
+#boxContElNews .dettNews .botNews .greenTxt a{padding-right:20px; color:#38973F; font-weight:bold; font-size:1.1em; background:url('/cms-file/common/img/redarrow_next.gif') center right no-repeat}
+/*Elenco News*/
+#boxContElNews .dettNews .topTitleElNews{background:#d9001b url('/cms-file/common/img/bg_topTitleElNews.gif') 0 0 repeat-x; color:#FFF; padding:8px 0; height:auto !important; height:10px; min-height:10px; text-align:center}
+#boxContElNews .dettNews .topTitleElNews h3{padding:0; margin:0}
+#boxContElNews .dettNews .botNews .rowNews{border-bottom:1px dotted; margin:0 0 10px 0; height:auto !important; height:60px; min-height:60px}
+#boxContElNews .dettNews .botNews .rowNews .sx{float:left; width:700px}
+#boxContElNews .dettNews .botNews .rowNews .sx a{padding-right:20px; color:#B30002; font-weight:bold; font-size:1.2em}
+#boxContElNews .dettNews .botNews .rowNews .sx p{font-size:1.1em; padding-bottom:6px}
+#boxContElNews .dettNews .botNews .rowNews .dx img {max-width: 200px;  max-height: 100px; width: expression(this.width > 200 ? "200px" : true); height: expression(this.height > 100 ? "100px" : true);}
+#boxContElNews .dettNews .botNews .rowNews .dx{text-align:right; margin:0 0 0 510px}
+#boxContElNews .dettNews .botNews .paginaz{text-align:right; font-weight:bold; color:#000; padding:0}
+#boxContElNews .dettNews .botNews .paginaz a{color:#B30002;}

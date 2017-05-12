@@ -1,0 +1,788 @@
+/* CONTENT */
+
+body{padding:0; margin:0; font-family:Arial, Helvetica, sans-serif; background:#F7F7F9}
+
+.clearDiv{clear:both}
+.clearLeft{clear:left}
+.clearRight{clear:right}
+.FloatLeft{float:left}
+
+.hidden{position:absolute;	left:-2000px; width:990px}
+.height0{height:0px}
+
+.spazioTop20{margin-top:20px}
+.spazioTop10{margin-top:10px}
+
+a{color:#000; text-decoration:none}
+a:hover{color:#B30002; text-decoration:underline}
+a.selected{font-weight:bold; color:#B30002; text-decoration:none}
+a:hover.selected{text-decoration:underline}
+
+a.LinkFreccia{color:#000; padding-left:14px; margin:0; background:url(/cms-file/common/img/freccia_puntatore.gif) left center no-repeat}
+a:hover.LinkFreccia{color:#B30002}
+
+.whiteLinks a{color:#FFF}
+.whiteLinks a:hover{color:#FFF}
+.orangeLinks a{color:#C74C00}
+.orangeLinks a:hover{color:#C74C00}
+.cyanLinks a{color:#658ECC}
+.cyanLinks a:hover{color:#658ECC}
+
+input, textarea{font-family:Arial; margin:0; padding:0; height:18px; font-size:1.2em; width:auto; border:1px solid #000}
+
+form{padding:0; margin:0; font-family:Arial; font-size:1em}
+
+p{padding:0; margin:0}
+
+.titoloredbold{font-weight:bold; font-size:1.4em; color:#B30002; margin:0px}
+.titoloredboldmed{font-weight:bold; font-size:1.2em; color:#B30002; margin:0px}
+.titoloredboldsmall{font-weight:bold; font-size:1em; color:#B30002; margin:0px}
+.titoloblackboldmed{font-weight:bold; font-size:1.2em; color:#000; margin:0px}
+.titolowhiteboldmed{font-weight:bold; font-size:1.2em; color:#FFF; margin:0px}
+
+.testoRosso{color:#B30002}
+
+.listaPuntoNero{display:list-item; list-style:square url(/cms-file/common/img/puntoNero.gif) inside;	padding:1px 0 1px 0px;	color:#000}
+
+.PageNumb{padding:24px 30px 0 0; text-align:right; font-weight:bold; font-size:1.1em}
+.PageNumb span{color:#B30002}
+.PageNumb a.pageArrow {font-weight:bold; font-size:.9em}
+
+.AlignLeft{border:1px solid #C5C5C5; padding:1px; float:left; margin-right:14px}
+.AlignLeft2{border:1px solid #C5C5C5; padding:1px; float:left; margin-right:38px}
+.AlignLeftNoBorder{border:none; float:left; padding:0; margin:0}
+.AlignCenter{border:1px solid #C5C5C5; padding:1px; margin:0}
+.AlignRight{border:1px solid #C5C5C5; padding:1px; float:right; margin-left:14px}
+
+a img{border:none}
+
+.AlignRight{text-align:right}
+
+.RigaSeparazione{border-top:1px solid #E9E7EA; background:#FFF; padding:0 0 20px 0; margin:0px}
+.RigaSeparazione2{border-top:1px solid #E9E7EA; padding:0; margin:0}
+.RigaSeparazione3{border-top:3px solid #FFF; padding:0; margin:0}
+
+.top6{margin-top:6px}
+
+#container{background:#FFF; margin:0; padding:0}
+
+/*Contenuti*/
+#content{margin:0 24px; padding:0; font-size:.7em; overflow:hidden;/* importante */}
+#content .contentLeft{float:left; width:23%; margin:15px 0 10px 0; padding:0; position:relative; left:0; height:auto !important; height:312px; min-height:315px}
+#content .contentLeft div{padding:0; margin:0}
+#content .contentLeft div h3{font-size:1em; font-family:arial; font-weight:bold; padding:0 0 3px 0; margin:0}
+#content .contentRight{margin:15px 0 0 0; padding:0 0 10px 0; width:77%; float:left; position:relative;	left:0}
+
+/* Menu livello 1 - css sprite */
+#menuLiv1{margin:0; padding:5px 24px; font-size:.8em; font-weight:bold; height:auto !important; height:20px; min-height:20px; background:#EAE8EB url(/cms-file/common/img/sprite-menuLiv1.gif) 0 -12px repeat-x}
+#menuLiv1 .int{position:relative; background:#FFF url(/cms-file/common/img/bg_menuLiv1_int.gif) 0 bottom repeat-x; border:1px solid #AFADAF; border-top:0px solid #FFF; padding:2px; margin:0; height:auto !important; height:20px; min-height:20px}
+#menuLiv1 .int .corner{position:absolute; background-image:url('/cms-file/common/img/sprite-menuLiv1.gif'); width:5px; height:5px}
+#menuLiv1 .int .topLeft{top:-1px; left:-1px; background-position:0px 0px}
+#menuLiv1 .int .topRight{top:-1px; right:-1px; background-position:-6px 0px}
+#menuLiv1 .int .botLeft{bottom:-2px; left:-1px; background-position:0px -6px}
+#menuLiv1 .int .botRight{bottom:-2px; right:-1px; background-position:-6px -6px}
+#menuLiv1 #menu1{list-style-type:none; margin:0; padding:0; text-align:center; width:100%; height:auto !important; height:20px; min-height:20px; overflow:hidden}
+#menu1 li{float:left; height:auto !important; height:20px; min-height:20px; overflow:hidden; line-height:1em; background:url(/cms-file/common/img/separatore.gif) right center no-repeat}
+#menu1 a{color:#000; display:block; text-decoration:none; padding:6px 0px}
+#menu1 a:hover{color:#B30002; text-decoration:underline}
+#menu1 a.menu1attivo{color:#B30002; text-decoration:none}
+#menu1 a:hover.menu1attivo{color:#B30002; text-decoration:underline}
+
+/*Menu 2 Link*/
+#menu1 li.M2cellaprima{width:49%}
+#menu1 li.M2cellaultima{width:49%; background-image:none}
+
+/*Menu 3 Link*/
+#menu1 li.M3cellaprima{width:32%}
+#menu1 li.M3cellaunica{width:34%}
+#menu1 li.M3cellaultima{width:32%; background-image:none}
+
+/*Menu 4 Link*/
+#menu1 li.M4cellaprima{width:24%}
+#menu1 li.M4cellaunica{width:25%}
+#menu1 li.M4cellaultima{width:24%; background-image:none}
+
+/*Menu 5 Link*/
+#menu1 li.M5cellaprima{width:18%}
+#menu1 li.M5cellaunica{width:21%}
+#menu1 li.M5cellaultima{width:18%; background-image:none}
+
+/*Menu 6 Link*/
+#menu1 li.M6cellaprima{width:15.5%}
+#menu1 li.M6cellaunica{width:17%}
+#menu1 li.M6cellaultima{width:15.5%; background-image:none}
+
+/*Menu 7 Link*/
+#menu1 li.M7cellaprima{width:12%}
+#menu1 li.M7cellaunica{width:15%}
+#menu1 li.M7cellaultima{width:12.3%; background-image:none}
+
+/*Menu 8 Link*/
+#menu1 li.M8cellaprima{width:9.5%}
+#menu1 li.M8cellaunica{width:13.3%}
+#menu1 li.M8cellaultima{width:9%; background-image:none}
+
+/*Menu 9 Link*/
+#menu1 li.M9cellaprima{width:8%}
+#menu1 li.M9cellaunica{width:12.2%}
+#menu1 li.M9cellaultima{width:5%; background-image:none}
+
+/*Menu di navigazione*/
+#menuNav{height:auto !important; height:22px; min-height:22px; overflow:hidden}
+span.navigator{float:left}
+span.navigator span.freccia{font-size:.8em; padding:0 4px 0 7px}
+span.navigator span.frecciaSearch{font-size:.8em;}
+span.navicon{float:right; padding-right:.80%}
+span.navicon img{padding:0 2px 0 12px}
+
+/*Menu Livello 2 e Livello 3*/
+
+/*Livello 2*/
+#menu2{width:auto}
+ul#menu2{font-weight:bold; list-style-type:none; margin:0; padding:0; border-bottom:1px solid #E9E7EA}
+#menu2 li{margin:0; padding:0}
+ul#menu2 a{display:block; line-height:2.4em; text-decoration:none; padding:0; border-top:1px solid #E9E7EA}
+ul#menu2 a:hover{text-decoration:underline}
+ul#menu2 a.primo{display:block; text-decoration:none; padding:0; border-top:0}
+ul#menu2 a.Attivo{text-decoration:none; color:#000; padding:10px 0 2px 0; line-height:1em}
+ul#menu2 a.AttivoRed{color:#B30002; display:block; text-decoration:none; padding:0; border-top:1px solid #E9E7EA}
+ul#menu2 a.primoAttivo{text-decoration:none; color:#000; border:0; padding:0; border-top:0}
+ul#menu2 a.primoAttivoRed{text-decoration:none; color:#B30002; border:0; padding:0}
+ul#menu2 a:hover.primo,
+ul#menu2 a:hover.Attivo,
+ul#menu2 li a:hover.AttivoRed,
+ul#menu2 li a:hover.primoAttivo,
+ul#menu2 a:hover.primoAttivoRed{text-decoration:underline; color:#B30002}
+
+/*Livello 3*/
+ul#menu3{list-style-type:none; margin:3px 0 0 0; padding:5px 0 6px 0; border:0; background:#F7F7F9 url(/cms-file/common/img/bg_menu2Left.gif) top left repeat-y}
+#menu3 li{margin:0; padding:0}
+ul#menu3 a{display:block; line-height:1.5em; font-weight:normal;	text-decoration:none; padding:0 0 0 20px; border:0}
+ul#menu3 a:link,
+ul#menu3 a:visited{color:#000; background:url(/cms-file/common/img/marcatore.gif) left center no-repeat}
+ul#menu3 a:hover{color:#B30002; text-decoration:underline; background:url(/cms-file/common/img/marcatore_sel.gif) left center no-repeat}
+#menuLiv2{margin-bottom:1.4em}
+#menuLiv2 ul#menu3 a.menu3attivo{font-weight:bold; color:#B30002; text-decoration:none; background:url(/cms-file/common/img/marcatore_sel.gif) left center no-repeat}
+#menuLiv2 ul#menu3 a:hover.menu3attivo{text-decoration:underline}
+#menu3{background:url(/cms-file/common/img/marcatore_sel.gif) -500px -500px no-repeat}
+
+/*Box Centrale*/
+
+/*Contenuti (pagina con 2 colonne)*/
+#contentBox{margin:0; padding:0; background:#F7F7F9 url(/cms-file/common/img/bg_contentBox_x.gif) top left repeat-x}
+
+/*Contenuti - Colonna centrale (pagina con 3 colonne)*/ 
+#contentBoxLeftCol{width:74%; float:left; margin:0; padding:0}
+
+/*Contenuti - Spalla destra (pagina con 3 colonne)*/ 
+#contentBoxRightCol{margin:0 0 0 74%; padding:13px 0; background:#F7F7F9}
+
+/*Contenuti - Spalla destra in template di Lista(pagina con 3 colonne)*/
+#leftColListaUp{width:71%; float:left; margin:0; padding:0; background:#F7F7F9}
+#rightColListaUp{margin:0 0 0 72%; padding:0; background:#F7F7F9}
+
+/*Rounded Content Box - CSS Sprite (pagina con 2 colonne)*/
+#roundContBox{position:relative; margin:0 0 10px 0; padding:9px; background:#FFF; border:1px solid #E9E7EA}
+#roundContBox .corner{position:absolute; width:6px; height:6px; background:url('/cms-file/common/img/sprite-roundContBox.gif')}
+#roundContBox .topLeft{top:-1px; left:-1px; background-position:0 0}
+#roundContBox .topRight{top:-1px; right:-1px; background-position:-7px 0px}
+#roundContBox .topRight2{top:-1px; right:-1px; background-position:-7px -14px}
+#roundContBox .botLeft{bottom:-1px; left:-1px; background-position:0 -7px}
+#roundContBox .botRight{bottom:-1px; right:-1px; background-position:-7px -7px}
+#roundContBox .titoloPag{padding:10px 0 0 10px; background:#FFF; border:none; margin:0 1px; height:auto !important; min-height:28px; height:26px}
+#roundContBox .titoloPag2{padding:10px 15px; background:#F7F7F9; border:none; margin:0 1px; height:auto !important; min-height:10px; height:10px}
+#roundContBox .ContentArt{font-size:1.1em; padding:0; margin:0}
+#roundContBox .ContentArt .Box2ImgTitolo{font-size:.9em}
+#roundContBox .ContentArtWP{font-size:1em; padding:0; margin:0}
+#roundContBox .ContImg2{padding:14px 10px 14px 20px; height:auto !important; min-height:40px; height:40px; text-align:left; background:#F7F7F9}
+#roundContBox .ContParagSez{background:#F7F7F9; padding:12px 24px}
+.bgGray{background:#F7F7F9}
+
+div.ContParag{overflow:visible; line-height:1.2em; padding:12px; background:#FFF; margin:0 1px}/*BC. overflow:visible; aggiunto per risolvere italic bugs*/
+.ContParag h4{padding-bottom:.5em}
+.ContParag p{padding-bottom:20px}
+.ContParag a.linkEsterno{color:#000; text-decoration:underline}
+.ContParag a:hover.linkEsterno{color:#B30002; text-decoration:underline}
+.ContParag a.linkInterno{color:#000; text-decoration:underline}
+.ContParag a:hover.linkInterno{color:#B30002; text-decoration:underline}
+
+div.ContTitoliSez{padding:10px; margin:0 1px; background:#FFF}
+div.ContParagSez{ padding:12px 24px}
+div.ContParagSez p{font-size:.9em; padding:6px 0 6px 25px; margin:0; background:url(/cms-file/common/img/freccia_puntatore.gif) left center no-repeat}
+div.ContParagSez img{padding-right:10px; /*position:relative; top:2px;*/}/*BC.Commento per malfunzionamento in preview(Vignette)*/
+#roundContBox .ContAncore2{}
+#roundContBox .ContAncore .titolo, #roundContBox .ContAncore2 .titolo{position:relative; line-height:1.2em; padding:5px 10px 3px 10px; background:#B30002; margin:0 1px}
+#roundContBox .ContAncore .titolo h3, #roundContBox .ContAncore2 .titolo h3{font-weight:bold; font-size:1.1em; color:#FFF; margin:0px}
+#roundContBox .ContAncore .titolo .tL, #roundContBox .ContAncore2 .titolo .tL{top:0px; left:0px; background-position:0px -21px}
+#roundContBox .ContAncore .titolo .tR, #roundContBox .ContAncore2 .titolo .tR{top:0px; right:0px; background-position:-7px -21px}
+
+/*Contenuti principali*/
+.cboxIntArchivio{padding:15px 32px; height:auto !important; height:210px; min-height:223px}
+.cboxIntArchivio p{color:#B30002; font-size:1.1em; padding:6px 0 6px 30px; margin:0; background:url(/cms-file/common/img/freccia_puntatore.gif) left center no-repeat}
+.cboxIntWP{padding:18px 30px 2px 47px; background:#FFF; height:auto !important; min-height:223px; height:210px}
+.ArchivioImgLeftUp{float:left; width:47%}
+.ArchivioImgLeft{margin:0 0 7px 0; height:auto !important; min-height:102px; height:102px}
+.ArchivioImgRightUp{margin-left:50.5%}
+.ArchivioImgRight{margin:0 0 7px 0; height:auto !important; min-height:102px; height:102px}
+.ArchivioImgLeft img.alignLeft,
+.ArchivioImgRight img.alignLeft{float:left; border:1px solid #C5C5C5; padding:1px; margin-right:19px}
+.ArchivioImgLeft a,
+.ArchivioImgRight a,
+.ContImgParagWP a{color:#B30002; font-size:1.1em; font-weight:bold; padding-left:15px; background:url(/cms-file/common/img/freccia_puntatore.gif) left center no-repeat}
+
+/*Aggiunta per gestione titolored non linkato*/
+.ArchivioImgLeft .titolored,
+.ArchivioImgRight .titolored,
+.ContImgParagWP .titolored{color:#B30002; font-size:1.1em; font-weight:bold}
+
+.ArchivioImgLeft .testo,
+.ArchivioImgRight .testo{font-size:1em; color:#000; font-weight:normal; background-image:none; padding:2px 0 0 0}
+.ContImgParagWP .testo{padding-top:8px; margin-right:38px}
+.ContImgParag{padding:14px 16px;	padding-bottom:18px; overflow:hidden; height:auto !important; min-height:10px; height:10px}
+.ContImgParagBgWhite{clear:left; line-height:1.2em;	padding:10px 24px 18px 24px; background:#FFF; border-left:1px solid #F5F5F5; border-right:1px solid #F5F5F5;	height:auto !important; min-height:180px; height:168px}
+.ContParagWP{padding:14px 24px;	padding-bottom:18px; height:auto !important; min-height:10px; height:10px}
+.ContParagWP .R1 div{text-align:right; background:#EAEAEA; padding:.4em 1em .2em 0; border-top:1px solid #B30002}
+.ContParagWP .RtestoLeft{float:left; width:50%; padding:.5em 1em}
+.ContParagWP .RtestoRight{padding:.5em 1em}
+.ContParagWP .Rtesto{padding:.5em 1em}
+.ContParagWP .RtestoGrande{font-size:1.4em; padding:.5em 1em; line-height:1.5em}
+.ContImgParagWP{padding:15px 24px 0 47px; height:auto !important; min-height:168px; height:172px}
+.ContImgParag p,
+.ContImgParagBgWhite p{padding-top:14px}
+.titoloPag{padding:10px 0 0 24px; background:#FFF; margin:0 1px; height:auto !important; min-height:28px; height:26px}
+.ContParagForm{padding:12px; background:#FFF; border:1px solid #EEE; margin:0 9px; height:auto; min-height:100px}
+.ContTab{padding-right:10px}
+.ContTabLeft{float:left; width:50%; padding:4px; text-align:center; background:#FFF; border:1px solid #CCC; border-bottom:none; line-height:1.2em}
+.ContTabRight{padding:4px; text-align:center; background:#FFF; border:1px solid #CCC; border-bottom:none; line-height:1.2em}
+.ContTab .attivo{background:#F7F7F9; font-weight:bold}
+.ContForm{padding:10px; background:#F7F7F9; border:1px solid #CCC}
+
+/*BC.Aggiunta per gestione lista di paragrafo*/
+.ContParagLista {padding:0; margin:6px 0}
+.ContParagLista .descrz {padding:0 0 4px 0}
+.ContParagLista .frecciaLink{padding:4px 0 4px 15px;	background:url(/cms-file/common/img/freccia_puntatore.gif) no-repeat 0px 7px; display:inline;	line-height:1.7em}
+.ContAncore{line-height:1.2em; padding:9px 0px; background:#FFF; margin:0 1px}
+.ContAncore2{background:#F7F7F9; padding:18px 24px; padding-bottom:0px; height:auto !important; min-height:10px; height:10px}
+.ContAncore2 .titoloRight{padding:0; margin:0; background:#B30002 url(/cms-file/common/img/bg_ancore2_tr.gif) top right no-repeat}
+.ContAncore2 .titoloLeft{padding:5px 10px 3px 10px; margin:0; background:url(/cms-file/common/img/bg_ancore2_tl.gif) top left no-repeat}
+.ContAncore .titoloLeft h3,
+.ContAncore2 .titoloLeft h3{font-weight:bold; font-size:1.1em; color:#FFF; margin:0px}
+.ContAncore2 .ancore{padding:1em; padding-bottom:40px}
+.ContAncore .ancore{padding:1em}
+.ContAncore p,
+.ContAncore2 p{font-weight:bold; padding:4px 0 4px 30px; margin:0; background:url(/cms-file/common/img/freccia_puntatore.gif) left center no-repeat}
+.ContAncore2 .ancore a{color:#B30002}
+.TornaSu{ text-align:right; font-weight:bold; padding:5px 24px 5px 0; margin:0 1px; background:#FFF}
+.ContAncore a, .TornaSu a {color:#B30002}
+.ContAncoreTxt{padding:0 24px 14px 24px; padding-bottom:18px; height:auto !important; min-height:10px; height:10px}
+.ContAncoreTxt .AncoreTxt{background:#FFF; height:auto !important; min-height:20px; height:20px}
+.ContAncoreTxt .AncoreTxt div{border-bottom :1px solid #E7E7E9; padding:.2em 1em}
+.ContAncoreTxt .AncoreTxt2{background:#F7F7F9; height:auto !important; min-height:20px; height:20px}
+.ContAncoreTxt .AncoreTxt2 .tornasu{float:right; width:186px; height:36px; text-align:right; padding:0 40px 0 0; font-weight:bold; background:#F7F7F9 url(/cms-file/common/img/bg_tornasu.gif) top right no-repeat}
+.ContAncoreTxt .AncoreTxt2 .tornasu a{position:relative; bottom:6px}
+.ContAncoreTxt .AncoreTxt2 .tornasu img{border:none; position:relative; top:8px}
+.ContAncoreTxt .titoloRight{padding:0; margin:0; background:#E7E7E9 url(/cms-file/common/img/bg_boxTable_tr.gif) top right no-repeat}
+.ContAncoreTxt .titoloLeft{padding:8px 10px 5px 10px; margin:0; background:url(/cms-file/common/img/bg_boxTable_tl.gif) top left no-repeat}
+.ContAncoreTxt .titoloLeft h4{font-weight:bold; font-size:1em; color:#B30002; margin:0px}
+.ContAncoreTxt p{padding:2px 0 2px 30px; margin:0; background:url(/cms-file/common/img/arrowBlack.gif) left center no-repeat}
+.ContAncoreTxt .descrizione{padding:0 0 2px 30px; margin:0; background-image:none}
+
+.ContImg{padding:0 24px;	padding-bottom:18px; height:auto !important; min-height:146px; height:168px}
+.ContImg2{padding:14px 10px 14px 20px; height:auto !important; min-height:40px; height:40px; text-align:left}
+.ContImg3{padding:10px 0px 10px 2px; margin:10px 0; background:#F7F7F9}
+
+.cboxFotoGalleryTop{padding:25px 20px 20px 20px; height:auto !important; border-bottom:6px solid #FFF; margin:0 1px;}
+.cboxFotoGalleryBot{padding:10px 20px 34px 20px; height:auto !important; height:250px; min-height:250px}
+
+/* Desktop*/
+.cboxDesktopGalleryB{padding:10px 30px 34px 30px; height:auto !important; height:250px; min-height:250px}
+.Desktop2Img{clear:both; padding:1em 0 0 1.5em; margin:0; height:auto !important; min-height:250px; height:250px}
+.Desktop2Img div{width:49%; float:left; text-align:left; padding-right:.3em;}
+.Desktop2Img div img{border:1px solid #C5C5C5; padding:1px; margin:.5em 14px .5em 0;}
+.Desktop2Img div div{width:90%; padding-bottom:.8em;}
+.Desktop1Img{clear:both; padding:3.5em 2.5em; margin:0; height:auto !important; min-height:350px; height:350px}
+.Desktop1Img div{float:left; text-align:left;}
+.Desktop2Img div .arrowLink,
+.Desktop1Img div .arrowLink{font-size:1em; padding-left:14px; background:url(/cms-file/common/img/freccia_puntatore.gif) left center no-repeat}
+
+/* Lista News*/
+.Box2ImgTitolo{padding:15px 30px}
+.Box2Img{clear:both; padding:1em 0 0 1.5em; margin:0; height:auto !important; min-height:50px; height:50px}
+.Box2Img div{width:49%; float:left; text-align:left}
+.Box1Img{clear:both; background:#FFF; padding:2.5em 0 0 0; margin:0; height:auto !important; min-height:430px; height:430px}
+.Box1Img div{float:left; text-align:left}
+.Box1Img div .arrowLink{font-size:1em; font-weight:bold; padding-right:14px; background:url(/cms-file/common/img/freccia_puntatore.gif) right center no-repeat}
+
+/*Fotogallery*/
+.Box5Img{clear:both; padding:1em 0 0 0; margin:0; height:auto !important; min-height:50px; height:50px;}
+.Box5Img div{width:19.5%; float:left; text-align:center}
+
+/*Cartoline*/
+.Box4Img{clear:both; padding:1em 0 0 0; margin:0; height:auto !important; min-height:50px; height:50px}
+.Box4Img div{width:24.3%; float:left; text-align:center}
+.Box4Img input{border:0}
+.sceltacartolina{padding-top:26px; padding-right:4.68%; text-align:right}
+input.buttonflat{font-size:1em; width:60px; padding:0;	 border:0; background-color:transparent; font-weight:bold; text-align:right; cursor:pointer}
+input.puntatore{border:0; cursor:pointer; margin-bottom:1px}
+input.puntatore{width:5px; height:5px}
+.contcartolina{padding:34px 0px 15px 0px; text-align:center}
+.contforminviocartolina{width:510px; padding-top:18px; margin:auto; text-align:left}
+.contnomicampi{width:56px; height:100%; float:left; text-align:right}
+.contnomicampi p{padding:8px 8px 0 0}
+.contnomicampi label{font-weight:bold}
+input.inputcartolina{width:303px; height:18px; margin-top:3px; float:left}
+textarea.inputcartolina{width:303px; height:80px; margin-top:6px; float:left}
+.inviacartolina{padding:15px 145px 0 0; float:right}
+.contnavcartolina{padding:5px 145px 20px 0; font-weight:bold; text-align:right}
+.contnavcartolina img{border:none}
+
+/*Risultati della ricerca*/
+.cboxIntContResult{padding:0; margin:0}
+.ContResultTop{padding:22px 30px; background:#F7F7F9}
+.ContResultTop h3{padding:4px 0 18px 0}
+.ContResultTop p{padding-top:8px; font-weight:bold}
+.ContResult{padding:18px 10px; margin:0 1px; background:#FFF}
+.ContResult p span{color:#777}
+.ContResult div{padding:7px 0; height:auto !important; min-height:30px; height:30px}
+.ContResult div .arrowLink{color:#B30002; font-size:1em; font-weight:bold; padding-left:18px; background:url(/cms-file/common/img/freccia_puntatore.gif) 2px left no-repeat}
+html>/**/body .ContResult div .arrowLink /* FireFox*/{background:url(/cms-file/common/img/freccia_puntatore.gif) left center no-repeat}
+.ContResult div .navigator{float:none; padding:2px 0 0 18px}
+.cboxIntContResult .PageNumb{font-size:1.2em; height:auto !important; min-height:20px; height:20px; padding:14px; padding-right:20px; background:#F7F7F9}
+.ContResult .PageNumb{font-size:1em}
+.cboxIntContResult .PageNumb .txtLeft{float:left; font-weight:bold; color:#000; padding-left:10px}
+
+/*Mappa del sito*/
+.ContMap{font-size:.9em; padding:0 43px 26px 43px}
+.ContMap h3{padding:26px 0}
+.ContMap .arrowLink{font-size:1.1em; font-weight:bold; padding-left:14px; background:url(/cms-file/common/img/freccia_puntatore.gif) left center no-repeat}
+.ContMap ul{padding:0 0 0 11px; margin:0; list-style-type:none}
+.ContMap li{padding:0; margin:0; list-style-type:none}
+.ContMap li a{line-height:1.4em; padding-left:16px}
+.ContMap li a:link,
+.ContMap li a:visited{background:url(/cms-file/common/img/arrowList.gif) left center no-repeat}
+.ContMap li a:hover{text-decoration:underline; background:url(/cms-file/common/img/arrowList.gif) left center no-repeat}
+.ContMap ul ul{padding-left:14px}
+.ContMap li li a{line-height:1.4em; padding-left:17px}
+.ContMap li li a:link,
+.ContMap li li a:visited{background:url(/cms-file/common/img/arrowList_2.gif) left center no-repeat}
+.ContMap li li a:hover{text-decoration:underline; background:url(/cms-file/common/img/arrowList_2.gif) left center no-repeat}
+
+/*Faq - Aiuto*/
+.cboxIntContFaq{padding:28px 43px; margin:0}
+.cboxIntContFaq h3{padding:10px 0}
+.cboxIntContFaq .ContFaq{padding:10px 0 20px 0; line-height:1.6em}
+.cboxIntContFaq .ContFaq div.testo{padding:5px 0 5px 14px; line-height:1.3em}
+.cboxIntContFaq .TornaSu{text-align:right; font-weight:bold; padding:5px 24px 5px 0; margin:0 1px; background:transparent}
+.cboxIntContFaq .TornaSu a{color:#000}
+.cboxIntContFaq .ContFaq .arrowLink,
+.cboxIntContFaq .ContFaq .titoloFaq{font-size:1.1em; font-weight:bold; padding-left:14px; background:url(/cms-file/common/img/freccia_puntatore.gif) left center no-repeat}
+
+/*Infoutili - Comunicato*/
+.cboxIntContInfo{padding:28px 43px; margin:0; height:auto !important; min-height:430px; height:430px}
+.cboxIntContInfo img{padding-right:4px}
+.cboxIntContInfo h3{padding:2px 0 10px 0}
+.cboxIntContInfo .ContInfo{float:left; padding:2em 0 0 0; line-height:1.6em; font-size:1.1em}
+.cboxIntContInfo .ContInfo span.titolo{font-weight:bold; padding:0 0 10px 0}
+.cboxIntContInfo .ContInfo span.testo{padding:0 2em 10px 0}
+.cboxIntContInfo .ContInfo p.testo{padding:0 2em 10px 0}
+
+/*Infoutili - Ricerca*/
+.ricercaInfo{margin:0 10px; padding:0 1.4em; font-size:.9em}
+.ricercaInfo label{font-weight:bold; font-size:1.1em; margin:0 3px 0 .5em}
+.ricercaInfo input {margin-bottom:3px}
+.ricercaInfo input.btnInvia{width:56px; height:auto !important; height:20px; min-height:20px; border:0; margin:0 0 0 .5em}
+html>/**/body .ricercaInfo input{margin-bottom:0px}/* FireFox*/
+html>/**/body .ricercaInfo .btnInvia{position:relative; top:6px}/* FireFox*/
+html>/**/body .ricercaInfo img{vertical-align:bottom}/* FireFox*/
+
+/*BC.Contenuti spalla destra*/
+.RightColContentLinks{padding:0; margin:0;}
+html>/**/body .RightColContentLinks{overflow:hidden}/*Firefox*/
+.RightColTitoliSez {font-size:1.1em; padding:8px 7px 7px 7px;}
+.RightColImgParag{padding:5px 7px; height:auto !important; min-height:48px; height:0}
+.RightColImgParag img{float:left; border:1px solid #C5C5C5; padding:1px; margin:1px 4px 0 0}
+.RightColImgParag .ImgLnk {line-height:1.2}
+
+.RightColContParag{padding:5px 0}
+.RightColContParag .FrecciaLnk{padding:1px 0 1px 15px; margin:0 7px 0 7px; background:url(/cms-file/common/img/freccia_puntatore.gif) left center no-repeat}
+
+.RightColContParagDoc{padding:5px 0 5px 0}
+.RightColContParagDoc img{padding-left:4px; margin-right:4px;/*position:relative; top:2px;*/}/*BC.Commento per malfunzionamento in preview(Vignette)*/
+.spazio{padding:0 0 0 2px}
+
+.RightColImmBox{padding:5px 0 5px 0; margin:0; text-align:center; overflow:hidden}
+.RightColImmBox img{border:none; padding:0; margin:0}
+.RightColImmBox div.staccoTxt{overflow:visible; text-align:left; padding:1px 3px 5px 6px; margin:0}
+
+.cboxMese{padding:34px 30px; height:auto !important; height:150px; min-height:150px; font-size:.9em}
+.cboxMese h4{padding:0 0 5px 0}
+
+/*FORM BOX CRUSCOTTO*/
+#cruscotto{color:#000; margin:0 0 0 .3em; padding:0; width:99%; font-size:1em; background:#F5F5F7}
+#cruscotto .tab{margin-top:5px; font-size:1.1em}
+#cruscotto .on{text-align:center; padding:10px 0; font-weight:bold}
+#cruscotto .on a{padding-top:20px; color:#B30002}
+#cruscotto .off{text-align:center; padding:10px 0 10px 10px; font-weight:bold; background:url(/cms-file/common/img/off_sx.gif) center left no-repeat}
+#cruscotto .off a{text-align:center; padding:5px 10px 4px 0px; font-weight:bold; background:#FFF url(/cms-file/common/img/off_dx.gif) center right no-repeat}
+#cruscotto .linea{padding:0 2px}
+
+#cruscotto ul li a:link{color:#000; text-decoration:none}
+#cruscotto ul li a:hover{color:#B30002; text-decoration:underline}
+#cruscotto form{padding-top:1em}
+#cruscotto label,
+#cruscotto span{width:8%; text-align:left; margin:.2em 0 0 0}
+#cruscotto label.partdest{font-size:1.1em; line-height:1.4em; font-weight:bold}
+#cruscotto input{margin:2px 0 2px 0; color:#000; padding:0; display:block; width:91%}
+#cruscotto p{margin:0.4em 0 0 0; text-align:left}
+#cruscotto .fullText{font-size:1.1em;	line-height:2.4em; text-align:left; font-weight:bold; margin:0}
+#cruscotto .fullText img{border:none; position:relative; top:3px}
+#cruscotto .textRicerca{width:100%; margin:0}
+#cruscotto .textRicerca input{width:15%; float:left; border:1px solid #000}
+#cruscotto .textRicerca input.orari{width:15%; float:left; margin-right:4px}
+#cruscotto .textRicerca select.ospiti{width:23%; font-size:1.1em; height:1.5em !important;	float:left; margin:2px 4px 2px 0}
+#cruscotto .textRicerca select.camere{width:26%; font-size:1.1em; height:1.5em !important; float:left; margin:2px 4px 0 0}
+#cruscotto .textRicerca input.anno{width:18%; float:left; margin-right:4px}
+#cruscotto .textRicerca .lbl1{position:relative; float:left; width:13%; line-height:2.4em}
+#cruscotto .textRicerca .lbl2{position:relative; float:left; width:13%; line-height:2.4em; text-align:right; padding-right:7px}
+#cruscotto .textRicerca .lbl3{position:relative; float:left; width:10%; line-height:2.4em; text-align:right; padding-right:4px}
+#cruscotto .textRicerca .lbl4{position:relative; float:left; width:3.5%; line-height:1.8em; text-align:right;	padding-right:7px}
+#cruscotto .textRicerca .btnInviaCrusc{width:54px; height:auto !important; height:20px; min-height:20px;	border:0}
+#cruscotto .interlinea{clear:both; padding:0}
+
+#cruscotto .formAR{padding-top:.3em}
+#cruscotto .radioAR input{width:auto; margin:0; border:none; display:inline}
+#cruscotto .radioAR label{padding:0 8px 0 4px; font-size:1.1em; font-weight:bold; vertical-align:top}
+#cruscotto .contpartdestAR label.partdest{float:left; font-size:1.1em; line-height:1.4em; font-weight:bold}
+#cruscotto .contpartdestAR input{margin:2px 0 2px 0; color:#000; padding:0; display:block; width:82%}
+#cruscotto .contpartdestAR p{margin:0.4em 0 0 0; text-align:left}
+#cruscotto .contpartdestAR .fullText{font-size:1.1em;	line-height:2.4em; text-align:left; font-weight:bold; margin:0}
+#cruscotto .contpartdestAR .fullText img{border:none; position:relative; top:3px}
+#cruscotto .textRicercaAR{width:100%; margin:0}
+#cruscotto .textRicercaAR input{width:9%; float:left; border:1px solid #000}
+#cruscotto .textRicercaAR input.orari{width:7%; float:left; margin-right:4px}
+#cruscotto .textRicercaAR input.anno{width:11%; float:left; margin-right:0px}
+#cruscotto .textRicercaAR .lbl1{position:relative; float:left; width:10.5%; line-height:2em}
+#cruscotto .textRicercaAR .lbl2{position:relative; float:left; width:7%; line-height:2em; text-align:right; padding-right:7px}
+#cruscotto .textRicercaAR .lbl3{position:relative; float:left; width:7%; line-height:2em; text-align:right; padding-right:4px}
+#cruscotto .textRicercaAR .lbl4{position:relative; float:left; width:7%; line-height:2em; text-align:right; padding-right:3px}
+#cruscotto .textRicercaAR .lbl5{position:relative; float:left; width:1%; line-height:1.8em; text-align:right}
+#cruscotto .textRicercaAR .btnInviaCrusc{width:54px; height:auto !important; height:20px; min-height:20px;	border:0}
+ 
+/*FORM GENERICA*/
+#formGen{padding:0; margin:0}
+#formGen img{border:none}
+#formGen .Txt{padding:6px 0}
+#formGen label{text-align:left; margin:.2em 0 0 0}
+#formGen input{width:40%; border:1px solid #000; font-size:1em}
+#formGen select{width:20%; font-size:1em; height:1.5em !important; margin:2px 4px 2px 0}
+#formGen .btnInviaCrusc{width:54px; height:auto !important; height:20px; min-height:20px; border:0}
+#formGen .Txt2 input{width:15%; float:left}
+#formGen .Txt2 span{position:relative; float:left; width:6%; line-height:2.4em; text-align:right; padding-right:7px}
+#formGen .interlinea{clear:both; padding:0 0 4px 0}
+#formGen .Entra{font-size:1.1em; text-align:center; padding:.3em 0 .4em 0; margin-right:8px; background:#EAEAEA url(/cms-file/common/img/bg_menu.gif) top left repeat-x}
+#formGen .Entra2{font-size:1.1em; text-align:right; padding:.3em .5em .4em 0; margin-right:8px; background:#EAEAEA url(/cms-file/common/img/bg_menu.gif) top left repeat-x}
+#formGen .TxtSx{float:left; padding:6px 0; width:47%}
+#formGen .TxtDx{padding:6px 0; margin-left:48%}
+#formGen .TxtSx input,
+#formGen .TxtDx input{width:80%}
+#formGen .TxtSx input.btnCambioPren,
+#formGen .TxtDx span{padding:0 10px}
+#formGen .TxtDx span a:hover{text-decoration:none}
+#formGen .TxtDx img{vertical-align:bottom}
+#formGen .TxtSx div{height:20px}
+#formGen .Txt input.btnSubmit,
+#formGen .TxtDx input.btnSubmit,
+#formGen .Entra input.btnSubmit,
+#formGen .Entra2 input.btnSubmit{font-size:.9em; font-weight:bold; cursor:pointer; color:#FFF; width:64px; height:20px; border:0; background:url(/cms-file/common/img/button_gen.gif) center center no-repeat}
+#formGen input.btnDisponibHotel{margin-top:10px; font-size:.9em; font-weight:bold; cursor:pointer; color:#FFF; width:148px; height:20px; border:0; background:url(/cms-file/common/img/button_gen2.gif) center center no-repeat}
+
+/*FORM GENERICA ANDATA E RITORNO*/
+#formGen .TxtAR, #formGen .radioAR{padding:6px 0}
+#formGen .TxtAR label{text-align:left; margin:.2em 0 0 0}
+#formGen .TxtAR input{width:40%; border:1px solid #000; font-size:1em}
+#formGen .TxtAR select{width:10%; font-size:1em; height:1.5em !important; margin:2px 4px 2px 0}
+#formGen .TxtAR select.colored{width:13%}
+#formGen .radioAR input{width:auto; margin:0; border:none}
+#formGen .radioAR label{padding:0 8px 0 4px; font-size:1em; font-weight:bold; vertical-align:top}
+#formGen label.labelDa{padding-right:3px}
+#formGen label.labelA{padding-right:10px}
+#formGen .TxtAR input.btnSubmit{margin-bottom:2px; font-size:.9em; font-weight:bold; cursor:pointer; color:#FFF; width:64px; height:20px; border:0; background:url(/cms-file/common/img/button_gen.gif) center center no-repeat}
+
+/*FORM AREA RISERVATA*/
+#AreaRiservata{padding:6px 12px}
+#AreaRiservata div{padding-bottom:10px}
+#AreaRiservata input{width:98%; height:16px; font-weight:bold; font-size:1em; margin:.4em 0 0 0; padding:0; text-indent:.2em}
+#AreaRiservata input.but_Entra{ float:right; width:35px; height:15px; border:none; padding-bottom:4px}
+#AreaRiservata span{font-size:.9em; margin-top:25px}
+
+/*FORM METROPARK*/
+#formMetropark{padding:1em; margin:0}
+#formMetropark img{border:none}
+#formMetropark .Txt{padding:6px 0}
+#formMetropark .Txt label{font-weight:bold; text-align:left}
+#formMetropark .Txt input{width:20%; border:1px solid #7F9DB9; font-size:1em; padding-left:2px}
+#formMetropark .Txt select{width:40%; font-size:1em; margin:2px 4px 2px 0}
+#formMetropark .Txt textarea{width:80%; height:10%; border:1px solid #7F9DB9; font-size:.9em; padding:1px 4px}
+#formMetropark .Txt .TxtLeft{float:left; width:150px; padding:3px 0 0 0}
+#formMetropark .Txt .TxtRight{}
+#formMetropark .Txt .TxtLeft2{float:left; width:150px; padding:3px 0 0 0; }
+#formMetropark .Txt .TxtLeft3{float:left; margin:0 1% 0 0; width:20%}
+#formMetropark .Txt .TxtLeft3 input{width:100%; padding-left:2px}
+#formMetropark .Txt .TxtLeft4{float:left; width:63px; padding:3px 5px 0 0; text-align:right}
+#formMetropark .Txt .TxtRight2 input{width:10%; padding-left:2px}
+#formMetropark .Txt span{font-weight:normal; color:#B30002}
+#formMetropark .interlinea{padding:.5em 0 0 0; margin:.5em 0 1em 0; height:1px; border-bottom:1px solid #CCC}
+#formMetropark .Txt2{text-align:right; padding:.5em 0 0 0}
+#formMetropark .Txt2 input.btn{width:64px; height:20px; border:0; cursor:pointer;}
+#formMetropark .Txt .checkradio{padding:.3em 0 1em 0}
+#formMetropark .Txt .checkradio p{padding:0 0 .5em 0}
+#formMetropark .Txt .checkradio input{width:auto; margin:0; border:none; margin:0; display:inline}
+#formMetropark .Txt .checkradio label{padding:0 8px 0 4px; font-weight:bold; vertical-align:top}
+
+/* FORM SPALLA DESTRA */
+.cruscotto, .cruscotto form{font-family:"Lucida Grande", Tahoma, Arial, Helvetica, sans-serif; margin:0; padding:0}
+.cruscotto{border:1px solid #999; background:#ebebeb}
+.cruscotto .form-orario{font-size:.9em}
+.cruscotto .form-spalla{}
+.cruscotto fieldset{border-style:none; border-bottom:1px solid #999; padding:.25em 0 .5em 0; margin-top:.25em; margin-bottom:.25em}
+.cruscotto fieldset.alternate{background-color:#dfdfdf; margin-top:-.25em}
+.cruscotto a, .cruscotto a:link, .cruscotto a:visited{color:#000; font-weight:bold; text-decoration:underline}
+.cruscotto a:hover, .cruscotto a:active{text-decoration:underline; color:#cc0000}
+.cruscotto .form-spalla select{width:80%}
+.cruscotto .form-row{display:block; float:none; clear:both; width:auto; margin:0 0 .2em; padding:.25em .5em 0}
+.cruscotto .form-row label{margin:0; width:14%; display:block; float:left; padding:0 1%; text-align:right}
+.cruscotto .form-row.nolabel{padding-left:16%}
+.cruscotto fieldset legend{padding-left:8px; padding-bottom:.25em; color:#333; font-weight:bold}
+.cruscotto .form-row.nolabel label{width:auto; margin-right:.75em}
+.cruscotto .form-row select{width:auto !important}
+.cruscotto fieldset.last{border-bottom-style:none; margin-bottom:0; padding-bottom:.5em}
+.cruscotto .form-row input, .cruscotto .form-row select{font:bold .95em "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif}
+.cruscotto label.radio{display:inline-block; float:none; width:auto; margin:0; padding:0}
+.cruscotto label input[type~=radio], .cruscotto label input[type~=checkbox]{vertical-align:-.5em; margin-right:.25em}
+.cruscotto .submit{background-color:#cc0000; color:#fff; border-style:none; font:bold .95em "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif; padding-right:.5em; padding-left:.5em; cursor:hand}
+.cruscotto .alternate{position:relative; font-size:1em; color:#000; background-color:#dfdfdf; padding:5px 8px; border-bottom:1px solid #999; margin:0}
+.cruscotto .wcag-hide{position:absolute; left:-10000px; width:200px}
+
+/*Trenitalia*/
+.HpTrenContLeftBoxIntDx #AreaRiservata div{padding-bottom:5px}
+.HpTrenContLeftBoxIntDx #AreaRiservata label{ color:#000; font-weight:bold; font-size:.9em; padding:0; margin:0}
+.HpTrenContLeftBoxIntDx #AreaRiservata input{width:98%; height:16px; font-weight:normal; font-size:1em; margin:.2em 0 0 0; padding:0; text-indent:.2em}
+.HpTrenContLeftBoxIntDx #AreaRiservata input.but_Entra{ float:right; width:35px; height:15px; border:none}
+.arBot{padding:5px 12px}
+.arBot p{font-size:.9em; margin:0; padding:0; line-height:1.2em}
+
+/*Angoli Box Interni*/
+.BoxInttopl {color:#FFF; background:url(/cms-file/common/img/bg_rb2_tl.gif) top left no-repeat; height:auto !important; height:80px; min-height:80px}
+.BoxInttopr{background:url(/cms-file/common/img/bg_rb2_tr.gif) top right no-repeat; height:auto !important; height: 80px; min-height:80px}
+.BoxIntbotl{height:3px;	background:url(/cms-file/common/img/bg_rb2_bl.gif) bottom left no-repeat}
+.BoxIntbotr{height:3px; background:url(/cms-file/common/img/bg_rb2_br.gif) bottom right no-repeat}
+
+/*Tabella 1*/
+.contentable{padding:14px 0}
+.ContResult div.contentable table.table1 {font-size:1em}
+.table1{font-size:.9em}
+.table1 tr{text-align:left}
+.table1 th{border-bottom:1px solid #FFF; background:#B30002; color:#FFF; height:20px; padding-left:10px}
+.table1 th.topleftth{width:16.5%; padding-left:20px; border-right:1px solid #FFF; background:#B30002}
+.table1 th.toprightth{width:18.5%; background:#B30002}
+.table1 th a, .table1 th a:hover{color:#FFF}
+th.luogoth , th.titoloth{border-right:1px solid #FFF}
+th.luogoth{width:18.8%}
+th.titoloth{width:46.2%}
+.table1 td{color:#000; height:37px; padding:2px 8px; border-right:1px solid #E5E5E5; background:#FFF url(/cms-file/common/img/puntinato.gif) bottom left repeat-x}
+.table1 td.cellaprima{padding-left:20px; color:#B30002; font-weight:bold; border-left:1px solid #E5E5E5}
+.table1 .cellapari td{background:#F7F7F9 url(/cms-file/common/img/puntinato.gif) bottom left repeat-x}
+
+/*Box Tabella Mese*/
+.cboxMese .table1 .toprightth{width:auto; background:#B30002}
+.cboxMese .contentable{padding:0; border-bottom:1px solid #FFF}
+.cboxMese .contentable table{font-size:1em}
+.boxMeseTabTopLeft{background:#E9E7EA url(/cms-file/common/img/bg_BoxTable_tl.gif) top left no-repeat; margin-top:2em; width:26%}
+.boxMeseTabTopRight{ background:#E9E7EA url(/cms-file/common/img/bg_BoxTable_tr.gif) top right no-repeat; padding:8px 0 4px 0; margin-left:10px}
+.boxMeseTabTopRight img{float:left}
+.boxMeseTabBotLeft{background:#E9E7EA url(/cms-file/common/img/bg_BoxTable_bl.gif) bottom left no-repeat; height:20px}
+.boxMeseTabBotRight{background:url(/cms-file/common/img/bg_BoxTable_br.gif) bottom right no-repeat; height:20px}
+
+/*Tabella Generica*/
+/*Usata per tutte le tabelle prodotte da Excel*/
+.dataTab{width:100%; font-size:.9em}
+.dataTab th{background:#B30002; color:#FFF; font-weight:bold; border-right:1px solid #FFF; border-bottom:1px solid #FFF; padding:3px}
+.dataTab td{border-left:1px solid #E5E5E5; padding:5px}
+.dataTab .pari td{background:#F7F7F9 url(/cms-file/common/img/puntinato.gif) bottom left repeat-x}
+.dataTab .dispari td{background:#FFF url(/cms-file/common/img/puntinato.gif) bottom left repeat-x}
+.dataTab td.last,
+.dataTab .tcomrow th.last{border-right:1px solid #E5E5E5}
+.dataTab .tcomrow{font-weight:bold}
+.dataTab .tcomrow th{background:#FFF; color:#B30002; font-weight:bold; border-left:1px solid #E5E5E5; border-bottom:1px solid #E5E5E5}
+.dataTab th a.titoloTab, .dataTab th a:hover.titoloTab{color:#FFF}
+
+/*Tabella LISTA-BANDI*/
+.contListaBandi{padding:0; margin:0}
+.contListaBandi .dataTab{font-size:.9em}
+.contListaBandi .dataTab th{text-align:left; padding-left:8px}
+.contListaBandi .dataTab th.cellauno{width:30%}
+
+/*Tabella TCOM-1*/
+.cboxIntTab{padding:24px 20px; height:auto !important; height:210px;	min-height:223px; margin:0}
+.titoloPagTab{padding:0 0 6px 14px; margin:0 1px}
+.ContParagTab{overflow:visible; font-size:1em; line-height:1.2em; padding:6px 24px 12px 14px; margin:0 1px}/*BC. overflow:visible; aggiunto per risolvere italic bugs*/
+.ContParagTab p{padding-bottom:20px}
+.ContParagTab a.linkEsterno{color:#000; text-decoration:underline}
+.ContParagTab a:hover.linkEsterno{color:#B30002; text-decoration:underline}
+.ContParagTab a.linkInterno{color:#000; text-decoration:underline}
+.ContParagTab a:hover.linkInterno{color:#B30002; text-decoration:underline}
+.ContParagTab .frecciaLink{padding:6px 0 6px 15px; background:url(/cms-file/common/img/freccia_puntatore.gif) no-repeat 0px 7px; display:inline; line-height:1.7em}
+
+.tabTCom{width:100%; font-size:1em; text-align:left; padding:0px; margin:0}
+.tabTCom .tabLink{background:#B30002; color:#FFF; font-weight:bold; padding:0px; border:0px}
+.tabTCom .tabLink table{color:#FFF; font-size:1em; font-weight:bold; text-align:center; padding:0; margin:0; width:100%}
+.tabTCom .tabLink table td{padding:3px 1px; background:#B30002; border-right:1px solid #FFF; border-bottom:1px solid #FFF; border-left:none}
+.tabTCom .tabLink table .primo{border-bottom:0px; border-bottom:1px solid #FFF; background:#B30002 url(/cms-file/common/img/bg_tcomtab_tl.gif) top left no-repeat}
+.tabTCom .tabLink table .primosel{border-bottom:0px; background:#890101 url(/cms-file/common/img/bg_tcomtab_tl.gif) top left no-repeat}
+.tabTCom .tabLink table .primovuoto{border-bottom:0px; border-right:0px; width:10px; background:#890101 url(/cms-file/common/img/bg_tcomtab_tl.gif) top left no-repeat}
+.tabTCom .tabLink table .sel{border-bottom:0px; border-bottom:0px; background:#B30002}
+.tabTCom .tabLink table .ultimo{border-right:0px; background:#B30002 url(/cms-file/common/img/bg_tcomtab_tr.gif) top right no-repeat}
+.tabTCom .tabLink table .ultimosel{border-right:0px; border-bottom:0px; background:#890101 url(/cms-file/common/img/bg_tcomtab_tr.gif) top right no-repeat}
+.tabTCom .tabLink table .sel{background-color:#890101}
+.tabTCom .tabLink th a:hover{color:#FFF}
+.tabTCom th{background:#890101; color:#FFF; font-weight:bold; font-size:1em; padding:5px 0 5px 10px; text-align:center}
+.tabTCom th a{color:#FFF; font-weight:bold; padding:0}
+.tabTCom th a:hover{color:#FFF}
+.tabTCom th a.on{color:#FFF; font-weight:bold; padding:0; text-decoration:underline}
+.tabTCom th span{color:#B30002}
+.tabTCom td{border-left:1px solid #E5E5E5; color:#000; font-size:.9em; font-weight:normal; padding:5px 2px 5px 3px; text-align:center}
+.tabTCom td img{border:none; text-align:center}
+.tabTCom .first{text-align:left}
+.tabTCom .dispari td{background:#F7F7F9 url(/cms-file/common/img/puntinato.gif) bottom left repeat-x}
+.tabTCom .pari td{background:#FFF url(/cms-file/common/img/puntinato.gif) bottom left repeat-x}
+.tabTCom .last, table.tabTCom td.testo,
+.tabTCom .row2 th.last{border-right:1px solid #E5E5E5}
+.tabTCom .row2{font-weight:bold; text-align:center}
+.tabTCom .row2 th{ padding:5px 2px 5px 3px; background:#FFF; color:#B30002; border-left:1px solid #E5E5E5; border-bottom:1px solid #E5E5E5}
+.tabTCom .ContParagTab{font-size:1em; text-align:left}
+
+/*GALLERY*/
+.contgallery{padding:34px 10px; height:auto !important; height:350px; min-height:350px}
+.contimmagine{width:503px; padding:2px 2px 0px 2px; margin:auto; background:#DEDEDE; text-align:center}
+.contimmagine img{border:1px solid #FFF}
+.footimmagine{font-size:1em; color:#000; padding:0px 15px; text-align:left}
+.descrizioneimmagine{float:left; padding-top:6px}
+a.navgalleryprec{float:right; display:block; width:18px; height:30px; background:transparent url(/cms-file/common/img/frecciaSX.gif) no-repeat center}
+a:hover.navgalleryprec{ background:#B30002 url(/cms-file/common/img/frecciaSXBianca.gif) no-repeat center}
+a.navgallerysucc{float:right; display:block; width:18px; height:30px; background:transparent url(/cms-file/common/img/frecciaDX.gif) no-repeat center}
+a:hover.navgallerysucc{background:#B30002 url(/cms-file/common/img/Freccia_menu_1Liv.gif) no-repeat center}
+.contnavgallery{padding-bottom:30px; padding-right:3%; font-size:1em; font-weight:bold; text-align:right}
+.contnavgallery img{border:none}
+
+/*Metropark - Box ricerca pg interna*/
+.ricercaMpkPgInt{width:auto; margin:.3em 0 .2em 0; border:1px solid #CCC; padding:12px 2px 4px 4px; height:auto !important; min-height:30px; background:#E3E2E4 url(/cms-file/common/img/bg_ricerca.gif) top right no-repeat}
+.ricercaMpkPgInt label{float:left; color:#B30002; font-weight:bold; font-size:1em; margin:4px 6px 0 2em}
+.ricercaMpkPgInt input.campoR{ width:120px; height:18px; padding:3px 3px 0 12px; border:0; font-size:1em; background:url(/cms-file/common/img/bg_camporicercaMpk.gif) top left no-repeat}
+.ricercaMpkPgInt .buttonCerca{margin:0 0 0 6px; width:56px; height:20px; border:0;}
+
+/*Multimedia Gallery FSNews*/
+.cboxMMGalleryTop{padding:25px 20px 20px 24px; border-bottom:6px solid #FFF; margin:0 1px; line-height:1.6em; border:1px solid red}
+.cboxMMGalleryBot{padding:10px 20px 10px 24px; height:auto!important; min-height:140px}
+.cboxMMGalleryBot .ContBoxRiq{clear:both; padding:1em 0 0 0; margin:0; height:auto!important; height:150px;/*IE6*/ min-height:140px}
+.cboxMMGalleryBot .ContBoxRiq .BoxRiq{margin:0; height:auto!important; height:150px;/*IE6*/ min-height:140px; width:32%; background:#DEDEDE url(/cms-file/common/img/bgMMGallery.gif) top left repeat-x; float:left; border:1px solid #FFF; border-right:1px solid #C9C9C9; border-bottom:1px solid #C9C9C9; margin:0 10px 0 0; padding-bottom:8px}
+.cboxMMGalleryBot .ContBoxRiq a{color:#B30002}
+.cboxMMGalleryBot .ContBoxRiq .last{margin-right:0}
+.cboxMMGalleryBot .ContBoxRiq .BoxRiq .titolo{padding:8px 5px 10px 30px; color:#B30002; font-weight:bold; font-size:1.1em}
+.cboxMMGalleryBot .ContBoxRiq .BoxRiq .imgLink{height:auto!important; min-height:56px; height:56px;/*IE6*/ margin:0 14px; padding:0; height:58px; background:#F0F0F0 url(/cms-file/common/img/bg_intMmgallery.gif) top left no-repeat}
+html>/**/body .cboxMMGalleryBot .ContBoxRiq .BoxRiq .imgLink{overflow:hidden}/*Firefox*/
+.cboxMMGalleryBot .ContBoxRiq .BoxRiq .imgLink .sx{float:left; border:none; margin:2px 0 0 2px}
+.cboxMMGalleryBot .ContBoxRiq .BoxRiq .imgLink .dx{float:left; border:none; margin:6px 5px 0 6px; line-height:1.4em}
+.cboxMMGalleryBot .ContBoxRiq .BoxRiq .descrizione{clear:both; margin:0 14px; padding:4px 0; color:#000; font-size:1em}
+.cboxMMGalleryBot .ContBoxRiq .BoxRiq .descrizione .sx{float:left; padding-bottom:4px; width:40%}
+.cboxMMGalleryBot .ContBoxRiq .BoxRiq .descrizione .dx{padding-bottom:4px}
+.cboxMMGalleryBot .ContBoxRiq .BoxRiq .descrizione .txt{clear:both; padding-top:4px}
+.BoxRiq .descrizione .txt p{line-height:1.1em}
+/* Icone 1 */
+.cboxMMGalleryBot .audio{background:url(/cms-file/common/img/icoAudio.gif) top left no-repeat}
+.cboxMMGalleryBot .video{background:url(/cms-file/common/img/icoVideo.gif) top left no-repeat}
+.cboxMMGalleryBot .image{background:url(/cms-file/common/img/icoImage.gif) top left no-repeat}
+/*Dettaglio Dimensione Variabile - Per una corretta visualizzazione la larghezza dell'immagine  è di 520px*/
+.cboxMMGalleryBot .DettaglioVarTitolo{color:#B30002; font-size:1.3em; font-weight:bold; margin:0 auto 1em auto; padding-top:1.5em; width:530px;}
+html>/**/body .cboxMMGalleryBot .DettaglioVarTitolo{margin-top:1.5em; padding-top:0px}/*Firefox*/
+.cboxMMGalleryBot .DettaglioVarTitolo a{color:#B30002}
+.cboxMMGalleryBot .DettaglioVarMM{height:auto !important; height:100px; min-height:100px; text-align:center; margin:.8em 0 0 0; padding:0; background:url('/cms-file/common/img/bg_DettaglioVarMM.gif') top center repeat-y}
+/*immagini*/
+.cboxMMGalleryBot .DettaglioVarMM .resize{background:#EEE; border:1px solid #FFF; border-right:1px solid #C9C9C9; border-bottom:1px solid #C9C9C9; padding:25px 4px 30px 4px; margin:0}
+/*player audio/video*/
+.cboxMMGalleryBot .DettaglioVarMM a.MMresize{margin:0 auto; display:block; background:#EEE; border:1px solid #FFF; border-right:1px solid #C9C9C9; border-bottom:1px solid #C9C9C9; padding:25px 4px 30px 4px}
+.cboxMMGalleryBot .DettaglioVarBot{clear:both; padding:0; margin:0 auto; position:relative; top:-31px; width:530px; border-bottom:4px solid #F7F7F9}
+.DettaglioVarBot .audiovideo{top:-28px; border:none}
+.DettaglioVarBot .BoxD{background:#DEDEDE; padding-top:4px; border-left:1px solid #FFF;  border-top:1px solid #EEE; border-right:1px solid #C9C9C9; border-bottom:1px solid #C9C9C9}
+.DettaglioVarBot .BoxD .botLink{height:22px; margin:0; padding:0}
+.DettaglioVarBot .BoxD .botLink div{text-align:center; width:476px; float:left; padding-top:3px}
+.DettaglioVarBot .BoxD .botLink img.prev{float:left}
+.DettaglioVarBot .BoxD .botLink img.next{float:right}
+/* Icone 2 */
+.cboxMMGalleryBot .DettaglioVarMM img.audio, .cboxMMGalleryBot .DettaglioVarMM a.audio{background:#EEE url(/cms-file/common/img/icoAudio.gif) top left no-repeat}
+.cboxMMGalleryBot .DettaglioVarMM img.video, .cboxMMGalleryBot .DettaglioVarMM a.video{background:#EEE url(/cms-file/common/img/icoVideo.gif) top left no-repeat}
+.cboxMMGalleryBot .DettaglioVarMM img.image, .cboxMMGalleryBot .DettaglioVarMM a.image{background:#EEE url(/cms-file/common/img/icoImage.gif) top left no-repeat}
+/*Descrizione*/
+.cboxMMGalleryBot .TxtDescrizione{clear:both; margin:-1em auto 1em auto; width:530px; padding:0; font-size:1.1em}
+.cboxMMGalleryBot .TxtDescrizione p{line-height:1.5em; text-align:justify; padding:1em 0}
+.cboxMMGalleryBot .TxtDescrizione p a{color:#000; text-decoration:underline}
+.cboxMMGalleryBot .TxtDescrizione a{color:#B30002}
+.cboxMMGalleryBot .TxtDescrizione .icoLink{margin-top:1em}
+.TxtDescrizione .icoLink div a{color:#000; text-decoration:underline; padding-left:6px}
+.TxtDescrizione .icoLink div img{position:relative; top:6px; margin-top:2px}
+
+/* Box Votazione */
+#formRate{padding:0; margin:0}
+#formRate img{border:none}
+#formRate label{text-align:left; margin:.2em 0 0 0}
+#formRate input{width:40%; border:1px solid #000; font-size:1em}
+#formRate select{width:20%; font-size:1em; height:1.5em !important; margin:2px 4px 2px 0}
+
+#formRate .radioAR{padding:6px 0}
+#formRate .radioAR input{width:auto; margin:0; border:none}
+#formRate .radioAR label{padding:0 8px 0 4px; font-size:1em; font-weight:bold; vertical-align:top}
+
+.whitespace{padding:4px; margin:0 1px; background:#FFF}
+.titoloMsg{font-weight:bold; text-align:center; padding:1px 0 10px 0; margin:0; color:#BE0002}
+.titoloCheck{font-weight:bold; float:left; padding:2px 10px 2px 0px; color:#BE0002;}
+.boxCaptcha{background:#E9E7EA url(/cms-file/common/img/bg_menu.gif) repeat-x; margin:0; padding:1px; text-align:center}
+.boxCaptcha .Titolo{font-size:1em; font-weight:bold; padding:6px 12px 5px 12px; margin-bottom:10px}
+.contCaptcha img{padding-left:1em}
+.contCaptcha div.botForm{padding:1em}
+#formRate .boxCaptcha input{border:1px solid #999; width:22%}
+#formRate .boxCaptcha input.btnSubmit{font-size:.9em; font-weight:bold; cursor:pointer; color:#FFF; width:64px; height:20px; border:0; background:url(/cms-file/common/img/button_gen.gif) center center no-repeat}
+.boxRisult div{background:#F7F7F9; padding:4px 2px 2px 0px; font-weight:bold}
+
+/* articolo 2 colonne e tabella (gare RFI) */
+.conttwocol{background:#FFF; padding:0; margin:0}
+html>/**/body .conttwocol{background:#FFF; height:auto!important; min-height:50px; height:50px; margin:0; padding:0px}
+.conttwocol .Box2ImgTitolo{width:65%; float:left; background:#F7F7F9; border:1px solid #FFF}
+.conttwocol .contspdx{margin:0 0 0 69%; background:#F7F8F9; border:1px solid #FFF; padding:8px 4px; height:auto!important; min-height:50px; height:50px;}
+html>/**/body .conttwocol .contspdx{margin:0 0 0 73%; background:#F7F7F9; padding:0 0 14px 8px}
+.contRightColLista {padding:10px 10px 13px 0px; margin:0}
+.contLeftColLista {padding:15px 5px 13px 30px; margin:0}
+
+/* FSNews - Multimedia Gallery tipo 2 */
+.Multimedia{margin:0 0 7px 0; height:auto !important; min-height:102px; height:102px}
+.ArchivioImgLeft .Multimedia a, .ArchivioImgRight .Multimedia a{color:#B30002; font-size:1.1em; font-weight:bold; padding-left:0px; background-image:none}
+.Multimedia .txt{padding-top:8px}
+.Multimedia .txt a{font-size:1em; font-weight:normal}
+.Multimedia .contInfo{padding-top:14px}
+.Multimedia .contInfo span{color:#B30002}
+.contIco{padding-right:15px; margin:0}
+.contIco .ico{background-image:url('/cms-file/common/img/sprite-FSNewsIcoMultimedia.gif'); margin:0 3px 0 0; width:14px; height:15px; position:relative; top:3px}
+.contIco .audio{background-position:0px 0px}
+.contIco .video{background-position:-15px 0px}
+.contIco .image{background-position:-29px 0px; width:11px}
+
+/* Social Network */
+.socialNet{float:right; color:#898989; border-bottom:1px dotted #000; height:20px; width:144px; }
+.socialNet span{float:left; font-size:11px; margin:3px 4px 0 0}
+.socialNet ul{margin:0; list-style:none}
+.socialNet ul li{clear:right; float:left; font-size:11px; margin-right:3px; width:16px}
+.socialNet li a{display:block; background-image:url(/cms-file/common/img/sprite-SocialNetwork.gif); background-repeat:no-repeat; height:0; overflow:hidden; padding-top:20px}
+.socialNet ul .facebook a{background-position:0px 0px}
+.socialNet ul .twitter a{background-position:-16px 0px}
+.socialNet ul .delicious a{background-position:-32px 0px}
+.socialNet ul .digg a{background-position:-48px 0px}
+.socialNet ul .oknotizie a{background-position:-64px 0px}
+.socialNet ul .oknotizie{width:17px; margin-right:0px}

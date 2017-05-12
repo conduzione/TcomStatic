@@ -1,0 +1,30 @@
+.roundedIEConf, .roundedIEConf:hover{background-image:url(../../img/themeTcom01/bg-bot-conferma.gif);border:0;width:118px;height:38px}
+.roundedIEConf:hover{background-color:none}
+form button { cursor: pointer; background-color: none }
+
+.roundedIECompIscr, .roundedIECompIscr:hover{background-image:url(../../img/themeTcom01/bg-bot-completaIscr.gif);border:0;width:201px;height:25px;background-color:transparent}
+
+.roundedIEAccServ, .roundedIEAccServ:hover{background-image:url(../../img/themeTcom01/bg-bot-accediserv.gif);border:0;width:167px;height:30px;background-color:transparent}
+
+.roundedIEVai, .roundedIEVai:hover{background-image:url(../../img/themeTcom01/bg-bot-vai.gif);border:0;width:52px;height:31px;background-color:transparent}
+
+.roundedIECerca, .roundedIECerca:hover{background-image:url(../../img/themeTcom01/bg-bot-cerca.gif);border:0;width:77px;height:31px;background-color:transparent}
+
+.roundedIEAcqOra, .roundedIEAcqOra:hover{background-image:url(../../img/themeTcom01/bg-bot-acq-ora.gif);border:0;width:136px;height:34px}
+
+#cruscottoFull fieldset.biglietti_ar input { margin: 1% 1% 2% 0; }
+
+#cruscottoInt fieldset.biglietti_buttons { padding: 0 0 0 0; clear:both}
+.buttonInt, .buttonInt:hover{background-image:url(../../img/themeTcom01/bg-bo-conferma-Int.gif);border:0;width:102px;height:30px}
+.buttonInt{padding: 5px 7px 3px 7px;}
+
+
+/* AGGIUNTE PER CRUSCOTTO FRECCE */
+#cruscottoFull .cruscotto_contentFrecce form button.roundedIEConfFrecce{background-image:url(../../img/themeTcom01/bg-bot-confermaFrecce.gif);border:0;width:118px;height:38px}
+.cruscotto_contentFrecce{height:343px}
+
+#cruscottoFull .cruscotto_contentFrecce form button.roundedIECercaFrecce, #cruscottoFull .cruscotto_contentFrecce form button.roundedIECercaFrecce:hover{background-image:url(/cms-file/common/img/themeTcom01/Cerca_Bianco.png);border:0;width:112px;height:32px}
+
+/*BOTTONI PER CRUSCOTTO GRIGIO */
+#cruscottoFull .cruscotto_TuttiTreni form button.roundedIECercaTreni, #cruscottoFull .cruscotto_TuttiTreni form button.roundedIECercaTreni:hover{background-image:url(/cms-file/common/img/themeTcom01/Cerca_rossoV.png);border:0;width:112px;height:32px}
+.cruscotto_TuttiTreni{height:343px}

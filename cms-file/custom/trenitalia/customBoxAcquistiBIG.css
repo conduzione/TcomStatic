@@ -1,0 +1,173 @@
+.cruscottoBOXAcqBIG {
+	background: #fff; 
+	width: 500px;
+	height: 240px;
+	/*border: 9px solid #F7F7F9;*/
+    margin: 0 0 15px;
+    padding: 5px 5px 10px;
+	}
+	
+#containerEmail{
+    width:400px; 
+    padding:20px;
+	padding-top:30px;
+}
+#leftEmail{
+    float:left;
+    width:50px;  
+}#rightEmail{
+    float:left;
+    width:300px;
+}
+
+
+#containerPNR{
+    width:400px;
+    padding:20px;
+}
+#containerVuoto{
+    width:400px;
+	height:60px;
+}
+#leftPNR{
+    float:left;
+    width:50px;  
+}#rightPNR{
+    float:left;
+    width:300px;
+   
+}
+#containernome{
+    width:400px;  
+    padding:30px 20px 20px;
+	
+}
+#leftnome{
+    float:left;
+    width:50px;
+}#rightnome{
+    float:left;
+    width:250px;
+}
+#containercognome{
+    width:400px;
+    padding:30px;
+}
+#leftcognome{
+    float:left;
+    
+   
+}#rightcognome{
+    float:left;
+    width:250px;
+ 
+}
+#containercodRec{
+    width:400px;
+  
+    padding:5px;
+}
+#leftcodRec{
+    float:left;
+ 
+   
+}#rightcodRec{
+    float:left;
+    width:250px;
+   
+}
+#contentArea1Big {
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    position: relative;
+    width: 400px;
+}
+#contentArea1Big input{
+   width:310px;
+   padding:8px;
+   margin-left:20px;
+   font-weight: bold;
+}
+
+#contentArea2Big{
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    position: relative;
+    width:399px;
+}
+#contentArea2Big input{
+   width:310px;
+   padding:8px;
+   margin-left:20px;
+   font-weight: bold;
+}
+ 
+ .buttonISC1Big {
+    background: url("../../../cms-file/common/img/themeTcom01/SX-off.png");
+	background-repeat: no-repeat;
+    cursor: pointer;
+	font-weight: bold;
+    WIDTH: 200px;
+	height: 49px;
+  /* text-transform: uppercase;
+  
+  letter-spacing: 1px;*/
+}
+.buttonISC1Big:hover {
+    background-image: url("../../../cms-file/common/img/themeTcom01/SX-on.png");
+}
+ .buttonISC2Big {
+    background: url("../../../cms-file/common/img/themeTcom01/DX-off.png");
+	background-repeat: no-repeat;
+    cursor: pointer;
+	font-weight: bold;
+    position:relative;
+	left:-3px;
+	WIDTH: 199px;
+	height: 49px;
+	
+   /* text-transform: uppercase;
+   letter-spacing: -1px;*/
+}
+.buttonISC2Big:hover {
+    background-image: url("../../../cms-file/common/img/themeTcom01/DX-on.png");
+} 
+.ButtonAcquistoBig, .ButtonAcquistoBig:hover{
+    background: url("../../../cms-file/common/img/themeTcom01/Cerca.png") repeat-x scroll left top #dc002e;
+    border: 1px solid #8a000b;
+    border-radius: 3px;
+    box-shadow: 0 0 3px #666;
+    color: #f4f4f4;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 6px 10px;
+	width:114px;
+	height:34px;
+    text-transform: uppercase;
+	 position:relative;
+	 left:102px;
+	
+}
+
+h3.titBoxAcquistiBIG {
+    color: #7c777a;
+	width:40px;
+	background:#ffffff;
+    height:23px;
+	text-align: left;
+    font-size: 1.2em;
+    font-weight: 550;
+	padding-top: 7px;
+	padding-left: 5px;
+	width:45px;
+} 
+ 
+ .padBoxAcquistiBIG {
+     padding: 5px 5px 10px 5px;
+    width: 240px !important;
+}
+
+.placeholder { color: #aaa; }

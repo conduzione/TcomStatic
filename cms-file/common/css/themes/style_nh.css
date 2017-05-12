@@ -1,0 +1,374 @@
+/* Dichiarazioni generali */
+body{margin:0; padding:0; font-family:arial, Verdana, sans-serif, Tahoma; color:#000; background:#fff; font-size:0.7em}
+table,td,tr,form,input,h1,h2,h3,h4,h5,h6,p{padding:0; margin:0; border:0}
+img{border:0}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+.pngImage{behavior:expression((this.runtimeStyle.behavior="none") && (this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none", this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')", this.src = "/cms-file/common/img/transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''), this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')", this.runtimeStyle.backgroundImage = "none")),this.pngSet=true))}
+.hidden{left:-2000px; width:990px; position:absolute}
+div.clear, br.clear {height:0em; line-height:0em; padding:0; margin:0; float:none; clear:both; font-size:0em}
+a{color:#000;text-decoration:none}
+a:hover{text-decoration:underline}
+
+#container{margin:0 auto; width:993px}
+#header{background:url(/cms-file/common/img/header_bg.gif) repeat-x #FFF; height:104px}
+#header #logo{padding:17px 0px 0px 17px; width:203px; height:51px; float:left}
+#header #header_right{float:right; width:744px; padding-top:10px}
+#header #header_right .header_links_r{float:right; padding-top:3px; padding-right:30px}
+#header #header_right .ricerca{float:right}
+.campoR{float:left; background:url(/cms-file/common/img/bg_input_ricerca.gif) no-repeat left top; width:222px; height:16px; padding:2px 7px; margin:0px 10px}
+#header #header_right .ricerca .buttonCerca{margin-right:10px}
+#header #header_right .header_links_l{float:right; padding-top:3px}
+
+#news_banner{width:744px; margin-top:8px}
+#news_banner .news_flashTop{background:url(/cms-file/common/img/header_newsBannerTop.gif) no-repeat left top; margin-left:30px; width:714px; height:35px}
+/*#news_banner .news_flashTop{background:url(/cms-file/common/img/header_nastro-sx_1.jpg) no-repeat left top; margin-left:30px; width:714px; height:35px} VGNCF 28-09-12 */
+#news_banner .news_flashBottom{width:744px; height:26px; background:url(/cms-file/common/img/flash_bg.gif) no-repeat right top; text-align:right}
+
+#main{background:url(/cms-file/common/img/body_bg.gif) repeat-x left top #e9e7ea; padding:0px 8px}
+#content{padding-top:14px}
+
+.hSpace20{font-size:20px; line-height:20px; height:20px}
+.hSpace10{font-size:10px; line-height:10px; height:10px}
+.hSpace5{font-size:7px; line-height:7px; height:7px}
+
+/*Menu livello 1 - css sprite*/
+#navigation{margin:0; padding:5px 0px; font-weight:bold; font-size:1.2em; height:auto !important; height:20px; min-height:20px; background:#EAE8EB url(/cms-file/common/img/sprite-menuLiv1.gif) 0 -12px repeat-x}
+#navigation2{margin:0; padding-top:1px; font-weight:bold; font-size:1.2em; height:auto !important; height:20px; min-height:20px}
+#navigation .int, #navigation2 .int{position:relative; background:#FFF url(/cms-file/common/img/bg_menuLiv1_int.gif) 0 bottom repeat-x; border:1px solid #AFADAF; border-top:0px solid #FFF; padding:2px; margin:0; height:auto !important; height:20px; min-height:20px}
+#navigation .int .corner, #navigation2 .int .corner{position:absolute; background-image:url('/cms-file/common/img/sprite-menuLiv1.gif'); width:5px; height:5px}
+#navigation .int .topLeft, #navigation2 .int .topLeft{top:-1px; left:-1px; background-position:0px 0px}
+#navigation .int .topRight, #navigation2 .int .topRight{top:-1px; right:-1px; background-position:-6px 0px}
+#navigation .int .botLeft, #navigation2 .int .botLeft{bottom:-2px; left:-1px; background-position:0px -6px}
+#navigation .int .botRight, #navigation2 .int .botRight{bottom:-2px; right:-1px; background-position:-6px -6px}
+
+#navigation ul#menu1, #navigation2 ul#menu2{list-style-type:none; margin:0; padding:0; text-align:center; width:100%; height:auto !important; height:20px; min-height:20px; overflow:hidden}
+#navigation #menu1 li, #navigation2 #menu2 li{float:left; height:auto !important; height:20px; min-height:20px; overflow:hidden; line-height:1em; background:url(/cms-file/common/img/separatore.gif) right center no-repeat}
+#navigation #menu1 a, #navigation2 #menu2 a{color:#000; display:block; text-decoration:none; padding:6px 0px}
+#navigation #menu1 a:hover, #navigation2 #menu2 a:hover{color:#B30002; text-decoration:underline}
+#navigation #menu1 a.menu1attivo, #navigation2 #menu2 a.menu1attivo{color:#B30002; text-decoration:none}
+#navigation #menu1 a:hover.menu1attivo, #navigation2 #menu2 a:hover.menu1attivo{color:#B30002; text-decoration:underline}
+
+/*Menu 2 Link*/
+#navigation #menu1 li.M2cellaprima, #navigation2 ul#menu2 li.M2cellaprima{width:49%}
+#navigation #menu1 li.M2cellaultima, #navigation2 ul#menu2 li.M2cellaultima{width:49%; background-image:none}
+/*Menu 3 Link*/
+#navigation #menu1 li.M3cellaprima, #navigation2 #menu2 li.M3cellaprima{width:32%}
+#navigation #menu1 li.M3cellaunica, #navigation2 #menu2 li.M3cellaunica{width:34%}
+#navigation #menu1 li.M3cellaultima, #navigation2 #menu2 li.M3cellaultima{width:32%; background-image:none}
+/*Menu 4 Link*/
+#navigation #menu1 li.M4cellaprima, #navigation2 #menu2 li.M4cellaprima{width:24%}
+#navigation #menu1 li.M4cellaunica, #navigation2 #menu2 li.M4cellaunica{width:25%}
+#navigation #menu1 li.M4cellaultima, #navigation2 #menu2 li.M4cellaultima{width:24%; background-image:none}
+/*Menu 5 Link*/
+#navigation #menu1 li.M5cellaprima, #navigation2 #menu2 li.M5cellaprima{width:18%}
+#navigation #menu1 li.M5cellaunica, #navigation2 #menu2 li.M5cellaunica{width:21%}
+#navigation #menu1 li.M5cellaultima, #navigation2 #menu2 li.M5cellaultima{width:18%; background-image:none}
+/*Menu 6 Link*/
+#navigation #menu1 li.M6cellaprima, #navigation2 #menu2 li.M6cellaprima{width:15.5%}
+#navigation #menu1 li.M6cellaunica, #navigation2 #menu2 li.M6cellaunica{width:17%}
+#navigation #menu1 li.M6cellaultima, #navigation2 #menu2 li.M6cellaultima{width:15.5%; background-image:none}
+/*Menu 7 Link*/
+#navigation #menu1 li.M7cellaprima, #navigation2 #menu2 li.M7cellaprima{width:12%}
+#navigation #menu1 li.M7cellaunica, #navigation2 #menu2 li.M7cellaunica{width:15%}
+#navigation #menu1 li.M7cellaultima, #navigation2 #menu2 li.M7cellaultima{width:12.3%; background-image:none}
+/*Menu 8 Link*/
+#navigation #menu1 li.M8cellaprima, #navigation2 #menu2 li.M8cellaprima{width:9.5%}
+#navigation #menu1 li.M8cellaunica, #navigation2 #menu2 li.M8cellaunica{width:13.3%}
+#navigation #menu1 li.M8cellaultima, #navigation2 #menu2 li.M8cellaultima{width:9%; background-image:none}
+/*Menu 9 Link*/
+#navigation #menu1 li.M9cellaprima, #navigation2 #menu2 li.M9cellaprima{width:8%}
+#navigation #menu1 li.M9cellaunica, #navigation2 #menu2 li.M9cellaunica{width:12.2%}
+#navigation #menu1 li.M9cellaultima, #navigation2 #menu2 li.M9cellaultima{width:5%; background-image:none}
+
+#footerFS{padding-right 0px; padding-left:0px; height:132px;background:url(/cms-file/common/img/bg_footer_tre.gif) #fff repeat-x left bottom; padding-bottom:0px; margin:0px; width:auto; padding-top:0px; text-align:right}
+#footerFS div.bgRight{padding-right:0px; padding-left:0px; height:132px; background:url(/cms-file/common/img/bg_footer_dx_tre.gif) no-repeat right top; padding-bottom:0px; margin:0px; width:auto; padding-top:0px}
+#footerFS div.footerRightNav{padding-right:25px; padding-left:0px; float:right; padding-bottom:0px; margin:0px; width:auto; padding-top:13px}
+#footerFS div.footerRightNavImg{padding-right:25px; padding-left:0px; float:right; padding-bottom:0px; margin:0px; width:auto; padding-top:6px}
+#footerFS div.footerLeftNav{padding-right:35px; padding-left:0px; float:right; padding-bottom:0px}
+#footerFS div.footerLeftNav .imgHD{position:relative; top:8px}
+#footerFS a{color:#000}
+#footerFS span{color:#000}
+#footerFS a:hover{color:#B30002}
+#footerFS a.selected{color:#B30002}
+#footerFS img {border-top-style:none; border-right-style:none; border-left-style:none; border-bottom-style:none}
+
+.side_sx{float:left; width:29%; padding-top:5px}
+.side_cent{float:right; width:70%}
+
+.box{background:url(/cms-file/common/img/box_bg.gif) left top repeat-x #FFF; width:99%; position:relative}
+.box.AreaClienti{background-image:url(/cms-file/common/img/box_bg_Areaclienti.gif)}
+.box.grey{background:#FFF}
+
+.box .boxTL{background:url(/cms-file/common/img/box_cornerTL.gif) no-repeat top left; position:relative}
+.box.AreaClienti .boxTL{background-image:url(/cms-file/common/img/box_cornerTL_Areaclienti.gif)}
+.box.grey .boxTL{background-image:url(/cms-file/common/img/box_cornerTL_grey.gif)}
+.box .boxBR{background:url(/cms-file/common/img/box_cornerBR.gif) no-repeat bottom right}
+.box.AreaClienti .boxBR{background-image:url(/cms-file/common/img/box_cornerBR_Areaclienti.gif)}
+.box.grey .boxBR{background-image:url(/cms-file/common/img/box_cornerBR_grey.gif)}
+.box .cr_right{position:absolute; top:0px; right:0px}
+.box .cr_left{position:absolute; bottom:0px; left:0px}
+.box .boxINT{}
+
+.box .menu{margin:0; padding:0; position:relative; top:15px; width:100%; left:15px}
+.box .menu div.first{}
+.box .menu div{float:left}
+.box .menu div a{color:#010101; background:url(/cms-file/common/img/separatore.gif) right center no-repeat; padding:0px 7px}
+.box .menu div.on{text-transform:uppercase; background:url(/cms-file/common/img/orari_menu_open.gif) no-repeat left top; height:72px; position:relative; top:-20px; font-weight:bold}
+.box.AreaClienti .menu div.on{background:url(/cms-file/common/img/areaclienti_menu_open.gif) no-repeat left top; height:53px}
+.box .menu div.on a{color:#FFF; float:left; background:url(/cms-file/common/img/orari_menu_open_link.gif) right top no-repeat; height:36px; padding:0px 10px; padding-top:17px; font-size:1.1em}
+.box.AreaClienti .menu div.on a{background:url(/cms-file/common/img/areaclienti_menu_open_link.gif) right top no-repeat; padding-right:34px}
+.box .menu div.noBG a{background:none}
+
+.linkUndBox{padding-left:16px}
+.linkUndBox a{padding-left:10px}
+.linkUndBox a.bgSEp{color:#010101; background:url(/cms-file/common/img/separatore.gif) right center no-repeat; padding-left:0px; padding-right:13px}
+
+.emotional{background: no-repeat left top #FFF; position:relative; top:13px; left:10px; margin-right:21px; height:248px;overflow:auto;}
+.corner_transpTL{position:absolute; top:0px; left:0px}
+.corner_transpTR{position:absolute; top:0px; right:0px}
+.corner_transpBL{position:absolute; top:243px; left:0px}/*pseudoHack per allineamento angoli in emotional sia x ie6 che per ff*/
+.corner_transpBR{position:absolute; top:241px; right:0px}
+
+/*.flash_news_cont{position:relative; width:100%; padding-bottom:5px}
+div.flash_news_cont.alert{background:#FFF; color:#000; padding-bottom:10px; margin-left:10px; width:97%;}
+.flash_news{width:45%; float:left; padding-top:10px; padding-left:20px}
+.flash_news p span{color:#287774; font-weight:bold}
+.flash_news_cont.alert .flash_news{font-size:1.2em; color:#000; background:none; width:95%;}
+.flash_news_cont.alert .flash_news a{color:#000;text-decoration:underline;font-weight:800;}*/
+
+.flash_news{padding-top:10px; padding-left:20px}
+/*1 colonna: Testo Nero - RICHIESTO*/
+div.alert_black {position:relative; color:#000; padding-bottom:10px; margin-left:10px; width:97%}
+.alert_black .flash_news {font-size:1.2em; color:#000; background:none; width:95%}
+.alert_black .flash_news a{padding:0; color:#000; text-decoration:underline; font-weight:bold}
+.alert_black .flash_news a:hover{color:#AA0013;}
+/*1 colonna: Testo Bianco - RICHIESTO*/
+div.alert_white {position:relative; color:#FFF; padding-bottom:10px; margin-left:10px; width:97%}
+.alert_white .flash_news {font-size:1.2em; color:#FFF; background:none; width:95%}
+.alert_white .flash_news a{padding:0; color:#FFF; text-decoration:underline; font-weight:bold}
+/*1 colonna: Testo Nero_Rosso - DUPLICATO*/
+.alert_blackRed {position:relative; color:#000; padding-bottom:10px; margin-left:10px; width:97%}
+.alert_blackRed .flash_news {font-size:1.2em; color:#000; background:none; width:95%}
+.alert_blackRed .flash_news a{padding:0; color:#AA0013; text-decoration:underline; font-weight:bold}
+/*1 colonna: Testo Nero_Green - DUPLICATO*/
+.alert_blackGreen {position:relative; color:#000; padding-bottom:10px; margin-left:10px; width:97%}
+.alert_blackGreen .flash_news {font-size:1.2em; color:#000; background:none; width:95%}
+.alert_blackGreen .flash_news a{padding:0; color:#287774; text-decoration:underline; font-weight:bold}
+
+
+/*2 colonne: Testo Nero_Rosso - RICHIESTO*/
+.focus_blackRed {position:relative; padding-bottom:5px; margin:0 0 0 10px; width:657px;}
+.focus_blackRed .flash_news {width:46%; color:#000; float:left; padding-bottom:3px}
+.focus_blackRed .flash_news a {padding:0; color:#AA0013; font-weight:bold}
+/*2 colonne: Testo Nero_Green - RICHIESTO*/
+.focus_blackGreen {position:relative; padding-bottom:5px; margin:0 0 0 10px; width:657px;}
+.focus_blackGreen .flash_news {width:46%; color:#000; float:left; padding-bottom:3px}
+.focus_blackGreen .flash_news a {padding:0; color:#287774; font-weight:bold}
+/*2 colonne: Testo Nero - DUPLICATO*/
+.focus_black {position:relative; padding-bottom:5px; margin:0 0 0 10px; width:657px;}
+.focus_black .flash_news {width:46%; color:#000; float:left; padding-bottom:3px}
+.focus_black .flash_news a {padding:0; color:#000; font-weight:bold}
+.focus_black .flash_news a:hover{color:#AA0013;}
+/*2 colonne: Testo Bianco - DUPLICATO*/
+.focus_white {position:relative; padding-bottom:5px; margin:0 0 0 10px; width:657px;}
+.focus_white .flash_news {width:46%; color:#FFF; float:left; padding-bottom:3px}
+.focus_white .flash_news a {padding:0; color:#FFF; font-weight:bold}
+
+
+.focusOn{position:relative; left:10px; margin-right:20px; height:27px; font-size:1.6em; font-weight:bold}
+.focusOn img{position:absolute; top:-27px}
+.focusOn H3{padding-left:60px; font-weight:bold}
+
+.buttons{float:right; padding-top:140px; width:208px; padding-right:40px;z-index:3;position:relative;}
+.Sbutton{background:url(/cms-file/common/img/emotional_button.gif) no-repeat left top; width:215px; height:21px; text-align:center; margin-bottom:4px; padding-top:8px; filter:alpha(opacity=80);-moz-opacity:.80;opacity:.80; text-transform:uppercase; color:#D10018;}
+.Sbutton.on{filter:alpha(opacity=100);-moz-opacity:1.0;opacity:1.0; font-weight:bold}
+.Sbutton a{display:block; color:#D10018; font-size:1.1em}
+
+.boxPADD{position:relative; top:13px; left:7px; margin-right:15px; margin-bottom:6px}
+
+.boxPADD .linkArrow{padding-bottom:5px;padding-left:12px;font-weight:bold}
+.boxPADD .linkArrow a{font-weight:bold}
+.boxPADD .linkArrow.azz a{color:#2c8ee9}
+.boxPADD .linkArrow.ver a{color:#5fc025}
+
+.bannerColored{height:31px; position:relative}
+.bannerColored.azzurro{background:url(/cms-file/common/img/bannerAzzurro.gif) no-repeat left top}
+.bannerColored.verde{background:url(/cms-file/common/img/bannerVerde.gif) no-repeat left top}
+.bannerColored div{position:absolute; padding:7px 0px 0px 10px; font-weight:bold; font-size:1.25em}
+.bannerColored div a{color:#FFF; font-weight:bold; background:none!important; padding:0!important}
+.bannerColored img{float:right;}
+
+.frecciaRossa{height:37px; padding-top:21px; padding-left:33px; position:relative; font-weight:bold; font-size:1.25em}
+/*.frecciaRossa a{color:#FFF}*/
+
+.bannerWhite{height:90px; position:relative; top:7px; margin-right:18px; margin-bottom:13px; left:3px}
+
+.bannerProntoTreno{background:url(/cms-file/immagini/ferrovie/banner_prontotreno.gif) no-repeat left top; height:39px; margin-left:4px; margin-right:13px; padding-top:21px; padding-left:200px; font-size:1.2em; font-weight:bold}
+.bannerProntoTreno a{color:#FFF}
+.bannerPromo{margin-left:4px;}
+.tags{background:url(/cms-file/common/img/tags_bg.gif) no-repeat left top; margin-right:12px; position:relative}
+.tags img{position:absolute; width:30px; top:0px; right:0px}
+.tags_par{position:relative; text-align:center; width:615px; padding:18px 0px 0px 20px}
+.tags_par span{font-weight:bold; padding-left:5px; color:#006260; letter-spacing:-0.03em}
+.tags_par span a{color:#006260}
+.tags_par span.size205{font-size:2.05em}
+.tags_par span.size110{font-size:1.1em}
+.tags_par span.size160{font-size:1.6em}
+.tags_par span.size130{font-size:1.3em}
+.tags_par span.size145{font-size:1.45em}
+
+.puls_submit{background:url(/cms-file/common/img/puls_submit.gif) no-repeat left top;position:absolute;right:0px;width:65px;height:19px;text-align:center;margin-right:25px;font-weight:bold;font-size:1.1em;padding-top:4px;}
+.puls_submit A{color:#FFF!important;background:none!important;}
+
+.link_reg {text-align:right;position:absolute;right:28px}
+.link_reg a {background:none !important;}
+.link_reg a.reg_ora{font-weight:bold;}
+
+.btn_login {position:relative;}
+.btn_login .puls_submit{position:relative; margin:4px 0 0 15px;}
+.btn_login a.linkEsterno {position:absolute;top:7px;right:21px;}
+.btnInviaCruscCont{text-align:right;}
+.btnInviaCrusc{margin-right:25px;border:0px!important;}
+.btn_login .btnInviaCrusc {position:relative; margin:4px 0 0 15px;}
+
+.flLeft{float:left;width:48%;}
+.flRight{float:right;width:48%;}
+
+.link_login{margin:0px 14px;background:#e9e7ea;padding:4px;}
+.box100{width:100%;position:relative;}/*ie6fix*/
+.flLeft{width:54%;}
+.flRight{width:44%;text-align:right;font-weight:bold;}
+
+
+.link_login INPUT{border:1px solid #a6a6a6;}
+.link_login INPUT.userR{width:118px;}
+.link_login INPUT.passR{width:118px}
+
+.links{position:relative; height:130px; background:url(/cms-file/common/img/linkUtili_bg.gif) no-repeat left top}
+.links .shadowRight{position:absolute; top:0px; right:0px;}		
+.colBox{float:left; width:48%; padding-left:12px; padding-top:4px; background:url(/cms-file/common/img/linkUtili_sep.gif) repeat-y right top; padding-right:3px}
+.colBox .title{background:#FFF; color:#D10018; font-size:14px; font-weight:bold; padding:5px; text-transform:uppercase}
+.colBox.two{padding-left:3px; background:none; width:49%}
+.colBox.two .title{color:#006261; width:64%; float:left; margin-bottom:10px}
+.colBox.two .banner{float:right; text-align:center; width:33%; background:#FFF}
+.colBox.two .col div.link{background-image:url(/cms-file/common/img/linkUtili_linkbgGreen.gif)!important; padding-left:12px}
+.colBox.two .col{width:32%}
+.colBox .col{float:left; width:31%; background:url(/cms-file/common/img/linkUtili_sep.gif) repeat-y right top; padding-left:5px}
+.colBox .col .bloc{height:60px}
+.colBox .col.last{background:none; width:34%}
+.colBox .col div.link{background:url(/cms-file/common/img/linkUtili_linkbg.gif) no-repeat left 3px; padding-left:12px}
+.colBox .col div.link a{font-weight:bold}
+.colBox .col p{padding-left:12px}
+.colBox .col .box{top:-10px; left:-4px}
+
+.box_sciopero{background:url(/cms-file/common/img/box_sciopero.gif) no-repeat left top; width:160px; height:101px}
+.box_sciopero .title{padding-top:12px; padding-left:10px; background:none}
+.box_sciopero .title a{background:none; font-size:0.85em; padding-left:2px; color:#FFF}
+.box_sciopero  p.label{padding-top:5px}
+.box_sciopero  div.form{padding-top:5px; width:159px}
+.box_sciopero  div.form select {font-size:1em; margin-right:4px; position:relative; left:9px; float:left; width:110px}
+.box_sciopero  div.form input{float:right; padding-right:4px}
+
+.formcruscotto{margin-left:20px; position:relative; top:-20px}
+.formcruscotto input{border:1px solid #a6a6a6}
+.formcruscotto input.long{width:230px}
+.formcruscotto input.orari{width:20px}
+.formcruscotto input.anno{width:40px}
+
+.formcruscotto .acquisto_info{}
+.formcruscotto .acquisto_info a{color:#D10018}
+.formcruscotto .linkInsideBox{padding:0; margin:0}																	/*AGGIUNTO*/
+.formcruscotto .linkInsideBox a{padding-left:3px;}																	/*AGGIUNTO*/
+.formcruscotto .linkInsideBox a.bgSEP{color:#010101; background:url(/cms-file/common/img/separatore.gif) right center no-repeat; padding-left:0px; padding-right:10px;}					/*AGGIUNTO*/
+
+.formcruscotto{color:#666}
+.formcruscotto label,.formcruscotto .fullText{font-size:13px}
+.formcruscotto label span,.formcruscotto .fullText span{color:#D10018}
+.formcruscotto .textRicercaAR label{font-size:0.9em}
+.formcruscotto .radioAR{font-weight:bold; padding-bottom:8px}
+.formcruscotto .radioAR input{border:none}
+.formcruscotto .camere,.formcruscotto .ospiti{font-size:1.1em; height:1.5em}
+
+.interlinea{height:1px; line-height:1px; font-size:1px; background:#CDCDCD; margin:10px 20px 10px 0px}
+
+.news_flashTop a{float:right; padding-top:10px; padding-right:12px}
+
+.treBanner{height:173px; color:#FFF}
+
+/*VIAGGIATRENO senza meteo*/
+.banner_viaggiatreno_ext{float:left; background:url('/cms-file/common/img/banner_viaggiatreno_ext.gif') no-repeat left top; width:331px; height:173px; padding-right:15px}
+.banner_viaggiatreno_ext p{font-size:1.3em; text-align:right; padding-top:75px; padding-left:180px;color:#585a59}
+.banner_viaggiatreno_ext p strong{color:#063Faa}
+.banner_viaggiatreno_ext div.accedi{text-align:right; padding-top:10px}
+.banner_viaggiatreno_ext div.accedi a{color:#063Faa; padding:5px 35px 5px 0px; background:url(/cms-file/common/img/puls_submitBlank.gif) no-repeat right center; font-weight:bold; font-size:1.1em}
+/*VIAGGIATRENO senza meteo*/
+
+/*VIAGGIATRENO you tube*/
+/*.banner_youtube{float:left; background:url('/cms-file/immagini/ferrovie/banner_youtube.gif') no-repeat left top; width:331px; height:173px; padding-right:15px} VGNCF 29-09-12 */
+.banner_youtube{float:left; width:331px; height:173px; padding-right:15px}
+.banner_youtube p{font-size:1.3em; text-align:right; padding-top:75px; padding-left:180px;color:#ffffff}
+.banner_youtube p strong{color:#ffffff}
+.banner_youtube div.accedi{text-align:right; padding-top:10px}
+.banner_youtube div.accedi a{color:#ffffff; padding:5px 35px 5px 0px; background:url(/cms-file/common/img/puls_submitBlank2.gif) no-repeat right center; font-weight:bold; font-size:1.1em}
+/*VIAGGIATRENO you tube*/
+
+.boxes_vt_meteo{float:left; background:url('/cms-file/common/img/banner_viaggiatreno.gif') no-repeat left top; width:346px; height:173px; color:#000;}
+
+.banner_viaggiatreno{float:left;width:155px;padding-left:15px;padding-top:60px; }
+.banner_viaggiatreno p{font-size:1.3em; text-align:left;color:#585a59}
+.banner_viaggiatreno p strong{color:#063Faa}
+.banner_viaggiatreno div.accedi{text-align:left; padding-top:15px}
+.banner_viaggiatreno div.accedi a{color:#063Faa; padding:5px 35px 5px 0px; background:url(/cms-file/common/img/puls_submitBlank.gif) no-repeat right center; font-weight:bold; font-size:1.1em}
+
+.banner_meteo{width:168px;float:left}
+.banner_meteo .tabs{height:28px;padding-top:14px;padding-left:57px;}
+.banner_meteo .tabs UL{padding:0px;list-style-type:none;margin:0px;}
+.banner_meteo .tabs UL LI.on{background:url(/cms-file/common/img/meteo_tabOn.gif) repeat-x left top;border:1px solid #fff;border-bottom:1px solid #F65D18;padding-left:3px;}
+.banner_meteo .tabs UL LI{float:left;background:url(/cms-file/common/img/frecciaMeteo.gif) no-repeat 3px center;padding:4px 4px 0px 9px;height:17px;text-align:center;font-weight:bold;white-space:nowrap;}
+.banner_meteo .tabs UL LI A{color:#fff;}
+
+.banner_meteo #meteo_inner{padding-left:12px;height:111px;overflow:hidden;width:156px;position:relative;}
+#meteo_inner #scrollmeteo{width:145px;padding-left:1px;overflow:hidden;height:300px;position:relative;background:url(/cms-file/common/img/meteo_scroll_bg.gif);}
+
+.banner_meteo #meteo_inner .meteo_inner_contenit{white-space:nowrap;position:relative;height:300px;}
+.banner_meteo #meteo_inner .oggi,.banner_meteo #meteo_inner .domani{height:150px;}
+
+.banner_meteo #meteo_inner .boxM{float:left;width:145px;height:60px;font-weight:bold;}
+.banner_meteo #meteo_inner .nome_citta{float:left;width:100px;font-size:12px;padding-top:6px;padding-left:2px;}
+.banner_meteo #meteo_inner .temperatura{float:left;padding-top:6px;color:#177acf;}
+.banner_meteo #meteo_inner .icona{float:right;width:20px;text-align:center;padding-top:6px;padding-right:3px;}
+
+#meteo_inner .clear{height:5px;}
+#meteo_inner .scrollLeft{position:absolute;left:2px;top:42px;z-index:3}
+#meteo_inner .scrollRight{position:absolute;right:0px;top:42px;z-index:3}
+
+
+
+.banner_videogallery{float:left; width:160px; height:173px}
+.banner_videogallery h3{font-weight:normal;font-size:1.65em;padding:13px}
+.banner_videogallery a{color:#FFaD00; font-weight:bold; position:relative; top:90px; padding-left:15px}
+/* MEDIAGALLERY */
+.banner_mediagallery{float:left; background:url('/cms-file/common/img/banner_mediagallery.gif') no-repeat left 3px; width:160px; height:173px;position:relative;}
+.banner_mediagallery h3{font-weight:normal;font-size:1.65em;padding:6px 13px 6px 13px}
+/* FINE MEDIAGALLERY */
+
+.banner_rfi{float:left; width:143px; height:169px; padding-left:25px; font-weight:bold}
+.banner_rfi a, .banner_rfi span{position:relative; top:70px;}
+
+
+#scroll{position:absolute;width:2100px;}
+
+/* MEDIAGALLERY */
+.media_scroll_left{position:absolute;left:6px;top:61px;}
+.media_scroll_right{position:absolute;right:0px;top:61px;}
+.mediagallery{width:130px;height:130px;overflow:auto;margin:0 auto;padding-left:4px;position:relative;}
+#mediagallery_scroll{width:1000px;position:relative;height:130px;}
+.thumb{width:130px;height:130px;overflow:hidden;position:relative;float:left;}
+.thumb .shadow{position:absolute;z-index:2;margin:0px 10px;}
+.thumb .img{position:absolute;z-index:3;width:100px;height:72px;overflow:hidden;margin:0px 10px 0px 11px;}
+
+.media_labelImg .titolo{color:#ffad00;font-weight:bold;}
+.media_labelImg .titolo a{color:#ffad00;}
+.media_labelImg .durata{color:#dedede;}
+.media_labelImg{width:129px;padding-top:85px;}
+/* FINE MEDIAGALLERY */

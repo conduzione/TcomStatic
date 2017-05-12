@@ -1,0 +1,35 @@
+/* FOOTER */
+
+#footer{background:#FFF url('/cms-file/common/img/bg_footer.gif') bottom left repeat-x; width:auto; height:auto; min-height:114px; font-size:.7em; text-align:right; margin:0; padding:0;}
+#footer div.bgRight{background:url('/cms-file/common/img/bg_footer_dx.gif') top right no-repeat; width:auto; height:auto; min-height:114px; margin:0; padding:0;}
+#footer div.footerRightNav{float:right; width:auto; padding:20px 25px 0 0; margin:0;}
+#footer div.footerRightNavImg{float:right; width:auto; padding:13px 25px 0 0; margin:0;}
+#footer div.footerLeftNav{padding:20px 35px 0 0; float:right;}
+#footer a,
+#footer span{color:#000;}
+#footer a:hover{color:#B30002;}
+#footer a.selected{color:#B30002;}
+#footer img{border:none;}
+
+/* FOOTER TRENITALIA */
+#footerTre{background:#FFF url('/cms-file/common/img/bg_footer_tre.gif') bottom left repeat-x; width:auto; height:auto; min-height:132px; font-size:.7em; text-align:right; margin:-10px 0 0 0; padding:0;}
+#footerTre div.bgRight{background:url('/cms-file/common/img/bg_footer_dx_tre.gif') top right no-repeat; width:auto; height:auto; min-height:132px; margin:0; padding:0;}
+#footerTre div.footerRightNav{float:right; width:auto; padding:10px 25px 0 0; margin:0;}
+/*#footerTre div.footerLeftNav{padding:0 10px 0 24px; margin-top:-5px;	float:left;}*/
+#footerTre div.footerLeftNav{padding:0px 35px 0 0; margin-top:-3px;	float:right;}
+#footerTre div.footerLeftNav img { border:none; position:relative; top:10px; padding-right:6px;}
+#footerTre a,
+#footerTre span{color:#000;}
+#footerTre a:hover{color:#B30002;}
+
+/* FOOTER FS */
+#footerFS{background:#FFF url('/cms-file/common/img/bg_footer_tre.gif') bottom left repeat-x; width:auto; height:auto; min-height:132px; font-size:.7em; text-align:right; margin:0; padding:0;}
+#footerFS div.bgRight{background:url('/cms-file/common/img/bg_footer_dx_tre.gif') top right no-repeat; width:auto; height:auto; min-height:132px; margin:0; padding:0;}
+#footerFS div.footerRightNav{float:right; width:auto; padding:20px 25px 0 0; margin:0;}
+#footerFS div.footerRightNavImg{float:right; width:auto; padding:13px 25px 0 0; margin:0;}
+#footerFS div.footerLeftNav{padding:20px 35px 0 0; float:right;}
+#footerFS a,
+#footerFS span{color:#000;}
+#footerFS a:hover{color:#B30002;}
+#footerFS a.selected{color:#B30002;}
+#footerFS img{border:none;}

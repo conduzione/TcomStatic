@@ -1,0 +1,8 @@
+/**
+  * Versione style.css con menu primo livello a 4 voci 
+    * last-mod 10-03-2014 
+  */
+
+/*patch per 4 voci di menu*/
+.menu > ul > li {width: 25%;}				
+.menu > ul > li.last {width: 25%;}

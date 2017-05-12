@@ -1,0 +1,188 @@
+@import url('/cms-file/common/css/calendar-gray.css');
+
+				.content_wpAreaClienti{background:url(/cms-file/common/img/wp-bg-wpAreaClienti.jpg) repeat center top;}
+				#roundContBox{position:relative; margin:0 0 10px 0; padding:9px; background:#FFF; border:1px solid #E9E7EA}
+				#roundContBox .corner{position:absolute; width:6px; height:6px; background:url('/cms-file/common/img/wp-sprite-roundContBoxWP.gif')}
+				#roundContBox .topLeft{top:-1px; left:-1px; background-position:0 0}
+				#roundContBox .topRight{top:-1px; right:-1px; background-position:-7px 0px}
+				#roundContBox .topRight2{top:-1px; right:-1px; background-position:-7px -14px}
+				#roundContBox .botLeft{bottom:-1px; left:-1px; background-position:0 -7px}
+				#roundContBox .botRight{bottom:-1px; right:-1px; background-position:-7px -7px}
+				.contentInt_wpAreaClienti{padding:16px 0 17px 7px}
+				h2.titoloBoxWp{color:#dc002e;line-height:26px;font-size:16px;height:26px;padding-left:10px}
+				h2.titoloBoxWp a{color:#dc002e}
+				.contentBoxWp, .contentBoxWpRight{float:left;width:344px;height:164px }
+				.contentBoxWpRight{float:right}
+				.fotoListaBoxWP{z-index:10000width:344px;height:138px;background:url(/cms-file/common/img/wp-box-trasp.png) no-repeat center top;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader (src="/cms-file/common/img/wp-box-trasp.png",sizingMethod="scale");}
+				
+				.rigaContentWP{width:696px;height:164px;}
+				.fotoBoxWp{margin:11px 10px 0 10px}
+				ul.listaBoxWp{margin:10px 0 0 2px;padding:7px 0 0 2px; width:150px}
+				
+				/* ul.listaBoxWp li{list-style : none url(/cms-file/common/img/freccia_puntatore.gif);margin: 5px 10px 7px 0;padding:0 0 2px 0;} */
+				ul.listaBoxWp li{list-style : none; background: url(/cms-file/common/img/freccia_puntatore.gif) 0 3px no-repeat; margin: 0px 10px 3px 0; padding-bottom:2px;padding-left:15px;padding-right:0px;padding-top:0px;}
+				
+				ul.listaBoxWp li a {position:relative;z-index:1;}
+				.fotoListaBoxWPLf{float:left}
+				.staccoTxt p{margin-bottom:3px}
+				p.labelTxt label, p.labelTxtTop{font-size:1.1em !important}
+				.staccoTxt p.labelTxtTop {margin-top:10px}
+				.staccoLink{margin:15px 0 5px 0}
+				
+				
+				#contentBoxRightCol div.RightColImmBox input.ButtonImgEntra{width:182px !important;height:22px !important;border:0 !important}
+				#contentBoxRightCol{padding-top:4px}
+				#contentBoxRightCol div.RightColImmBox div.contButtonImg{text-align:right; padding:9px 12px 0 0 !important}
+				
+				/* Form Biglietti A/R - Spalla Destra */
+					
+						/* IE 6*/
+						* html .formcruscottoLat {
+	line-height:1.2em
+}
+* html .btnInviaCruscCont {
+	margin:4px 4px 0 0
+}
+/* IE 7*/
+						*:first-child+html .formcruscottoLat {
+	line-height:1.3em
+}
+*:first-child+html .btnInviaCruscCont {
+	margin:4px 4px 0 0
+}
+.formcruscottoLat {
+	color:#111;
+	padding:3px 4px 0px 6px
+}
+.formcruscottoLat .f {
+	padding-left:3px;
+	padding-right:1px;
+}  /* Add */
+.formcruscottoLat input {
+	border:1px solid #a6a6a6;
+	margin:0px
+}
+.formcruscottoLat .long {
+	margin-left:3px;
+	margin-right:1px;
+} /* Add */
+.formcruscottoLat select {
+	width:150px;
+	height:19px;
+}
+.formcruscottoLat input.orari {
+	width:15px
+}
+.formcruscottoLat input.anno {
+	width:30px
+}
+.formcruscottoLat .fullText img {
+	position:relative;
+	top:3px;
+	right:4px
+}
+.formcruscottoLat label, .formcruscottoLat .fullText {
+	font-size:1.1em
+}
+.formcruscottoLat label span, .formcruscottoLat .fullText span {
+	color:#D10018
+}
+.formcruscottoLat .textRicercaAR label {
+	font-size:0.9em;
+}
+.formcruscottoLat .radioAR {
+	padding:3px 1px 8px 3px;
+}
+.formcruscottoLat .radioAR INPUT {
+	border:0px;
+	padding:0px;
+	margin:0px;
+	font-size:1000px;
+	width:13px;
+	height:13px;
+	line-height:13px
+}
+.formcruscottoLat .radioAR LABEL {
+	position:relative;
+	left:-2px
+}
+.formcruscottoLat .hSpace {
+	height:8px
+}
+.interlinea {
+	height:1px;
+	line-height:1px;
+	font-size:1px;
+	background:#CDCDCD;
+	margin:4px 4px 4px 0px
+}
+.acquisto_info {
+	padding:10px 0px 5px 0px
+}
+.acquisto_info a {
+	color:#D10018
+}
+.btnInviaCruscCont {
+	padding:6px 0 4px 4px;
+	border-top:1px solid #CDCDCD;
+	text-align:right;
+	margin:40px 4px 0 0
+}
+.btnInviaCruscCont INPUT {
+	border:0;
+	margin-right:5px;
+	width:52px;
+	height:20px
+}
+.btnInviaCruscCont A {
+	color:#000;
+	text-decoration:underline
+}
+.linkBot {
+	font-size:.9em;
+	padding-left:4px
+}
+.footCrusco {
+	text-align:center
+}
+.footCrusco IMG {
+	display:block;
+}
+#contenitoreOrari {
+	text-align:left;
+	background:url(/cms-file/common/img/wp-cruscotto_colonnadx_bgNew.gif) no-repeat left top;
+	width:230px;
+	margin:10px auto;
+	margin-top:20px
+	padding-top:0;
+}
+#contenitoreOrari H3 {
+	color:#c2032e;
+	text-align:left;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:1.1em;
+	padding-top:10px;
+	padding-left:16px;
+}
+.flTrentaLeft{width:38px;float:left}
+	.flTrentaLeftQ{width:38px;float:left;margin-left:4px}
+	.flTrentaLeftOtto{width:32px;float:left;padding-left:8px}
+	.marIcoCalend{margin-left:3px}
+	ul.tabs  {
+    list-style: none outside none;
+	height: 30px;
+	padding-left:0;
+	margin-left:0;
+}
+
+.tabs LI.on {background: url("/cms-file/common/img/tab-on-wp-acq.gif") no-repeat scroll left top #f7f7f9;color: #D11317;margin-top:0}
+.tabs LI.on a, .tabs LI.on  a:hover{color: #D11317;}
+
+.tabs LI {background: url("/cms-file/common/img/tab-off-wp-acq.gif")  no-repeat scroll left top #f7f7f9; color:#777777 !important}
+.tabs LI  a:hover, .tabs LI  a{color:#777777}
+
+.tabs LI , .tabs LI.on{float: left;font-size: 1.1em;font-weight: bold; margin: 0 2px 0 0; padding: 10px 5px 5px 5px;text-transform: uppercase;width:86px;text-align:center}
+
+.btnInviaCruscRest{border: 0 none !important;width:82px;height:23px}
+.calendar {font-size:.7em}

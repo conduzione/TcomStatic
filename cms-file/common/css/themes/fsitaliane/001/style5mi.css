@@ -1,0 +1,7 @@
+/**
+  * Versione style.css con menu primo livello a 5 voci 
+  */
+
+/*patch per 5 voci di menu*/
+.menu > ul > li {width: 20%;}				
+.menu > ul > li.last {width: 20%;}

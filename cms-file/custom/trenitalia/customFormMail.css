@@ -1,0 +1,23 @@
+.formInvioMail {
+	background: #F8F8F8; 
+	border: 1px solid #B5B5B5;
+	width: 600px;
+	height: auto;
+	padding:0px;
+	}
+.formInputMail {border:1px solid #B5B5B5; margin:0px 10px; font-size: 12px; color:#333;padding:2px;height:20px}
+
+.labelForm {font-family:Arial , sans-serif, Tahoma;color:#797979; font-size:14px; font-weight:bold; padding:10px 10px 4px 15px; margin: 10px 15px;}
+
+.buttoninvioForm  {cursor: pointer; background:url(../../../cms-file/common/img/themeTcom01/formEmail/invia2.png) left top; width:92px;height:32px; border: 0px solid #8a000b; border-radius: 0px; box-shadow: 0 0 0px #666; margin: 15px 10px;}
+
+.ui-datepicker-trigger{position:relative;top:5px;cursor: pointer;}
+
+.errors ul {
+	font-size: 14px;
+	color: red;
+	font-weight: bold;
+	list-style-type: disc;
+	padding-left: 15px;
+	margin-bottom: 30px;
+}

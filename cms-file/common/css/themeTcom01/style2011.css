@@ -1,0 +1,1111 @@
+/* Dichiarazioni generali */
+/* body{margin:0; padding:0; font-family:arial, Verdana, sans-serif, Tahoma; color:#000; background:#fdfdfd url(/cms-file/common/img/themeTcom01/Skin_2014.jpg) no-repeat center top; font-size:0.7em; }*/
+body{margin:0; padding:0; font-family:arial, Verdana, sans-serif, Tahoma; color:#000; background:#e9e7ea url(/cms-file/common/img/themeTcom01/bg_body.gif) repeat-x left top; font-size:0.7em; }
+table,td,tr,form,input,h1,h2,h3,h4,h5,h6,p{padding:0; margin:0; border:0}
+img{border:0}
+.pngImage{behavior:expression((this.runtimeStyle.behavior="none") && (this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none", this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')", this.src = "/cms-file/common/img/themeTcom01/transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''), this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')", this.runtimeStyle.backgroundImage = "none")),this.pngSet=true))}
+.hidden{left:-2000px; width:990px; position:absolute}
+.clear {height:0em!important; line-height:0em!important; padding:0!important; margin:0!important; float:none; clear:both; font-size:0em;background:none!important;}
+a{color:#000;text-decoration:none}
+a:hover{text-decoration:underline}
+.align-right { float: right; }
+.smaller { font-size: .8em; }
+fieldset { border: 0; padding: 0; margin: 0; }
+.fl { float: left; }
+.fr { float: right; }
+
+/*STILI GENERALI*/
+a:hover{text-decoration:underline;}
+.clear{clear:both;font-size:0px;line-height:0px;height:0px;float:none;}
+.hidden{position : absolute;top : -10000px;left : -10000px;}
+
+#container {text-align:center;margin:0 auto; width: 996px;background: #ffffff;}
+#containerBox{text-align:left; background: #fff; }
+
+#header{ height: 101px; }
+.test-header #header {position: fixed; top: 0; background: #fff; z-index: 9999999;}
+.test-header #containerBox { padding-top: 92px; }
+body.test-header { background-attachment: fixed; }
+.spallaSx, .spallaSxComm { float:left; width: 68%; background: url(/cms-file/common/img/themeTcom01/bg_cruscotto_bottom_sx.gif) no-repeat right top; }
+.spallaSxComm{background-image:none}
+.slider{width:681px;height:113px}
+
+.viaggiareInfo, .gmap{ margin:25px 0 0 15px; background: #fff;}
+.gmap{height: 320px; overflow: hidden;}
+
+.spallaDx{ float: right; width: 31.99%; }
+.boxAccordion{width:318px;height:682px;}
+.accordion{padding-left:6px;}
+.boxSeiBanner{padding-top:18px;padding-left:10px}
+.bottoniEsterni{height:62px;color:#fff}
+
+.logoTreni {float:left;height:92px;width:165px}
+.logoTreni img{width:140px;height:46px;border:0;margin:23px 0 0 17px }
+.logoTreni h1,
+.logoTreni h2 { display: none; }
+.ricerca{padding: 10px 1px 0px 1px;}
+.ricerca .buttonCerca{margin:0;padding:0}
+.contcampoR{float:left;background:url(/cms-file/common/img/themeTcom01/bg_input_ricerca2011.gif) no-repeat scroll left top transparent; height:16px;margin-bottom:3px}
+#search_layer .ricerca .campoR{ height:18px;width:90px; line-height:13px;font-size:0.9em; padding: 0 0 0 5px; margin:0; background-color: transparent;}
+#search_layer {background: none repeat scroll 0 0 #FFFFFF; float: right; height: 34px; width: 819px;}
+.left{float:left;padding:0px 0px 0px 0px;}
+#search_layer .ricerca{float:left;}
+#search_layer .top_links{float:left;padding:10px 0px 0px 0px;}
+#search_layer .top_links_r{float:left; padding:6px 0px 0px 0px; margin-left:9px;}
+#search_layer .top_links a, #search_layer .top_links span{color:#666b6d}
+#search_layer .top_links_r a, #search_layer .top_links_r span{color:#666b6d}
+#search_layer .right{float:right;}
+.right{float:right;}
+.left{float:left;}
+.eng_site{background: url(/cms-file/common/img/flag_eng.gif) no-repeat scroll left top transparent; padding-left: 30px;}
+.it_site {background: url("/cms-file/common/img/flag_it.gif") no-repeat scroll right top transparent;padding-right: 310px;}
+.accAreaRis{font-weight:bold;padding-top:7px;font-size:1.1em}
+.accAreaRis a {color:#676b6c;line-height:1.6em;background-color:#e9e7ea;display:block;padding: 0px 1px 1px 0px;}
+.accAreaRis a:hover{color:#dc002e}
+.boxMenu  a.voceSecLiv, .boxMenuUltimo  a.voceSecLiv ,  .boxMenuSec  a.voceSecLiv {font-size:1.2em;margin:0 0 8px 0;padding:0;color:#3c3a3d;font-weight:bold;display:block}
+.boxMenu  a.voceSecLiv-li, .boxMenuUltimo  a.voceSecLiv-li ,  .boxMenuSec  a.voceSecLiv-li {background-image: url("/cms-file/common/img/themeTcom01/list-menu.gif"); background-repeat: no-repeat; color: #3C3A3D; display: block; font-size: 1.2em; font-weight: bold;margin: 0 0 8px;    padding-left: 10px;}
+/*.boxMenu  a.voceSecLiv:hover, .boxMenuUltimo  a.voceSecLiv:hover ,  .boxMenuSec  a.voceSecLiv:hover{color:#F50238;text-decoration:none}*/
+.boxMenu  a.voceSecLiv:hover, .boxMenuUltimo  a.voceSecLiv:hover ,  .boxMenuSec  a.voceSecLiv:hover{text-decoration:none}
+.boxMenu  a.voceSecLiv-li:hover, .boxMenuUltimo  a.voceSecLiv-li:hover ,  .boxMenuSec  a.voceSecLiv-li:hover{color:#F50238;text-decoration:none}
+
+.contTabMenuInt{background-image:url(/cms-file/common/img/themeTcom01/bg-contSecLiv.gif);background-repeat:repeat-y;width:811px;min-height:100px;margin:25px 0 16px 11px;}/*VGNCF 14-05-12*/
+.contTabMenuInt-noimage{width:811px;min-height:100px;margin:25px 0 16px 11px;}
+.boxMenu ul,.boxMenuSec ul, .boxMenuUltimo ul{margin:0 0 10px 0 !important;padding:0 0 10px 0 !important;background-color:transparent !important;}
+.boxMenu ul li, .boxMenuSec ul li,.boxMenuUltimo ul li {list-style: none;margin:0  0 7px 1px !important;padding:0 0 0 1px !important;}
+.boxMenu ul li a,.boxMenuSec ul li a, .boxMenuUltimo ul li a,.boxMenu ul li a:hover,.boxMenuSec ul li a:hover, .boxMenuUltimo ul li a:hover{color:#3c3a3d;font-size:1em;background-image: url(/cms-file/common/img/themeTcom01/list-menu2.gif) !important;background-repeat:no-repeat;display:block;padding-left:20px}
+.boxMenu ul li a:hover,.boxMenuSec ul li a:hover, .boxMenuUltimo ul li a:hover{color:#F50238;text-decoration:none}
+.boxMenu{width:264px;float:left;}/*VGNCF 14-05-12*/
+.boxMenuSec{width:264px;float:left;}/*VGNCF 14-05-12*/
+.boxMenuUltimo{width:264px;float:left;padding-left:10px}/*VGNCF 14-05-12*/
+
+/* Form */
+form button { cursor: pointer; background: #dc002e url(/cms-file/common/img/themeTcom01/bg_button_form.gif) repeat-x left top; padding: 6px 10px; border: 1px solid #8a000b; border-radius: 3px; box-shadow: 0 0 3px #666; color: #f4f4f4; text-transform: uppercase; font-size: 1.2em; font-weight: bold; }
+form button:hover { background-image: url(/cms-file/common/img/themeTcom01/bg_button_form_hover.gif); }
+.select-wrapper { background: url(/cms-file/common/img/themeTcom01/skin-theme.gif) no-repeat right 0; float: left; height: 21px; cursor: pointer;}
+.select-wrapper .select-label { padding: 0 0 0 5px; background: url(/cms-file/common/img/themeTcom01/skin-theme.gif) no-repeat 0 -42px; height: 21px; overflow: hidden; margin-right: 23px;}
+.select-wrapper .select-label span { display: block; color: #333; line-height: 1.75em; font-size: 1em; background: url(/cms-file/common/img/themeTcom01/skin-theme.gif) repeat-x 0 -21px; height: 21px; overflow: hidden; padding-left: 3px; }
+.select-wrapper .select-dropdown { position: absolute; display: none; background: #ccc; overflow: auto; box-shadow: 0 2px 6px #333; list-style: none; margin:0 0 0 5px; padding: 0; z-index:9999 }
+.select-wrapper .select-dropdown li { margin: 0; }
+.select-wrapper .select-dropdown li a { padding: 3px; display: block; }
+.select-wrapper .select-dropdown li a:hover { text-decoration: none; background: #eee; }
+.check-wrapper { background: url(/cms-file/common/img/themeTcom01/skin-theme.gif) no-repeat 0 -239px; width: 24px; height: 25px; overflow: hidden; float: left; cursor: pointer; }
+.check-wrapper.checked { background-position: 0 -214px; }
+
+.widthAV div.select-wrapper{width:78px !important;}
+
+/* Emotional + Cruscotto */
+#cruscottoFull { position: relative; height: 460px; width: 100%; }
+#cruscottoFull .emotional ul, 
+#cruscottoFull .emotional ul li { padding: 0; margin: 0; list-style: none; float: left; }
+#cruscottoFull .emotional ul li { float: left; width: 996px; position: relative; }
+#cruscottoFull .ss { display: block; width: 996px; }
+#cruscottoFull .ss .bx-window ul { margin: 0; padding: 0;  }
+#cruscottoFull .ss-pager { position: absolute; z-index: 90999112; left: 31%; top: 330px; background: #fff; padding: 4px 10px; border-radius: 10px; }
+#cruscottoFull .ss-pager .pager-link { background: url(/cms-file/common/img/themeTcom01/pager_off.png) no-repeat left top; width: 10px; height: 10px; margin: 1px 2px 0 2px; text-indent: -99999999px; float: left;  }
+#cruscottoFull .ss-pager .pager-link.pager-active { background-image: url(/cms-file/common/img/themeTcom01/pager_on.png); }
+
+#cruscottoFull .cruscotto { position: absolute; bottom: 0; left: 68%; width: 29.9%; background: #fff; z-index: 20; height: 395px; }
+#cruscottoFull .adv-sshow {position: absolute; bottom: 0; left: 0; width: 100%; background: #a3a6a7 url(/cms-file/common/img/themeTcom01/bg_small_slider_home.gif) repeat-x left bottom; } 
+#cruscottoFull .adv-sshow .advSliderCont { margin: 0 24px; } 
+#cruscottoFull .adv-sshow .advSliderCont .bx-next { position: absolute; top: 40%; right: -15px; text-indent: -999999px; width: 8px; height: 15px; background: url(/cms-file/common/img/themeTcom01/f_slider_simple_dx.gif) no-repeat left top; } 
+#cruscottoFull .adv-sshow .advSliderCont .bx-prev { position: absolute; top: 40%; left: -15px; text-indent: -999999px; width: 8px; height: 15px; background: url(/cms-file/common/img/themeTcom01/f_slider_simple_sx.gif) no-repeat left top; }  
+#cruscottoFull .adv-sshow-container, #cruscottoFull .cruSxadv-sshow-container, .adv-sshow-containerOneImg, .adv-sshow-containerTwoImg, .cruSxadv-sshow-containerOneImg, .cruSxadv-sshow-containerTwoImg { width: 68%; position: relative; }
+#cruscottoFull .adv-sshow-container ul, #cruscottoFull .cruSxadv-sshow-container ul, #cruscottoFull .adv-sshow-containerOneImg ul, #cruscottoFull .cruSxadv-sshow-containerOneImg ul { margin: 0; padding: 10px 0 0 0; }
+#cruscottoFull .adv-sshow-containerTwoImg ul{ margin: 0; padding: 10px 0 0 10px;}
+#cruscottoFull .adv-sshow-container li, #cruscottoFull .cruSxadv-sshow-container li, #cruscottoFull .adv-sshow-containerOneImg li,  #cruscottoFull .adv-sshow-containerTwoImg li, #cruscottoFull .cruSxadv-sshow-containerOneImg li,  #cruscottoFull .cruSxadv-sshow-containerTwoImg li{ /*width: 31%;*/ float: left; margin: 0; padding: 0; list-style: none; }
+#cruscottoFull .adv-sshow-containerOneImg ul{text-align:center;}
+#cruscottoFull .adv-sshow-containerOneImg li { width:68%;text-align:center}
+#cruscottoFull .adv-sshow-containerTwoImg li {width:49%;}
+#cruscottoFull .adv-sshow-item { border: 1px solid #fff; margin: 0 7px 14px 6px; box-shadow: 0px 0px 7px #444; background: #fff url(/cms-file/common/img/themeTcom01/bg_small_slider_item.gif) repeat-x left bottom; }
+#cruscottoFull .adv-sshow-item-bigImg, #cruscottoFull .adv-sshow-item-medImg, #cruscottoFull .adv-sshow-item-medImg{margin: 0 7px 8px 6px; }
+#cruscottoFull .adv-sshow-item .adv-sshow-item-img { float: left; width: 39%; }
+#cruscottoFull .adv-sshow-item img {display: block; float: left}
+#cruscottoFull .adv-sshow-item .adv-sshow-item-content { float: right; width: 60%; }
+#cruscottoFull .adv-sshow-item .adv-sshow-item-content h5 { font-size: 1.17em; color: #dc002e; text-transform: uppercase; margin: 3px;}
+#cruscottoFull .adv-sshow-item .adv-sshow-item-content p { margin: 0 3px 3px 3px; color: #3e3e3e; font-size: 1em; }
+
+#cruscottoFull .adv-text { position: absolute; bottom: 230px; right: 35%; z-index: 10; text-align: right;  background: transparent; }
+#cruscottoFull .adv-text.align-left { text-align: left; width: 60%; }
+#cruscottoFull .adv-text h3, #cruscottoFull .adv-text h3.titNero { font-size: 3em; color: #fff; text-shadow: 1px 1px 5px #000; font-family: Helvetica; }
+#cruscottoFull .adv-text h3.titNero, #cruscottoFull .adv-text h4.titNero{color:#333}
+#cruscottoFull .adv-text h3.titRosso{color:#dd002e}
+#cruscottoFull .adv-text h4.titBianco{color:#ffffff}
+#cruscottoFull .adv-text h4 { font-size: 4em; color: #d20034; text-shadow: 1px 1px 3px #333; }
+#cruscottoFull .adv-text p { font-size: 1.3em; color: #fff; }
+#cruscottoFull .adv-text p.pRosso{ color: #d20034}
+#cruscottoFull .adv-text p.pNero{color:#333}
+#cruscottoFull .adv-text a { background: #fff; font-size: 1.2em; color: #dc002e; padding: 4px 10px; font-weight: bold; float: right; margin: 10px 0; }
+#cruscottoFull .adv-text.align-left a { float: left; }
+
+#cruscottoFull .cruscotto-menu { background: #333333 url(/cms-file/common/img/themeTcom01/bgMenuPipe.gif) repeat scroll right center transparent; padding: 0; margin: 0; list-style-type: none; width: 100%; overflow: hidden; }
+#cruscottoFull .cruscotto-menu li { float: left; background: #fff; }
+#cruscottoFull .cruscotto-menu li.item-abbonamenti a {color: #333333;}
+#cruscottoFull .cruscotto-menu li.item-biglietti a {color: #ffffff;}
+#cruscottoFull .cruscotto-menu li.item-biglietti {width: 49.9%; background:  #a20213 url(/cms-file/common/img/themeTcom01/bg-tabFrecceOn.gif) repeat-x center bottom; }
+#cruscottoFull .cruscotto-menu li.item-abbonamenti { width: 49.9%; float: right; background: #C0C0C0 url(/cms-file/common/img/themeTcom01/_bg-tabTuttiTreni_.jpg) repeat-x center bottom;  }
+#cruscottoFull .cruscotto-menu li a { display: block; font-size: 1.4em; color: #ffffffs border-right: 1px solid #9a9d9f; padding: 1em 0em; font-weight: bold; text-align: center; }
+#cruscottoFull .cruscotto-menu li.item-last a { border: 0; }
+/*#cruscottoFull .abbonamenti_content,
+#cruscottoFull .biglietti_content { position: absolute; top: -3000px; }
+#cruscottoFull .abbonamenti_content.visible,
+#cruscottoFull .biglietti_content.visible { position: static; top: 0; }
+*/
+#cruscottoFull fieldset { border: 0; padding: 2% 3%; }
+#cruscottoFull fieldset input,
+#cruscottoFull fieldset select { border: 0px solid #aaacad; box-shadow: 0px 0px 0px #aaa; background: #ffffff; color: #444444; padding: 0px 0; height:20px}
+#cruscottoFull fieldset * { vertical-align: middle; }
+#cruscottoFull hr,  hr.separatLine{ border: 0; border-top: 1px solid #d1d2d3; height:1px;line-height:1px }
+#cruscottoFull .hr-spacer { border: 0; margin: 0; clear: both; display: block; height: 6px; float: none; list-style: none; border: 0; }
+#cruscottoFull fieldset label { float: left; padding-left:3px;margin-right: 0; background-color:#ffffff; color: #999999; font-size: 13px; line-height: 1.5em; height:20px}/*VGNCF 15-05-12*/
+#cruscottoFull fieldset input,
+#cruscottoFull fieldset select { float: left; }
+#cruscottoFull fieldset.biglietti_ar { padding-top: 10px; }
+#cruscottoFull fieldset.biglietti_ar label { font-size: 14px; }
+#cruscottoFull fieldset.biglietti_ar input { margin: 2% 3% 2% 0; }
+#cruscottoFull fieldset.biglietti_ar input { border: 0; }
+#cruscottoFull fieldset.biglietti_ar #biglietti_ar { margin-left: 5%; }
+#cruscottoFull fieldset.biglietti_from_to label { width: 10%; margin-bottom: 7px; }
+#cruscottoFull fieldset.biglietti_from_to input { width: 85%; margin-bottom: 7px;font-size:14px !important; }
+#cruscottoFull fieldset.biglietti_data_ora { border: 0; }
+#cruscottoFull fieldset .biglietti_data_ora_label { width:20%; }/*VGNCF 15-05-12*/
+#cruscottoFull fieldset .biglietti_data_input { width: 28%; margin-right: 0%; font-size: 14px;height:20px; line-height: 1.3em; }/*VGNCF 15-05-12*/
+#cruscottoFull fieldset .biglietti_ora_label { width: 12%; text-align: left; }
+#cruscottoFull fieldset img.ui-datepicker-trigger { text-align: right; float: left; width:20px;height:20px;margin-right:10px}
+#cruscottoFull fieldset .biglietti_ora_input { width: 9%;font-size:14px;height: 20px;line-height: 1.5em;}/*VGNCF 15-05-12*/
+#cruscottoFull fieldset.biglietti_details  { padding-left: 1%;  }
+#cruscottoFull fieldset.biglietti_details label { margin-left: 2%;  }
+#cruscottoFull fieldset.biglietti_details select { float: left; width: 14%; margin-right: 1%; }
+#cruscottoFull fieldset.biglietti_details #biglietti_adulti,
+#cruscottoFull fieldset.biglietti_details #biglietti_ragazzi { width: 45px; height: 20px; font-size:14px}/*VGNCF 15-05-12*/
+#cruscottoFull fieldset.biglietti_prezzo label { float: none; }
+#cruscottoFull fieldset.biglietti_prezzo .fl {width:68%; }/*VGNCF 15-05-12*/
+#cruscottoFull fieldset.biglietti_prezzo { line-height: 2em; }
+#cruscottoFull fieldset.biglietti_prezzo .check-wrapper { margin-right: 3%; float: right; }
+#cruscottoFull fieldset.biglietti_buttons { padding: 4% 3% 4% 3%; }
+#cruscottoFull fieldset.biglietti_buttons button { float: right; }
+#cruscottoFull fieldset.biglietti_buttons a { float: left; margin: 4% 0; color: #dc002e; text-decoration: underline; font-size: 1.1em; }
+.boxRicercaPrez{position:relative !important;height:25px}
+#cruscottoFull fieldset.biglietti_prezzo label.labelRicercaPrez, #cruscottoInt fieldset.biglietti_prezzo label.labelRicercaPrez{float:left;position:absolute;top:1px;left:0;width:180px;font-weight:normal}
+
+#cruscottoFull fieldset.abb_tipo { padding-top: 10px; }
+#cruscottoFull fieldset.abb_tipo label { font-size: 1.2em; width: 37%; white-space: nowrap }
+#cruscottoFull fieldset.abb_tipo input { margin: 2% 3% 2% 0; border: 0; background: none repeat scroll 0 0 transparent;}
+#cruscottoFull .abbtab_tipo_abb { position: absolute; top: -3000px; }
+#cruscottoFull fieldset.abb_tipo_descr label {  }
+#cruscottoFull fieldset.abb_tipo_descr #subscriptionType { z-index: 100; }
+#cruscottoFull fieldset.abb_tipo_descr #durationType { z-index: 99; }
+
+#cruscottoFull .abbtab_tipo_carnet { position: absolute; top: -3000px; }
+#cruscottoFull .abbtab_tipo_carnet .abb_tipo_descr label { width: 22%; }
+#cruscottoFull .abb_tipo_descr #typology { width: 70%; }
+#cruscottoFull .abb_tipo_descr #cal_id_3 { width: 30%; margin-right: 3%; }
+
+#cruscottoFull .abbtab_tipo_prenota_carnet { position: absolute; top: -3000px; }
+#cruscottoFull .abbtab_tipo_prenota_carnet label { width: 30%; }
+#cruscottoFull .abbtab_tipo_prenota_carnet input { width: 65%; }
+
+#cruscottoFull .abbtab_tipo_abb.visible,
+#cruscottoFull .abbtab_tipo_carnet.visible,
+#cruscottoFull .abbtab_tipo_prenota_carnet.visible { position: static; top: 0; } 
+
+#cruscottoFull .cruscotto-buttons { position: absolute; left: 68%; top: 10px; width: 29.9%; z-index: 10000; }
+#cruscottoFull .cruscotto-buttons ul,
+#cruscottoFull .cruscotto-buttons ul li, .spallaDxInfo .cruscotto-buttons ul, .spallaDxInfo .cruscotto-buttons li { list-style: none; margin: 0; padding: 0; }
+.spallaDxInfo .cruscotto-buttons{margin-bottom:3px}
+#cruscottoFull .cruscotto-buttons ul li,.spallaDxInfo .cruscotto-buttons ul li { float: left; vertical-align: middle; background: url(/cms-file/common/img/themeTcom01/rbtnsx.png) no-repeat left top; }
+#cruscottoFull .cruscotto-buttons ul li img, .spallaDxInfo .cruscotto-buttons ul li img { vertical-align: middle; }
+#cruscottoFull .cruscotto-buttons ul li a , .spallaDxInfo .cruscotto-buttons ul li a{ margin: 0 2px 0 9px; vertical-align: middle; text-transform: uppercase; line-height: 1.5em; display: block; background: url(/cms-file/common/img/themeTcom01/rbtndx.png) no-repeat right top;  /*background: #fff url(/cms-file/common/img/themeTcom01/bg-cruscotto-buttons.gif) repeat-x left center;*/ padding: 2px 7px 2px 0; /*border-radius: 8px;*/ color: #dc002e; font-size: .9em; }
+.spallaDxInfo .cruscotto-buttons ul li a{ margin: 0 2px 0 7px;font-size:.8em; line-height: 18px; padding: 1px 6px 2px 0;}
+.spallaDxInfo .cruscotto-buttons ul {height:45px;}
+.spallaDxInfo .cruscotto-buttons ul li.frecciaFS{width:80px !important}
+
+/* No javascript */
+#cruscottoFull.nojs .emotional { overflow: hidden; height: 362px; }
+#cruscottoFull.nojs .emotional ul li { float: left; width: 1000px; padding: 0; margin: 0; list-style: none; }
+#cruscottoFull.nojs .adv-text { top: 10px; }
+#cruscottoFull.nojs .ss-pager { display: none; }
+
+.cruscotto_links { background: url(/cms-file/common/img/themeTcom01/bg_cruscotto_bottom_dx.gif) no-repeat 97.7% top; padding: 25px 9% 8px 3%;  }
+.cruscotto_links ul { padding: 0; margin: 0; list-style: none; display: block; } 
+.cruscotto_links ul li { padding: 0; margin: 0; list-style: none; display: block; }
+.cruscotto_links ul li { margin-bottom: 1px; background: #ebecef; border-radius: 3px; }
+.cruscotto_links ul li a { background: url(/cms-file/common/img/themeTcom01/cruscotto_link_f.gif) no-repeat 95% center; padding-left:10px; display: block; color: #818384; font-weight: bold; font-size: 1.1em;height: 31px; line-height: 31px; }
+
+.contBanner_box{width:972px;margin:auto}
+.banner_box { border: 1px solid #e1e0df; background: #fff; box-shadow: 0 0 3px #aaa; margin:auto;width:100%;padding-bottom:2px }
+.banner_box ul{width:100%;}
+.banner_box ul,
+.banner_box ul li {  margin: 0 !important;padding:2px 0 0 0; list-style: none; list-style-type: none; }
+.banner_box ul li img {margin-right:1px;margin-left:1px}
+.banner_box ul li { float: left; padding: 0 2px 0 2px; border-right: 1px dotted #8c8c8c;  }
+.banner_box ul li.sec { border-right: 0; float: right}
+.banner_box ul li.last-row { border: 0; }
+.banner_box ul li img { display: block; }
+
+.accordion-home-boxCont{clear: both; padding-bottom: 13px; padding-left:10px;margin: 10px 0 0 0; text-align: center;}
+.accordion-home-box {margin: auto}
+.accordion-home-box .adv { width: 61%; float: left; position: relative; background: url(/cms-file/common/img/themeTcom01/travel_adv.jpg) no-repeat left top; min-height: 312px; height: 312px; }
+.accordion-home-box .adv .description { display: none;}
+.accordion-home-box .adv .adv-link { position: absolute; left: 22px; top: 221px; background: #fff; font-size: 1.2em; font-weight: bold; padding: 4px 8px; }
+.accordion-home-box .accordion-container { width: 37.99%; float: left; }
+.accordion-home-box .accordion-container .accordion { width: 100%; }
+.accordion-home-box .travel_accordion h2 { background: transparent; border-radius: 4px; padding: 0; }
+.accordion-home-box .travel_accordion div { background: transparent;  border-radius: 6px;}
+.accordion-home-box .travel_accordion h2 span { font-size: 18px; color: #fff; border-radius: 4px; border-top: 1px solid #fff; margin: 0; }
+.accordion-home-box .travel_accordion { padding-left: 0; }
+.accordion-home-box .travel_accordion .itemAccordionViaggi001 div { background: #9fc653; }
+.accordion-home-box .travel_accordion .itemAccordionViaggi001 h2 span { background: #9fc653 none no-repeat 6px center; padding-left: 15px; text-align: left;line-height:35px }
+.accordion-home-box .travel_accordion .itemAccordionViaggi002 div { background: #e2a105; }
+.accordion-home-box .travel_accordion .itemAccordionViaggi002 h2 span { background: #e2a105 none no-repeat 6px center; padding-left: 15px; text-align: left;line-height:35px }
+.accordion-home-box .travel_accordion .itemAccordionViaggi003 div { background: #cdcd00; }
+.accordion-home-box .travel_accordion .itemAccordionViaggi003 h2 span { background: #cdcd00 none no-repeat 6px center; padding-left: 15px; text-align: left;line-height:35px }
+.accordion-home-box .travel_accordion .itemAccordionViaggi004 div { background: #2294cb; }
+.accordion-home-box .travel_accordion .itemAccordionViaggi004 h2 span { background: #2294cb none no-repeat 6px center; padding-left: 15px; text-align: left;line-height:35px }
+.accordion-home-box .accordion-container .list-item { padding-bottom: 2px; clear: both }
+.accordion-home-box .accordion-container .list-item img { width: 88px; float: left; }
+.accordion-home-box .accordion-container .list-item p { float: left; font-size: 1.05em; color: #333; width: 58%; margin: 3px 0 0 1%; text-align:left}
+
+
+
+.anchor{float:left; height: 0; width:0; overflow: hidden; font-size:0; text-decoration: none;}
+
+/* Viaggiare informati */
+.viaggiareInfo {
+    background: none repeat scroll 0 0 #EBECEF;
+    padding-bottom: 8px;
+}
+.viaggiareInfo fieldset {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+.viaggiareInfo h4 {
+    color: #3E3E3E;
+    display: block;
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: 0 1.5%;
+    padding: 1.5% 0;
+}
+.tab {
+    background-color: #EEEEEE;
+    margin: 0 8px;
+    overflow: hidden;
+}
+.tab ul.menu {
+    background: none repeat scroll 0 0 #ffffff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.tab ul.menu li {
+    display: inline;
+    float: none;
+    width: 24.5%;
+}
+.tab ul.menu li a {
+    /*background: url("/cms-file/common/img/themeTcom01/bg-tabViaggiare.gif") repeat-x scroll 0 0 #BC1C31;*/
+	 background: #969696;
+    border-left: 1px solid #E0E0E0;
+    color: #E6E6E6;
+    display: block;
+    float: left;
+    font-size: 1.1em;
+    padding: 1% 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 24.5%;
+	height:15px;
+	margin-top:15px;
+}
+.tab ul.menu li.selected a {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: medium none;
+    color: #9C0012;
+    font-weight: bold;
+    width: 25%;
+	height:20px;
+	margin-top:10px;
+}
+.tab ul.multiTabHP_3 li.selected a {
+    width: 32% !important;
+}
+.tab ul.multiTabHP_3 li {
+    width: 32% !important;
+}
+.tab ul.multiTabHP_3 li a {
+    width: 32% !important;
+}
+.tab ul.multiTabHP_4 li.selected a {
+    width: 24.5% !important;
+}
+.tab ul.multiTabHP_4 li {
+    width: 24.5% !important;
+}
+.tab ul.multiTabHP_4 li a {
+    width: 25% !important;
+}
+.tab .item {
+	background-color:#EEEEEE;
+    height: 84px;
+    padding: 5px 11px;
+    position: relative;
+    width: 97%;
+}
+.tab .item .note, .tab .item .notemed, .tab .item .noteplus {
+    background: none repeat scroll 0 0 #EDF5F9;
+    color: #3E3E3E;
+    float: left;
+    font-size: 1.1em;
+    padding: 1%;
+}
+.tab .item .note {
+    width: 24%;
+}
+.tab .item .noteplus {
+    width: 36%;
+}
+.tab .item .notemed {
+    width: 30%;
+}
+.tab .item .icon {
+    float: left;
+    padding: 1% 2%;
+    width: 19%;
+}
+.tab .item .cont {
+    float: left;
+    padding: 0 0 1% 2%;
+    width: 72%;
+}
+.tab .item .cont .align-right {
+    padding: 0 3% 0 0;
+}
+.tab .item p {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 1%;
+}
+.tab .item .form, .tab .item .formmed {
+    float: left;
+    padding: 0 0 1% 2%;
+}
+.tab .item .form {
+    width: 59%;
+}
+.tab .item .formmed {
+    float: left;
+    padding: 0 0 0 2%;
+    width: 65%;
+}
+.tab .item label {
+    color: #0073AB;
+    font-weight: bold;
+    margin: 1% 0 1% 1%;
+}
+.tab .item input {
+    border: 1px solid #AAACAD;
+    box-shadow: 0 0 4px #AAAAAA;
+    color: #333333;
+    font-size: 11px;
+    margin: 1% 1% 1% 10px;
+    padding: 2px;
+    width: 33%;
+}
+.tab .item button {
+    font-size: 1.1em;
+    padding: 3px 9px;
+}
+.tab .item #dataFine {
+    margin-left: 15px;
+}
+.tab .item .li {
+    font-size: 1.1em;
+    padding: 3px 9px;
+}
+.tab .item .biglietti_cal_open {
+    position: relative;
+    top: 5px;
+}
+.tab .item .biglietti_cal_open:hover {
+    text-decoration: none;
+}
+.tab .item .links {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    overflow-y: auto;
+}
+.tab .item .links li {
+    color: #333333;
+    font-size: 12px;
+    margin: 1% 0;
+}
+.tab .item .links li span, .tab .item .links li a {
+    color: #0073AB;
+    font-weight: bold;
+}
+.tab .item .cancel {
+    color: #DC002E;
+    font-size: 1.1em;
+    margin: 0 5px;
+    text-decoration: underline;
+}
+.tab .item input.med {
+    width: 31%;
+}
+.tab .item input.long {
+    margin-right: 1%;
+    width: 37%;
+}
+
+
+/* google map */
+.cl{clear:both; font-size:0; line-height:0; height:0; float:none; overflow:hidden}
+.map-app{width:100%; height:278px; position:relative}
+.map-app-cont{width:100%; height:290px; position:relative}
+.map-app-map{width:100%; height:290px; position:absolute; z-index:0; margin:0 auto}
+.googleMap{position:relative; font-size:11px; float:left; width:100%; overflow:hidden; background: #ebecef;}
+.googleMap label.title {color:#333; float:left; font-size:18px; font-weight:normal; padding:0; margin: 10px 15px;}
+#selectLocation{font-size:12px; width:182px;margin:12px 0 0 0; position: relative; z-index: 1000;}
+.mapTab{overflow:hidden; border-bottom:2px solid #db2210; margin:0; position: absolute;top:14px;right: 0;width: 99%; padding-right: 1%; z-index: 0; }
+.mapTab li{float:right; text-align:center; background:#595959; text-transform:uppercase; font-weight:bold; list-style:none; padding:6px 10px; color:#FFF;}
+.mapTab li.on{background:#dc002e;}
+.mapTab li a,.mapTab li a:hover{text-decoration:none; color:#fff}
+.mapTab li.on a{text-decoration:none; color:#fff}
+.trovaPercorso{height:271px; width:229px; font-size:11px; border-left:1px solid #dadada; border-bottom:1px solid #dadada; z-index:2000; position:absolute; background:url(/cms-file/common/img/themeTcom01/bg_toolMap.png) repeat-y right;  left:-229px; overflow-x:hidden; overflow-y: auto;}
+.trovaPercorsoInt{margin-right:4px}
+#distance_road{text-align:left; height:200px; overflow:auto; display:none}
+#title_road{text-align:left; font-weight:bold; font-size:12px; padding:3px 6px 6px}
+.percorsiSuggeriti{text-align:left; display:none; padding:6px}
+.percorsiSuggeriti h6{font-size:11px; margin:0; padding:0}
+.moreOption{text-align:left; display:none; background:#e8ecf9; margin:0 5px 5px; padding:5px}
+#roadMap input{display:block; border:1px solid #999; float:left; width:162px; height:17px; margin-bottom:5px}
+#roadMap{text-align:center}
+.indicazioni{display:block; color:#000; padding:4px 0 0 7px}
+.indicazioni h6{color:#000; text-decoration:none; font-size:11px; float:left; font-weight:bold; margin:0; padding:0}
+.contPercorso{position:relative; z-index:9000;}
+form{display:inline}
+.trovaPercorsoOpen{position:absolute; z-index:1900; left:0; padding-top:3px}
+.filter{height:259px; width:70px; font-size:10px; z-index:2000; position:absolute; background:url(/cms-file/common/img/themeTcom01/bg-filter.png) top left no-repeat; overflow:hidden; right:0;top:13px;padding-top:5px;cursor:pointer;}
+.filter #openClose{ width: 18px; height:259px; background-image:url(/cms-file/common/img/themeTcom01/bg-filter_open.gif); background-position:center center; background-repeat:no-repeat; float: left;}
+.filter.off #openClose{ background-image:url(/cms-file/common/img/themeTcom01/bg-filter_close.gif); }
+.filter .button{ width:52px; float: left;}
+.filter .button .buttons{padding:0;margin:0;}
+.filter .button .buttons li{width:32px; height:32px; padding:3px 5px; float: left; overflow: hidden; list-style: none; border-bottom:1px dotted #8c8c8c;}
+.filter .button .buttons li.last{border-bottom:none;}
+.filter .button .buttons li a{width:32px; height:32px; float: left; overflow: hidden; background-image: url(/cms-file/common/img/themeTcom01/filter-buttons.gif); background-repeat: no-repeat;}
+.filter .button .buttons li a:hover{text-decoration: none;}
+.filter .button .buttons li a span{visibility:hidden;}			
+.filter .button .buttons li a.aereo{ background-position: 0 0}
+.filter .button .buttons li a.bus{ background-position: -32px  0}
+.filter .button .buttons li a.taxi{ background-position: -64px  0}
+.filter .button .buttons li a.metro{ background-position: -96px  0}
+.filter .button .buttons li a.park{ background-position: -128px  0}
+.filter .button .buttons li a.info{ background-position: -160px  0}
+.trovaPercorsoOpen a, .trovaPercorsoOpen a:hover{text-decoration:none; margin-top:4px; padding:0px;}
+.trovaPercorsoOpen a img{box-shadow: 0px 0px 4px #666;}
+.mapMode{cursor:pointer; display:block; float:left; height:29px; width:52px; background-image:url(/cms-file/common/img/themeTcom01/drive-walk.gif); background-repeat: no-repeat; text-indent: -999999px}
+.tabViste{width:100%; overflow:hidden}			
+.modeMapTab{width:104px; margin:0 auto 14px; padding:0;}
+.modeMapTab #driving{background-position:top left}
+.modeMapTab #driving.on{background-position:bottom left}
+.modeMapTab #walking{background-position:bottom right}
+.modeMapTab #walking.on{background-position:top right}			
+.acenter{text-align:center; float:none; clear:both; margin:0}
+.chiudiPercorso{display:block; float:right; text-decoration:none;}
+#boxIndicazioni{width:216px; margin:0 auto; padding:0}
+.origin,.destination{float:left; background:url(/cms-file/common/img/themeTcom01/dl2.png) no-repeat scroll 0 -163px transparent; width:13px; height:13px; margin:2px 5px}
+.origin label,.destination label{visibility:hidden;}
+
+.destination{background-position:-16px -89px}
+.invertiMap{ text-indent: -999999px; float:right; background:url(/cms-file/common/img/themeTcom01/invert.gif) no-repeat scroll transparent; width:20px; height:30px; margin:7px 4px 0 0}
+.opzioniMap{margin-bottom:5px}
+.opzioniMap a{color:#0036f2; font-size:10px}
+.percorsiSuggeriti a,
+.percorsiSuggeriti a:hover{display:block; color:#000; text-decoration:none; padding-left:13px}
+
+#distance_road.tall{height:198px}
+.contBgMappa{width:100%}
+.bgContMappa{height:341px}
+#submitMap{	display: inline-block; min-width: 54px; text-align: center; font-size: 85%; font-weight: bold; height: 27px; padding: 0 8px; line-height: 27px;	-webkit-border-radius: 2px;	-moz-border-radius: 2px; border-radius: 2px; border: 1px solid #3079ED; color: white; background-color: #4D90FE; background-image: -webkit-gradient(linear,left top,left bottom,from(#4d90fe),to(#4787ed)); background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed); background-image: -moz-linear-gradient(top,#4d90fe,#4787ed); margin-bottom: 5px;}
+.immagineMappa{ width:100%;}
+
+
+/*      FOOTER         */
+.footer-container { text-align:center;margin:10px 0 0 0; }
+.footerAperto{display:block;}
+.footerChiuso{display:none}
+.footer{ /* display:none; */ width:98%;  height: auto;  min-height: 100%;background-color:#e9e7ea;color:#000;padding:10px 0 15px 0;margin: auto;}
+.contFooter{background-color:#e9e7ea;width:100%;height:auto;min-height:100%;clear:both;background-image:url(/cms-file/common/img/themeTcom01/bg-boxFooterTot.gif);background-repeat:repeat-y;}
+.headFooter{line-height:2em;}
+.boxFooter{float:left;width:26%;height:auto !important; margin: 0 auto;min-height:100%;}
+.boxFooterCont{padding:15px 0 8px 10px;text-align:left}
+.boxFooterTagCloud{float:left;width:11%}
+.titFooter{color:#000;font-size:1.4em;padding:0 0 0 15px}
+.chiudiFooter{padding:0 19px 0 0 }
+.boxFooterCont h2, .boxFooterCont a.linkSecLiv{color:#dc002e !important;font-size:1.1em;display:block;margin:0 0 15px 2px;padding:0;color:#dc002e;font-weight:bold}
+.boxFooter div.boxFooterCont ul{text-align:left;margin:0 0 7px 4px !important;padding:0 0 7px 0 !important;background-color:transparent !important;}
+.boxFooter div.boxFooterCont ul li {text-align:left;list-style: none;margin:0  0 2px 0 !important;padding:0 0 0 1px !important;}
+.boxFooter div.boxFooterCont ul li a, .boxFooter div.boxFooterCont ul li a:hover{color:#333333;font-size:1em;background-image:url(/cms-file/common/img/themeTcom01/list-menu-footer.gif) !important;background-repeat:no-repeat;display:block;padding-left:10px}
+.TagCloudCont{background-image:url(/cms-file/common/img/themeTcom01/boxTagCloudTop.gif);background-repeat:no-repeat;background-position:top left;background-color:#9e9e9e;width:175px;margin:3px 0 0 20px;text-align:left}
+.tagCloudBtm{background-image:url(/cms-file/common/img/themeTcom01/boxTagCloudBtm.gif);background-repeat:no-repeat;background-position:left;height:8px}
+.tagCloudTit{color:#ffffff;font-size:1.5em;padding:10px;font-weight:normal}
+#cloud a.tag1 { font-size: 0.9em; font-weight: 100; }
+#cloud a.tag2 { font-size: 1em; font-weight: 200; }
+#cloud a.tag3 { font-size: 1.1em; font-weight: 300; }
+#cloud a.tag4 { font-size: 1.2em; font-weight: 400; }
+#cloud a.tag5 { font-size: 1.4em; font-weight: 500; }
+#cloud a.tag6 { font-size: 1.6em; font-weight: 600; }
+#cloud a.tag7 { font-size: 1.8em; font-weight: 700; }
+#cloud a.tag8 { font-size: 2em; font-weight: 800; }
+#cloud a.tag9 { font-size: 2.4em; font-weight: 900; }
+#cloud a.tag10 { font-size: 2.6em; font-weight: 900; }
+#cloud { padding: 10px 2px 10px 2px; line-height: 2em; text-align: center; }
+#cloud a { padding: 0px; }
+#cloud { margin: 0; }
+#cloud li { display: inline; }
+.footerServizio{background-color:#f7f7f9;height:100%;min-height:100%;width:100%}
+.footerServizioCont{padding:20px 30px 40px 10px}
+.footerServizioCont .left a, .footerServizioCont .left span, .footerServizioCont .right a, .footerServizioCont .right span  {color:#656565;} 
+
+/* 	STILI PAGINA INFORMATIVA */
+.bodyPgInfo{width:100%}
+.headPgInfo{background-image:url(/cms-file/common/img/themeTcom01/bg-head-pg-info.jpg);width:100%;}
+.headPgInfoCont{padding:169px 0 0 19px}
+.headPgInfoCont form{display:inline}
+
+
+.path, .pathFoglia{padding:19px 0 7px 0;width:100%;line-height:3em;height:3em;color:#666b6d;font-size:1em;}
+.pathFoglia{ padding-top:0}
+.path a, .path span, .pathFoglia a, .pathFoglia span{ font-size:1em;}
+.path a, .pathFoglia a{color:#666b6d}
+.path span, .pathFoglia span{ color:#340708}
+
+.bodyPgInfoCont, .bodyPgInfoContFoglia{padding:10px 22px 10px 15px;}
+.bodyPgInfoContFoglia{padding-right:0;background-image:url(/cms-file/common/img/themeTcom01/bg-spalla-foglia.gif);background-position:right 40px;background-repeat:no-repeat}
+.bodyPgInfo div h1{margin:0;padding:0;color:#dc002e;font-size:2.6em;font-weight:normal}
+.bodyPgInfo div h2{margin:5px 0 21px 0;padding:0;color:#340708;font-size:1.5em;font-weight:normal}
+.bodyPgInfoCont p, .bodyPgInfoCont p a, .bodyPgInfoCont p a:hover, .bodyPgInfoCont p.paragEvidenz,  .bodyPgInfoContFoglia p,  .bodyPgInfoContFoglia p a,  .bodyPgInfoContFogliap a:hover,  .bodyPgInfoContFoglia p.paragEvidenz {font-size:1.1em !important;color:#3e3e3e}
+
+.bodyPgInfoCont p.paragEvidenz a, .bodyPgInfoCont p a, .bodyPgInfoCont p a:hover,  .bodyPgInfoContFoglia p.paragEvidenz a,  
+.bodyPgInfoContFoglia p a,  .bodyPgInfoContFoglia p a:hover,  .bodyPgInfoContFoglia p.paragEvidenz a{text-decoration:underline;font-size:1em !important;color:#3e3e3e}
+
+.bodyPgInfo p.paragEvidenz a, .bodyPgInfoCont p a, .bodyPgInfoCont p a:hover,  .bodyPgInfoContFoglia p.paragEvidenz a, .bodyPgInfoContFoglia p a,  .bodyPgInfoContFoglia p a:hover,  .bodyPgInfoContFoglia p.paragEvidenz a{text-decoration:underline;font-size:1em !important;color:#3e3e3e}
+.bodyPgInfoCont p.paragEvidenz a.linkEsterno, .bodyPgInfoCont p.paragEvidenz a.linkInterno { text-decoration:underline;font-size:1em !important;color:#3e3e3e; background-image: none; background-position: none; background-repeat: none; padding-left: 0px;}
+
+div.linkCondWithBoxImgRight { width: 100%;}
+div.linkCondWithBoxImgRight a{ right:-107px; position: relative; margin-top: 2px;}
+
+.bodyPgInfoCont .titEvidenz,  .bodyPgInfoContFoglia .titEvidenz{/*width:96%;*/height:2em;background-color:#ebecef;padding: 0 0 0 13px;color:#3e3e3e;font-size:1.9em;line-height:2em;margin-top:30px}/*CFVGN 13-04-12*/
+.bodyPgInfoCont p.paragEvidenz,  .bodyPgInfoContFoglia p.paragEvidenz{margin:14px 10px 10px 13px}
+.marginBanParag, .bodyPgInfoCont p,  .bodyPgInfoContFoglia p{margin:12px 0 10px 0}
+.widthParagEviden{width:75%}
+.spallaIntDxFoglia{width:193px;}
+
+/* PG INFO  E SPALLA DESTRA */
+.box-qlink{margin:26px 0 33px 10px}
+.box-qlink h3 {font-size:1.5em;font-weight:500;margin-bottom:15px;padding-bottom:0}
+.box-qlink ul{margin:0;padding:0;list-style-type:none;}
+.box-qlink ul li{margin:0;padding:0;}
+.box-qlink ul li a, .box-qlink ul li a.externalQlink{font-size:1.1em;display:block;height:28px;color:#3e3e3e;background-image:url(/cms-file/common/img/themeTcom01/bg-qlink.gif);background-repeat:no-repeat;padding:5px 0 3px 16px;border-bottom:1px solid #d1d2d3}
+.box-qlink ul li a.externalQlink{color:#0073ab}
+.bannerSpalla{margin:26px 0 15px 0}
+.articoloCorr{background-color:#a6a8a9;width:93%;padding:24px 5px 20px 11px;color:#fff;font-size:1.1em}
+.articoloCorr p {margin:0 0 15px 0;color:#fff}
+.articoloCorr p  a, .articoloCorr div a{color:#ffffff;text-decoration:underline}
+.spallaDxInfo {float: right; width: 27%; padding: 1% 2%; }
+#content-scroll .ui-slider-handle,#content-scroll .ui-state-default, #content-scroll .ui-corner-all,#content-scroll .ui-state-hover, #content-scroll .ui-state-focus,.listSeleziona a.ui-slider-handle,.listSeleziona a.ui-state-default, .listSeleziona a.ui-corner-all,.listSeleziona a.ui-state-hover, .listSeleziona a.ui-state-focus{ background:none #edecf1 !important; border:none !important;}
+#content-scroll a.ui-slider-vertical, #content-scroll a.ui-slider-handle, #content-scroll a.ui-slider-vertical, #content-scroll a.ui-slider-handle {border:medium none}
+.listSeleziona  .ui-widget-content { border-width:0; background-image: none   !important; color: #333333; }
+
+
+#content-scroll .ui-slider-vertical{ background:#ebeaef}
+.box-combo, .box-comboNojs{ background:#ebecef; padding:8px 10px;height:54px}
+.box-comboNojs{height:auto !important;}
+.box-combo h3{font-size:1.5em;font-weight:500}
+.combo{ margin-top:5px;position:absolute;}
+.combonojs {margin-top:5px;position:relative;}
+.combo .title{ background:url(/cms-file/common/img/themeTcom01/combo_bg.gif) center center repeat-x; height:23px;}
+.combo .title h4{ font-size:1.1em ;font-weight:normal;background:url(/cms-file/common/img/themeTcom01/combo_bg.gif) top left no-repeat; height:23px;width:249px}
+.combo .title h4 a{ background:url(/cms-file/common/img/themeTcom01/combo_bg.gif) bottom right no-repeat; height:23px; line-height:23px; display:block; padding:0 23px 0 5px;font-size:1.1em !important}
+.combo .listSeleziona{ background:#6c6c6e; width:249px; border-top:10px solid #6c6c6e;border-bottom:7px solid #6c6c6e}
+.combo .listSeleziona .cont{ width:219px; float:left; height:200px; overflow:hidden; position:relative;}
+.combo .listSeleziona .nojsHeight{height:100%;display:block}
+.combo .listSeleziona .selector{ width:11px;  height:190px; position:relative;float:right;background-color:#3e3e3e;display:block;margin-right:5px;border-radius:0; border: medium none;}
+.SelezionaAperto{display:block;}
+.SelezionaChiuso{display:none}
+
+.combo  .nojsList{height:700px !important;display:block  }
+
+ul.select{background:#6c6c6e; color:#fff; margin:0; padding:10px; list-style:none; position:absolute; top:0; left:0;}
+ul.select li a{color:#fff; font-weight:bold; display:block; padding:0 5px;}
+ul.select li a:hover{ background:#ecebf0; color:#e50035; text-decoration: none;}
+ul.select li ul{margin:0; padding:0;}
+ul.select li ul li{ list-style:none; margin:1px 0; padding:0;}
+ul.select li ul li a{font-weight:normal; padding:0 5px 0 15px;}
+ul.select li ul li a:hover{ background:#ecebf0; color:#e50035; text-decoration: none;}
+
+/*	CRUSCOTTO PAGINA INFORMATIVA */
+#cruscottoInt .cruscotto-menu { background: transparent; padding: 0; margin: 0; list-style-type: none; overflow: hidden; }
+#cruscottoInt .cruscotto-menu li { float: left; background: transparent;}
+#cruscottoInt .cruscotto-menu li.item-active { background: transparent; }
+#cruscottoInt .cruscotto-menu li.item-active a { color: #ffffff; }
+#cruscottoInt .cruscotto-menu li.item-biglietti {}
+#cruscottoInt .cruscotto-menu li.item-abbonamenti {  float: left; }
+#cruscottoInt .cruscotto-menu li a, #cruscottoInt .cruscotto-menu li span {  font-size: 1.3em; color: #666b6d; padding: 0; font-weight: bold; text-align: center; }
+#cruscottoInt .cruscotto-menu li.item-last a { border: 0; }
+/*#cruscottoInt .abbonamenti_content,
+#cruscottoInt .biglietti_content { position: absolute; top: -3000px; }*/
+#cruscottoInt .abbonamenti_content.visible,
+#cruscottoInt .biglietti_content.visible { position: static; top: 0; }
+#cruscottoInt .cruscotto { width:624px; background: transparent; z-index: 20; height: 149px; }
+#cruscottoInt fieldset { border: 0; padding: 0; }
+#cruscottoInt fieldset input,
+#cruscottoInt fieldset select { border: 1px solid #aaacad; box-shadow: 0px 0px 4px #aaa; background: #dddddd; color: #333; padding: 2px 0; }
+#cruscottoInt fieldset * { vertical-align: middle; }
+#cruscottoInt hr { border: 0; border-top: 1px solid #d1d2d3; }
+#cruscottoInt .hr-spacer { border: 0; margin: 0; clear: both; display: block; height: 6px; float: none; list-style: none; border: 0; }
+#cruscottoInt fieldset label { float: left; margin-right: 1%; color: #333; font-size: 1em; line-height: 1.6em; }
+#cruscottoInt fieldset input,
+#cruscottoInt fieldset select { float: left; }
+#cruscottoInt fieldset.biglietti_ar { padding-top: 5px; }
+#cruscottoInt fieldset.biglietti_ar label { font-size: 1.2em;}
+#cruscottoInt fieldset.biglietti_ar input { background-color:#a7a8aa;margin: 4px 4px 3px 0;padding-top:0}
+#cruscottoInt fieldset.biglietti_ar input { border: 0; }
+#cruscottoInt fieldset.biglietti_ar #biglietti_ar { margin-left: 5%; }
+#cruscottoInt fieldset.biglietti_from_to label { width: 10%; margin-bottom: 7px; font-size:0.9em }
+#cruscottoInt fieldset.biglietti_from_to input { width: 90%; margin-bottom: 7px; font-size:0.9em}
+#cruscottoInt fieldset.biglietti_data_ora { border: 0; margin-bottom:4px}
+#cruscottoInt fieldset .biglietti_data_ora_label { width: 32%; }
+#cruscottoInt fieldset .biglietti_data_input { width: 26%; margin-right: 2%; font-size: 1em; line-height: 1.3em; }/*VGNCF 15-05-12*/
+#cruscottoInt fieldset .biglietti_ora_label { width: 16%; text-align: right; }
+#cruscottoInt fieldset img.ui-datepicker-trigger { text-align: right; float: left; }
+#cruscottoInt fieldset .biglietti_ora_input { width: 9%;font-size:1em }/*VGNCF 15-05-12*/
+#cruscottoInt fieldset.biglietti_details  { padding-left: 1%;margin-top:4px  }
+#cruscottoInt fieldset.biglietti_details label { margin-left: 0;  }
+#cruscottoInt fieldset.biglietti_details select { float: left; width: 14%; margin-right: 1%; }
+#cruscottoInt fieldset.biglietti_details #biglietti_adulti,
+#cruscottoInt fieldset.biglietti_details #biglietti_ragazzi { width: 50px; font-size:1em}/*VGNCF 15-05-12*/
+#cruscottoInt fieldset.biglietti_prezzo label { margin-right: 1%; float: left; }
+#cruscottoInt fieldset.biglietti_prezzo { line-height: 2em; margin-top:4px;padding-top:5px}
+.boxRicercaPrezInt{position:relative;width:140px}
+
+#cruscottoInt fieldset.biglietti_prezzo label.LabRicercaInt{float:left;position:absolute;top:1px;left:0;}
+
+#cruscottoInt fieldset.biglietti_prezzo .check-wrapper { margin-right: 0; float: left; }
+#cruscottoInt fieldset.biglietti_buttons { padding: 4px 0 0 0; clear:both}
+#cruscottoInt fieldset.biglietti_buttons button { float: left; font-size:1.1em}
+#cruscottoInt fieldset.biglietti_buttons a { float: left; margin:  0; color: #dc002e; text-decoration: underline; font-size: 1.1em; line-height:2em;padding-left:20px}
+#cruscottoInt fieldset.biglietti_prezzo label.ricercapre{line-height:2.2em}
+#cruscottoInt fieldset.abb_tipo { padding-top:5px; }
+#cruscottoInt fieldset.abb_tipo label { font-size: 1.2em;  }
+#cruscottoInt fieldset.abb_tipo input { background-color:#a7a8aa;margin: 4px 4px 3px 0;padding-top:0}
+#cruscottoInt .abbtab_tipo_abb { position: absolute; top: -3000px; }
+#cruscottoInt fieldset.abb_tipo_descr label {  }
+#cruscottoInt fieldset.abb_tipo_descr #subscriptionType { z-index: 100; }
+#cruscottoInt fieldset.abb_tipo_descr #durationType { z-index: 99; }
+
+
+
+.mrgTopDate{margin-top:1px}
+
+#cruscottoInt .abbtab_tipo_carnet { position: absolute; top: -3000px; }
+#cruscottoInt .abbtab_tipo_carnet .abb_tipo_descr label { width: 22%; }
+#cruscottoInt .abb_tipo_descr #typology { width: 70%; }
+#cruscottoInt .abb_tipo_descr #cal_id_3 { width: 30%; margin-right: 3%; }
+
+#cruscottoInt .abbtab_tipo_prenota_carnet { position: absolute; top: -3000px; }
+#cruscottoInt .abbtab_tipo_prenota_carnet label { width: 30%; }
+#cruscottoInt .abbtab_tipo_prenota_carnet input { width: 65%; }
+
+#cruscottoInt .abbtab_tipo_abb.visible,
+#cruscottoInt .abbtab_tipo_carnet.visible,
+#cruscottoInt .abbtab_tipo_prenota_carnet.visible { position: static; top: 0; } 
+
+#cruscottoInt .cruscotto-buttons { position: absolute; left: 68%; top: 10px; width: 29.9%; z-index: 10000; }
+#cruscottoInt .cruscotto-buttons ul,
+#cruscottoInt .cruscotto-buttons ul li { list-style: none; margin: 0; padding: 0; }
+#cruscottoInt .cruscotto-buttons ul li { float: left; vertical-align: middle; background: url(/cms-file/common/img/themeTcom01/rbtnsx.png) no-repeat left top; }
+#cruscottoInt .cruscotto-buttons ul li img { vertical-align: middle; }
+#cruscottoInt .cruscotto-buttons ul li a { margin: 0 2px 0 9px; vertical-align: middle; text-transform: uppercase; line-height: 1.5em; display: block; background: url(/cms-file/common/img/themeTcom01/rbtndx.png) no-repeat right top;  /*background: #fff url(/cms-file/common/img/themeTcom01/bg-cruscotto-buttons.gif) repeat-x left center;*/ padding: 2px 7px 2px 0; /*border-radius: 8px;*/ color: #dc002e; font-size: .9em; }
+
+.buttonInt{font-size: 1.1em;padding: 3px 7px;}
+.primoDivCrInt{float:left;display:block;width:150px;}
+.secondoDivCrInt{float:left;display:block;width:226px;}
+.terzoDivCrInt{float:left;display:block;width:248px;}
+.quartoDivCrInt{float:left;width:286px;margin-top:4px}
+.quintoDivCrInt{float:left;display:block;width:250px;margin-top:4px}
+.margTopSeven{margin-top:7px !important}
+.paddTopSeven{padding-top:7px}
+.margTopEight{margin-top:8px}
+.margTopTen{margin-top:10px !important}
+/* FINE STILI CRUSCOTTO PG INFORMATIVA */
+
+.icoPDFAlign{vertical-align:middle}
+
+/* pagina commerciale */
+.adv-sshow-comm{width:664px;}
+.adv-sshow-comm div.bx-pager {text-align:center}
+.adv-sshow-comm div.bx-pager a.pager-active{color:#dc002e}
+.adv-sshow-comm div.bx-pager a{padding:0 5px 0 5px}
+.bx-prev{height: 15px;position: absolute;left:220px;bottom:0px;width: 8px;}
+.bx-next{height: 15px;position: absolute;right:220px;bottom:0px;width: 8px;}
+.bx-wrapperComm{margin:0;padding:0;width:664px !important}
+.adv-sshowcomm-container{margin:0;padding:0}
+#pg-commerc .adv-sshow-item .adv-sshow-item-content { float: left; width:664px;margin-left:-5px}
+#pg-commerc .adv-sshowcomm-container ul { margin: 0; padding: 10px 0 0 0; }
+#pg-commerc .adv-sshowcomm-container li { width: 100%; float: left; margin: 0; padding: 0; list-style: none; }
+#pg-commerc .adv-sshow-item { border: 1px solid #fff; margin: 0 7px 14px 4px; }
+.widthParagEvidenComm{width:50%}
+.widthParagEvidenCommHalf{width:57%}/*CFVGN 13-04-12*/
+.buttonComm{margin-left:14px;padding: 4px 5px;}
+.buttonFoglia{padding: 4px 5px;}
+.margFormBotFoglia{display:block;margin:10px 0 20px 0}
+.widthFortyComm{width:42%}/*CFVGN 13-04-12*/
+.right.widthFortyComm img {float: right}/*CFVGN 13-04-12*/
+.bodyPgInfoCont .titEvidenznoMarg{width:96%;height:2em;background-color:#ebecef;padding: 0 0 0 13px;color:#3e3e3e;font-size:1.9em;line-height:2em;}
+.margTopTrenta{margin-top:30px}
+.boxCommHalf{float:left;width:49%}
+.boxCommHalfRight{float:right;width:49%}
+.bgboxCommHalf{background-image:url(/cms-file/common/img/themeTcom01/bg-spacer-comm.gif);background-repeat:repeat-y;background-position:center}
+.condividiLinkBoxComm{float:left;color:#0073ab}
+.dettagliLinkBoxComm{float:right;color:#0073ab;padding-right:10px}
+
+/* emotional pagina commerciale */
+#contComm { position: relative; height: 300px; width: 100%; }
+#contComm .commEmotional ul, 
+#contComm .commEmotional ul li { padding: 0; margin: 0; list-style: none; float: left; }
+#contComm .commEmotional ul li { float: left; width: 700px; position: relative; }
+#contComm .commEmotionalimg { display: block; width: 700px; }
+#contComm .commEmotionalimg .bx-window ul { margin: 0; padding: 0;  }
+#contComm .commPager { position: absolute; z-index: 90999112; left: 48%; top: 270px; background: #fff; padding: 4px 10px; border-radius: 10px; }
+#contComm .commPager .pager-link { background: url(/cms-file/common/img/themeTcom01/pager_off.png) no-repeat left top; width: 10px; height: 10px; margin: 1px 2px 0 2px; text-indent: -9999999px; float: left;  }
+#contComm .commPager .pager-link.pager-active { background-image: url(/cms-file/common/img/themeTcom01/pager_on.png); }
+#contComm .adv-text-Comm { position: absolute; bottom: 130px; right: 10%; z-index: 10; text-align: right;  background: transparent; }
+#contComm .adv-text-Comm.align-left { text-align: left; width: 60%; }
+#contComm .adv-text-Comm h3 { font-size: 3em; color: #fff; text-shadow: 1px 1px 5px #000; font-family: Helvetica; }
+#contComm .adv-text-Comm h3.titNero{color:#333}
+#contComm .adv-text-Comm h3.titRosso{color:#d20034}
+#contComm .adv-text-Comm h3.titBianco{color:#ffffff}
+#contComm .adv-text-Comm h4 { font-size: 4em; color: #d20034; text-shadow: 1px 1px 3px #333; }
+#contComm .adv-text-Comm h4.titNero {color:#333}
+#contComm .adv-text-Comm h4.titRosso {color:#d20034}
+#contComm .adv-text-Comm h4.titBianco {color:#ffffff}
+#contComm .adv-text-Comm p { font-size: 1.3em; color: #fff; }
+#contComm .adv-text-Comm p.pRosso{color:#d20034}
+#contComm .adv-text-Comm p.pNero{color:#333}
+#contComm .adv-text-Comm p.pBianco{color:#ffffff}
+#contComm .adv-text-Comm a { background: #fff; font-size: 1.2em; color: #dc002e; padding: 4px 10px; font-weight: bold; float: right; margin: 10px 0; }
+#contComm .adv-text-Comm.align-left a { float: left; }
+#contComm.nojs .commEmotional, #contComm.nojs { overflow: hidden; height: 300px; }
+#contComm.nojs .commEmotional ul { overflow: hidden; height: 300px !important;}
+#contComm.nojs .commEmotional ul li { float: left; width: 700px; padding: 0; margin: 0; list-style: none; }
+#contComm.nojs .adv-text-Comm { top: 10px; }
+#contComm.nojs .commPager { display: none; }
+.noBGMap{background-image:none}
+.mapfake{margin:2% 0 0 3%}
+.bodyPgInfo div h1.h1PgFoglia{margin-bottom:21px;line-height: 30px;}
+.margLfImgFoglia{margin-left:24px}
+.margLfImgFogliaDue{margin:0 12px 8px 0}
+.bodyPgInfo h2.titH2PgFoglia{color:#DC002E;font-size:1.3em;font-weight:800;padding-top:10px;margin-bottom:15px}
+a.linkCondividi, span.linkCondividi{color:#0073ab}
+.margTopLinkCondividi{margin-top:20px}
+.width460{width:460px}
+.spallaIntDxFogliaCont{margin:17px 10px 0 13px}
+div.spallaIntDxFogliaCont h3{margin:0;font-size:1.3em;font-weight:800}
+.linkIcoPdf, .linkIcoGuida {display:block;background-image:url(/cms-file/common/img/themeTcom01/ico-pdf.gif);background-repeat:no-repeat;padding-left:25px;line-height:17px;/*height:17px;CFVGN 23-04-12*/text-decoration:underline;margin-bottom:10px}
+.linkIcoGuida{background-image:url(/cms-file/common/img/themeTcom01/ico-guida-acq.gif);}
+.fogliaTre{background-position:right 100px;}
+.bgHead{background-image:url(/cms-file/common/img/themeTcom01/bg-pag-foglia-3.jpg);background-repeat:no-repeat;width:679px;height:240px;margin-left:-15px}
+.margLeftH1Foglia{ margin-left: 15px;height:90px}
+.areaInterattiva{color:#fff;width:320px;text-align:right;margin-top:20px}
+.areaInterattivaTxtBig{font-size:2.5em;font-weight:800;}
+.areaInterattivaTxtSmall{font-size:1.4em}
+.socialNet {color: #898989;float:left;height: 20px;width: 148px;}/*CFVGN 13-04-12*/
+.socialNet span {float: left;font-size: 11px;margin: 3px 4px 0 0;}
+.socialNet ul {list-style: none outside none;margin: 0;}
+.socialNet ul li {clear: right;float: left;font-size: 11px;margin-right: 3px;width: 16px;}
+.socialNet ul .facebook a {background-position: 0 0;}
+.socialNet ul .twitter a {background-position: -16px 0;}
+.socialNet ul .delicious a {background-position: -32px 0;}
+.socialNet ul .digg a {background-position: -48px 0;}
+.socialNet ul .oknotizie a {background-position: -64px 0;width: 20px;}
+.socialNet li a {background-image: url(/cms-file/common/img/themeTcom01/sprite-SocialNetworkTreni.gif);background-repeat: no-repeat;display: block;height: 0;overflow: hidden;padding-top: 20px;}
+.h20{height:20px}
+.empty-on-click, .margtop5{margin:5px 0 0 0 !important}
+
+/* 	TABELLE */
+div.contTbl{background-color:#f7f7f9;padding:5px 10px 20px 10px}
+div.contTbl h2{color:#DE1327;font-size:2em;padding:0;margin:16px 0 16px 0}
+.tblTitoli, .tblCont, .tblTitoliCrusc{width:100%;}
+.tblTitoliCrusc{padding-top:10px}
+.tblCont td{font-size:1em;color:#3e3e3e}
+.tblTitoli td, .tblTitoliCrusc td, .tblTitoli td.TdLast{vertical-align:top;padding:6px;font-size:1.1em;color:#fff;background-color:#a3a4a6;border-top:5px solid #f7f7f9;border-left:1px solid #f7f7f9;border-bottom:1px solid #f7f7f9}
+.tblTitoliCrusc td{background-color:#fff;border-width:0;}
+.tblTitoli td.TdOn, .tblTitoliCrusc td.TdOn{padding:6px;padding-top:10px;font-size:1.1em;color:#fff;background-color:#de1327;vertical-align:top;border-top:0px solid #de1327;border-bottom-width:0}
+.tblTitoliCrusc td.TdOn{padding:10px 10px 6px 10px}
+.tblTitoliCrusc td.tdSpacer{width:99%}
+.tblTitoli td.TdLast{border-right-width:0}
+.tblTitoli td a, .tblTitoliCrusc td span{color:#ffffff;font-weight:bold}
+.tblTitoli td.rigaRossa, .tblTitoliCrusc td.rigaRossa{height:6px;background-color:#de1327;line-height:6px;font-size:6px;border-top-width:0;padding:0}
+.tblCont td.tblContTit{color:#d51220;font-weight:bold;font-size:1.1em;background-color:#fff;border-right:1px solid #d2d2d2;height:14px;vertical-align:middle;padding:14px 0 16px 14px}
+.tblCont td.tblContTxtWhite, .tblCont td.tblContTxtGrey{font-size:1em;color:#3e3e3e;padding:10px 10px 10px 13px;background-color:#fff;border-right:1px solid #d2d2d2}
+.tblCont td.tblContTxtGrey {background-color:#ebecf0}
+.tblCont td.tblContLast{border-right-width:0;text-align:center;padding:0}
+.tblCont td.tblContLastTxt{border-right-width:0;}
+
+.tblPaesi{width:100%}
+.tblPaesi td.TdOn{padding:6px;padding-top:10px;font-size:1.1em;color:#fff;background-color:#de1327;vertical-align:top;border-top:0px solid #de1327;border-bottom-width:0;border-right:1px solid #f8f8f6;font-weight:bold}
+.tblPaesiRigaSep{height:4px;background-color:#f8f8f8;line-height:4px;font-size:4px;border-top-width:0;padding:0;border-right:1px solid #cfcfcf}
+.tblPaesi td.tblPaesiTxtGrey, .tblPaesi td.tblPaesiTxtWhite{font-size:1em;color:#3e3e3e;padding:10px 4px 10px 5px;background-color:#fff;border-right:1px solid #d2d2d2}
+.tblPaesi td.tblPaesiTxtGrey{background-color:#ebecf0}
+.tblPaesi td.tblPaesiLast{border-right-width:0}
+
+
+ul.listaIndice {list-style-type: none;margin: 0 0 10px 0;padding: 0;}
+ul.listaIndice li{margin: 0;padding: 0;}
+ul.listaIndice li a{ background-image: url(/cms-file/common/img/themeTcom01/bg-lista-indice.gif); background-repeat: no-repeat;color: #3E3E3E;display: inline-table;   font-size: 1.1em;font-weight:bold;height: 18px;line-height: 18px;padding-left: 12px;}
+.headListaIndice{text-transform:uppercase;color:#d80031;font-weight:bold;border-bottom:4px solid #d80031;line-height:26px;font-size:1.2em}
+.headListaIndice a{margin-left:10px;color:#d80031;}
+.imgListaIndice{border:1px solid #a7a7a7;margin:4px 14px 0 }
+
+.tornaSu{background-image:url(/cms-file/common/img/themeTcom01/bg-tornasu.gif);height:29px;line-height:29px;background-repeat:repeat-x}
+.tornaSu a{color:#d80031;font-size:1.1em;font-weight:bold;margin-left:10px}
+ul.bodyListaIndice{margin:4px 0 0 0;padding:0;list-style-type: none;}
+ul.bodyListaIndice li{line-height:31px}
+ul.bodyListaIndice li.ListaGrigio{background-color:#ebecf0;}
+ul.bodyListaIndice li a{line-height:31px;color:#3e3f43;margin-left:10px;display:block;font-size:1.1em}
+.w480{width:480px}
+
+ul.listaInternaIndice{margin-left:10px;padding-left:5px;}
+ul.listaInternaIndice li{font-size:1.1em}
+.PNR_input{ background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #AAACAD; box-shadow: 0 0 4px #AAAAAA; color: #333333; padding: 2px 0;width:178px;margin: 0 auto;vertical-align:middle;}
+.contPNR{border:9px solid #f7f7f9;clear:all}
+.ContTxtPNR{float:left;background-color:#dd002e;font-size:1em;color:#fff;padding:5px;width:270px;}
+.contInputPNR{float:left;padding:13px 0 0 13px}
+.notePNR{color:#333;font-size:0.9em;padding-left:10px}
+.marginLfBtn{margin-left:10px}
+
+/*PAGINE REGIONI*/
+ul.listaServReg, ul.listaServRegLong{margin:0;padding:0;list-style-type:none;width:253px}
+ul.listaServRegLong{width:270px}
+#contComm .commEmotional ul.listaServRegGen, #contComm.nojs .commEmotional  ul.listaServRegGen, #contComm .commEmotional ul.listaServRegLong, #contComm.nojs .commEmotional  ul.listaServRegLong{margin:0 10px 0 0 !important;padding:0 10px 0 0 !important;list-style-type:none;width:180px;height:auto !important}
+#contComm .commEmotional ul.listaServRegLong, #contComm.nojs .commEmotional  ul.listaServRegLong{width:270px}
+
+ul.listaServReg li, #contComm .commEmotional ul.listaServRegGen li,  ul.listaServRegLong li, #contComm .commEmotional ul.listaServRegLong li{margin:0  !important;padding:0  !important;}
+ul.listaServReg li a, #contComm .commEmotional ul.listaServRegGen li a,  ul.listaServRegLong li a,  #contComm .commEmotional ul.listaServRegLong li a {font-size:1.1em;display:block;height:28px;color:#3e3e3e;line-height:28px;background-image:url(/cms-file/common/img/themeTcom01/bg-lista-regioni.gif);background-repeat:no-repeat;padding-left:16px;border-bottom:1px solid #d1d2d3;width:180px}
+ul.listaServRegLong li a, #contComm .commEmotional ul.listaServRegLong li a{width:270px}
+
+.boxregioni, .boxregioniGen{background-color:#f7f7f9;padding: 23px 20px 0 28px;display:block}
+table.regioni td{vertical-align:top}
+table.regioni caption{font-size:0px !important;height:0px}
+.boxregioniGen{height:320px !important}
+.boxregioni h1{color: #DC002E;font-size: 2.6em;font-weight: normal;}
+h2.regioni{margin:10px 0 10px 0 !important}
+.imgRegione{margin:10px 20px 0 0}
+.noteRegioniGen{font-size:1.0em;margin-top:20px}
+.h320{height:320px !important;overflow:visible !important}
+.textBox-qlink{font-size:1.2em}
+.titRedbox-qlink{color:#DC002E}
+
+.frecciaLink a {background-image:url(/cms-file/common/img/themeTcom01/bg-artcorr.gif);background-repeat:no-repeat;padding-left:16px;/*height:28px;*/display:block;/*line-height: 25px;*/background-position:left center;}/*CFVGN 13-04-12 - CFVGN 09-10-12 - CFVGN 15-10-12*/
+.bodyPgInfo>div>div>div>p>a.linkEsterno, .bodyPgInfo>div>div>p>a.linkEsterno, .bodyPgInfo>div>div>div>p>a.linkInterno, .bodyPgInfo>div>div>p>a.linkInterno {background-image:url('/cms-file/common/img/freccia_puntatore.gif');background-repeat:no-repeat;background-position:left center;padding-left:15px;}
+.bodyPgInfo>div>div.width460>p>a.linkEsterno, .bodyPgInfo>div>div.width460>p>a.linkInterno {background: none;padding-left:0px;}
+
+.linkFileStatico {background-image:none; padding-left:0px;line-height:28px;}
+
+.box-CFlink{margin:6px 0 10px 8px}
+.box-CFlink ul{margin:0;padding:0;list-style-type:none;}
+.box-CFlink ul li{margin:0;padding:0;}
+.box-CFlink ul li a, .box-CFlink ul li a.externalCFlink{font-size:1.1em;display:block;height:28px;color:#3e3e3e;line-height:28px;background-image:url(/cms-file/common/img/themeTcom01/bg-qlink.gif);background-repeat:no-repeat;padding-left:16px;border-bottom:1px solid #d1d2d3;width: 200px}
+.box-CFlink ul li a.externalCFlink{color:#0073ab}
+.boxStaticFileLinkInParagrafoFoglia {font-size: 1.1em !important; line-height: 28px;}
+
+
+/* AGGIUNTA PER CRUSCOTTO A SINISTRA*/
+/*lista link*/
+.cruSxspallaDx{ float: left; width: 31.99%;}
+
+/*cruscotto*/
+#cruscottoFull .cruSxcruscotto { position: absolute; bottom: 0; right: 68%; width: 29.9%; z-index: 2; height: 393px; top:52px}
+#cruscottoFull .cruSxadv-sshow-container, #cruscottoFull .cruSxadv-sshow-containerTwoImg, #cruscottoFull .cruSxadv-sshow-containerOneImg { width: 68%; position: relative;float:right }
+#cruscottoFull .cruSxadv-sshow-container ul, #cruscottoFull .cruSxadv-sshow-containerTwoImg ul, #cruscottoFull .cruSxadv-sshow-containerOneImg ul { margin: 0; padding: 10px 0 0 0; }
+#cruscottoFull .cruSxadv-sshow-container li, #cruscottoFull .cruSxadv-sshow-containerTwoImg li, #cruscottoFull .cruSxadv-sshow-containerOneImg li{ /*width: 31%;*/ float: left; margin: 0; padding: 0; list-style: none; }
+/*bottoni sopra cruscotto*/
+#cruscottoFull .cruSxcruscotto-buttons { position: absolute;right: 68%; top: 10px; width: 29.9%; z-index: 10000; }
+#cruscottoFull .cruSxcruscotto-buttons ul,
+#cruscottoFull .cruSxcruscotto-buttons ul li, .spallaDxInfo .cruscotto-buttons ul, .spallaDxInfo .cruscotto-buttons li { list-style: none; margin: 0; padding: 0; }
+.spallaDxInfo .cruSxcruscotto-buttons{margin-bottom:3px}
+#cruscottoFull .cruSxcruscotto-buttons ul li,.spallaDxInfo .cruSxcruscotto-buttons ul li { float: left; vertical-align: middle; background: url(/cms-file/common/img/themeTcom01/rbtnsx.png) no-repeat left top; }
+#cruscottoFull .cruSxcruscotto-buttons ul li img, .spallaDxInfo .cruSxcruscotto-buttons ul li img { vertical-align: middle; }
+#cruscottoFull .cruSxcruscotto-buttons ul li a , .spallaDxInfo .cruSxcruscotto-buttons ul li a{ margin: 0 2px 0 9px; vertical-align: middle; text-transform: uppercase; line-height: 1.5em; display: block; background: url(/cms-file/common/img/themeTcom01/rbtndx.png) no-repeat right top;  /*background: #fff url(/cms-file/common/img/themeTcom01/bg-cruscotto-buttons.gif) repeat-x left center;*/ padding: 2px 7px 2px 0; /*border-radius: 8px;*/ color: #dc002e; font-size: .9em; }
+.spallaDxInfo .cruSxcruscotto-buttons ul li a{ margin: 0 2px 0 7px;font-size:.8em; line-height: 18px; padding: 1px 6px 2px 0;}
+.spallaDxInfo .cruSxcruscotto-buttons ul {height:45px;}
+.spallaDxInfo .cruSxcruscotto-buttons ul li.frecciaFS{width:80px !important}
+
+/*paginatore*/
+#cruscottoFull .cruSxss { display: block; width: 996px; }
+#cruscottoFull .cruSxss .bx-window ul { margin: 0; padding: 0;  }
+#cruscottoFull .cruSxss-pager { position: absolute; z-index: 2; right: 31%; top: 427px; background: #fff; padding: 4px 10px; border-radius: 10px; }
+#cruscottoFull .cruSxss-pager .pager-link { background: url(/cms-file/common/img/themeTcom01/pager_off.png) no-repeat left top; width: 10px; height: 10px; margin: 1px 2px 0 2px; text-indent: -999999px; float: left;  }/*CFVGN 12-10-12*/
+#cruscottoFull .cruSxss-pager .pager-link.pager-active { background-image: url(/cms-file/common/img/themeTcom01/pager_on.png); }
+#cruscottoFull.nojs .cruSxss-pager { display: none; }
+
+/*contenitore Viaggiare informati*/
+.cruSxspallaSx  { float:right; width: 68%; background: url(/cms-file/common/img/themeTcom01/bg_cruscotto_bottom_dx.gif) no-repeat left top; }
+
+/*contenitore lista link */
+.cruSxcruscotto_links { padding: 10px 3% 8px 4%;  }
+.cruSxcruscotto_links ul { padding: 0; margin: 0; list-style: none; display: block; } 
+.cruSxcruscotto_links ul li { padding: 0; margin: 0; list-style: none; display: block; }
+.cruSxcruscotto_links ul li { margin-bottom: 0px; background: transparent; border-radius: 3px; }
+.cruSxcruscotto_link_0{ background: url(/cms-file/immagini/trenitalia/homepage/servizi/Acquisto-Abbonamenti.jpg) no-repeat left;height: 38px;width:300px;}
+.cruSxcruscotto_link_1{ background: url(/cms-file/immagini/trenitalia/homepage/servizi/Acquisto-con-Carnet.png) no-repeat left;height: 38px;width:300px;}
+.cruSxcruscotto_link_2{ background: url(/cms-file/immagini/trenitalia/homepage/servizi/Accesso-al-FrecciaClub.png) no-repeat left;height: 38px;width:300px;}
+/*.cruSxcruscotto_link_3{ background: url(/cms-file/immagini/trenitalia/homepage/servizi/Prenotazione-con-Carnet-premio.png) no-repeat left;height: 38px;width:300px;}*/
+.cruSxcruscotto_link_3{ background: url(/cms-file/immagini/trenitalia/homepage/servizi/Indennita-per-ritardo.png) no-repeat left;height: 38px;width:300px;}
+.cruSxcruscotto_link_4{ background: url(/cms-file/immagini/trenitalia/homepage/servizi/Persone-a-mobilita-ridotta.jpg) no-repeat left;height: 38px;width:300px;}
+.cruSxcruscotto_link_5{ background: url(/cms-file/immagini/trenitalia/homepage/servizi/Guida-acquisto-online.png) no-repeat left;height: 38px;width:300px;}
+.cruSxcruscotto_links ul li a { padding-left:10px; display: block; color:  #777; font-weight: bold; font-size: 1.1em;line-height: 38px;text-decoration:none text-align: left;}	
+
+			 
+			 
+			 
+/* Viaggiare informati */
+/*.cruSxviaggiareInfo{background:#999999; padding-bottom:8px; margin-right:10px;margin-top:10px;background-image:url(/cms-file/common/img/themeTcom01/bg-boxViaggiare.gif);background-repeat:no-repeat;background-position:left top}*/
+.cruSxviaggiareInfo{background:#ffffff; padding-bottom:8px; margin-right:10px;margin-top:10px;}
+.cruSxviaggiareInfo fieldset { border: 0; padding: 0; margin: 0; }
+.cruSxviaggiareInfo h4{font-size:1.5em; color:white; margin:0 1.5%; }
+
+/*  testi sopra le immagini nello slider */
+#cruscottoFull .cruSxadv-text { position: absolute; bottom: 230px; right: 5%; z-index: 10; text-align: right;  background: transparent; }
+#cruscottoFull .cruSxadv-text.align-left { text-align: left; width: 60%; }
+#cruscottoFull .cruSxadv-text h3, #cruscottoFull .adv-text h3.titNero { font-size: 3em; color: #fff; text-shadow: 1px 1px 5px #000; font-family: Helvetica; }
+#cruscottoFull .cruSxadv-text h3.titNero, #cruscottoFull .adv-text h4.titNero{color:#333}
+#cruscottoFull .cruSxadv-text h3.titRosso{color:#dd002e}
+#cruscottoFull .cruSxadv-text h4.titBianco{color:#ffffff}
+#cruscottoFull .cruSxadv-text h4 { font-size: 4em; color: #d20034; text-shadow: 1px 1px 3px #333; }
+#cruscottoFull .cruSxadv-text p { font-size: 1.3em; color: #fff; }
+#cruscottoFull .cruSxadv-text p.pRosso{ color: #d20034}
+#cruscottoFull .cruSxadv-text p.pNero{color:#333}
+#cruscottoFull .cruSxadv-text a { background: #fff; font-size: 1.2em; color: #dc002e; padding: 4px 10px; font-weight: bold; float: right; margin: 10px 0; }
+#cruscottoFull .cruSxadv-text.align-left a { float: left; }
+#cruscottoFull.nojs .cruSxadv-text { top: 10px; }
+
+/* FINE AGGIUNTA PER CRUSCOTTO A SINISTRA*/
+
+/*icona scambio destinazione */
+.icoScambioDest{float:right;margin:20px  20px 0 0}
+
+/* stili cruscotto spalla destra */
+.spallaCruscotto { background: #fff; z-index: 2; }
+.spallaCruscotto fieldset { border: 0; padding: 2% 3%; }
+.spallaCruscotto fieldset input, .spallaCruscotto fieldset select { border: 1px solid #aaacad; box-shadow: 0px 0px 4px #aaa; background: #fff; color: #333; padding: 2px 0; }
+.spallaCruscotto fieldset select { padding: 0 0; }
+.spallaCruscotto fieldset * { vertical-align: middle; }
+.spallaCruscotto hr,  hr.separatLine{ border: 0; border-top: 1px solid #d1d2d3; height:1px;line-height:1px }
+.spallaCruscotto .hr-spacer { border: 0; margin: 0; clear: both; display: block; height: 6px; float: none; list-style: none; border: 0; }
+.spallaCruscotto fieldset label { float: left; margin-right: 2.5%; color: #333; font-size: 1.1em; line-height: 1.9em; height:20px }
+.spallaCruscotto fieldset input,
+.spallaCruscotto fieldset select { float: left; }
+.spallaCruscotto fieldset select#biglietti_fromFB, .spallaCruscotto fieldset select#biglietti_toFB{ width:87%}
+.spallaCruscotto fieldset.biglietti_ar { padding-top: 10px; }
+.spallaCruscotto fieldset.biglietti_ar label { font-size: 1.2em; }
+.spallaCruscotto fieldset.biglietti_ar input { margin: 2% 3% 2% 0; }
+.spallaCruscotto fieldset.biglietti_ar input { border: 0; }
+.spallaCruscotto fieldset.biglietti_ar #biglietti_ar { margin-left: 5%; }
+.spallaCruscotto fieldset.biglietti_from_to label { width: 10%; margin-bottom: 7px; }
+.spallaCruscotto fieldset.biglietti_from_to input { width: 85%; margin-bottom: 7px; }
+.spallaCruscotto fieldset.biglietti_data_ora { border: 0; }
+.spallaCruscotto fieldset .biglietti_data_ora_label { width:26%; }
+.spallaCruscotto fieldset .biglietti_data_input { width: 32%; margin-right: 3%; font-size: 1.1em; line-height: 1.3em; }
+.spallaCruscotto fieldset .biglietti_ora_label { width: 12%; text-align: right; }
+.spallaCruscotto fieldset img.ui-datepicker-trigger { text-align: right; float: left; }
+.spallaCruscotto fieldset .biglietti_ora_input { width: 9%;font-size:1.1em }
+.spallaCruscotto fieldset.biglietti_details  { padding-left: 1%;  }
+.spallaCruscotto fieldset.biglietti_details label { margin-left: 2%;  }
+.spallaCruscotto fieldset.biglietti_details select { float: left; width: 14%; margin-right: 1%; }
+.spallaCruscotto fieldset.biglietti_details #biglietti_adulti,
+.spallaCruscotto fieldset.biglietti_details #biglietti_ragazzi { width: 50px; font-size:1.1em}
+.spallaCruscotto fieldset.biglietti_prezzo label { float: none; }
+.spallaCruscotto fieldset.biglietti_prezzo .fl {width:68%; }
+.spallaCruscotto fieldset.biglietti_prezzo { line-height: 2em; }
+.spallaCruscotto fieldset.biglietti_prezzo .check-wrapper { margin-right: 3%; float: right; }
+.spallaCruscotto fieldset.biglietti_buttons { padding: 4% 3% 2% 3%; }
+.spallaCruscotto fieldset.biglietti_buttons button { float: right; }
+.spallaCruscotto fieldset.biglietti_buttons a { float: left; margin: 4% 0; color: #dc002e; text-decoration: underline; font-size: 1.1em; }
+.spallaCruscotto fieldset.biglietti_prezzo label.labelRicercaPrez{float:left;position:absolute;top:1px;left:0;width:180px;font-weight:bold}
+.spallaCruscottoIcoinfo{float:right;margin-top:3px}
+.spallaCruscottoTitolo h3{background-color:#ebecef;font-size: 1.5em; font-weight: 500;padding:10px 0 0  15px;width:253px}
+.spallaCruscottoCont{padding: 5px 5px 10px 5px; width: 240px !important;  border: 9px solid #ebecef;margin: 0 0 15px;}
+.spallaCruscottoCheckB{float:right;margin-left:20px}
+
+/* box immagini sopra al visual */
+.frecceVisual{position:absolute;top:65px;right:19px;z-index:2}
+.frecceVisual div{height:94px}
+.frecceVisualNew{position:absolute;top:65px;right:-28px;z-index:2}
+.frecceVisualNew div{height:83px}
+
+/*aggiunte */
+#cruscottoFull .cruSxadv-sshow-containerTwoImg li{ float:right;width:33%;margin: 0; padding: 0; list-style: none; }
+#cruscottoFull .cruSxadv-sshow-containerTwoImg ul{ margin: 0; padding: 10px 0 0 0px;}
+#cruscottoFull .cruSxadv-sshow-containerThreeImg li{ float:right;width:22%;margin: 0; padding: 0; list-style: none; }
+#cruscottoFull .cruSxadv-sshow-containerThreeImg ul{ margin: 0; padding: 10px 0 0 0px;}
+
+
+/* AGGIUNTA PER CRUSCOTTO ROSSO LE FRECCE */
+.cruscotto_contentFrecce{background: #fff url(/cms-file/common/img/themeTcom01/bg-cruscotto-new.jpg) no-repeat center top;height:342px}
+#cruscottoFull .cruscotto_contentFrecce  fieldset label{color:#969696}
+#cruscottoFull .cruscotto_contentFrecce fieldset.biglietti_ar input, #cruscottoFull .cruscotto_contentFrecce fieldset.biglietti_a input{background-color: transparent}
+#cruscottoFull .cruscotto_contentFrecce form button { cursor: pointer; background: url(/cms-file/common/img/themeTcom01/Cerca_Bianco.png) repeat-x left top; width:112px;height:32px; border: 0px solid #ba2631; border-radius: 0px; box-shadow: 0 0 0px #cb7882; color: #8A000B; text-transform: uppercase; font-size: 1.2em; font-weight: bold; }																																								
+#cruscottoFull .cruscotto_contentFrecce form button:hover { background-image: url(/cms-file/common/img/themeTcom01/Cerca_Bianco.png); }
+#cruscottoFull .cruscotto_contentFrecce fieldset.biglietti_buttons a  { color: #ffffff; }
+
+/* aggiunte per pulsantiera sopra al visual aggiunto overflow-x hidden all'html */
+html{overflow-x:hidden}
+
+
+/* AGGIUNTA PER CRUSCOTTO GRIGIO TUTTI I TRENI */
+.cruscotto_TuttiTreni{background: #C0C0C0 url(/cms-file/common/img/themeTcom01/_bg-cruscotto.jpg) no-repeat center top;height:342px}
+#cruscottoFull .cruscotto_TuttiTreni  fieldset label{color:#444444}
+#cruscottoFull .cruscotto_TuttiTreni fieldset.biglietti_ar input, #cruscottoFull .cruscotto_content fieldset.biglietti_a input{background-color: transparent}
+#cruscottoFull .cruscotto_TuttiTreni form button { cursor: pointer; background:url(/cms-file/common/img/themeTcom01/Cerca_rossoV.png) repeat-x left top; width:112px;height:32px; border: 0px solid #8a000b; border-radius: 0px; box-shadow: 0 0 0px #666; color: #f4f4f4; text-transform: uppercase; font-size: 1.2em; font-weight: bold;position:relative;top:40px;right:10px}
+#cruscottoFull .cruscotto_TuttiTreni form button:hover { background-image: url(/cms-file/common/img/themeTcom01/Cerca_rossoV.png); }
+#cruscottoFull fieldset.biglietti_buttons a.AbbCarnet{margin-top:0;font-size:1.1em;color:#444444}
+
+
+
+/*tooltip cruscotto FR*/
+a.tooltip span { display:none; text-decoration:none}
+a.tooltip:hover span { display:block; }
+a.tooltip:hover span {background: #ffff99;border: 1px solid #000;display:block;position: absolute;top: 1.7em;left:20px;z-index: 1;padding:3px;width:250px;}
+a.tooltip{float:right;margin-right:13px; text-decoration:none}
+a.tooltip:hover { position: relative; text-decoration:none}
+img.icoInfoFrecce{margin-top:5px;}
+
+
+/*modifiche box viaggiare informati e box News sopra visual */
+.headViagInfo{height:22px}
+.headViagInfo h4 {display:inline;line-height:42px;float:left}
+.headViagInfo div{ 
+	float: left;
+    padding-right: 10px;
+	padding-left: 8px;
+    padding-top: 8px;
+	width: 100%;
+ /*   width: 347px;*/}
+
+ .borderline{padding-bottom:10px;border:1px solid #AAACAD !important;}
+ 
+/* Custom link menu hover no image no underline */
+.voceSecLiv-span-custom {
+	color: #3C3A3D;
+	display: block;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0 0 8px;
+	padding-left: 10px;
+}
+/* /Custom link menu hover no image no underline */

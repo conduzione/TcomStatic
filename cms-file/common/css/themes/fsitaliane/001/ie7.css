@@ -1,0 +1,37 @@
+/* .menu > ul > li{width:16.6%;} */
+/* .menu > ul > li.last{width:16.9%;} */
+.menu > ul > li{width:20%;}
+.menu > ul > li.last{width:20%;}
+
+.menu > ul > li > ul > li{width:21.5%;}
+.menu > ul > li > ul{top:3.4em;border-bottom:3px solid #e1dfe2;}
+.newsSlider{height:1em;}
+.boxBiglietti{margin-left:1%;}
+.boxSpeciale{margin-right:1%;}
+.boxAgenda .ui-datepicker .ui-datepicker-header {position:static;}
+.accordionContent{position:relative;}
+.boxMedia .mediaTab ul li {width: 49.9%}
+.footerBanner{border:1px solid #f4f4f4;}
+.footerBanner ul li{width:19%;}
+.formBiglietti input.radio{margin: 0.2em 0.3em 0px 0.3em;}
+.formBiglietti label.ora{width:12%; float:left;}
+.disabled{filter:alpha(opacity=40);}
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled{filter: Alpha(Opacity=100);}
+#today .description {margin: 1em 1% 1em 0;}
+#today .date {margin: 5% 2.5%;border:2px solid #E9E9E9;}
+.boxSocial {border:2px solid #E9E9E9;}
+.footerBanner ul li{width:18.9%}
+.contentNews {width: 75.0%;}
+.formBiglietti{padding:.6em;}
+.content{width: expression( documentElement.clientWidth > 780 ? "98%" : "780px" );}
+h1 .btn{margin-top:.2em;}
+.colEventiSx h2, .colEventiDx h2 {margin-top:0;}
+.accordionEventi h3 span.dt{padding:.35em 0 0 1em;}
+.lanciBottom .lancio h4{font-size:90%;}
+.filterSearch label {float:left; line-height:2.5em;}
+.tabFilters > div {width:96.5%; padding-left:1.5%; padding-right:1.5%;}
+.resultBox {width:100%; float:left;}
+.resultBox .body,
+.resultBox .title {width:96%; padding-left:2%; padding-right:2%; float:left;}
+.resultBox .details {background:#fff;}
+.vBox ul {padding: 0;margin:13px 0 13px 13px;}

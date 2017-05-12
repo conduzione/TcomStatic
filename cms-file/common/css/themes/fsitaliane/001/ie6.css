@@ -1,0 +1,57 @@
+b.disabled{filter:alpha(opacity=40);}
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled{filter: Alpha(Opacity=100);}
+.logo img{width:auto;}
+.content{width: 976px;}
+.menu  ul{background:#dc002e url(i/bgMenu.gif) center repeat-x;float:left;width:100%;}
+.menu ul li{width:16.6%;float:left;text-align:center;}
+.menu ul li a{display:block;color:#fff;text-decoration:none;font-weight:bold;background:url(i/bgMenuPipe.gif) center right no-repeat;padding:1em 0;font-size:1.1em;}
+.menu ul li.last{width:17%;}
+.menu ul li.last a{background-image:none;}
+.menu ul li ul{position:absolute;top:3.5em;left:0;display:none;background:#e1dfe2;text-align:left;width: 976px;overflow:visible;z-index:100;}
+.menu ul li ul li{float:left;width:22%;margin:1em 0 1em 1em;background:url(i/dot.gif) repeat-y right;padding-right:1.5%;overflow:visible;text-align:left;}
+.menu ul li li a{display:block;background-image:none;padding:1em 0;font-size:1em;color: #333;}
+.menu ul li ul  li.last{background-image:none;}
+.menu ul li.active a,.menu ul li.hover a,.menu ul li a:hover{background:#dee1e2 url(i/bgMenuActive.gif) center repeat-x;color:#dc002e;}
+.menu ul li.active li a,.menu ul li.hover li a,.menu ul li li a:hover{background:transparent none;color:#333;}
+.menu ul li ul li p,.menu ul li ul li ul{font-size:.85em;}
+.menu ul li ul li ul{position:relative;top:0;left:0;display:block;background:#e1dfe2;width: 100%;overflow:visible;z-index:100;}
+.menu ul li ul li ul li{float:left;width:100%;margin:0;background-image:none;padding-right:0;}
+.menu ul li ul li ul,.menu ul li ul li p{margin:1.5em 0; padding:0; }
+.menu ul li ul li img{margin:1.1em 0;width:100%;}
+.menu ul li ul li li a{background:url(i/arrowRed.gif) no-repeat left center !important;text-decoration:none;color:#333;display:block;padding:0 0 0 1em;font-weight:normal;position:relative;}
+.menu ul li ul li li a:hover{color:#dc002e;}
+.footerMenuCc ul li{width:16%;float:left;}
+.footerMenuCc ul li li{width:100%;}
+.footerBanner {border:2px solid #E9E9E9;}
+.footerMenu ul li.cloud {width:19%;}
+.formBiglietti{position:relative;}
+.boxBiglietti {margin-left: .7%;}
+.titleNews {width: 45%;}
+.titleNews h1 {padding-left: 1.5%;}
+.contentNews {width: 75.0%;float: left;}
+.contentNews.closeContent {width: 45%;margin-left: .9%;}
+.contentNews .item {padding: 1em .8%;margin: 0 .8% 0 0;}
+.boxMedia .mediaTab ul li {width: 49.9%;}
+#today .description {margin: 1em 1% 1em 0;}
+#today .date {margin: 5% 2.5%;border:2px solid #E9E9E9;}
+.boxSocial {border:2px solid #E9E9E9;}
+.boxSocial span {margin: 0 1%;}
+.crossBarSubMenu ul li {float: left;width:100%;}
+.crossBarSubMenu ul {width:20%;}
+.newsSlider {margin-left:0;float:right;width:85%;}
+.formBiglietti{position:static;}
+.formBiglietti fieldset{position:static;}
+.logo{height:96px;}
+.internal{margin-bottom:-96px;}
+.internal .fsRadio,.internal .openRadio{float:right;}
+.menuSx li.active {background-image:none;}
+.menuSx ul li {float:left;width:100%;}
+.path{float:left;width:70%;}
+.path ul {padding-left:0;margin:1em 0 1em 2.2em;}
+.socialTools{width:40%;}
+.mainColSxBanner{margin: 0 0 2em 2em;}
+.mainColDx{overflow:hidden;float:right;margin:0;}
+.leaf.half {margin-right: .7%;overflow:hidden;}
+.boxAgendaSocial{overflow:hidden;}
+.boxAgenda .fixedContent{background:inherit;overflow:hidden;}
+.boxAgenda li{position:relative;overflow:hidden;}

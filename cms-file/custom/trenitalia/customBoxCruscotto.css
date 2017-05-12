@@ -1,0 +1,142 @@
+.cruscottoBOXAcq {
+	background: #fff; 
+	width: 500px;
+	height: 300px;
+	margin: 40px 20px 15px;
+    padding: 5px;
+	}
+	
+.PulsFrecce{
+color: #F4F4F4;
+font-size: 15px;
+cursor: pointer;
+font-weight: bold;
+padding: 5px 2px;
+position:absolute;
+left:240px;
+top:169px;
+}
+.PulsTuttiTreni{
+color: #F4F4F4;
+font-size: 15px;
+cursor: pointer;
+font-weight: bold;
+padding: 5px 2px;
+position:absolute;
+left:455px;
+top:169px;
+}
+
+#contentCruscotto {
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    position: relative;
+    width:450px;
+}
+#contentCruscotto input.formcontARDA{
+   
+	border: 1px solid #aaacad; 
+	box-shadow: 0px 0px 4px #aaa; 
+	background: #fff; 
+	color: #333; 
+	width: 266px;
+	padding: 1px 0; 
+	position:relative;
+	left:4px;
+}
+#contentCruscotto input.formcontARA{
+   
+	border: 1px solid #aaacad; 
+	box-shadow: 0px 0px 4px #aaa; 
+	background: #fff; 
+	color: #333; 
+	width: 266px;
+	padding: 1px 0; 
+	position:relative;
+	left:14px;
+}
+#contentCruscotto input.formcontTime {
+   border: 1px solid #aaacad; 
+	box-shadow: 0px 0px 4px #aaa; 
+	background: #fff; 
+	color: #333; 
+	width: 44px;
+	padding: 1px 0; 
+}
+#contentCruscotto input.formcontDate {
+   border: 1px solid #aaacad; 
+	box-shadow: 0px 0px 4px #aaa; 
+	background: #fff; 
+	color: #333; 
+	width: 122px;
+	padding: 1px 0; 
+}
+.titCruscottoTxtB {
+    color: #000000;
+    margin: 10px 5px 10px 5px;
+    font-size:  15px;
+    font-weight: 500;
+	text-align: left;
+    padding-bottom: 5px;
+}
+.titCruscottoTxtW{
+    color: #ffffff;
+    margin: 10px 5px 10px 5px;
+    font-size:  15px;
+    font-weight: 500;
+	text-align: left;
+    padding-bottom: 5px;
+}
+.buttonRight{
+text-align:right;
+}
+	
+	
+.ButtonFrecce,.ButtonFrecce:hover{
+    background:transparent;
+	background: url("/cms-file/common/img/themeTcom01/Cerca_Bianco.png") repeat-x scroll left top;
+    width:112px;
+	height:32px;
+	border-radius: 0px;
+    box-shadow: 0 0 0px #666666;
+    color: #8A000B;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 8px;
+    text-transform: uppercase;
+	border:0px;
+}
+
+.ButtonTuttiTreni,.ButtonTuttiTreni:hover{
+	background:transparent;
+    background: url("/cms-file/common/img/themeTcom01/Cerca_rossoV.png") repeat-x scroll left top;
+    width:112px;
+	height:32px;
+	border: 0px;
+	position:relative;
+	top:-35px;
+	border-radius: 0px;
+    box-shadow: 0 0 0px #666666;
+    color: #F4F4F4;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 16px 56px;
+    text-transform: uppercase;
+	border:0px;
+}
+
+.ui-datepicker-trigger{
+ position: relative;
+ top: 4px;
+ left:3px;
+}
+	 
+#biglietti_adulti{
+ font-size:  15px;
+}
+#biglietti_ragazzi{
+ font-size:  15px;
+}

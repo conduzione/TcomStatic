@@ -1,0 +1,583 @@
+/*
+
+Foglio di stile custom
+
+*/
+
+/*Rounded Content Box - CSS Sprite (pagina con 2 colonne)*/
+#roundContBox{position:relative; margin:0 0 10px 0; padding:9px; background:#FFF; border:none}
+#roundContBox .corner{position:absolute; width:6px; height:6px; background:url('/cms-file/common/img/sprite-roundContBox.gif')}
+#roundContBox .topLeft{top:-1px; left:-1px; background-position:0 0}
+#roundContBox .topRight{top:-1px; right:-1px; background-position:-7px 0px}
+#roundContBox .topRight2{top:-1px; right:-1px; background-position:-7px -14px}
+#roundContBox .botLeft{bottom:-1px; left:-1px; background-position:0 -7px}
+#roundContBox .botRight{bottom:-1px; right:-1px; background-position:-7px -7px}
+#roundContBox .titoloPag{padding:10px 0 0 10px; background:#FFF; border:none; margin:0 1px; height:auto !important; min-height:28px; height:26px}
+#roundContBox .titoloPag2{padding:10px 15px; background:#F7F7F9; border:none; margin:0 1px; height:auto !important; min-height:10px; height:10px}
+#roundContBox .ContentArt{font-size:1.1em; padding:0; margin:0}
+#roundContBox .ContentArt .Box2ImgTitolo{font-size:.9em}
+#roundContBox .ContentArtWP{font-size:1em; padding:0; margin:0}
+#roundContBox .ContImg2{padding:14px 10px 14px 20px; height:auto !important; min-height:40px; height:40px; text-align:left; background:#F7F7F9}
+#roundContBox .ContParagSez{background:#F7F7F9; padding:12px 24px}
+.bgGray{background:#F7F7F9}
+
+/*Risultati della ricerca*/
+.cboxIntContResult{padding:0; margin:0}
+.ContResultTop{ font-size:1.2em !important;line-height:30px !important/*padding:22px 30px;background:#F7F7F9*/}
+.ContResultTop h3{font-size:1.55em !important;margin-bottom:10px}
+.ContResultTop p{font-weight:bold;padding:10px}
+.ContResult{padding:10px 10px; margin:0 1px; background:#FFF}
+.ContResult p span{color:#777}
+.ContResult div{padding:7px 0; height:auto !important; min-height:30px; height:30px}
+.ContResult div .arrowLink{color:#ce142b; font-size:1.1em; font-weight:bold; padding-left:18px; background:url(i/list-menu.gif) 2px left no-repeat;line-height:25px}
+html>/**/body .ContResult div .arrowLink /* FireFox*/{background:url(i/list-menu.gif) left center no-repeat}
+.ContResult div .navigator{float:none; padding:2px 0 0 18px}
+.cboxIntContResult .PageNumb{font-size:1.1em; height:auto !important; min-height:20px; height:20px; padding:14px; padding-right:20px; background:#fff ;color:#000}
+.ContResult .PageNumb{font-size:1.1em}
+.cboxIntContResult .PageNumb .txtLeft{float:left; font-weight:bold; color:#000; padding-left:10px}
+.navigator a {font-size:1em; text-decoration:none; color: #000; padding-top:5px}
+
+/*Mappa del sito*/
+.mapSite {
+ //   height: auto !important;
+ //   min-height: 620px;
+//	font-size:.9em; padding:0 43px 26px 43px;
+//	text-align:left !important
+}
+.mapSite .ContMap {border-right: 1px dotted #333;/*float: left;height: auto !important;margin-left: 1em;min-height:620px;width: 20%;*/}
+.mapSite .ContMap ul {padding:0 0 0 11px; margin:0; list-style-type:none}
+.mapSite .ContMap ul li {display: inline;}
+.mapSite .ContMap a {color:#ce142b;font-size: 1.3em;font-weight: bold;text-decoration: none;white-space: nowrap;}
+.mapSite .ContMap a:hover {text-decoration: underline;}
+.mapSite .ContMap ul a {background: rgba(0, 0, 0, 0) url("i/bgFooterList.gif") no-repeat scroll left top;color: #323232;display: block;font-size:1em;font-weight: normal;padding-left: 1em;white-space: normal;}
+.mapSite .ContMap ul ul {padding:0; margin:0; list-style-type:none}
+.mapSite .ContMap ul ul a {background-image: url(i/arrow-linkOff.gif);font-size: 1em;}
+.ContMap .arrowLink{color:#000;font-size:1.1em; font-weight:bold; padding-left:14px; background:url(i/list-menu.gif) left center no-repeat;line-height:40px}
+.ContMap li a:link,
+.ContMap li a:visited{color:#000; background:url(i/arrow-linkOff.gif) left center no-repeat}
+.ContMap li a:hover{color:#000; text-decoration:underline; background:url(i/arrow-linkOff.gif) left center no-repeat}
+.ContMap{font-size:.9em; padding:0 43px 26px 43px}
+
+
+/*Tabella 1*/
+.contentable{padding:14px 0}
+.ContResult div.contentable table.table1 {font-size:1em}
+.table1{font-size:.9em}
+.table1 tr{text-align:left}
+.table1 th{border-bottom:1px solid #FFF; background:#B30002; color:#FFF; height:20px; padding-left:10px}
+.table1 th.topleftth{width:16.5%; padding-left:20px; border-right:1px solid #FFF; background:#B30002}
+.table1 th.toprightth{width:18.5%; background:#B30002}
+.table1 th a, .table1 th a:hover{color:#FFF}
+th.luogoth , th.titoloth{border-right:1px solid #FFF}
+th.luogoth{width:18.8%}
+th.titoloth{width:46.2%}
+.table1 td{color:#000; height:37px; padding:2px 8px; border-right:1px solid #E5E5E5; background:#FFF url(/cms-file/common/img/puntinato.gif) bottom left repeat-x}
+.table1 td.cellaprima{padding-left:20px; color:#B30002; font-weight:bold; border-left:1px solid #E5E5E5}
+.table1 .cellapari td{background:#F7F7F9 url(/cms-file/common/img/puntinato.gif) bottom left repeat-x}
+
+/*Box Tabella Mese*/
+.cboxMese .table1 .toprightth{width:auto; background:#B30002}
+.cboxMese .contentable{padding:0; border-bottom:1px solid #FFF}
+.cboxMese .contentable table{font-size:1em}
+.boxMeseTabTopLeft{background:#E9E7EA url(/cms-file/common/img/bg_BoxTable_tl.gif) top left no-repeat; margin-top:2em; width:26%}
+.boxMeseTabTopRight{ background:#E9E7EA url(/cms-file/common/img/bg_BoxTable_tr.gif) top right no-repeat; padding:8px 0 4px 0; margin-left:10px}
+.boxMeseTabTopRight img{float:left}
+.boxMeseTabBotLeft{background:#E9E7EA url(/cms-file/common/img/bg_BoxTable_bl.gif) bottom left no-repeat; height:20px}
+.boxMeseTabBotRight{background:url(/cms-file/common/img/bg_BoxTable_br.gif) bottom right no-repeat; height:20px}
+
+.cboxMese{padding:34px 30px; height:auto !important; height:150px; min-height:150px; font-size:.9em}
+.cboxMese h4{padding:0 0 5px 0}
+
+.titoloredbold{font-weight:bold; font-size:1.4em; color:#B30002; margin:0px}
+.titoloredboldmed{font-weight:bold; font-size:1.55em; color:#ce142b; margin:0px}
+.titoloredboldsmall{font-weight:bold; font-size:1em; color:#B30002; margin:0px}
+.titoloblackboldmed{font-weight:bold; font-size:1.2em; color:#000; margin:0px}
+.titolowhiteboldmed{font-weight:bold; font-size:1.2em; color:#FFF; margin:0px}
+
+.testoRosso{color:#B30002}
+
+.listaPuntoNero{display:list-item; list-style:square url(/cms-file/common/img/puntoNero.gif) inside;	padding:1px 0 1px 0px;	color:#000}
+.PageNumb{padding:24px 30px 0 0; text-align:right; font-weight:bold; font-size:1.1em}
+.PageNumb span{color:#B30002}
+.PageNumb a.pageArrow {font-weight:bold; font-size:.9em}
+
+/*Infoutili - Comunicato*/
+.cboxIntContInfo{padding:28px 43px; margin:0; height:auto !important; min-height:430px; height:430px}
+.cboxIntContInfo img{padding-right:4px}
+.cboxIntContInfo h3{padding:2px 0 10px 0}
+.cboxIntContInfo .ContInfo{float:left; padding:2em 0 0 0; line-height:1.6em; font-size:1.1em}
+.cboxIntContInfo .ContInfo span.titolo{font-weight:bold; padding:0 0 10px 0}
+.cboxIntContInfo .ContInfo span.testo{padding:0 2em 10px 0}
+.cboxIntContInfo .ContInfo p.testo{padding:0 2em 10px 0}
+
+/*Infoutili - Ricerca*/
+.ricercaInfo{margin:0 10px; padding:0 1.4em; font-size:.9em}
+.ricercaInfo label{font-weight:bold; font-size:1.1em; margin:0 3px 0 .5em}
+.ricercaInfo input {margin-bottom:3px}
+.ricercaInfo input.btnInvia{width:56px; height:auto !important; height:20px; min-height:20px; border:0; margin:0 0 0 .5em}
+html>/**/body .ricercaInfo input{margin-bottom:0px}/* FireFox*/
+html>/**/body .ricercaInfo .btnInvia{position:relative; top:6px}/* FireFox*/
+html>/**/body .ricercaInfo img{vertical-align:bottom}/* FireFox*/
+
+
+/* Lista News*/
+.Box2ImgTitolo{padding:15px 30px}
+
+/* START: Fix Pagine Template Informativo post-migrazione-contenuti */
+a.linkInterno, a.linkEsterno { background: none repeat scroll 0 0 rgba(0, 0, 0, 0); color:#444444; padding-left: 0; text-decoration:underline;}
+
+/* v8-style Tinf */
+.boxFormRicercaTinf {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	zoom: 1;
+	min-height: 290px;
+	margin-top: 10px;
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+}
+.boxFormRicercaTinf .innerBoxFormRicercaTinf {
+	position: absolute;
+	top: 18px;
+	left: 14px;
+	right: auto;
+	/* width: 320px; */
+	height: 460px;
+	z-index: 8000;
+}
+.boxFormRicercaTinf .innerBoxFormRicercaTinf .boxFromTo {
+	width: 87%;
+	float: left;
+	margin-top: 3px;
+}
+.boxFormRicercaTinf .innerBoxFormRicercaTinf fieldset.biglietti_from_to, .boxFormRicercaTinf .innerBoxFormRicercaTinf fieldset.abbonamenti {
+	border: 1px solid #bcbcbc;
+	background-color: #ffffff;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	padding: 0 4px;
+	box-shadow: 0 4px 2px -2px #ebebeb;
+	height: 26px;
+	margin-bottom: 4px;
+	/* width: 211px; */
+	float: left;
+}	
+.boxFormRicercaTinf .innerBoxFormRicercaTinf fieldset.biglietti_from_to label, .boxFormRicercaTinf .innerBoxFormRicercaTinf fieldset.abbonamenti label {
+	color: #969696;
+	/* width: 21px; */
+	margin-top: .4em;
+	float: left;
+	padding-left: 2px;
+	margin-right: 0;
+	background-color: #ffffff;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+.boxFormRicercaTinf .innerBoxFormRicercaTinf fieldset.biglietti_from_to input, .boxFormRicercaTinf .innerBoxFormRicercaTinf fieldset.abbonamenti input {
+	/* width: 179px; */
+	float: left;
+	line-height: 1.6em;
+	margin: 0.1em 0 0 5px;
+	padding: 0;
+	border: 0;
+	font-weight: bold;
+	height: 24px;
+}	
+.boxFormRicercaTinf .innerBoxFormRicercaTinf fieldset.biglietti_data_ora {
+	padding: 6px 0 0 0;
+}
+.boxFormRicercaTinf .innerBoxFormRicercaTinf fieldset.biglietti_data_ora .contdata {
+	margin-right: 10px;
+	border: 1px solid #d1d1d1;
+	float: left;
+	/* width: 186px; */
+	background-color: #fff;
+	height: 26px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	box-shadow: 0 4px 2px -2px #ebebeb;
+}		
+.boxFormRicercaTinf .innerBoxFormRicercaTinf fieldset.biglietti_data_ora .contdata label.biglietti_data_ora_label, .boxFormRicercaTinf .innerBoxFormRicercaTinf fieldset.biglietti_data_ora .contdata label.biglietti_adulti, .boxFormRicercaTinf .innerBoxFormRicercaTinf fieldset.biglietti_data_ora .contdata label.biglietti_ragazzi {
+	float: left;
+	color: #969696;
+	/* width: 46px; */
+	padding-left: 5px;
+	margin-right: 0;
+	background-color: transparent;
+	font-size: 1em;
+	line-height: 2.2em;
+}
+.boxFormRicercaTinf .innerBoxFormRicercaTinf fieldset.biglietti_data_ora .contdata input {
+	width: 88px;
+	border: 0;
+	float: left;
+	line-height: 25px;
+	font-weight: bold;
+	height: 24px;
+	background-color: #fff;
+	margin-left: 11px;
+}
+.boxFormRicercaTinf .innerBoxFormRicercaTinf fieldset.biglietti_data_ora .contdata img {
+	margin: 3px 0 0 3px;
+}
+.boxFormRicercaTinf .innerBoxFormRicercaTinf fieldset.persone {
+	min-width: 100px;
+	padding-top: .7em;
+}
+.boxFormRicercaTinf .innerBoxFormRicercaTinf fieldset.biglietti_data_ora .contdata {
+	margin-right: 10px;
+	border: 1px solid #d1d1d1;
+	float: left;
+	/* width: 186px; */
+	background-color: #fff;
+	height: 26px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	box-shadow: 0 4px 2px -2px #ebebeb;
+}	
+.boxFormRicercaTinf .innerBoxFormRicercaTinf fieldset.biglietti_data_ora .contdata.ragazzi {
+	/* width: 154px; */
+	margin-right: 0;
+}
+.boxFormRicercaTinf .innerBoxFormRicercaTinf fieldset.biglietti_data_ora .contdata select {
+/*	-webkit-appearance: none; */
+	-moz-appearance: none;
+	appearance: none;
+	background-position: 98% 5px;
+	background-repeat: no-repeat;
+/* 	background-image: url("i/select-arrow.png"); */
+	background-color: transparent;
+	float: right;
+	border: 0;
+	margin: .3em 0 0 5px;
+	padding: 0 8px 0px 0;
+	
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';	
+}
+.boxRedButtonSubmit {
+	margin-top:1.2em;
+}
+.boxRedButtonSubmit input[type=submit]{
+	box-shadow: inset 9px -14px 15px -6px #880d1c;
+	-moz-box-shadow: inset 9px -14px 15px -6px #880d1c;
+	-webkit-box-shadow: inset 9px -14px 15px -6px #880d1c;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c2132a), color-stop(1, #f70323));
+	background: -moz-linear-gradient(top, #c2132a 5%, #f70323 100%);
+	background: -webkit-linear-gradient(top, #c2132a 5%, #f70323 100%);
+	background: -o-linear-gradient(top, #c2132a 5%, #f70323 100%);
+	background: -ms-linear-gradient(top, #c2132a 5%, #f70323 100%);
+	background: linear-gradient(to bottom, #c2132a 5%, #f70323 100%);
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#c2132a', endColorstr='#f70323');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#c2132a', endColorstr='#f70323')";
+	background-color: #c2132a;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	border: 1px solid #880d1c;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: arial;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0px 0px 0px #ffffff;
+	width: auto;
+	line-height: 28px;
+	float: left;
+	margin-top: 0; 
+}
+
+.footerServizioCont .right {
+	float: right;
+}
+
+h3.titH2PgFoglia{clear:both; margin-top: 2.5em; }
+
+.wrapBody .elemLeft .linkBottom { margin-top: 2.0em; margin-bottom: 1.8em;}
+.elemLeft ul { margin-left: 1.8em;  color: #444444; font-size: 1em; line-height: 1.4em; /* text-align: justify; */}
+.wrapBody .elemLeft p { margin: 0 0 0.9em; }
+
+.wrapBody .elemLeft{ margin: 0 0 1.4em 0; color: #444444; font-size: 1.2em; line-height: 1.3em; text-align: justify; }
+
+
+/* END:   Fix Pagine Template Informativo post-migrazione-contenuti */
+
+/* Indice anchor per informativo */
+div.contTbl {
+	padding: 5px 10px 0px;
+}
+
+
+div.contTbl h2 {
+	color: #de1327;
+	font-size: 2em;
+	margin: 16px 0;
+	padding: 0;
+	display: none;
+}
+
+
+ul.listaIndice li a {
+background-image: url("http://www.trenitalia.com/cms-file/common/img/themeTcom01/bg-lista-indice.gif");
+background-repeat: no-repeat;
+color: #3e3e3e;
+display: inline-table;
+font-size: 1.1em;
+font-weight: bold;
+height: 18px;
+line-height: 18px;
+padding-left: 12px;
+text-decoration:none;
+}
+
+ul.listaIndice {
+	list-style-type: none;
+}
+
+.tornaSu {
+	background-repeat: repeat-x;
+	height: 29px;
+	line-height: 29px;
+}
+
+.tornaSu a {
+	color: #d80031;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-left: 10px;
+	text-decoration:none;
+}
+
+.footerServizioCont .left {
+	float: left;
+}
+
+#fsnews {
+ background: url("/cms-file/common/css/themes/trenitalia_2014/001/i/Arrow.png") no-repeat right;
+ padding-left: 10px;
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ padding-right: 10px;
+}
+
+/*Modifica Cruscotto*/
+.emotional .cruscotto fieldset.biglietti_from_to label, .emotional .cruscotto fieldset.abbonamenti label,
+.emotional .cruscotto fieldset.biglietti_from_toCarnet label,
+.emotional .cruscotto fieldset.TipoCarnet label, 
+.emotional .cruscotto fieldset.biglietti_data_ora .contdata label.biglietti_ora_label,
+.emotional .cruscotto fieldset.biglietti_data_ora .contdata label.biglietti_adulti, 
+.emotional .cruscotto fieldset.biglietti_data_ora .contdata label.biglietti_ragazzi,
+.emotional .cruscotto fieldset.biglietti_data_ora .contdata label.biglietti_data_ora_label, 
+.emotional .cruscotto fieldset.ValidoCarnet label, .emotional .cruscotto fieldset.prenotaCar label{color:#4c4c4c;padding-left: 5px !important;}
+.boxServizio .primo .contPrimo .formLavori fieldset input[type="submit"], .boxServizio .primo .contPrimo .formSciopero fieldset input[type="submit"],
+.boxServizio .primo .contPrimo a{border-radius: 4px !important;height: 31px !important;font-weight: bold !important;font-size:1em !important;font-family: arial !important;font-size: 1em !important;}
+.boxServizio .primo .contPrimo a{line-height: 31px !important;}
+.boxServizio .terzo ul.resp-tabs-list li.active{background: linear-gradient(to bottom, #c2132a 5%, #860404 100%) repeat scroll 0 0 #c2132a !important;}
+.boxServizio .terzo ul.resp-tabs-list li.primoTabNews.active{border-left:1px solid #860404}
+.boxServizio .terzo ul.resp-tabs-list li.active .tabNews .tabNewsChild .contTriangle .triangle{border-color: transparent #860404 transparent transparent !important;}
+@media screen and (max-width:701px){
+.boxCruscotto .bottoniCerca{position:relative !important}
+.emotional .cruscotto .ricercaAv{float:none !important;}
+.emotional .cruscotto fieldset.durata select, .emotional.right .cruscotto fieldset.durata select, .emotional.left .cruscotto fieldset.durata select{width:66% !important}
+.emotional .cruscotto fieldset.trenoTipo select, .emotional.right .cruscotto fieldset.trenoTipo select, .emotional.left .cruscotto fieldset.trenoTipo select{width:54% !important}
+#tab1.cruscottoBiglietti   .bottoniCerca{position:relative;top:9px;right:-30px} 
+#tab2.cruscottoAbb  .bottoniCerca{position:relative !important;top:55px !important;right:-34px !important}
+.emotional .cruscotto .ricercaAv{top:9px;left:5%}
+#tab3.cruscottoCarnet   .bottoniCerca{right:121px !important;top: 194px !important;}
+.emotional .cruscotto fieldset.ValidoCarnet label, .emotional.right .cruscotto fieldset.ValidoCarnet label, .emotional.left .cruscotto fieldset.ValidoCarnet label{width:35% !important}
+.emotional .cruscotto fieldset.ValidoCarnet input, .emotional.right .cruscotto fieldset.ValidoCarnet input, .emotional.left .cruscotto fieldset.ValidoCarnet input{width:60% !important}
+.emotional .cruscotto fieldset.TipoCarnet select, .emotional.right .cruscotto fieldset.TipoCarnet select, .emotional.left .cruscotto fieldset.TipoCarnet select{width:60% !important}
+.emotional .cruscotto fieldset.prenotaCar label, .emotional.right .cruscotto fieldset.prenotaCar label, .emotional.left .cruscotto fieldset.prenotaCar label{width:41% !important}
+.emotional .cruscotto fieldset.prenotaCar input, .emotional.right .cruscotto fieldset.prenotaCar input, .emotional.left .cruscotto fieldset.prenotaCar input, .emotional .cruscotto fieldset.nome input, .emotional.right .cruscotto fieldset.nome input, .emotional.left .cruscotto fieldset.nome input{width:55% !important}
+.emotional .cruscotto .boxFromTo{width:80% !important}
+}
+
+@media screen and (min-width:702px){
+	.emotional .cruscotto fieldset.biglietti_data_ora .contdata input{width:90px !important;margin-left:10px !important;height: 23px !important;}
+	.boxCruscotto .cruscottoBiglietti {width: 795px !important;}
+	.emotional .cruscotto{top: 275px !important;left:22% !important}
+	.boxCruscotto .cruscottoBiglietti.cruscottoAbb  {width:303px !important;}
+	#tab1.cruscottoBiglietti   .bottoniCerca{position:relative;top:9px;right:-30px} 
+	#tab2.cruscottoAbb  .bottoniCerca{position:relative !important;top:55px !important;right:-34px !important}
+	#tab3.cruscottoCarnet   .bottoniCerca{right: 21px !important;top: 294px !important;}
+	#AbbRicAv{top:1px;left:-21px!important}
+	/*.boxCruscotto .tabHead {width: 349px !important;}*/
+	.boxCruscotto li{width: 108px !important;}
+	.boxCruscotto li.active{width: 113px !important;}
+	.emotional .cruscotto fieldset{padding-top:1px !important;padding-left:0 !important}
+	/*.emotional .cruscotto fieldset.biglietti_from_to{width: 260px !important}*/
+	.emotional .cruscotto fieldset.biglietti_from_toCarnet{width: 256px !important}
+	.emotional .cruscotto fieldset.abbonamenti{width:298px !important}
+	.emotional .cruscotto .boxFromTo{margin-bottom:10px !important}
+	.emotional .cruscotto fieldset.biglietti_data_ora .contdata{width: 205px;margin-right: 15px; margin-bottom: 4px !important}
+	.emotional .cruscotto fieldset.biglietti_data_ora .contdata.ore{width:85px; margin-right: 0;margin-bottom: 4px!important}
+	.emotional .cruscotto fieldset.biglietti_data_ora .contdata.adulti{margin-right: 15px;width: 110px !important}
+	.emotional .cruscotto fieldset.biglietti_data_ora .contdata.ragazzi{width: 180px !important}
+	/*.emotional .cruscotto fieldset.biglietti_data_ora .contdata img{margin: 2px 0 0 26px !important}*/
+	.emotional .cruscotto fieldset.biglietti_prezzo{position:relative;top:5px}
+	.emotional .cruscotto fieldset.biglietti_buttons a{position:relative;left:-23px}
+	.emotional .cruscotto .ricercaAv{top:9px}
+	.emotional .cruscotto fieldset.TipoCarnet, .emotional .cruscotto fieldset.ValidoCarnet{width:298px !important}
+	.emotional .cruscotto fieldset.biglietti_from_toCarnet input, .emotional .cruscotto fieldset.TipoCarnet input, .emotional .cruscotto fieldset.ValidoCarnet input, .emotional .cruscotto fieldset.prenotaCar input{width: 200px !important;color:#000 !important;}
+	.emotional .cruscotto fieldset.TipoCarnet select{width:232px !important;}
+	.emotional .cruscotto fieldset.durata select{width: 230px !important;}
+	.emotional .cruscotto fieldset.trenoTipo select{width: 194px !important;}
+	.emotional .cruscotto fieldset.tipologia input{width: 220px !important;}
+	.icoInfoRagazzi{position:relative;top:3px;right:15px}
+	#PrenotaCarnet{width:100%;margin-top:19px}
+	.emotional .cruscotto fieldset.prenotaCar{width: 300px !important}
+	.emotional .cruscotto fieldset.biglietti_prezzo{height:16px}
+	}
+.abbonamentiRegionali a{color: #4b4b4b;padding:0;font-size: 1em;font-weight: bold;text-decoration: underline;position:relative;top:18px;left:3px !important;}
+	
+
+#cercaMigliorPrezzo{display:none;}
+
+/* Carattere del calendario modifica 09/03/2015 */
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{font-size:1.2em !important;color:#363636 !important;text-align:center}
+.ui-datepicker {width: 20em;}
+.ui-datepicker td span, .ui-datepicker td a{padding: 0.4em;}
+.ui-datepicker-multi-2{width:40em !important;}
+
+
+.box .boxInt .txt{text-align:left !important;}
+.box .boxInt .titolo{text-align:left !important;}
+.boxTitPg h1{line-height: 1.2em !important;}
+
+/*Area Riservata*/
+@media screen and (min-width:702px){
+header .subheader .cont .area .wrapAreaRis .boxLogin, .header .subheader .cont .area .wrapAreaRis .boxLogin{width:400px !important;}
+header .subheader .cont .area .wrapAreaRis .boxLogin input[type="text"], header .subheader .cont .area .wrapAreaRis .boxLogin input[type="password"], .header .subheader .cont .area .wrapAreaRis .boxLogin input[type="text"], .header .subheader .cont .area .wrapAreaRis .boxLogin input[type="password"]{width:45% !important;float:left !important;margin:0 0 1em 0 !important;height:30px !important;background-color:#fff !important}
+#uid{margin-right:13px !important;}
+header .subheader .cont .area .wrapAreaRis .boxLogin .botAreaRis, .header .subheader .cont .area .wrapAreaRis .boxLogin .botAreaRis{width: 130px !important;height:35px !important;font-weight:bold !important;float:right !important;border-radius: 4px; -webkit-border-radius: 4px;-moz-border-radius: 4px;-ms-border-radius: 4px;-o-border-radius: 4px;}
+header .subheader .cont .area .wrapAreaRis .boxLogin a, .header .subheader .cont .area .wrapAreaRis .boxLogin a{ font-size: 1.1em !important;}
+hasPlaceholder{color:#cecece}
+
+}
+
+/*Accordion*/
+.headListaIndice a{color:#fff !important}
+
+/*Allineamento box informativi con banner a 2*/
+.boxServizio .primo{width: 23.1% !important}
+.boxServizio .terzo{width: 49% !important}
+
+/*Accorcio il campo Alert*/
+.alertHp{min-height:4em !important}
+
+/*Altezza menÃ¹*/
+/*.emotional ul.slider li img{height:480px !important}
+.emotional .pager ul.nav li a{height:35px !important;padding: 26px 10px 0 !important}*/
+header .mainmenu, .header .mainmenu {height:30px !important}
+header .mainmenu .nav ul.navigationTrenitalia li.submenu, .header .mainmenu .nav ul.navigationTrenitalia li.submenu {line-height: 32px !important}
+header .mainmenu .nav ul.navigationTrenitalia li.submenu.submenu:hover > ul, .header .mainmenu .nav ul.navigationTrenitalia li.submenu.submenu:hover > ul {top: 32px; !important}
+header .mainmenu .nav ul.navigationTrenitalia li.submenu.search .input, .header .mainmenu .nav ul.navigationTrenitalia li.submenu.search .input {top: -15% !important; height: 100% !important}
+header .mainmenu .nav ul.navigationTrenitalia li.submenu.search .input .cont, .header .mainmenu .nav ul.navigationTrenitalia li.submenu.search .input .cont { height: 20px !important; }
+/* /altezza menÃ¹*/  
+/*Slider senza bottone rosso*/  
+.hoverOP a{width:270px;height:28px;position:absolute;left:6px;top:4px;background: transparent !important;background-color: none !important;border-radius: none !important;box-shadow: none!important;background: -moz-linear-gradient(top, rgba(255,255,255,0) 100%)!important; /* FF3.6+ */background: -webkit-gradient(linear, left top, left bottom,color-stop(100%,rgba(255,255,255,0)))!important; /* Chrome,Safari4+ */background: -webkit-linear-gradient(top, rgba(255,255,255,0) 100%)!important; /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(top, rgba(255,255,255,0) 100%)!important; /* Opera 11.10+ */background: -ms-linear-gradient(top, rgba(255,255,255,0) 100%)!important; /* IE10+ */background: linear-gradient(to bottom, rgba(255,255,255,0) 100%)!important; /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff',endColorstr='#00ffffff',GradientType=0 )!important; /* IE6-9 */-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff',endColorstr='#00ffffff')" !important;margin:0  !important;padding:0  !important;cursor:pointer !important;}
+.divLink{background: transparent !important;width:1400px;height:431px;border-radius: 0px; #fff;margin: 10px 0;padding: 2.5% 3% 2%;position: absolute;top:-10px;left:-230px;z-index: 5000;filter: progid:DXImageTransform.Microsoft.Gradient(enabled = false);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled = false)";}
+.emotional {visibility:visible;}
+.hoverOP:hover {background-color:#fff;opacity: 0.4;filter: alpha(opacity=30);border-radius: 10px;-moz-border-radius: 10px;-webkit-border-radius: 10px;}
+.emotional ul.slider li .wrap-link .cont a{margin-top:-1px !important;background: transparent !important;border-radius: 0px;box-shadow: 0px;color: #fff;margin: 0;padding: 0 !important}    
+.emotional ul.slider li .wrap-link .cont a{background: -moz-linear-gradient(enabled = false) !important;background: -webkit-linear-gradient(enabled = false) !important;background: -o-linear-gradient(enabled = false) !important;background: -ms-linear-gradient(enabled = false) !important;background: linear-gradient(enabled = false) !important;filter: progid:DXImageTransform.Microsoft.Gradient(enabled = false) !important;-ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled = false)" !important;background-color: transparent !important;}
+/* /Slider senza bottone rosso*/  
+
+
+/*Nuovo slider sotto menÃ¹*/
+header .mainmenu .nav ul.navigationTrenitalia li.submenu.search .input, .header .mainmenu .nav ul.navigationTrenitalia li.submenu.search .input{background:transparent !important;}
+header .mainmenu, .header .mainmenu{margin: auto;width: 940px !important;border-top: 0px solid #ed4657 !important;background:transparent !important; border-bottom: 0px solid #81313a !important;background: -webkit-gradient(enabled = false) !important;background: -moz-linear-gradient(enabled = false) !important;background: -webkit-linear-gradient(enabled = false) !important;background: -o-linear-gradient(enabled = false) !important;background: -ms-linear-gradient(enabled = false) !important;background: linear-gradient(enabled = false)!important;filter: progid:DXImageTransform.Microsoft.Gradient(enabled = false)!important;-ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled = false)"!important;}
+header .mainmenu .nav ul.navigationTrenitalia li.submenu, .header .mainmenu .nav ul.navigationTrenitalia li.submenu{background:#c41329 !important;margin-right: 0 !important;padding: 0 1% 0 9px !important;}
+header .mainmenu .nav ul.navigationTrenitalia li.submenu.submenu:hover, .header .mainmenu .nav ul.navigationTrenitalia li.submenu.submenu:hover {background: #fff !important; }
+header .mainmenu .nav ul.navigationTrenitalia li.submenu.search, .header .mainmenu .nav ul.navigationTrenitalia li.submenu.search{background:transparent !important;}
+header .mainmenu .nav ul.navigationTrenitalia li.submenu.search:hover, .header .mainmenu .nav ul.navigationTrenitalia li.submenu.search:hover{background:transparent !important;}
+header .topbar .top ul li.dx, .header .topbar .top ul li.dx{padding: 0 1% !important;border-left: 0px solid #e1dfe0 !important;}
+header .topbar .top ul li, .header .topbar .top ul li{padding: 0 4% 0 0 !important;}
+header .topbar .top ul li a::after, .header .topbar .top ul li a::after{content: " " !important;}
+header .topbar, .header .topbar{background: #e1dfe0 none repeat scroll 0 0 !important;border-bottom: 0px solid #e1dfe0 !important;}
+header .topbar .top ul li.img, .header .topbar .top ul li.img{background: #e1dfe0 url("i/arrDown-lingua.png") no-repeat scroll right center !important;}
+header, .header {height:auto !important; box-shadow:none !important}
+header .subheader .logo, .header .subheader .logo {background-position:0px!important;height:75px !important;}
+header .subheader .cont ul, .header .subheader .cont ul{border-bottom: 0px solid #bdbdbd !important;}
+header .mainmenu .nav::before, header .mainmenu .nav::after, .header .mainmenu .nav::before, .header .mainmenu .nav::after{content:normal !important}
+.nav{display:inline !important;}
+.input div{background:#fff !important;}
+
+
+
+.emotional ul.slider li .wrap-link .cont a{box-shadow:none !important;height:480px !important;}
+
+.emotional .pager ul.nav li a{height: 20px; padding: 15px 10px 0;} /* emotional pag interne commerciale NO IMP */
+/* .emotional .pager ul.nav li a{height: 20px !important;padding: 15px 10px 0 !important;}  emotional pag interne commerciale */
+
+.path {margin: 5em 0 3em !important;}
+header .mainmenu, .header .mainmenu{background: -moz-linear-gradient(enabled = false) !important;background: -webkit-linear-gradient(enabled = false) !important;background: -o-linear-gradient(enabled = false) !important;background: -ms-linear-gradient(enabled = false) !important;background: linear-gradient(enabled = false) !important;filter: progid:DXImageTransform.Microsoft.Gradient(enabled = false) !important;-ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled = false)" !important;background-color: #f8f8f8 !important;}
+.emotional ul.slider li .wrap-link .cont a{background: -moz-linear-gradient(enabled = false) !important;background: -webkit-linear-gradient(enabled = false) !important;background: -o-linear-gradient(enabled = false) !important;background: -ms-linear-gradient(enabled = false) !important;background: linear-gradient(enabled = false) !important;filter: progid:DXImageTransform.Microsoft.Gradient(enabled = false) !important;-ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled = false)" !important;background-color: transparent !important;}
+
+/* /Nuovo slider sotto menÃ¹*/
+
+@media (max-width: 700px){
+	.emotional .cruscotto{top: 3px !important;} /* fix spazio bianco su new form hp mobile */
+	.path{ margin: .5em 0 2em !important; } /* fix spazio bianco su pag interne mobile 5-4-2016 */	
+	
+	/* START: rev spaziature mobile 12 Aprile 2016 */
+	header .subheader .logo, .header .subheader .logo {height: 50px !important;}
+	header, .header {height: 55px !important;box-shadow:none !important;}
+	.editTicket { background-color: #fff; line-height: 2.8em; }		
+	.editTicket a { text-decoration: underline !important; }
+	.boxBanner { padding-top: 1px; padding-bottom: 19px; }		
+	.emotional, .emotional.right, .emotional.left { margin-top: -7px; }
+	/* END: rev spaziature mobile 12 Aprile 2016 */
+}
+
+/* icona menÃ¹ per CartaRegalo */
+.altrocustom {
+    background-image: url('/cms-file/immagini/trenitalia2014/New.png');
+    background-position: 59% 50%;
+    background-repeat: no-repeat;
+}
+/*Bottone SCOPRI DI PIU' Sullo slider*/
+.divLinkBottone{background-color:#c41329 !important;width:195px;height:22px !important;background-image: url("/cms-file/immagini/trenitalia2014/Homepage/arrow_scopri.png") !important; background-repeat: no-repeat !important;background-position: 90% 50%!important;border-radius: 3px; #fff;margin: 10px 0;padding: 0.6% 0% 0.4%  !important;position: absolute;top:183px;left:970px;z-index: 5000;filter: progid:DXImageTransform.Microsoft.Gradient(enabled = false);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled = false)";font-family: Trebuchet MS !important;    font-size: 1.50em;font-weight:bold;}
+.divLinkBottone:hover{background-color:#a80013 !important;}
+
+/*spazio tra i banner in home page*/
+@media (min-width: 701px){
+	.boxImgs3{margin-top:15px}
+}
+
+.alertHp.top {line-height: 1.3em;padding: 1em 20px 15px 75px;margin-top: 33px;}
+.alertHp {font-style:normal !important}
+.alertHp span {font-size:1.1em !important;color:#000 ! important;font-weight:bold !important}
+
+/* slider pager solo x mobile 28 Nov 2016 */
+@media screen and (max-width:701px){
+	.mobPager > .prev, .mobPager > .next { position:absolute; top:45px; display:block; }
+	.mobPager > .prev{background: url("/cms-file/immagini/trenitalia2014/Homepage/freccia_sn.png")no-repeat;left:0;width:34px;height:50px}
+	.mobPager > .next{background: url("/cms-file/immagini/trenitalia2014/Homepage/freccia_dx.png")no-repeat;right:0;width:34px;height:50px}
+}
+@media screen and (min-width:702px){
+	.mobPager > .prev, .mobPager > .next{ display:none; }
+}
+/* slider pager solo x mobile 28 Nov 2016 */
+
+/*Menù bck bianco*/
+@media (min-width: 701px){
+header .mainmenu .nav ul.navigationTrenitalia li.submenu > ul, .header .mainmenu .nav ul.navigationTrenitalia li.submenu > ul{background: #fff none repeat scroll 0 0;box-shadow: 0 10px 10px #666666;left: -5.5px;position: absolute;top: -1050em;width: 100%;padding-left:5px;padding-right:5px;border-left: 1px solid #dcdcdc;border-right: 1px solid #dcdcdc;border-radius: 0 0 8px 8px;}
+header .mainmenu, .header .mainmenu{background-color:#fff !important;border: 1px solid #dcdcdc;border-radius: 0 0 8px 8px;border-top:0 !important;-webkit-box-shadow: 0 10px 10px 0  rgba(0,0,0,0.48);-moz-box-shadow: 0 10px 10px 0  rgba(0,0,0,0.48);box-shadow: 0 10px 10px 0  rgba(0,0,0,0.48);padding:10px 5px 8px;}
+}

@@ -1,0 +1,872 @@
+/* CONTENT */
+
+body{padding:0; margin:0; font-family:Arial, Helvetica, sans-serif; background:#F7F7F9}
+
+.clearDiv{clear:both}
+.clearLeft{clear:left}
+.clearRight{clear:right}
+.FloatLeft{float:left}
+
+.hidden{position:absolute;	left:-2000px; width:990px}
+.height0{height:0px}
+
+div.spazioTop20{margin-top:20px}
+div.spazioTop10{margin-top:10px}
+
+a{color:#000; text-decoration:none}
+a:hover{color:#B30002; text-decoration:underline}
+a.selected{font-weight:bold; color:#B30002; text-decoration:none}
+a:hover.selected{text-decoration:underline}
+
+a.LinkFreccia{color:#000; padding-left:14px; margin:0; background:url(/cms-file/common/img/freccia_puntatore.gif) left center no-repeat}
+a:hover.LinkFreccia{color:#B30002}
+
+span.whiteLinks a{color:#FFF}
+span.whiteLinks a:hover{color:#FFF}
+span.orangeLinks a{color:#C74C00}
+span.orangeLinks a:hover{color:#C74C00}
+span.cyanLinks a{color:#658ECC}
+span.cyanLinks a:hover{color:#658ECC}
+
+input, textarea{font-family:Arial; margin:0; padding:0; height:18px; font-size:1.2em; width:auto; border:1px solid #000}
+
+form{padding:0; margin:0; font-family:Arial; font-size:1em}
+
+p{padding:0; margin:0}
+
+.titoloredbold{font-weight:bold; font-size:1.4em; color:#B30002; margin:0px}
+.titoloredboldmed{font-weight:bold; font-size:1.2em; color:#B30002; margin:0px}
+.titoloredboldsmall{font-weight:bold; font-size:1em; color:#B30002; margin:0px}
+.titoloblackboldmed{font-weight:bold; font-size:1.2em; color:#000; margin:0px}
+.titolowhiteboldmed{font-weight:bold; font-size:1.2em; color:#FFF; margin:0px}
+
+.testoRosso{color:#B30002}
+
+.listaPuntoNero{display:list-item; list-style:square url(/cms-file/common/img/puntoNero.gif) inside;	padding:1px 0 1px 0px;	color:#000}
+
+.PageNumb{padding:24px 30px 0 0; text-align:right; font-weight:bold; font-size:1.1em}
+.PageNumb span{color:#B30002}
+.PageNumb a.pageArrow {font-weight:bold; font-size:.9em}
+
+img.AlignLeft{border:1px solid #C5C5C5; padding:1px; float:left; margin-right:14px}
+img.AlignLeft2{border:1px solid #C5C5C5; padding:1px; float:left; margin-right:38px}
+img.AlignLeftNoBorder{border:none; float:left; padding:0; margin:0}
+img.AlignCenter{border:1px solid #C5C5C5; padding:1px; margin:0}
+img.AlignRight{border:1px solid #C5C5C5; padding:1px; float:right; margin-left:14px}
+
+a img{border:none}
+
+.AlignRight{text-align:right}
+
+.RigaSeparazione{border-top:1px solid #E9E7EA; background:#FFF; padding:0 0 20px 0; margin:0 9px}
+.RigaSeparazione2{border-top:1px solid #E9E7EA; padding:0; margin:0}
+.RigaSeparazione3{border-top:3px solid #FFF; padding:0; margin:0}
+
+.top6{margin-top:6px}
+
+#container{background:#FFF; margin:0; padding:0}
+
+/*Menu di Livello 1*/
+#navigation{margin:0; padding:5px 24px; font-size:.8em; font-weight:bold; height:auto !important; height:30px; min-height:30px;	background:#EAE8EB url(/cms-file/common/img/bg_menu.gif) top left repeat-x}
+#navigation2{margin:0; padding:5px 24px; font-size:.8em; font-weight:bold;	height:auto !important; height:30px; min-height:30px; background:#FFF}
+#navigation div.menuInt,
+#navigation2 div.menuInt{background:#FFF url(/cms-file/common/img/bg_menu_int.gif) bottom left repeat-x; padding:0;	margin:0; height:auto !important; height:30px;	min-height:30px}
+#navigation div.menuIntLeftRow,
+#navigation2 div.menuIntLeftRow{background:url(/cms-file/common/img/bg_menu_int_lr.gif) top left repeat-y; padding:0; margin:0; height:auto !important; height:30px; min-height:30px}
+#navigation div.menuIntRightRow,
+#navigation2 div.menuIntRightRow{background:url(/cms-file/common/img/bg_menu_int_lr.gif) top right repeat-y; padding:0;	margin:0; height:auto !important; height:30px;	min-height:30px}
+
+#navigation div.menuIntTopLeft{background:url(/cms-file/common/img/bg_menu_int_tl.gif) top left no-repeat; padding:0; margin:0; height:auto !important; height:30px;	min-height:30px}
+#navigation div.menuIntTopRight{background:url(/cms-file/common/img/bg_menu_int_tr.gif) top right no-repeat; padding:0;	margin:0; height:auto !important; height:30px;	min-height:30px}
+
+#navigation div.menuIntBotLeft{background:url(/cms-file/common/img/bg_menu_int_bl.gif) bottom left no-repeat; padding:0; margin:0; height:auto !important; height:30px; min-height:30px}
+#navigation div.menuIntBotRight{background:url(/cms-file/common/img/bg_menu_int_br.gif) bottom right no-repeat; padding:0; margin:0; height:auto !important; height:30px; min-height:30px}
+#navigation2 div.menuIntBotLeft{background:url(/cms-file/common/img/bg_menu2_int_bl.gif) bottom left no-repeat; padding:0; margin:0; height:auto !important; height:30px;	min-height:30px}
+#navigation2 div.menuIntBotRight{background:url(/cms-file/common/img/bg_menu2_int_br.gif) bottom right no-repeat; padding:0;	margin:0; height:auto !important; height:30px;	min-height:30px}
+#navigation ul#menu1,
+#navigation2 ul#menu2{list-style-type:none; margin:0; padding:0; text-align:center; width:100%; height:auto !important; height:30px; min-height:30px; overflow:hidden}
+
+#navigation ul#menu1 li,
+#navigation2 ul#menu2 li{float:left; height:auto !important; height:30px; min-height:30px; overflow:hidden; line-height:1em}
+#navigation ul#menu1 a,
+#navigation2 ul#menu2 a{color:#000; display:block; text-decoration:none; padding:6px 0px}
+#navigation ul#menu1 a:hover,
+#navigation2 ul#menu2 a:hover{color:#B30002; text-decoration:underline}
+#navigation ul#menu1 a.menu1attivo,
+#navigation2 ul#menu2 a.menu1attivo{color:#B30002; text-decoration:none}
+#navigation ul#menu1 a:hover.menu1attivo,
+#navigation2 ul#menu2 a:hover.menu1attivo{color:#B30002; text-decoration:underline}
+
+/*Menu 2 Link*/
+#navigation ul#menu1 li.M2cellaprima{width:49%; background:url(/cms-file/common/img/separatore.gif) right center no-repeat}
+#navigation ul#menu1 li.M2cellaultima{width:49%}
+
+/*Menu 3 Link*/
+#navigation ul#menu1 li.M3cellaprima{width:32%; background:url(/cms-file/common/img/separatore.gif) right center no-repeat}
+#navigation ul#menu1 li.M3cellaunica{width:34%; background:url(/cms-file/common/img/separatore.gif) right center no-repeat}
+#navigation ul#menu1 li.M3cellaultima{width:32%}
+
+/*Menu 4 Link*/
+#navigation ul#menu1 li.M4cellaprima{width:24%; background:url(/cms-file/common/img/separatore.gif) right center no-repeat}
+#navigation ul#menu1 li.M4cellaunica{width:25%; background:url(/cms-file/common/img/separatore.gif) right center no-repeat}
+#navigation ul#menu1 li.M4cellaultima{width:24%}
+
+/*Menu 5 Link*/
+#navigation ul#menu1 li.M5cellaprima,
+#navigation2 ul#menu2 li.M5cellaprima{width:18%; background:url(/cms-file/common/img/separatore.gif) right center no-repeat}
+#navigation ul#menu1 li.M5cellaunica,
+#navigation2 ul#menu2 li.M5cellaunica{width:21%; background:url(/cms-file/common/img/separatore.gif) right center no-repeat}
+#navigation ul#menu1 li.M5cellaultima,
+#navigation2 ul#menu2 li.M5cellaultima{width:18%}
+
+/*Menu 6 Link*/
+#navigation ul#menu1 li.M6cellaprima{width:15.5%; background:url(/cms-file/common/img/separatore.gif) right center no-repeat}
+#navigation ul#menu1 li.M6cellaunica{width:17%; background:url(/cms-file/common/img/separatore.gif) right center no-repeat}
+#navigation ul#menu1 li.M6cellaultima{width:15.5%}
+
+/*Menu 7 Link*/
+#navigation ul#menu1 li.M7cellaprima{width:12%; background:url(/cms-file/common/img/separatore.gif) right center no-repeat}
+#navigation ul#menu1 li.M7cellaunica{width:15%; background:url(/cms-file/common/img/separatore.gif) right center no-repeat}
+#navigation ul#menu1 li.M7cellaultima{width:12.3%}
+
+/*Menu 8 Link*/
+#navigation ul#menu1 li.M8cellaprima{width:9.5%; background:url(/cms-file/common/img/separatore.gif) right center no-repeat}
+#navigation ul#menu1 li.M8cellaunica{width:13.3%; background:url(/cms-file/common/img/separatore.gif) right center no-repeat}
+#navigation ul#menu1 li.M8cellaultima{width:9%}
+
+/*Menu 9 Link*/
+#navigation ul#menu1 li.M9cellaprima{width:8%; background:url(/cms-file/common/img/separatore.gif) right center no-repeat}
+#navigation ul#menu1 li.M9cellaunica{width:12.2%; background:url(/cms-file/common/img/separatore.gif) right center no-repeat}
+#navigation ul#menu1 li.M9cellaultima{width:5%}
+
+/*Contenuti*/
+#content{margin:0 24px; padding:0; font-size:.7em; overflow:hidden;/* importante */}
+#content div.contentLeft{float:left; width:23%; margin:15px 0 10px 0; padding:0; position:relative; left:0; height:auto !important; height:312px; min-height:315px}
+#content div.contentLeft div{padding:0; margin:0}
+#content div.contentLeft div h3{font-size:1em; font-family:arial; font-weight:bold; padding:0 0 3px 0; margin:0}
+#content div.contentRight{margin:15px 0 0 0; padding:0 0 10px 0; width:77%; float:left; position:relative;	left:0}
+
+/*Menu di navigazione*/
+#menuNav{height:auto !important; height:22px; min-height:22px; overflow:hidden}
+span.navigator{float:left}
+span.navigator span.freccia{font-size:.8em; padding:0 4px 0 7px}
+span.navigator span.frecciaSearch{font-size:.8em;}
+span.navicon{float:right; padding-right:.80%}
+span.navicon img{padding:0 2px 0 12px}
+
+/*Menu Livello 2 e Livello 3*/
+
+/*Livello 2*/
+#content div.contentLeft #menu2{width:auto}
+#content div.contentLeft ul#menu2{font-weight:bold; list-style-type:none; margin:0; padding:0; border-bottom:1px solid #E9E7EA}
+#content div.contentLeft #menu2 li{margin:0; padding:0}
+#content div.contentLeft ul#menu2 a{display:block; line-height:2.4em; text-decoration:none; padding:0; border-top:1px solid #E9E7EA}
+#content div.contentLeft ul#menu2 a:hover{text-decoration:underline}
+#content div.contentLeft ul#menu2 a.primo{display:block; text-decoration:none; padding:0; border-top:0}
+#content div.contentLeft ul#menu2 a.Attivo{text-decoration:none; color:#000; padding:10px 0 2px 0; line-height:1em}
+#content div.contentLeft ul#menu2 a.AttivoRed{color:#B30002; display:block; text-decoration:none; padding:0; border-top:1px solid #E9E7EA}
+#content div.contentLeft ul#menu2 a.primoAttivo{text-decoration:none; color:#000; border:0; padding:0; border-top:0}
+#content div.contentLeft ul#menu2 a.primoAttivoRed{text-decoration:none; color:#B30002; border:0; padding:0}
+#content div.contentLeft ul#menu2 a:hover.primo,
+#content div.contentLeft ul#menu2 a:hover.Attivo,
+#content div.contentLeft ul#menu2 li a:hover.AttivoRed,
+#content div.contentLeft ul#menu2 li a:hover.primoAttivo,
+#content div.contentLeft ul#menu2 a:hover.primoAttivoRed{text-decoration:underline; color:#B30002}
+
+/*Livello 3*/
+#content div.contentLeft ul#menu3{list-style-type:none; margin:3px 0 0 0; padding:5px 0 6px 0; border:0; background:#F7F7F9 url(/cms-file/common/img/bg_menu2Left.gif) top left repeat-y}
+#content div.contentLeft #menu3 li{margin:0; padding:0}
+#content div.contentLeft ul#menu3 a{display:block; line-height:1.5em; font-weight:normal;	text-decoration:none; padding:0 0 0 20px; border:0}
+#content div.contentLeft ul#menu3 a:link,
+#content div.contentLeft ul#menu3 a:visited{color:#000; background:url(/cms-file/common/img/marcatore.gif) left center no-repeat}
+#content div.contentLeft ul#menu3 a:hover{color:#B30002; text-decoration:underline; background:url(/cms-file/common/img/marcatore_sel.gif) left center no-repeat}
+#content div.contentLeft #menuLiv2{margin-bottom:1.4em}
+#content div.contentLeft #menuLiv2 ul#menu3 a.menu3attivo{font-weight:bold; color:#B30002; text-decoration:none; background:url(/cms-file/common/img/marcatore_sel.gif) left center no-repeat}
+#content div.contentLeft #menuLiv2 ul#menu3 a:hover.menu3attivo{text-decoration:underline}
+#content div.contentLeft #menu3{background:url(/cms-file/common/img/marcatore_sel.gif) -500px -500px no-repeat;/*carica in anticipo l'img.*/}
+
+/*Box Centrale*/
+
+/*Contenuti (pagina con 2 colonne)*/ 
+#contentBox{margin:0; padding:0; background:#F7F7F9 url(/cms-file/common/img/bg_contentBox_x.gif) top left repeat-x}
+
+/*Contenuti - Colonna centrale (pagina con 3 colonne)*/ 
+#contentBoxLeftCol{width:74%; float:left; margin:0;	padding:0; background:#F7F7F9 url(/cms-file/common/img/bg_contentBox_x.gif) top left repeat-x}
+
+/*Contenuti - Spalla destra (pagina con 3 colonne)*/ 
+#contentBoxRightCol{margin:0 0 0 74%; padding:13px 0; background:#F7F7F9}
+
+/*Contenuti - Spalla destra in template di Lista(pagina con 3 colonne)*/ 
+#leftColListaUp{width:73%; float:left; margin:0; padding:0; background:#F7F7F9 url(/cms-file/common/img/bg_contentBox_y.gif) top left repeat-y}
+#rightColListaUp{margin:0 0 0 74%; padding:0; background:#F7F7F9 url(/cms-file/common/img/bg_contentBox_y.gif) top right repeat-y}
+
+
+/*angoli arrotondati - doppia linea*/
+div.contcbox{background:url(/cms-file/common/img/bg_contentBox_x.gif) top left repeat-x}
+div.cbox{background:url(/cms-file/common/img/bg_contentBox_x.gif) bottom left repeat-x; padding:0; margin:0}
+div.cboxLeftRow{background:url(/cms-file/common/img/bg_contentBox_y.gif) top left repeat-y; padding:0; margin:0}
+div.cboxRightRow{background:url(/cms-file/common/img/bg_contentBox_y.gif) top right repeat-y; padding:0;	margin:0}
+div.cboxTopLeft{background:url(/cms-file/common/img/bg_contentBox_tl.gif) top left no-repeat; padding:0; margin:0}
+div.cboxTopRight{background:url(/cms-file/common/img/bg_contentBox_tr.gif) top right no-repeat; padding:0; margin:0}	
+#contentBoxLeftCol div.cboxTopRight{background:url(/cms-file/common/img/bg_contentBoxCenter_tr.gif) top right no-repeat; padding:0; margin:0}
+div.cboxBotLeft{background:url(/cms-file/common/img/bg_contentBox_bl.gif) bottom left no-repeat; padding:0; margin:0}
+div.cboxBotRight{background:url(/cms-file/common/img/bg_contentBox_br.gif) bottom right no-repeat; padding:0; margin:0}
+
+/*angoli arrotondati - una linea*/
+div.contcbox2{background:url(/cms-file/common/img/bg_contentBox2_x.gif) top left repeat-x}
+div.cbox2{background:url(/cms-file/common/img/bg_contentBox2_x.gif) bottom left repeat-x; padding:0; margin:0}
+div.cbox2LeftRow{background:url(/cms-file/common/img/bg_contentBox2_y.gif) top left repeat-y; padding:0;	margin:0}
+div.cbox2RightRow{background:url(/cms-file/common/img/bg_contentBox2_y.gif) top right repeat-y; padding:0; margin:0}
+
+/*angoli arrotondati - una linea spessa colore grigio - 2 curve*/
+div.box3{margin:0; padding:0}
+div.box3 .curvaTop{margin:0; padding:0; background:url(/cms-file/common/img/bg_Box3_curvaTop.gif) top right no-repeat}
+div.box3 .curvaBot{margin:0; padding:0; background:url(/cms-file/common/img/bg_Box3_curvaBot.gif) bottom left no-repeat}
+div.box3 div.boxCurva3Int{margin:0; padding:0; height:auto !important; height:110px; min-height:110px}
+div.box3 div.boxCurva3Int div.r1{padding:3px 0 0 4px; height:27px; line-height:1em; font-weight:bold}
+div.box3 div.boxCurva3Int div.r2{height:70px}
+div.box3 div.boxCurva3Int div.r3{padding:0 4px 0 0; height:12px; line-height:1em; font-weight:bold; text-align:right}
+div.contcbox3{background:url(/cms-file/common/img/bg_contentBox3_x_y.gif) top left repeat-x}
+
+div.cbox3{background:url(/cms-file/common/img/bg_contentBox3_x_y.gif) bottom left repeat-x; padding:0; margin:0}
+div.cbox3LeftRow{background:url(/cms-file/common/img/bg_contentBox3_x_y.gif) top left repeat-y; padding:0; margin:0}
+div.cbox3RightRow{background:url(/cms-file/common/img/bg_contentBox3_x_y.gif) top right repeat-y; padding:0; margin:0}
+div.cbox3TopLeft{background:url(/cms-file/common/img/bg_contentBox3_tl.gif) top left no-repeat; padding:0; margin:0}
+div.cbox3TopRight{background:url(/cms-file/common/img/bg_contentBox3_tr.gif) top right no-repeat;padding:0; margin:0}
+div.cbox3BotLeft{background:url(/cms-file/common/img/bg_contentBox3_bl.gif) bottom left no-repeat; padding:0; margin:0}
+div.cbox3BotRight{background:url(/cms-file/common/img/bg_contentBox3_br.gif) bottom right no-repeat; padding:0; margin:0}
+
+/*Contenuti principali*/
+div.cboxIntArchivio{padding:15px 32px; height:auto !important; height:210px; min-height:223px}
+div.cboxIntArchivio p{color:#B30002; font-size:1.1em; padding:6px 0 6px 30px; margin:0; background:url(/cms-file/common/img/freccia_puntatore.gif) left center no-repeat}
+
+div.cboxIntWP{padding:18px 30px 2px 47px; background:#FFF; border-left:1px solid #F5F5F5; border-right:1px solid #F5F5F5; height:auto !important; min-height:223px;	height:210px}
+
+div.ArchivioImgLeftUp{float:left; width:47%}
+div.ArchivioImgLeft{margin:0 0 7px 0; height:auto !important; min-height:102px; height:102px}
+
+div.ArchivioImgRightUp{margin-left:50.5%}
+div.ArchivioImgRight{margin:0 0 7px 0; height:auto !important; min-height:102px; height:102px}
+
+div.ArchivioImgLeft img.alignLeft,
+div.ArchivioImgRight img.alignLeft{float:left; border:1px solid #C5C5C5; padding:1px; margin-right:19px}
+
+div.ArchivioImgLeft a,
+div.ArchivioImgRight a,
+div.ContImgParagWP a{color:#B30002; font-size:1.1em; font-weight:bold; padding-left:15px; background:url(/cms-file/common/img/freccia_puntatore.gif) left center no-repeat}
+
+/*Aggiunta per gestione titolored non linkato*/
+div.ArchivioImgLeft span.titolored,
+div.ArchivioImgRight span.titolored,
+div.ContImgParagWP span.titolored{color:#B30002; font-size:1.1em; font-weight:bold}
+
+div.ArchivioImgLeft p.testo,
+div.ArchivioImgRight p.testo{font-size:1em; color:#000; font-weight:normal; background-image:none; padding:2px 0 0 0}
+
+div.ContImgParagWP p.testo{padding-top:8px; margin-right:38px}
+
+div.cboxIntContArtic{font-size:1.1em; padding:9px 0; margin:0}
+
+div.cboxIntContArticWP{font-size:1em; padding:9px 0; margin:0}
+
+div.ContImgParag{padding:14px 24px;	padding-bottom:18px; height:auto !important; min-height:10px; height:10px}
+
+div.ContImgParagBgWhite{clear:left; line-height:1.2em;	padding:10px 24px 18px 24px; background:#FFF; border-left:1px solid #F5F5F5; border-right:1px solid #F5F5F5;	height:auto !important; min-height:180px; height:168px}
+
+div.ContParagWP{padding:14px 24px;	padding-bottom:18px; height:auto !important; min-height:10px; height:10px}
+div.ContParagWP div.R1 div{text-align:right; background:#EAEAEA; padding:.4em 1em .2em 0; border-top:1px solid #B30002}
+div.ContParagWP div.RtestoLeft{float:left; width:50%; padding:.5em 1em}
+div.ContParagWP div.RtestoRight{padding:.5em 1em}
+div.ContParagWP div.Rtesto{padding:.5em 1em}
+div.ContParagWP div.RtestoGrande{font-size:1.4em; padding:.5em 1em; line-height:1.5em}
+
+div.ContImgParagWP{padding:15px 24px 0 47px; height:auto !important; min-height:168px; height:172px}
+
+div.ContImgParag p,
+div.ContImgParagBgWhite p{padding-top:14px}
+
+div.titoloPag{padding:10px 0 0 24px; background:#FFF; margin:0 1px; height:auto !important; min-height:28px; height:26px}
+
+div.ContParag{overflow:visible; line-height:1.2em; padding:8px 24px 8px 24px; background:#FFF; margin:0 1px}/*BC. overflow:visible; aggiunto per risolvere italic bugs*/
+div.ContParag h4{padding-bottom:.5em}
+div.ContParag p{padding-bottom:20px}
+div.ContParag a.linkEsterno{color:#000; text-decoration:underline}
+div.ContParag a:hover.linkEsterno{color:#B30002; text-decoration:underline}
+div.ContParag a.linkInterno{color:#000; text-decoration:underline}
+div.ContParag a:hover.linkInterno{color:#B30002; text-decoration:underline}
+
+div.ContTitoliSez{padding:10px 24px; margin:0 1px; background:#FFF}
+div.ContParagSez{ padding:12px 24px}
+div.ContParagSez p{font-size:.9em; padding:6px 0 6px 25px; margin:0; background:url(/cms-file/common/img/freccia_puntatore.gif) left center no-repeat}
+div.ContParagSez img{padding-right:10px; /*position:relative; top:2px;*/}/*BC.Commento per malfunzionamento in preview(Vignette)*/
+
+div.ContParagForm{padding:12px; background:#FFF; border:1px solid #EEE; margin:0 9px; height:auto; min-height:100px}
+div.ContTab{padding-right:10px}
+div.ContTabLeft{float:left; width:50%; padding:4px; text-align:center; background:#FFF; border:1px solid #CCC; border-bottom:none; line-height:1.2em}
+div.ContTabRight{padding:4px; text-align:center; background:#FFF; border:1px solid #CCC; border-bottom:none; line-height:1.2em}
+div.ContTab div.attivo{background:#F7F7F9; font-weight:bold}
+div.ContForm{padding:10px; background:#F7F7F9; border:1px solid #CCC}
+
+/*BC.Aggiunta per gestione lista di paragrafo*/
+div.ContParagLista {padding:0; margin:6px 0}
+div.ContParagLista div.descrz {padding:0 0 4px 0}
+div.ContParagLista div.frecciaLink{padding:4px 0 4px 15px;	background:url(/cms-file/common/img/freccia_puntatore.gif) no-repeat 0px 7px; display:inline;	line-height:1.7em}
+
+div.ContAncore{line-height:1.2em; padding:9px; background:#FFF; margin:0 1px}
+div.ContAncore2{padding:14px 24px; padding-bottom:18px; height:auto !important; min-height:10px; height:10px}
+div.ContAncore div.titoloRight{padding:0; margin:0; background:#B30002 url(/cms-file/common/img/bg_rb_tr.gif) top right no-repeat}
+div.ContAncore div.titoloLeft{padding:5px 10px 3px 10px; margin:0; background:url(/cms-file/common/img/bg_rb_tl.gif) top left no-repeat}
+div.ContAncore2 div.titoloRight{padding:0; margin:0; background:#B30002 url(/cms-file/common/img/bg_ancore2_tr.gif) top right no-repeat}
+div.ContAncore2 div.titoloLeft{padding:5px 10px 3px 10px; margin:0; background:url(/cms-file/common/img/bg_ancore2_tl.gif) top left no-repeat}
+div.ContAncore div.titoloLeft h3,
+div.ContAncore2 div.titoloLeft h3{font-weight:bold; font-size:1.1em; color:#FFF; margin:0px}
+div.ContAncore2 div.ancore,
+div.ContAncore div.ancore{padding:1em}
+div.ContAncore p,
+div.ContAncore2 p{font-weight:bold; padding:4px 0 4px 30px; margin:0; background:url(/cms-file/common/img/freccia_puntatore.gif) left center no-repeat}
+div.ContAncore2 div.ancore a{color:#B30002}
+div.TornaSu{ text-align:right; font-weight:bold; padding:5px 24px 5px 0; margin:0 1px; background:#FFF}
+div.ContAncore a, div.TornaSu a {color:#B30002}
+
+div.ContAncoreTxt{padding:0 24px 14px 24px; padding-bottom:18px; height:auto !important; min-height:10px; height:10px}
+div.ContAncoreTxt div.AncoreTxt{background:#FFF}
+div.ContAncoreTxt div.AncoreTxt div{border-bottom :1px solid #E7E7E9; padding:.2em 1em}
+div.ContAncoreTxt div.AncoreTxt div.tornasu{float:right; width:186px; height:36px; border:0; text-align:right; padding:0 40px 0 0; font-weight:bold; background:#F7F7F9 url(/cms-file/common/img/bg_tornasu.gif) top right no-repeat}
+div.ContAncoreTxt div.AncoreTxt div.tornasu a{position:relative; bottom:6px}
+div.ContAncoreTxt div.AncoreTxt div.tornasu img{border:none; position:relative; top:8px}
+div.ContAncoreTxt div.titoloRight{padding:0; margin:0; background:#E7E7E9 url(/cms-file/common/img/bg_boxTable_tr.gif) top right no-repeat}
+div.ContAncoreTxt div.titoloLeft{padding:8px 10px 5px 10px; margin:0; background:url(/cms-file/common/img/bg_boxTable_tl.gif) top left no-repeat}
+div.ContAncoreTxt div.titoloLeft h4{font-weight:bold; font-size:1em; color:#B30002; margin:0px}
+div.ContAncoreTxt p{padding:2px 0 2px 30px; margin:0; background:url(/cms-file/common/img/arrowBlack.gif) left center no-repeat}
+div.ContAncoreTxt p.descrizione{padding:0 0 2px 30px; margin:0; background-image:none}
+
+div.ContImg{padding:0 24px;	padding-bottom:18px; height:auto !important; min-height:146px; height:168px}
+div.ContImg2{padding:14px 10px 14px 20px; height:auto !important; min-height:40px; height:40px; text-align:left}
+div.ContImg3{padding:10px 0px 10px 2px; margin:10px 0; background:#F7F7F9}
+
+div.cboxFotoGalleryTop{padding:25px 30px 20px 30px; height:auto !important; border-bottom:6px solid #FFF; margin:0 1px;}
+div.cboxFotoGalleryBot{padding:10px 30px 34px 30px; height:auto !important; height:250px; min-height:250px}
+
+/* Desktop*/
+div.cboxDesktopGalleryB{padding:10px 30px 34px 30px; height:auto !important; height:250px; min-height:250px}
+div.Desktop2Img{clear:both; padding:1em 0 0 1.5em; margin:0; height:auto !important; min-height:250px; height:250px}
+div.Desktop2Img div{width:49%; float:left; text-align:left; padding-right:.3em;}
+div.Desktop2Img div img{border:1px solid #C5C5C5; padding:1px; margin:.5em 14px .5em 0;}
+div.Desktop2Img div div{width:90%; padding-bottom:.8em;}
+div.Desktop1Img{clear:both; padding:3.5em 2.5em; margin:0; height:auto !important; min-height:350px; height:350px}
+div.Desktop1Img div{float:left; text-align:left;}
+div.Desktop2Img div a.arrowLink,
+div.Desktop1Img div a.arrowLink{font-size:1em; padding-left:14px; background:url(/cms-file/common/img/freccia_puntatore.gif) left center no-repeat}
+
+/* Lista News*/
+div.Box2ImgTitolo{padding:15px 30px}
+div.Box2Img{clear:both; padding:1em 0 0 1.5em; margin:0; height:auto !important; min-height:50px; height:50px}
+div.Box2Img div{width:49%; float:left; text-align:left}
+
+div.Box1Img{clear:both; background:#FFF; padding:2.5em 0 0 0; margin:0; height:auto !important; min-height:430px; height:430px}
+div.Box1Img div{float:left; text-align:left}
+div.Box1Img div a.arrowLink{font-size:1em; font-weight:bold; padding-right:14px; background:url(/cms-file/common/img/freccia_puntatore.gif) right center no-repeat}
+
+/*Fotogallery*/
+div.Box5Img{clear:both; padding:1em 0 0 0; margin:0; height:auto !important; min-height:50px; height:50px;}
+div.Box5Img div{width:19.5%; float:left; text-align:center}
+
+/*Cartoline*/
+div.Box4Img{clear:both; padding:1em 0 0 0; margin:0; height:auto !important; min-height:50px; height:50px}
+div.Box4Img div{width:24.3%; float:left; text-align:center}
+div.Box4Img input{border:0}
+div.sceltacartolina{padding-top:26px; padding-right:4.68%; text-align:right}
+input.buttonflat{font-size:1em; width:60px; padding:0;	 border:0; background-color:transparent; font-weight:bold; text-align:right; cursor:pointer}
+input.puntatore{border:0; cursor:pointer; margin-bottom:1px}
+input.puntatore{width:5px; height:5px}
+div.contcartolina{padding:34px 0px 15px 0px; text-align:center}
+div.contforminviocartolina{width:510px; padding-top:18px; margin:auto; text-align:left}
+div.contnomicampi{width:56px; height:100%; float:left; text-align:right}
+div.contnomicampi p{padding:8px 8px 0 0}
+div.contnomicampi label{font-weight:bold}
+input.inputcartolina{width:303px; height:18px; margin-top:3px; float:left}
+textarea.inputcartolina{width:303px; height:80px; margin-top:6px; float:left}
+div.inviacartolina{padding:15px 145px 0 0; float:right}
+div.contnavcartolina{padding:5px 145px 20px 0; font-weight:bold; text-align:right}
+div.contnavcartolina img{border:none}
+
+/*Risultati della ricerca*/
+div.cboxIntContResult{padding:24px 0; margin:0}
+div.ContResultTop{padding:0 40px 18px 40px}
+div.ContResultTop h3{padding:4px 0 18px 0}
+div.ContResultTop p{padding-top:8px; font-weight:bold}
+div.ContResult{padding:20px 24px; margin:0 1px; background:#FFF}
+div.ContResult p span{color:#777}
+div.ContResult div{padding:7px 0; height:auto !important; min-height:30px; height:30px}
+div.ContResult div a.arrowLink{color:#B30002; font-size:1em; font-weight:bold; padding-left:18px; background:url(/cms-file/common/img/freccia_puntatore.gif) 2px left no-repeat}
+html>/**/body div.ContResult div a.arrowLink /* FireFox*/{background:url(/cms-file/common/img/freccia_puntatore.gif) left center no-repeat}
+div.ContResult div span.navigator{float:none; padding:2px 0 0 18px}
+div.cboxIntContResult div.PageNumb{padding-top:14px; padding-right:40px}
+div.cboxIntContResult div.PageNumb span.txtLeft{float:left; font-weight:bold; color:#000; padding-left:40px}
+
+/*Mappa del sito*/
+div.cboxIntContMap{padding:28px 43px; margin:0}
+div.cboxIntContMap h3{padding:10px 0}
+div.cboxIntContMap div.ContMap{padding:10px 0}
+div.cboxIntContMap div.ContMap a.arrowLink{font-size:1.1em; font-weight:bold; padding-left:14px; background:url(/cms-file/common/img/freccia_puntatore.gif) left center no-repeat}
+div.cboxIntContMap div.ContMap ul{padding:0 0 0 11px; margin:0; list-style-type:none}
+div.cboxIntContMap div.ContMap li{padding:0; margin:0; list-style-type:none}
+div.cboxIntContMap div.ContMap li a{line-height:1.4em; padding-left:16px}
+div.cboxIntContMap div.ContMap li a:link,
+div.cboxIntContMap div.ContMap li a:visited{background:url(/cms-file/common/img/arrowList.gif) left center no-repeat}
+div.cboxIntContMap div.ContMap li a:hover{text-decoration:underline; background:url(/cms-file/common/img/arrowList.gif) left center no-repeat}
+div.cboxIntContMap div.ContMap ul li ul{padding-left:14px}
+div.cboxIntContMap div.ContMap li ul li a{line-height:1.4em; padding-left:17px}
+div.cboxIntContMap div.ContMap li ul li a:link,
+div.cboxIntContMap div.ContMap li ul li a:visited{background:url(/cms-file/common/img/arrowList_2.gif) left center no-repeat}
+div.cboxIntContMap div.ContMap li ul li a:hover{text-decoration:underline; background:url(/cms-file/common/img/arrowList_2.gif) left center no-repeat}
+
+/*Faq - Aiuto*/
+div.cboxIntContFaq{padding:28px 43px; margin:0}
+div.cboxIntContFaq h3{padding:10px 0}
+div.cboxIntContFaq div.ContFaq{padding:10px 0 20px 0; line-height:1.6em}
+div.cboxIntContFaq div.ContFaq div.testo{padding:5px 0 5px 14px; line-height:1.3em}
+div.cboxIntContFaq div.TornaSu{text-align:right; font-weight:bold; padding:5px 24px 5px 0; margin:0 1px; background:transparent}
+div.cboxIntContFaq div.TornaSu a{color:#000}
+div.cboxIntContFaq div.ContFaq a.arrowLink,
+div.cboxIntContFaq div.ContFaq span.titoloFaq{font-size:1.1em; font-weight:bold; padding-left:14px; background:url(/cms-file/common/img/freccia_puntatore.gif) left center no-repeat}
+
+/*Infoutili - Comunicato*/
+div.cboxIntContInfo{padding:28px 43px; margin:0; height:auto !important; min-height:430px; height:430px}
+div.cboxIntContInfo img{padding-right:4px}
+div.cboxIntContInfo h3{padding:2px 0 10px 0}
+div.cboxIntContInfo div.ContInfo{float:left; padding:2em 0 0 0; line-height:1.6em; font-size:1.1em}
+div.cboxIntContInfo div.ContInfo span.titolo{font-weight:bold; padding:0 0 10px 0}
+div.cboxIntContInfo div.ContInfo span.testo{padding:0 2em 10px 0}
+div.cboxIntContInfo div.ContInfo p.testo{padding:0 2em 10px 0}
+
+/*Infoutili - Ricerca*/
+div.ricercaInfo{margin:0 10px; padding:0 1.4em}
+div.ricercaInfo form label{font-weight:bold; font-size:1.1em; margin:0 3px 0 .5em}
+div.ricercaInfo form input {margin-bottom:3px}
+div.ricercaInfo form input.btnInvia{width:56px; height:auto !important; height:20px; min-height:20px; border:0; margin:0 0 0 .5em}
+html>/**/body div.ricercaInfo form input{margin-bottom:0px}/* FireFox*/ 
+html>/**/body div.ricercaInfo form .btnInvia{position:relative; top:6px}/* FireFox*/ 
+html>/**/body div.ricercaInfo img{vertical-align:bottom}/* FireFox*/ 
+
+/*BC.Contenuti spalla destra*/
+div.RightColContentLinks{padding:0; margin:0;}
+html>/**/body div.RightColContentLinks{overflow:hidden}/*Firefox*/
+div.RightColTitoliSez {font-size:1.1em; padding:8px 7px 7px 7px;}
+div.RightColImgParag{padding:5px 7px; height:auto !important; min-height:48px; height:0}
+div.RightColImgParag img{float:left; border:1px solid #C5C5C5; padding:1px; margin:1px 4px 0 0}
+div.RightColImgParag div.ImgLnk {line-height:1.2}
+
+div.RightColContParag{padding:5px 0}
+div.RightColContParag div.FrecciaLnk{padding:1px 0 1px 15px; margin:0 7px 0 7px; background:url(/cms-file/common/img/freccia_puntatore.gif) left center no-repeat}
+
+div.RightColContParagDoc{padding:5px 0 5px 0}
+div.RightColContParagDoc img{padding-left:4px; margin-right:4px;/*position:relative; top:2px;*/}/*BC.Commento per malfunzionamento in preview(Vignette)*/
+span.spazio{padding:0 0 0 2px}
+
+div.RightColImmBox{padding:5px 0 5px 0; margin:0; text-align:center; overflow:hidden}
+div.RightColImmBox img{border:none; padding:0; margin:0}
+div.RightColImmBox div.staccoTxt{overflow:visible; text-align:left; padding:1px 3px 5px 6px; margin:0}
+
+div.cboxMese{padding:34px 30px; height:auto !important; height:150px; min-height:150px}
+div.cboxMese h4{padding:0 0 5px 0}
+
+/*FORM BOX CRUSCOTTO*/
+div#cruscotto{color:#000; margin:0 0 0 .3em; padding:0; width:99%; font-size:1em; background:#F5F5F7}
+div#cruscotto div.tab{margin-top:5px; font-size:1.1em}
+div#cruscotto div.tab span.on{text-align:center; padding:10px 0; font-weight:bold}
+div#cruscotto div.tab span.on a{padding-top:20px; color:#B30002}
+div#cruscotto div.tab span.off{text-align:center; padding:10px 0 10px 10px; font-weight:bold; background:url(/cms-file/common/img/off_sx.gif) center left no-repeat}
+div#cruscotto div.tab span.off a{text-align:center; padding:5px 10px 4px 0px; font-weight:bold; background:#FFF url(/cms-file/common/img/off_dx.gif) center right no-repeat}
+div#cruscotto div.tab span.linea{padding:0 2px}
+
+#cruscotto ul li a:link{color:#000; text-decoration:none}
+#cruscotto ul li a:hover{color:#B30002; text-decoration:underline}
+#cruscotto form{padding-top:1em}
+#cruscotto form label,
+#cruscotto form span{width:8%; text-align:left; margin:.2em 0 0 0}
+#cruscotto form label.partdest{font-size:1.1em; line-height:1.4em; font-weight:bold}
+#cruscotto form input{margin:2px 0 2px 0; color:#000; padding:0; display:block; width:91%}
+#cruscotto form p{margin:0.4em 0 0 0; text-align:left}
+#cruscotto form p.fullText{font-size:1.1em;	line-height:2.4em; text-align:left; font-weight:bold; margin:0}
+#cruscotto form p.fullText img{border:none; position:relative; top:3px}
+#cruscotto div.textRicerca{width:100%; margin:0}
+#cruscotto div.textRicerca input{width:15%; float:left; border:1px solid #000}
+#cruscotto div.textRicerca input.orari{width:15%; float:left; margin-right:4px}
+#cruscotto div.textRicerca select.ospiti{width:23%; font-size:1.1em; height:1.5em !important;	float:left; margin:2px 4px 2px 0}
+#cruscotto div.textRicerca select.camere{width:26%; font-size:1.1em; height:1.5em !important; float:left; margin:2px 4px 0 0}
+#cruscotto div.textRicerca input.anno{width:18%; float:left; margin-right:4px}
+#cruscotto div.textRicerca span.lbl1{position:relative; float:left; width:13%; line-height:2.4em}
+#cruscotto div.textRicerca span.lbl2{position:relative; float:left; width:13%; line-height:2.4em; text-align:right; padding-right:7px}
+#cruscotto div.textRicerca span.lbl3{position:relative; float:left; width:10%; line-height:2.4em; text-align:right; padding-right:4px}
+#cruscotto div.textRicerca span.lbl4{position:relative; float:left; width:3.5%; line-height:1.8em; text-align:right;	padding-right:7px}
+#cruscotto div.textRicerca .btnInviaCrusc{width:54px; height:auto !important; height:20px; min-height:20px;	border:0}
+#cruscotto div.interlinea{clear:both; padding:0}
+
+#cruscotto form.formAR{padding-top:.3em}
+#cruscotto form div.radioAR input{width:auto; margin:0; border:none; display:inline}
+#cruscotto form div.radioAR label{padding:0 8px 0 4px; font-size:1.1em; font-weight:bold; vertical-align:top}
+#cruscotto form div.contpartdestAR label.partdest{float:left; font-size:1.1em; line-height:1.4em; font-weight:bold}
+#cruscotto form div.contpartdestAR input{margin:2px 0 2px 0; color:#000; padding:0; display:block; width:82%}
+#cruscotto form div.contpartdestAR p{margin:0.4em 0 0 0; text-align:left}
+#cruscotto form div.contpartdestAR  p.fullText{font-size:1.1em;	line-height:2.4em; text-align:left; font-weight:bold; margin:0}
+#cruscotto form div.contpartdestAR  p.fullText img{border:none; position:relative; top:3px}
+#cruscotto div.textRicercaAR{width:100%; margin:0}
+#cruscotto div.textRicercaAR input{width:9%; float:left; border:1px solid #000}
+#cruscotto div.textRicercaAR input.orari{width:7%; float:left; margin-right:4px}
+#cruscotto div.textRicercaAR input.anno{width:11%; float:left; margin-right:0px}
+#cruscotto div.textRicercaAR span.lbl1{position:relative; float:left; width:10.5%; line-height:2em}
+#cruscotto div.textRicercaAR span.lbl2{position:relative; float:left; width:7%; line-height:2em; text-align:right; padding-right:7px}
+#cruscotto div.textRicercaAR span.lbl3{position:relative; float:left; width:7%; line-height:2em; text-align:right; padding-right:4px}
+#cruscotto div.textRicercaAR span.lbl4{position:relative; float:left; width:7%; line-height:2em; text-align:right; padding-right:3px}
+#cruscotto div.textRicercaAR span.lbl5{position:relative; float:left; width:1%; line-height:1.8em; text-align:right}
+#cruscotto div.textRicercaAR .btnInviaCrusc{width:54px; height:auto !important; height:20px; min-height:20px;	border:0}
+
+
+/*FORM GENERICA*/
+#formGen{padding:0; margin:0}
+#formGen img{border:none}
+#formGen div.Txt{padding:6px 0}
+#formGen label{text-align:left; margin:.2em 0 0 0}
+#formGen input{width:40%; border:1px solid #000; font-size:1em}
+#formGen select{width:20%; font-size:1em; height:1.5em !important; margin:2px 4px 2px 0}
+#formGen .btnInviaCrusc{width:54px; height:auto !important; height:20px; min-height:20px; border:0}
+#formGen div.Txt2 input{width:15%; float:left}
+#formGen div.Txt2 span{position:relative; float:left; width:6%; line-height:2.4em; text-align:right; padding-right:7px}
+#formGen div.interlinea{clear:both; padding:0 0 4px 0}
+#formGen div.Entra{font-size:1.1em; text-align:center; padding:.3em 0 .4em 0; margin-right:8px; background:#EAEAEA url(/cms-file/common/img/bg_menu.gif) top left repeat-x}
+#formGen div.Entra2{font-size:1.1em; text-align:right; padding:.3em .5em .4em 0; margin-right:8px; background:#EAEAEA url(/cms-file/common/img/bg_menu.gif) top left repeat-x}
+#formGen div.TxtSx{float:left; padding:6px 0; width:47%}
+#formGen div.TxtDx{padding:6px 0; margin-left:48%}
+#formGen div.TxtSx input, 
+#formGen div.TxtDx input{width:80%}
+#formGen div.TxtSx input.btnCambioPren,
+#formGen div.TxtDx span{padding:0 10px}
+#formGen div.TxtDx span a:hover{text-decoration:none}
+#formGen div.TxtDx img{vertical-align:bottom}
+#formGen div.TxtSx div{height:20px}
+#formGen div.Txt input.btnSubmit,
+#formGen div.TxtDx input.btnSubmit,
+#formGen div.Entra input.btnSubmit,
+#formGen div.Entra2 input.btnSubmit{font-size:.9em; font-weight:bold; cursor:pointer; color:#FFF; width:64px; height:20px; border:0; background:url(/cms-file/common/img/button_gen.gif) center center no-repeat}
+#formGen input.btnDisponibHotel{margin-top:10px; font-size:.9em; font-weight:bold; cursor:pointer; color:#FFF; width:148px; height:20px; border:0; background:url(/cms-file/common/img/button_gen2.gif) center center no-repeat}
+
+/*FORM GENERICA ANDATA E RITORNO*/
+#formGen div.TxtAR, #formGen div.radioAR{padding:6px 0}
+#formGen div.TxtAR label{text-align:left; margin:.2em 0 0 0}
+#formGen div.TxtAR input{width:40%; border:1px solid #000; font-size:1em}
+#formGen div.TxtAR select{width:10%; font-size:1em; height:1.5em !important; margin:2px 4px 2px 0}
+#formGen div.TxtAR select.colored{width:13%}
+#formGen div.radioAR input{width:auto; margin:0; border:none}
+#formGen div.radioAR label{padding:0 8px 0 4px; font-size:1em; font-weight:bold; vertical-align:top}
+#formGen label.labelDa{padding-right:3px}
+#formGen label.labelA{padding-right:10px}
+#formGen div.TxtAR input.btnSubmit{margin-bottom:2px; font-size:.9em; font-weight:bold; cursor:pointer; color:#FFF; width:64px; height:20px; border:0; background:url(/cms-file/common/img/button_gen.gif) center center no-repeat}
+
+/*FORM AREA RISERVATA*/
+#AreaRiservata{padding:6px 12px}
+#AreaRiservata div{padding-bottom:10px}
+#AreaRiservata div input{width:98%; height:16px; font-weight:bold; font-size:1em; margin:.4em 0 0 0; padding:0; text-indent:.2em}
+#AreaRiservata div input.but_Entra{ float:right; width:35px; height:15px; border:none; padding-bottom:4px}
+#AreaRiservata div span{font-size:.9em; margin-top:25px}
+
+/*FORM METROPARK*/
+#formMetropark{padding:1em; margin:0}
+#formMetropark img{border:none}
+#formMetropark div.Txt{padding:6px 0}
+#formMetropark div.Txt label{font-weight:bold; text-align:left}
+#formMetropark div.Txt input{width:20%; border:1px solid #7F9DB9; font-size:1em; padding-left:2px}
+#formMetropark div.Txt select{width:40%; font-size:1em; margin:2px 4px 2px 0}
+#formMetropark div.Txt textarea{width:80%; height:10%; border:1px solid #7F9DB9; font-size:.9em; padding:1px 4px}
+#formMetropark div.Txt div.TxtLeft{float:left; width:150px; padding:3px 0 0 0}
+#formMetropark div.Txt div.TxtRight{}
+#formMetropark div.Txt div.TxtLeft2{float:left; width:150px; padding:3px 0 0 0; }
+#formMetropark div.Txt div.TxtLeft3{float:left; margin:0 1% 0 0; width:20%}
+#formMetropark div.Txt div.TxtLeft3 input{width:100%; padding-left:2px}
+#formMetropark div.Txt div.TxtLeft4{float:left; width:63px; padding:3px 5px 0 0; text-align:right}
+#formMetropark div.Txt div.TxtRight2 input{width:10%; padding-left:2px}
+#formMetropark div.Txt span{font-weight:normal; color:#B30002}
+#formMetropark div.interlinea{padding:.5em 0 0 0; margin:.5em 0 1em 0; height:1px; border-bottom:1px solid #CCC}
+#formMetropark div.Txt2{text-align:right; padding:.5em 0 0 0}
+#formMetropark div.Txt2 input.btn{width:64px; height:20px; border:0; cursor:pointer;}
+#formMetropark div.Txt div.checkradio{padding:.3em 0 1em 0}
+#formMetropark div.Txt div.checkradio p{padding:0 0 .5em 0}
+#formMetropark div.Txt div.checkradio input{width:auto; margin:0; border:none; margin:0; display:inline}
+#formMetropark div.Txt div.checkradio label{padding:0 8px 0 4px; font-weight:bold; vertical-align:top}
+
+/* FORM SPALLA DESTRA */
+.cruscotto, .cruscotto form{font-family:"Lucida Grande", Tahoma, Arial, Helvetica, sans-serif; margin:0; padding:0}
+.cruscotto{border:1px solid #999; background:#ebebeb}
+.cruscotto .form-orario{font-size:.9em}
+.cruscotto .form-spalla{}
+.cruscotto fieldset{border-style:none; border-bottom:1px solid #999; padding:.25em 0 .5em 0; margin-top:.25em; margin-bottom:.25em}
+.cruscotto fieldset.alternate{background-color:#dfdfdf; margin-top:-.25em}
+.cruscotto a, .cruscotto a:link, .cruscotto a:visited{color:#000; font-weight:bold; text-decoration:underline}
+.cruscotto a:hover, .cruscotto a:active{text-decoration:underline; color:#cc0000}
+.cruscotto .form-spalla select{width:80%}
+.cruscotto .form-row{display:block; float:none; clear:both; width:auto; margin:0 0 .2em; padding:.25em .5em 0}
+.cruscotto .form-row label{margin:0; width:14%; display:block; float:left; padding:0 1%; text-align:right}
+.cruscotto .form-row.nolabel{padding-left:16%}
+.cruscotto fieldset legend{padding-left:8px; padding-bottom:.25em; color:#333; font-weight:bold}
+.cruscotto .form-row.nolabel label{width:auto; margin-right:.75em}
+.cruscotto .form-row select{width:auto !important}
+.cruscotto fieldset.last{border-bottom-style:none; margin-bottom:0; padding-bottom:.5em}
+.cruscotto .form-row input, .cruscotto .form-row select{font:bold .95em "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif}
+.cruscotto label.radio{display:inline-block; float:none; width:auto; margin:0; padding:0}
+.cruscotto label input[type~=radio], .cruscotto label input[type~=checkbox]{vertical-align:-.5em; margin-right:.25em}
+.cruscotto .submit{background-color:#cc0000; color:#fff; border-style:none; font:bold .95em "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif; padding-right:.5em; padding-left:.5em; cursor:hand}
+.cruscotto .alternate{position:relative; font-size:1em; color:#000; background-color:#dfdfdf; padding:5px 8px; border-bottom:1px solid #999; margin:0}
+.cruscotto .wcag-hide{position:absolute; left:-10000px; width:200px}
+
+/*Trenitalia*/
+div.HpTrenContLeftBoxIntDx #AreaRiservata div{padding-bottom:5px}
+div.HpTrenContLeftBoxIntDx #AreaRiservata div label{ color:#000; font-weight:bold; font-size:.9em; padding:0; margin:0}
+div.HpTrenContLeftBoxIntDx #AreaRiservata div input{width:98%; height:16px; font-weight:normal; font-size:1em; margin:.2em 0 0 0; padding:0; text-indent:.2em}
+div.HpTrenContLeftBoxIntDx #AreaRiservata div input.but_Entra{ float:right; width:35px; height:15px; border:none}
+div.arBot{padding:5px 12px}
+div.arBot p{font-size:.9em; margin:0; padding:0; line-height:1.2em}
+
+/*Angoli Box Interni*/
+div.BoxInttopl {color:#FFF; background:url(/cms-file/common/img/bg_rb2_tl.gif) top left no-repeat; height:auto !important; height:80px; min-height:80px}
+div.BoxInttopr{background:url(/cms-file/common/img/bg_rb2_tr.gif) top right no-repeat; height:auto !important; height: 80px; min-height:80px}
+div.BoxIntbotl{height:3px;	background:url(/cms-file/common/img/bg_rb2_bl.gif) bottom left no-repeat}
+div.BoxIntbotr{height:3px; background:url(/cms-file/common/img/bg_rb2_br.gif) bottom right no-repeat}
+
+/*Tabella 1*/
+div.contentable{padding:14px 0}
+div.ContResult div.contentable table.table1 {font-size:1em}
+table.table1{font-size:.9em}
+table.table1 tr{text-align:left}
+table.table1 th{border-bottom:1px solid #FFF; background:#B30002; color:#FFF; height:20px; padding-left:10px}
+table.table1 th.topleftth{width:16.5%; padding-left:20px; border-right:1px solid #FFF; background:#B30002}
+table.table1 th.toprightth{width:18.5%; background:#B30002}
+table.table1 th a, table.table1 th a:hover{color:#FFF}
+th.luogoth , th.titoloth{border-right:1px solid #FFF}
+th.luogoth{width:18.8%}
+th.titoloth{width:46.2%}
+table.table1 td{color:#000; height:37px; padding:2px 8px; border-right:1px solid #E5E5E5; background:#FFF url(/cms-file/common/img/puntinato.gif) bottom left repeat-x}
+table.table1 td.cellaprima{padding-left:20px; color:#B30002; font-weight:bold; border-left:1px solid #E5E5E5}
+table.table1 tr.cellapari td{background:#F7F7F9 url(/cms-file/common/img/puntinato.gif) bottom left repeat-x}
+
+/*Box Tabella Mese*/
+div.cboxMese table.table1 th.toprightth{width:auto; background:#B30002}
+div.cboxMese div.contentable{padding:0; border-bottom:1px solid #FFF}
+div.cboxMese div.contentable table{font-size:1em}
+div.boxMeseTabTopLeft{background:#E9E7EA url(/cms-file/common/img/bg_BoxTable_tl.gif) top left no-repeat; margin-top:2em; width:26%}
+div.boxMeseTabTopRight{ background:#E9E7EA url(/cms-file/common/img/bg_BoxTable_tr.gif) top right no-repeat; padding:8px 0 4px 0; margin-left:10px}
+div.boxMeseTabTopRight img{float:left}
+div.boxMeseTabBotLeft{background:#E9E7EA url(/cms-file/common/img/bg_BoxTable_bl.gif) bottom left no-repeat; height:20px}
+div.boxMeseTabBotRight{background:url(/cms-file/common/img/bg_BoxTable_br.gif) bottom right no-repeat; height:20px}
+
+/*Tabella Generica*/
+/*Usata per tutte le tabelle prodotte da Excel*/
+table.dataTab {width:100%; font-size:.9em}
+table.dataTab th{background:#B30002; color:#FFF; font-weight:bold; border-right:1px solid #FFF; border-bottom:1px solid #FFF; padding:3px}
+table.dataTab td{border-left:1px solid #E5E5E5; padding:5px}
+table.dataTab tr.pari td{background:#F7F7F9 url(/cms-file/common/img/puntinato.gif) bottom left repeat-x}
+table.dataTab tr.dispari td{background:#FFF url(/cms-file/common/img/puntinato.gif) bottom left repeat-x}
+table.dataTab td.last,
+table.dataTab tr.tcomrow th.last{border-right:1px solid #E5E5E5}
+table.dataTab tr.tcomrow{font-weight:bold}
+table.dataTab tr.tcomrow th{background:#FFF; color:#B30002; font-weight:bold; border-left:1px solid #E5E5E5; border-bottom:1px solid #E5E5E5}
+table.dataTab th a.titoloTab, table.dataTab th a.titoloTab:hover{color:#FFF}
+
+/*Tabella LISTA-BANDI*/
+div.contListaBandi {padding:0; margin:0}
+div.contListaBandi table.dataTab {font-size:1em}
+div.contListaBandi table.dataTab th {text-align:left; padding-left:8px}
+div.contListaBandi table.dataTab th.cellauno {width:30%}
+
+/*Tabella TCOM-1*/
+div.cboxIntTab{padding:24px 20px; height:auto !important; height:210px;	min-height:223px; margin:0}
+div.titoloPagTab{padding:0 0 6px 14px; margin:0 1px}
+div.ContParagTab{overflow:visible; font-size:1.1em; line-height:1.2em; padding:6px 24px 12px 14px; margin:0 1px}/*BC. overflow:visible; aggiunto per risolvere italic bugs*/
+div.ContParagTab p{padding-bottom:20px}
+div.ContParagTab a.linkEsterno{color:#000; text-decoration:underline}
+div.ContParagTab a:hover.linkEsterno{color:#B30002; text-decoration:underline}
+div.ContParagTab a.linkInterno{color:#000; text-decoration:underline}
+div.ContParagTab a:hover.linkInterno{color:#B30002; text-decoration:underline}
+div.ContParagTab div.frecciaLink{padding:6px 0 6px 15px; background:url(/cms-file/common/img/freccia_puntatore.gif) no-repeat 0px 7px; display:inline; line-height:1.7em}
+
+table.tabTCom{width:100%; font-size:1em; text-align:left; padding:0; margin:0}
+table.tabTCom th.tabLink{background:#B30002; color:#FFF; font-weight:bold; padding:0px; border:0px}
+table.tabTCom th.tabLink table{color:#FFF; font-weight:bold; text-align:center; padding:0; margin:0; width:100%}
+table.tabTCom th.tabLink table td{padding:3px 1px; background:#B30002; border-right:1px solid #FFF; border-bottom:1px solid #FFF; border-left:none}
+table.tabTCom th.tabLink table td.primo{border-bottom:0px; border-bottom:1px solid #FFF; background:#B30002 url(/cms-file/common/img/bg_tcomtab_tl.gif) top left no-repeat}
+table.tabTCom th.tabLink table td.primosel{border-bottom:0px; background:#890101 url(/cms-file/common/img/bg_tcomtab_tl.gif) top left no-repeat}
+table.tabTCom th.tabLink table td.primovuoto{border-bottom:0px; border-right:0px; width:10px; background:#890101 url(/cms-file/common/img/bg_tcomtab_tl.gif) top left no-repeat}
+table.tabTCom th.tabLink table td.sel{border-bottom:0px; border-bottom:0px; background:#B30002}
+table.tabTCom th.tabLink table td.ultimo{border-right:0px; background:#B30002 url(/cms-file/common/img/bg_tcomtab_tr.gif) top right no-repeat}
+table.tabTCom th.tabLink table td.ultimosel{border-right:0px; border-bottom:0px; background:#890101 url(/cms-file/common/img/bg_tcomtab_tr.gif) top right no-repeat}
+table.tabTCom th.tabLink table td.sel{background-color:#890101}
+table.tabTCom th.tabLink table th a:hover{color:#FFF}
+table.tabTCom th{background:#890101; color:#FFF; font-weight:bold; padding:5px 0 5px 10px}
+table.tabTCom th a{color:#FFF; font-weight:bold; padding:0}
+table.tabTCom th a:hover{color:#FFF}
+table.tabTCom th a.on{color:#FFF; font-weight:bold; padding:0; text-decoration:underline}
+table.tabTCom th span{color:#B30002}
+table.tabTCom td{border-left:1px solid #E5E5E5; padding:5px 2px 5px 3px; text-align:center}
+table.tabTCom td img{border:none; text-align:center}
+table.tabTCom td.first{text-align:left}
+table.tabTCom tr.dispari td{background:#F7F7F9 url(/cms-file/common/img/puntinato.gif) bottom left repeat-x}
+table.tabTCom tr.pari td{background:#FFF url(/cms-file/common/img/puntinato.gif) bottom left repeat-x}
+table.tabTCom td.last, table.tabTCom td.testo,
+table.tabTCom tr.row2 th.last{border-right:1px solid #E5E5E5}
+table.tabTCom tr.row2{font-weight:bold; text-align:center}
+table.tabTCom tr.row2 th{ padding:5px 2px 5px 3px; background:#FFF; color:#B30002; border-left:1px solid #E5E5E5; border-bottom:1px solid #E5E5E5}
+table.tabTCom div.ContParagTab{font-size:1em; text-align:left}
+
+/*GALLERY*/
+div.contgallery{padding:34px 10px; height:auto !important; height:350px; min-height:350px}
+div.contimmagine{width:503px; padding:2px 2px 0px 2px; margin:auto; background:#DEDEDE; text-align:center}
+div.contimmagine img{border:1px solid #FFF}
+div.footimmagine{font-size:1em; color:#000; padding:0px 15px; text-align:left}
+div.descrizioneimmagine{float:left; padding-top:6px}
+a.navgalleryprec{float:right; display:block; width:18px; height:30px; background:transparent url(/cms-file/common/img/frecciaSX.gif) no-repeat center}
+a:hover.navgalleryprec{ background:#B30002 url(/cms-file/common/img/frecciaSXBianca.gif) no-repeat center}
+a.navgallerysucc{float:right; display:block; width:18px; height:30px; background:transparent url(/cms-file/common/img/frecciaDX.gif) no-repeat center}
+a:hover.navgallerysucc{background:#B30002 url(/cms-file/common/img/Freccia_menu_1Liv.gif) no-repeat center}
+div.contnavgallery{padding-bottom:30px; padding-right:3%; font-size:1em; font-weight:bold; text-align:right}
+div.contnavgallery img{border:none}
+
+/*Metropark - Box ricerca pg interna*/
+div.ricercaMpkPgInt{width:auto; margin:.3em 0 .2em 0; border:1px solid #CCC; padding:12px 2px 4px 4px; height:auto !important; min-height:30px; background:#E3E2E4 url(/cms-file/common/img/bg_ricerca.gif) top right no-repeat}
+div.ricercaMpkPgInt label{float:left; color:#B30002; font-weight:bold; font-size:1em; margin:4px 6px 0 2em}
+div.ricercaMpkPgInt input.campoR{ width:120px; height:18px; padding:3px 3px 0 12px; border:0; font-size:1em; background:url(/cms-file/common/img/bg_camporicercaMpk.gif) top left no-repeat}
+div.ricercaMpkPgInt .buttonCerca{margin:0 0 0 6px; width:56px; height:20px; border:0;}
+
+/*Multimedia Gallery FSNews*/
+div.cboxMMGalleryTop{padding:25px 30px 20px 30px; border-bottom:6px solid #FFF; margin:0 1px; line-height:1.6em;}
+div.cboxMMGalleryBot{padding:10px 30px 34px 30px; height:auto!important; min-height:140px}
+div.cboxMMGalleryBot div.ContBoxRiq{clear:both; padding:1em 0 0 0; margin:0; height:auto!important; height:150px;/*IE6*/ min-height:140px}
+div.cboxMMGalleryBot div.ContBoxRiq div.BoxRiq{margin:0; height:auto!important; height:150px;/*IE6*/ min-height:140px; width:32%; background:#DEDEDE url(/cms-file/common/img/bgMMGallery.gif) top left repeat-x; float:left; border:1px solid #FFF; border-right:1px solid #C9C9C9; border-bottom:1px solid #C9C9C9; margin:0 10px 0 0; padding-bottom:8px}
+div.cboxMMGalleryBot div.ContBoxRiq a{color:#B30002}
+div.cboxMMGalleryBot div.ContBoxRiq div.last{margin-right:0}
+div.cboxMMGalleryBot div.ContBoxRiq div.BoxRiq div.titolo{padding:8px 5px 10px 30px; color:#B30002; font-weight:bold; font-size:1.1em}
+div.cboxMMGalleryBot div.ContBoxRiq div.BoxRiq div.imgLink{height:auto!important; min-height:56px; height:56px;/*IE6*/ margin:0 14px; padding:0; height:58px; background:#F0F0F0 url(/cms-file/common/img/bg_intMmgallery.gif) top left no-repeat}
+html>/**/body div.cboxMMGalleryBot div.ContBoxRiq div.BoxRiq div.imgLink{overflow:hidden}/*Firefox*/
+div.cboxMMGalleryBot div.ContBoxRiq div.BoxRiq div.imgLink div.sx{float:left; border:none; margin:2px 0 0 2px}
+div.cboxMMGalleryBot div.ContBoxRiq div.BoxRiq div.imgLink div.dx{float:left; border:none; margin:6px 5px 0 6px; line-height:1.4em}
+div.cboxMMGalleryBot div.ContBoxRiq div.BoxRiq div.descrizione{clear:both; margin:0 14px; padding:4px 0; color:#000; font-size:1em}
+div.cboxMMGalleryBot div.ContBoxRiq div.BoxRiq div.descrizione div.sx{float:left; padding-bottom:4px; width:40%}
+div.cboxMMGalleryBot div.ContBoxRiq div.BoxRiq div.descrizione div.dx{padding-bottom:4px}
+div.cboxMMGalleryBot div.ContBoxRiq div.BoxRiq div.descrizione div.txt{clear:both; padding-top:4px}
+div.cboxMMGalleryBot div.ContBoxRiq div.BoxRiq div.descrizione div.txt p{line-height:1.1em}
+/* Icone 1 */
+div.cboxMMGalleryBot div.audio{background:url(/cms-file/common/img/icoAudio.gif) top left no-repeat}
+div.cboxMMGalleryBot div.video{background:url(/cms-file/common/img/icoVideo.gif) top left no-repeat}
+div.cboxMMGalleryBot div.image{background:url(/cms-file/common/img/icoImage.gif) top left no-repeat}
+/*Dettaglio Dimensione Variabile - Per una corretta visualizzazione la larghezza dell'immagine  è di 520px*/
+div.cboxMMGalleryBot div.DettaglioVarTitolo{color:#B30002; font-size:1.3em; font-weight:bold; margin:0 auto 1em auto; padding-top:1.5em; width:530px;}
+html>/**/body div.cboxMMGalleryBot div.DettaglioVarTitolo{margin-top:1.5em; padding-top:0px}/*Firefox*/
+div.cboxMMGalleryBot div.DettaglioVarTitolo a{color:#B30002}
+div.cboxMMGalleryBot div.DettaglioVarMM{height:auto !important; height:100px; min-height:100px; text-align:center; margin:.8em 0 0 0; padding:0; background:url('/cms-file/common/img/bg_DettaglioVarMM.gif') top center repeat-y}
+/*immagini*/
+div.cboxMMGalleryBot div.DettaglioVarMM img.resize{background:#EEE; border:1px solid #FFF; border-right:1px solid #C9C9C9; border-bottom:1px solid #C9C9C9; padding:25px 4px 30px 4px; margin:0}
+/*player audio/video*/
+div.cboxMMGalleryBot div.DettaglioVarMM a.MMresize{margin:0 auto; display:block; background:#EEE; border:1px solid #FFF; border-right:1px solid #C9C9C9; border-bottom:1px solid #C9C9C9; padding:25px 4px 30px 4px}
+div.cboxMMGalleryBot div.DettaglioVarBot{clear:both; padding:0; margin:0 auto; position:relative; top:-31px; width:530px; border-bottom:4px solid #F7F7F9}
+div.cboxMMGalleryBot div.DettaglioVarBot.audiovideo{top:-28px; border:none}
+div.cboxMMGalleryBot div.DettaglioVarBot div.BoxD{background:#DEDEDE; padding-top:4px; border-left:1px solid #FFF;  border-top:1px solid #EEE; border-right:1px solid #C9C9C9; border-bottom:1px solid #C9C9C9}
+div.cboxMMGalleryBot div.DettaglioVarBot div.BoxD div.botLink{height:22px; margin:0; padding:0}
+div.cboxMMGalleryBot div.DettaglioVarBot div.BoxD div.botLink div{text-align:center; width:476px; float:left; padding-top:3px}
+div.cboxMMGalleryBot div.DettaglioVarBot div.BoxD div.botLink img.prev{float:left}
+div.cboxMMGalleryBot div.DettaglioVarBot div.BoxD div.botLink img.next{float:right}
+/* Icone 2 */
+div.cboxMMGalleryBot div.DettaglioVarMM img.audio, div.cboxMMGalleryBot div.DettaglioVarMM a.audio{background:#EEE url(/cms-file/common/img/icoAudio.gif) top left no-repeat}
+div.cboxMMGalleryBot div.DettaglioVarMM img.video, div.cboxMMGalleryBot div.DettaglioVarMM a.video{background:#EEE url(/cms-file/common/img/icoVideo.gif) top left no-repeat}
+div.cboxMMGalleryBot div.DettaglioVarMM img.image, div.cboxMMGalleryBot div.DettaglioVarMM a.image{background:#EEE url(/cms-file/common/img/icoImage.gif) top left no-repeat}
+/*Descrizione*/
+div.cboxMMGalleryBot div.TxtDescrizione{clear:both; margin:-1em auto 1em auto; width:530px; padding:0; font-size:1.1em}
+div.cboxMMGalleryBot div.TxtDescrizione p{line-height:1.5em; text-align:justify; padding:1em 0}
+div.cboxMMGalleryBot div.TxtDescrizione p a{color:#000; text-decoration:underline}
+div.cboxMMGalleryBot div.TxtDescrizione a{color:#B30002}
+div.cboxMMGalleryBot div.TxtDescrizione div.icoLink{margin-top:1em}
+div.cboxMMGalleryBot div.TxtDescrizione div.icoLink div a{color:#000; text-decoration:underline; padding-left:6px}
+div.cboxMMGalleryBot div.TxtDescrizione div.icoLink div img{position:relative; top:6px; margin-top:2px}
+
+/* Box Votazione */
+#formRate{padding:0; margin:0}
+#formRate img{border:none}
+#formRate label{text-align:left; margin:.2em 0 0 0}
+#formRate input{width:40%; border:1px solid #000; font-size:1em}
+#formRate select{width:20%; font-size:1em; height:1.5em !important; margin:2px 4px 2px 0}
+
+#formRate div.radioAR{padding:6px 0}
+#formRate div.radioAR input{width:auto; margin:0; border:none}
+#formRate div.radioAR label{padding:0 8px 0 4px; font-size:1em; font-weight:bold; vertical-align:top}
+
+div.whitespace{padding:4px; margin:0 1px; background:#FFF}
+div.titoloMsg{font-weight:bold; text-align:center; padding:1px 0 10px 0; margin:0; color:#BE0002}
+div.titoloCheck{font-weight:bold; float:left; padding:2px 10px 2px 0px; color:#BE0002;}
+div.boxCaptcha{background:#E9E7EA url(/cms-file/common/img/bg_menu.gif) repeat-x; margin:0; padding:1px; text-align:center}
+div.boxCaptcha div.Titolo{font-size:1em; font-weight:bold; padding:6px 12px 5px 12px; margin-bottom:10px}
+div.contCaptcha img{padding-left:1em}
+div.contCaptcha div.botForm{padding:1em}
+#formRate div.boxCaptcha input{border:1px solid #999; width:22%}
+#formRate div.boxCaptcha input.btnSubmit{font-size:.9em; font-weight:bold; cursor:pointer; color:#FFF; width:64px; height:20px; border:0; background:url(/cms-file/common/img/button_gen.gif) center center no-repeat}
+div.boxRisult div{background:#F7F7F9; padding:4px 2px 2px 0px; font-weight:bold}
+
+/* articolo 2 colonne e tabella (gare RFI) */
+div.conttwocol{background:#FFF; padding:0 0 0 9px; margin:0 1px}
+html>/**/body div.conttwocol{background:#FFF; height:auto!important; min-height:50px; height:50px; margin:0 1px 0 9px; padding:0px}
+div.conttwocol div.Box2ImgTitolo{width:65%; float:left; background:#F7F7F9; border:1px solid #FFF}
+div.conttwocol div.contspdx{margin:0 9px 0 72%; background:#F7F8F9; border:1px solid #FFF; padding-left:8px; height:auto!important; min-height:50px; height:50px;}
+html>/**/body div.conttwocol div.contspdx{margin:0 9px 0 73%; background:#F7F7F9; padding:0 0 14px 8px}
+div.contRightColLista {padding:10px 10px 13px 0px; margin:0}
+div.contLeftColLista {padding:15px 5px 13px 30px; margin:0}
+
+/* FSNews - Multimedia Gallery tipo 2 */
+.Multimedia{margin:0 0 7px 0; height:auto !important; min-height:102px; height:102px}
+.ArchivioImgLeft .Multimedia a, .ArchivioImgRight .Multimedia a{color:#B30002; font-size:1.1em; font-weight:bold; padding-left:0px; background-image:none}
+.Multimedia .txt{padding-top:8px}
+.Multimedia .txt a{font-size:1em; font-weight:normal}
+.Multimedia .contInfo{padding-top:14px}
+.Multimedia .contInfo span{color:#B30002}
+.contIco{padding-right:15px; margin:0}
+.contIco .ico{background-image:url('/cms-file/common/img/sprite-FSNewsIcoMultimedia.gif'); margin:0 3px 0 0; width:14px; height:15px; position:relative; top:3px}
+.contIco .audio{background-position:0px 0px}
+.contIco .video{background-position:-15px 0px}
+.contIco .image{background-position:-29px 0px; width:11px}
+
+/* Social Network */
+.socialNet{float:right; color:#898989; border-bottom:1px dotted #000; height:20px; width:144px; }
+.socialNet span{float:left; font-size:11px; margin:3px 4px 0 0}
+.socialNet ul{margin:0; list-style:none}
+.socialNet ul li{clear:right; float:left; font-size:11px; margin-right:3px; width:16px}
+.socialNet li a{display:block; background-image:url(/cms-file/common/img/sprite-SocialNetwork.gif); background-repeat:no-repeat; height:0; overflow:hidden; padding-top:20px}
+.socialNet ul li.facebook a{background-position:0px 0px}
+.socialNet ul li.twitter a{background-position:-16px 0px}
+.socialNet ul li.delicious a{background-position:-32px 0px}
+.socialNet ul li.digg a{background-position:-48px 0px}
+.socialNet ul li.oknotizie a{background-position:-64px 0px}
+.socialNet ul li.oknotizie{width:17px; margin-right:0px}
+
+/* TABELLE PAGINE INFO UTILI */
+div.contTbl{background-color:#f7f7f9;padding:5px 10px 20px 10px}
+div.contTbl h2{color:#DE1327;font-size:2em;padding:0;margin:16px 0 16px 0}
+.tblTitoli, .tblCont, .tblTitoliCrusc{width:100%;}
+.tblTitoliCrusc{padding-top:10px}
+.tblCont td{font-size:1em;color:#3e3e3e}
+.tblTitoli td, .tblTitoliCrusc td, .tblTitoli td.TdLast{vertical-align:top;padding:6px;font-size:1.1em;color:#fff;background-color:#a3a4a6;border-top:5px solid #f7f7f9;border-left:1px solid #f7f7f9;border-bottom:1px solid #f7f7f9}
+.tblTitoliCrusc td{background-color:#fff;border-width:0;}
+.tblTitoli td.TdOn, .tblTitoliCrusc td.TdOn{padding:6px;padding-top:10px;font-size:1.1em;color:#fff;background-color:#de1327;vertical-align:top;border-top:0px solid #de1327;border-bottom-width:0}
+.tblTitoliCrusc td.TdOn{padding:10px 10px 6px 10px}
+.tblTitoliCrusc td.tdSpacer{width:99%}
+.tblTitoli td.TdLast{border-right-width:0}
+.tblTitoli td a, .tblTitoliCrusc td span{color:#ffffff;font-weight:bold}
+.tblTitoli td.rigaRossa, .tblTitoliCrusc td.rigaRossa{height:6px;background-color:#de1327;line-height:6px;font-size:6px;border-top-width:0;padding:0}
+.tblCont td.tblContTit{color:#d51220;font-weight:bold;font-size:1.1em;background-color:#fff;border-right:1px solid #d2d2d2;height:14px;vertical-align:middle;padding:14px 0 16px 14px}
+.tblCont td.tblContTxtWhite, .tblCont td.tblContTxtGrey{font-size:1em;color:#3e3e3e;padding:10px 10px 10px 13px;background-color:#fff;border-right:1px solid #d2d2d2}
+.tblCont td.tblContTxtGrey {background-color:#ebecf0}
+.tblCont td.tblContLast{border-right-width:0;text-align:center;padding:0}
+.tblCont td.tblContLastTxt{border-right-width:0;}
+.tblPaesi{width:100%}
+.tblPaesi td.TdOn{padding:6px;padding-top:10px;font-size:1.1em;color:#fff;background-color:#de1327;vertical-align:top;border-top:0px solid #de1327;border-bottom-width:0;border-right:1px solid #f8f8f6;font-weight:bold}
+.tblPaesiRigaSep{height:4px;background-color:#f8f8f8;line-height:4px;font-size:4px;border-top-width:0;padding:0;border-right:1px solid #cfcfcf}
+.tblPaesi td.tblPaesiTxtGrey, .tblPaesi td.tblPaesiTxtWhite{font-size:1em;color:#3e3e3e;padding:10px 4px 10px 5px;background-color:#fff;border-right:1px solid #d2d2d2}
+.tblPaesi td.tblPaesiTxtGrey{background-color:#ebecf0}
+.tblPaesi td.tblPaesiLast{border-right-width:0}
+img.spuntaBtm30{float:left;margin:2px 6px 40px 0}
+img.spuntaBtm20{float:left;margin:2px 6px 10px 0}
+.colorNew{color:#DE1327 !important}

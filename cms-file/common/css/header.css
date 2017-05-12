@@ -1,0 +1,192 @@
+/* Header - stili comuni */
+input.campoR{width:222px; height:16px; padding:2px 3px 2px 12px; border:0; font-size:1em; background:url('/cms-file/common/img/bg_input_ricerca.gif') top left no-repeat; float:left;}
+.buttonCerca{margin:0; width:56px; height:20px; border:0;}
+
+/*HEADER HOME PAGE FS*/
+#HPheader{font-size:.7em; padding:0; margin:0; height:auto !important; height:145px; min-height:145px;}
+#HPheader div.headerTop{padding:12px 25px 0 25px;}
+#HPheader div.headerTop div.headerRightNav img{float:right; border:none; padding:0 0 0 20px; margin-top:-2px;}
+#HPheader div.ricerca{float:right; margin-top:-2px;}
+#HPheader div.ricerca p{padding:0; margin:0;}
+#HPheader div.headerRightNavLeft{float:right; margin-right:10px; white-space:nowrap;}
+#HPheader div.headerBottom{padding:0; margin:0; height:auto !important; height:112px; min-height:112px; background:url('/cms-file/common/img/bg_hp_header.gif') top left repeat-x;}
+#HPheader div.headerBottomLeft{float:left; padding:0; margin:0; width:25.6%; height:auto !important; height:112px; min-height:112px; text-align:right;}
+#HPheader div.headerBottomLeft img{padding-top:17px;}
+#HPheader div.headerBottomRight{padding:0; margin:0 0 0 26.8%; height:auto !important; height:112px; min-height:112px; background:url('/cms-file/common/img/bg_hp_header_dx.gif') top right no-repeat;}
+#HPheader div.headerBottomRightIn{padding:0; margin:0; height:auto !important; height:112px; min-height:112px; overflow:hidden; background:url('/cms-file/common/img/bg_hp1Header.jpg') top left no-repeat;}
+
+/* Header HP FS con Banner */
+#HPheader div.headerBottomRightIn div.bannerLeft{float:left; margin:74px 0 0 100px; padding:0;}
+#HPheader div.headerBottomRightIn div.bannerLeft p{line-height:1em; color:#FFF; font-weight:bold; font-size:1.3em; width:260px;}
+#HPheader div.headerBottomRightIn div.bannerLeft a{color:#FFF; text-decoration:none;}
+#HPheader div.headerBottomRightIn div.bannerLeft a:hover{text-decoration:none;}
+#HPheader div.headerBottomRightIn div.bannerRight{margin:0 0 0 430px;  padding:0;}
+#HPheader div.headerBottomRightIn div.bannerRight p{margin-top:36px;}
+#HPheader div.headerBottomRightIn div.bannerRight a{background-color:transparent; display:block; width:218px; height:76px;}
+#HPheader div.headerBottomRightIn div.bannerRight a:hover{background-color:transparent; display:block; text-decoration:none;}
+
+/* Header HP FS con News */
+#HPheader div.headerBottomRightIn div.R1{color:#FFF; padding:18px 0 0 471px; font-weight:bold;/*height:auto !important; min-height:18px; height:18px;*/}
+#HPheader div.headerBottomRightIn div.R2{padding:0 0 0 440px; line-height:1em; vertical-align:middle; height:auto !important; min-height:48px; height:48px;}
+#HPheader div.headerBottomRightIn div.R2 p{color:#B30002; font-weight:bold; padding:2.3% 0 0.3% 0;}
+#HPheader div.headerBottomRightIn div.R2 a{font-weight:normal;}
+#HPheader div.headerBottomRightIn div.R3{padding:4px 0 0 436px; height:auto !important; min-height:20px; height:20px;}
+#HPheader div.headerBottomRightIn div.R3 span{background:url('/cms-file/common/img/arrowLink.gif') left center no-repeat; margin-left:8%; padding-left:9px;}
+
+/*HEADER SUB HOME PAGE:TRENITALIA;  RFI - Rete Ferroviaria Italiana*/
+#HPheaderTop{padding:12px 25px 0 25px; height:25px; background:#F3F3F3; font-size:.7em;}
+#HPheaderTop div.headerLeftNav{width:38%; padding:0; margin:0; height:auto !important; min-height:10px; height:10px; float:left;}
+#HPheaderTop div.headerRightNav{margin-left:39%;}
+#HPheaderTop div.ricerca{float:right; margin-top:-2px;}
+#HPheaderTop div.ricerca p{padding:0; margin:0;}
+#HPheaderTop div.headerRightNavLeft{float:right; margin-right:10px; white-space:nowrap;}
+#HPheaderBottom{padding:0; margin:0; height:auto !important; height:124px; min-height:124px;}
+#HPheaderBottom div.headerBottomLeft{padding:12px 0 0 0; margin:0 0 0 34%; height:104px; text-align:right;}
+#HPheaderBottom div.headerBottomLeft p{}
+#HPheaderBottom div.headerBottomLeft a{background-color:transparent; display:block; height:104px;}
+#HPheaderBottom  div.headerBottomLeft a:hover{background-color:transparent; display:block; text-decoration:none;}
+#HPheaderBottom div.headerBottomRight{float:left; padding:34px 0 0 0; margin:0; width:23%; height:90px; text-align:right;}
+
+/*COLORE ROSSO - HEADER HP GRUPPO, HP LAVORA CON NOI  &  HEADER PAGINE INTERNE*/
+
+#headerGruppo{background:url('/cms-file/common/img/bg_header.gif') bottom left repeat-x;	height:auto !important; padding:0; margin:0; min-height:145px; height:145px; font-size:.7em;}
+#header{background:url('/cms-file/common/img/bg_header.gif') bottom left repeat-x; height:auto !important; padding:0; margin:0;	min-height:115px; height:115px; font-size:.7em;}
+#headerGruppo div.headerTop,
+#header div.headerTop{padding:12px 25px 0 25px;}
+#headerGruppo div.headerTop div.headerLeftNav,
+#header div.headerTop div.headerLeftNav{width:36%; padding:0; margin:0; height:auto !important; min-height:10px; height:10px; float:left;}
+#headerGruppo div.headerTop div.headerRightNav,
+#header div.headerTop div.headerRightNav{margin-left:37%;}
+#headerGruppo div.ricerca,
+#header div.ricerca{float:right; margin-top:-2px;}
+#headerGruppo div.ricerca p,
+#header div.ricerca p{padding:0; margin:0;}
+#headerGruppo div.headerRightNavLeft,
+#header div.headerRightNavLeft{float:right; margin-right:10px; white-space:nowrap;}
+#headerGruppo div.headerBottom{padding:0; margin:0; height:auto !important; min-height:122px; height:122px;}
+#header div.headerBottom{padding:0;	margin:0; height:auto !important; min-height:82px; height:82px;}
+#headerGruppo div.headerBottomRight{float:left; padding:0; margin:0; width:25.6%; height:122px; text-align:right;}
+#headerGruppo div.headerBottomRight img{margin-top:20px;}
+#header div.headerBottomRight{float:left; padding:0; margin:0; width:25.6%; height:82px; text-align:right;}
+#headerGruppo div.headerBottomLeft{padding:0; margin:0 0 0 26.8%; height:122px; background:url('/cms-file/common/img/bg_header_dx.gif') bottom right repeat-x;}
+#header div.headerBottomLeft{padding:0; margin:0 0 0 26.8%; height:82px; background:url('/cms-file/common/img/bg_header_dx.gif') bottom right repeat-x;}
+#headerGruppo div.headerBottomLeftIn{padding:0; margin:0; height:122px; background:url('/cms-file/common/img/bg_header_gruppo.jpg') bottom left no-repeat;}
+#header div.headerBottomLeftIn{padding:0; margin:0; height:82px; background:url('/cms-file/common/img/bg_header_br.gif') bottom left no-repeat;}
+
+/*COLORE ROSSO - VERSIONE TESTO EDITABILE */
+#header div.headerBottomLeftIn div{padding:46px 0 0 100px; color:#FFF; font-weight:bold; font-size:1.2em;}
+#header div.headerBottomLeftIn div a{color:#FFF;  text-decoration:none;}
+#header div.headerBottomLeftIn div a:hover{color:#FFF; text-decoration:none;}
+
+/*COLORE VERDE - HEADER HP GRUPPO, HP FERCREDIT*/
+#headerGruppoVerde{background:url('/cms-file/common/img/bg_header_verde.gif') bottom left repeat-x; height:auto !important; padding:0;	margin:0; min-height:145px; height:145px; font-size:.7em;}
+#headerGruppoVerde div.headerTop{padding:12px 25px 0 25px;}
+#headerGruppoVerde div.headerTop div.headerLeftNav{width:36%; padding:0; margin:0; height:auto !important; min-height:10px; height:10px; float:left;}
+#headerGruppoVerde div.headerTop div.headerRightNav{margin-left:37%;}
+#headerGruppoVerde div.ricerca{float:right; margin-top:-2px;}
+#headerGruppoVerde div.ricerca p{padding:0; margin:0;}
+#headerGruppoVerde div.headerRightNavLeft{float:right; margin-right:10px; white-space:nowrap;}
+#headerGruppoVerde div.headerBottom{padding:0; margin:0; height:auto !important; min-height:122px; height:122px;}
+#headerGruppoVerde div.headerBottomRight{float:left; padding:0; margin:0; width:25.6%; height:122px; text-align:right;}
+#headerGruppoVerde div.headerBottomRight img{margin-top:20px;}
+#headerGruppoVerde div.headerBottomLeft{padding:0; margin:0 0 0 26.8%; height:122px; background:url('/cms-file/common/img/bg_header_dx_verde.gif') bottom right repeat-x;}
+#headerGruppoVerde div.headerBottomLeftIn{padding:0; margin:0; height:122px; background:url('/cms-file/common/img/bg_header_Fercredit.jpg') bottom left no-repeat;}
+
+/*COLORE VERDE - HEADER PAGINE INTERNE*/
+#headerVerde{background:url('/cms-file/common/img/bg_header_verde.gif') bottom left repeat-x; height:auto !important; padding:0; margin:0; min-height:115px; height:115px; font-size:.7em;}
+#headerVerde div.headerTop{padding:12px 25px 0 25px;}
+#headerVerde div.headerTop div.headerLeftNav{width:36%; padding:0; margin:0; height:auto !important; min-height:10px; height:10px; float:left;}
+#headerVerde div.headerTop div.headerRightNav{margin-left:37%;}
+#headerVerde div.ricerca{float:right; margin-top:-2px;}
+#headerVerde div.ricerca p{padding:0; margin:0;}
+#headerVerde div.headerRightNavLeft{float:right; margin-right:10px; white-space:nowrap;}
+#headerVerde div.headerBottom{padding:0;	margin:0; height:auto !important; min-height:82px; height:82px;}
+#headerVerde div.headerBottomRight{float:left; padding:0; margin:0; width:25.6%; height:82px; text-align:right;}
+#headerVerde div.headerBottomLeft{padding:0; margin:0 0 0 26.8%; height:82px; background:url('/cms-file/common/img/bg_header_dx_verde.gif') bottom right repeat-x;}
+#headerVerde div.headerBottomLeftIn{padding:0; margin:0; height:82px; background:url('/cms-file/common/img/bg_header_br_verde.gif') bottom left no-repeat;}
+
+/*COLORE VERDE - VERSIONE TESTO EDITABILE */
+#headerVerde div.headerBottomLeftIn div{padding:46px 0 0 100px; color:#FFF; font-weight:bold; font-size:1.2em;}
+#headerVerde div.headerBottomLeftIn div a{color:#FFF;  text-decoration:none;}
+#headerVerde div.headerBottomLeftIn div a:hover{color:#FFF; text-decoration:none;}
+
+/*HEADER STAMPA*/
+#headerStampa{background:url('/cms-file/common/img/bg_header.gif') bottom left repeat-x; height:auto !important; padding:0; margin:0; min-height:80px; height:80px; font-size:.7em;}
+#headerStampa div.headerBottom{padding:0; margin:0;	height:auto !important; min-height:80px; height:80px;}
+#headerStampa div.headerBottomRight{float:left; padding:0; margin:0; width:25.6%; height:80px; text-align:right;}
+#headerStampa div.headerBottomLeft{padding:0; margin:0 0 0 26.8%; height:80px; background:url('/cms-file/common/img/bg_header_dx.gif') bottom right repeat-x;}
+#headerStampa div.headerBottomLeftIn{padding:0; margin:0; height:80px; background:url('/cms-file/common/img/bg_header_br.gif') bottom left no-repeat;}
+
+/*NUOVO HEADER TRENITALIA*/
+#headerN{background:url(/cms-file/common/img/header_bgTrenitalia.gif) no-repeat left bottom #007677; height:61px;margin-top:30px;min-height:auto;position:relative;}
+#headerN #logo{float:left;padding:0px 0px 0px 30px;position:relative;top:-17px}
+#headerN .buttons{float:right;padding-top:9px;}
+
+#search_layer .ricerca .campoR{float:left; background:url(/cms-file/common/img/bg_input_ricerca.gif) no-repeat left top; width:222px; height:16px; padding:2px 7px; margin:0px 10px}
+#search_layer .ricerca .buttonCerca{margin-right:10px}
+
+#search_layer{background:#f3f3f3;padding:10px 10px 13px 10px;font-size:.7em}
+#search_layer .left{float:left;padding:3px 0px 0px 0px;font-size:1em;}
+#search_layer .right .ricerca{float:right;}
+#search_layer .right .top_links{float:right;padding:3px 0px 0px 0px;}
+#search_layer .right{float:right;width:60%;font-size:1em;}
+/*EO NUOVO HEADER*/
+
+/*NUOVO HEADER TRENITALIA PAGINE INTERNE  */
+#headerInt_tcom{background:url(/cms-file/common/img/bg_headerInt_tcom.gif) left bottom repeat-x; height:91px}
+#headerInt_tcom #headerImg{background:url(/cms-file/common/img/headerInt_tcom.gif) bottom left no-repeat;  width:auto !important; width:100%; height:91px; border-bottom:1px solid #F3F3F3}
+#headerInt_tcom #headerImg #logo{float:left;padding:13px 0px 0px 30px;}
+#headerInt_tcom #headerImg .buttons{float:right;padding:39px 0px 0px 0px;}
+#search_layer{height:22px}
+
+/*NUOVO HEADER FERROVIE DELLO STATO PAGINE INTERNE  */
+#headerInt_FS{background:url(/cms-file/common/img/header_bg.gif) bottom left repeat-x; height:120px}
+#headerInt_FS #logo{padding:16px 0px 0px 17px; width:203px; height:51px; float:left}
+#headerInt_FS #header_right{width:auto; padding-top:10px}
+#headerInt_FS #header_right .header_links_r{float:right; padding-top:3px; padding-right:30px}
+#headerInt_FS #header_right .ricerca{float:right}
+#headerInt_FS .campoR{float:left; background:url(/cms-file/common/img/bg_input_ricerca.gif) no-repeat left top; width:222px; height:16px; padding:2px 7px; margin:0px 10px}
+#headerInt_FS #header_right .ricerca .buttonCerca{margin-right:10px}
+#headerInt_FS #header_right .header_links_l{float:right; padding-top:3px}
+#headerInt_FS #news_banner{width:auto; margin-top:0px; margin-left:250px; background:url(/cms-file/common/img/bg_headerInt_FS.gif) bottom left repeat-x;}
+#headerInt_FS #news_banner .news_flashTop{background:url(/cms-file/common/img/headerInt_FS.gif) no-repeat left bottom; padding-top:16px; text-align:right; height:41px}
+#headerInt_FS #news_banner .news_flashBottom{width:739px; height:26px; background:url(/cms-file/common/img/flash_bg.gif) no-repeat right top; text-align:right}
+#headerInt_FS #news_banner .news_flashTop a{float:right; padding:10px 20px 0 0; margin-top:0px}
+#headerInt_FS div.headerTop{padding:12px 25px 0 25px; font-size:.7em;}
+#headerInt_FS div.headerTop div.headerLeftNav{width:36%; padding:0; margin:0; height:auto !important; min-height:10px; height:10px; float:left;}
+#headerInt_FS div.headerTop div.headerRightNav{margin-left:37%;}
+#headerInt_FS div.ricerca{float:right; margin-top:-0px;}
+#headerInt_FS div.ricerca p{padding:0; margin:0;}
+#headerInt_FS div.headerRightNavLeft{float:right; margin-right:10px; white-space:nowrap;}
+
+/*NUOVO HEADER FRECCIAROSSA PAGINE INTERNE  */
+#headerFR{width:100%; background:url(/cms-file/common/img/bg_headerInt_fr.gif) left bottom repeat-x; height:91px}
+#headerFR #headerImg{background:url(/cms-file/common/img/headerInt_fr.jpg) left bottom no-repeat; height:91px}
+#headerFR #headerImg #logo{padding:13px 0px 0px 30px}
+#search_layer{background:#F3F3F3; padding:5px; min-height:20px}
+div.headerTopFR{padding:10px 25px 0 25px; font-size:.7em}
+div.headerTopFR div.headerLeftNav{width:45%; padding:0; margin:0; height:auto !important; min-height:10px; height:10px; float:left}
+div.headerTopFR div.headerLeftNav {position:relative; top:-8px}
+div.headerTopFR div.headerLeftNav img{position:relative; top:4px; left:4px}
+div.headerTopFR div.headerRightNav{margin-left:46%}
+div.headerTopFR div.ricerca{float:right; margin-top:-0px}
+div.headerTopFR div.ricerca p{padding:0; margin:0}
+div.headerTopFR div.headerRightNavLeft{float:right; margin-right:10px; white-space:nowrap}
+
+/* Nuova Header Pagine Interne - FS/Frecciarossa/Trenitalia */
+div.bgTCOM{background:url(/cms-file/common/img/bgHeaderPagInt_TCOM.gif) bottom left no-repeat}
+div.bgFS{background:url(/cms-file/common/img/bgHeaderPagInt_FS.gif) bottom left no-repeat}
+div.bgFR{background:url(/cms-file/common/img/bgHeaderPagInt_FR.jpg) bottom left no-repeat}
+div.bgFR_en{background:url(/cms-file/common/img/bgHeaderPagInt_FR_en.jpg) bottom left no-repeat}
+#headerPagInt{height:auto !important; min-height:125px; height:125px; margin:0; padding:0}
+#headerPagInt div.headerTop{padding:7px 25px 2px 25px; font-size:.7em}
+#headerPagInt div.headerTop div.headerLeftNav{width:48%; float:left; padding:0; margin:0; height:auto !important; min-height:10px; height:10px}
+#headerPagInt div.headerTop div.headerLeftNavButton{width:48%; float:left; padding:0; margin:0; height:auto !important; min-height:10px; height:10px}
+#headerPagInt div.headerTop div.headerLeftNavButton span{position:relative; top:-7px}
+#headerPagInt div.headerTop div.headerLeftNavButton img{position:relative; top:-1px}
+#headerPagInt div.headerTop div.headerRightNav{margin-left:49%; padding:0; margin:0; height:auto !important; min-height:10px; height:10px}
+#headerPagInt div.headerTop div.ricerca{float:right; margin-top:-0px}
+#headerPagInt div.headerTop div.ricerca p{padding:0; margin:0}
+#headerPagInt div.headerTop div.headerRightNavLeft{float:right; margin-right:10px; white-space:nowrap}
+#headerPagInt #logo{padding:16px 0px 0px 25px; width:203px; float:left; height:auto !important; min-height:40px; height:40px}
+#headerPagInt div.button{text-align:right; padding:38px 25px 0 0; margin-left:224px; height:auto !important; min-height:40px; height:40px}

@@ -1,0 +1,203 @@
+/* FS News - ANSA */
+body{padding:0; margin:0; font-family:Arial, Helvetica, sans-serif; background:#F7F7F9}
+
+.clearDiv{clear:both}
+.clearLeft{clear:left}
+.clearRight{clear:right}
+
+.hidden{position:absolute;	left:-2000px; width:990px}
+
+a{color:#000; text-decoration:none}
+a:hover{color:#B30002; text-decoration:underline}
+a.selected{font-weight:bold; color:#B30002; text-decoration:none}
+a:hover.selected{text-decoration:underline}
+
+input, textarea{font-family:Arial; margin:0; padding:0; height:18px; font-size:1.2em; width:auto; border:1px solid #000}
+
+form{padding:0; margin:0; font-family:Arial; font-size:1em}
+
+p{padding:0; margin:0}
+
+.titoloredbold{font-weight:bold; font-size:1.4em; color:#B30002; margin:0px}
+.titoloredboldmed{font-weight:bold; font-size:1.2em; color:#B30002; margin:0px}
+.titoloredboldsmall{font-weight:bold; font-size:1em; color:#B30002; margin:0px}
+.titoloblackboldmed{font-weight:bold; font-size:1.2em; color:#000; margin:0px}
+.titolowhiteboldmed{font-weight:bold; font-size:1.2em; color:#FFF; margin:0px}
+
+a img{border:none}
+
+.AlignRight{text-align:right}
+
+.top6{margin-top:6px}
+
+#container{background:#FFF; margin:0; padding:0}
+
+/* Menu livello 1 - css sprite */
+#menuLiv1{margin:0; padding:5px 24px; font-size:.8em; font-weight:bold; height:auto !important; height:20px; min-height:20px; background:#EAE8EB url(/cms-file/common/img/sprite-menuLiv1.gif) 0 -12px repeat-x}
+#menuLiv1 .int{position:relative; background:#FFF url(/cms-file/common/img/bg_menuLiv1_int.gif) 0 bottom repeat-x; border:1px solid #AFADAF; border-top:0px solid #FFF; padding:2px; margin:0; height:auto !important; height:20px; min-height:20px}
+#menuLiv1 .int .corner{position:absolute; background-image:url('/cms-file/common/img/sprite-menuLiv1.gif'); width:5px; height:5px}
+#menuLiv1 .int .topLeft{top:-1px; left:-1px; background-position:0px 0px}
+#menuLiv1 .int .topRight{top:-1px; right:-1px; background-position:-6px 0px}
+#menuLiv1 .int .botLeft{bottom:-2px; left:-1px; background-position:0px -6px}
+#menuLiv1 .int .botRight{bottom:-2px; right:-1px; background-position:-6px -6px}
+#menuLiv1 #menu1{list-style-type:none; margin:0; padding:0; text-align:center; width:100%; height:auto !important; height:20px; min-height:20px; overflow:hidden}
+#menu1 li{float:left; height:auto !important; height:20px; min-height:20px; overflow:hidden; line-height:1em; background:url(/cms-file/common/img/separatore.gif) right center no-repeat}
+#menu1 a{color:#000; display:block; text-decoration:none; padding:6px 0px}
+#menu1 a:hover{color:#B30002; text-decoration:underline}
+#menu1 a.menu1attivo{color:#B30002; text-decoration:none}
+#menu1 a:hover.menu1attivo{color:#B30002; text-decoration:underline}
+
+/*Menu 2 Link*/
+#menu1 li.M2cellaprima{width:49%}
+#menu1 li.M2cellaultima{width:49%; background-image:none}
+
+/*Menu 3 Link*/
+#menu1 li.M3cellaprima{width:32%}
+#menu1 li.M3cellaunica{width:34%}
+#menu1 li.M3cellaultima{width:32%; background-image:none}
+
+/*Menu 4 Link*/
+#menu1 li.M4cellaprima{width:24%}
+#menu1 li.M4cellaunica{width:25%}
+#menu1 li.M4cellaultima{width:24%; background-image:none}
+
+/*Menu 5 Link*/
+#menu1 li.M5cellaprima{width:18%}
+#menu1 li.M5cellaunica{width:21%}
+#menu1 li.M5cellaultima{width:18%; background-image:none}
+
+/*Menu 6 Link*/
+#menu1 li.M6cellaprima{width:15.5%}
+#menu1 li.M6cellaunica{width:17%}
+#menu1 li.M6cellaultima{width:15.5%; background-image:none}
+
+/*Menu 7 Link*/
+#menu1 li.M7cellaprima{width:12%}
+#menu1 li.M7cellaunica{width:15%}
+#menu1 li.M7cellaultima{width:12.3%; background-image:none}
+
+/*Menu 8 Link*/
+#menu1 li.M8cellaprima{width:9.5%}
+#menu1 li.M8cellaunica{width:13.3%}
+#menu1 li.M8cellaultima{width:9%; background-image:none}
+
+/*Menu 9 Link*/
+#menu1 li.M9cellaprima{width:8%}
+#menu1 li.M9cellaunica{width:12.2%}
+#menu1 li.M9cellaultima{width:5%; background-image:none}
+
+#content{margin:0 24px; padding:0; font-size:.7em; overflow:hidden;/* importante */}
+
+/*Menu di navigazione*/
+#menuNav{height:auto !important; height:22px; min-height:22px; overflow:hidden}
+span.navigator{float:left}
+span.navigator span.freccia{font-size:.8em; padding:0 4px 0 7px}
+span.navigator span.frecciaSearch{font-size:.8em;}
+span.navicon{float:right; padding-right:.80%}
+span.navicon img{padding:0 2px 0 12px}
+
+/*Box angoli stondati - Css Sprite*/
+.roundContBox{position:relative; margin:0; padding:9px; background:#FFF; border:1px solid #E9E7EA}
+.roundContBox .corner{position:absolute; width:6px; height:6px; background:url('/cms-file/common/img/sprite-roundContBox.gif')}
+.roundContBox .topLeft{top:-1px; left:-1px; background-position:0 0}
+.roundContBox .topRight{top:-1px; right:-1px; background-position:-7px 0px}
+.roundContBox .topRight2{top:-1px; right:-1px; background-position:-7px -14px}
+.roundContBox .botLeft{bottom:-1px; left:-1px; background-position:0 -7px}
+.roundContBox .botRight{bottom:-1px; right:-1px; background-position:-7px -7px}
+.bgtransp{background:transparent}
+
+#wrapper{width:987px; margin:0 auto}
+html>/**/body #wrapper{width:991px}/*Firefox*/
+#content{padding:20px 0}
+
+div.TopTitle .titolowhiteboldmed a{color:#FFF}
+
+/* Box Contenuti ANSA */
+#boxContAnsa{float:left; width:660px}
+#boxContAnsa .contdettNews{padding:0px}
+#boxContAnsa .dettNews{margin:0; background:#FFF; padding:0; margin:0; height:auto !important; height:50px; min-height:50px}
+#boxContAnsa .dettNews .topTitle{background:#53AC5A url('/cms-file/common/img/bg_topTitleNewsAnsa.gif') top right repeat-x; color:#FFF; padding:10px; height:auto !important; height:50px; min-height:50px}
+#boxContAnsa .dettNews .topTitle h3{font-size:1.6em; padding:0; margin:0}
+#boxContAnsa .dettNews .topTitle h4{font-size:1.3em; padding:0; margin:0}
+#boxContAnsa .dettNews .dataSx{font-size:1.1em; font-weight:bold; padding:0; margin:6px 0; background:url('/cms-file/common/img/bgSx_dataNewsAnsa.png') top left no-repeat; width:120px}
+#boxContAnsa .dettNews .dataDx{padding:0; margin:0; background:url('/cms-file/common/img/bgDx_dataNewsAnsa.png') top right no-repeat}
+#boxContAnsa .dettNews .data{height:15px; padding:2px 5px 1px 5px; margin:0 10px; background:#5A595B; text-align:center; color:#FFF}
+/*News*/
+#boxContAnsa .dettNews .botNews{height:auto !important; height:50px; min-height:50px; margin-top:8px}
+#boxContAnsa .dettNews .botNews .botNewsSx{height:auto !important; height:250px; min-height:250px; float:left; padding:14px 10px; width:360px;  border-right:1px dotted #000}
+#boxContAnsa .dettNews .botNews .botNewsInt{height:auto !important; height:250px; min-height:250px; padding:14px 10px}
+#boxContAnsa .dettNews .botNews .botNewsSx p,
+#boxContAnsa .dettNews .botNews .botNewsInt p{padding:0; margin:0; font-size:1.1em; text-align:justify; line-height:20px}
+#boxContAnsa .dettNews .botNews .botNewsDx{margin:0 0 0 390px; padding:14px 0}
+#boxContAnsa .dettNews .botNews .greenTxt{padding:14px 0 0 0}
+#boxContAnsa .dettNews .botNews .greenTxt a{padding-right:20px; color:#38973F; font-weight:bold; font-size:1.1em; background:url('/cms-file/common/img/greenarrow_next.gif') center right no-repeat}
+/*Elenco News*/
+#boxContAnsa .dettNews .topTitleElNews{background:#53AC5A url('/cms-file/common/img/bg_topTitleElNewsAnsa.gif') 0 0 repeat-x; color:#FFF; padding:8px 0; height:auto !important; height:10px; min-height:10px; text-align:center}
+#boxContAnsa .dettNews .topTitleElNews h3{padding:0; margin:0}
+#boxContAnsa .dettNews .botNews .rowNews{border-bottom:1px dotted; margin:0 0 10px 0; height:auto !important; height:60px; min-height:60px}
+#boxContAnsa .dettNews .botNews .rowNews .sx{float:left; width:500px}
+#boxContAnsa .dettNews .botNews .rowNews .sx a{padding-right:20px; color:#38973F; font-weight:bold; font-size:1.2em}
+#boxContAnsa .dettNews .botNews .rowNews .sx p{font-size:1.1em; padding-bottom:6px}
+#boxContAnsa .dettNews .botNews .rowNews .dx{text-align:right; margin:0 0 0 510px}
+#boxContAnsa .dettNews .botNews .paginaz{text-align:right; font-weight:bold; color:#000; padding:0}
+#boxContAnsa .dettNews .botNews .paginaz a{color:#38973F;}
+
+/*Video*/
+#boxContAnsa .dettNews .botVideo{height:auto !important; height:50px; min-height:50px; margin-top:8px}
+#boxContAnsa .dettNews .botVideo .botVideoSx{float:left; padding:14px 10px; width:470px;  border-right:1px dotted #000}
+#boxContAnsa .dettNews .botVideo .botVideoSx div h4{padding:8px 0 0 0; margin:0; color:#38973F; font-size:1.3em}
+#boxContAnsa .dettNews .botVideo .botVideoSx div h5{padding:0 0 0 0; margin:0; color:#38973F; font-size:1.1em}
+#boxContAnsa .dettNews .botVideo .botVideoDx{margin:0 0 0 500px; padding:14px 0; width:128px}
+#boxContAnsa .dettNews .botVideo .botVideoDxbot{background:#38973F; color:#FFF; font-weight:bold; padding:3px; margin:0}
+#boxContAnsa .dettNews .botVideo .botVideoDxbot a{color:#FFF; display:block}
+#boxContAnsa .dettNews .botVideo .botVideoDx .botVideoDxtop{height:96px; margin-top:10px}
+#boxContAnsa .dettNews .botVideo .botVideoDx .botVideoDxtop img.minVideo{z-index:-1}
+#boxContAnsa .dettNews .botVideo .botVideoDx .botVideoDxtop img.arrow{position:relative; top:-58px; left:58px; z-index:1}
+#boxContAnsa .dettNews .botVideo .botVideoDx .paginaz{text-align:right; font-weight:bold; color:#38973F; padding:22px 0 0 0}
+#boxContAnsa .dettNews .botVideo .botVideoDx .paginaz img{position:relative; top:4px}
+
+/* Spalla destra FSNews */
+#content #spDxFSNews{margin:9px 0 0 668px; height:auto !important; height:50px; min-height:50px}
+
+/* BOX FSNews - 3 tipologie */
+.boxFSNews{position:relative; background:#FFF; padding:9px; height:auto !important; min-height:100px; height:100px; border:1px solid #E9E7EA}
+.boxFSNews .corner{position:absolute; background-image:url('/cms-file/common/img/sprite-boxFSNews.gif'); width:16px; height:16px}
+.boxFSNews .topLeft{top:-1px; left:-1px; background-position:0px 0px}
+.boxFSNews .topRight{top:-1px; right:-1px; background-position:-17px 0px}
+.boxFSNews .botLeft{bottom:-1px; left:-1px; background-position:0px -17px}
+.boxFSNews .botRight{bottom:-1px; right:-1px; background-position:-17px -17px}
+.boxFSNews .topLeftT2{top:-1px; left:-1px; background-position:-34px 1px; width:10px; height:30px; background-repeat:no-repeat}
+.boxFSNews .topRightT2{top:-1px; right:-1px; background-position:0px -64px; width:10px; height:30px}
+.boxFSNews .title{background:url('/cms-file/common/img/boxFSNews_bgTop.gif') 0 0 repeat-x}
+.boxFSNews .type1, .boxFSNews .type3{position:relative; background:#E9E7EA; height:auto !important; min-height:100px; height:100px}
+.boxFSNews .trT1, .boxFSNews .trT2{top:0; right:0; background-position:0px -34px; width:45px; height:24px}
+.boxFSNews .type1 .title{height:auto !important; height:24px; min-height:24px}
+html>/**/body .boxFSNews .type3 .title{height:auto!important; height:10px; min-height:10px}/*Firefox - IE8*/
+.boxFSNews .type2{position:relative; background:#F5F4F6; height:auto !important; height:100px; min-height:100px}
+.boxFSNews .type2 .title{height:auto !important; height:24px; min-height:24px; border-bottom:10px solid #FFF; padding-bottom:5px}
+.boxFSNews .type2 h3{padding:4px 0 0 0}
+.ptopT2{padding-top:0px}
+.boxFSNews .trT3{top:0; right:0; background-position:0px -34px; width:45px; height:10px}
+.boxFSNews .type3 .title{height:10px}/*IE7*/
+.boxFSNews .txt{margin:10px 8px; overflow:hidden!important; line-height:16px}
+.boxFSNews .txt h4{color:#B30002; padding:0; margin:0; font-size:1.1em}
+.boxFSNews .txt a{text-decoration:underline}
+.boxFSNews .txt a.arrowLink{text-decoration:none; color:#B30002; font-weight: bold; padding-left:15px; background:url('/cms-file/common/img/freccia_puntatore.gif') 0 3px no-repeat}
+.boxFSNews .txt a:hover.arrowLink{text-decoration:underline}
+.boxFSNews .txt img{border:1px solid #C5C5C5; padding:1px; margin:.3em 0 .1em 0}
+.boxFSNews .txt img.alignL{float:left; margin:4px 2px 0 0; padding:0}
+.boxFSNews .txt img.alignR{float:right; margin:0 0 0 2px; padding:0}
+.boxFSNews .txt span{color:#B30002; font-size:1.1em; font-weight:bold}
+.RowBot{border-bottom:1px solid #D7D7D7}
+.boxFSNews h3{color:#FFF; font-size:1.3em; font-weight:bold; padding:4px 0 0 9px; margin:0}
+#BoxNewsUp{padding:6px 12px 10px 12px; margin:0; background:#F5F4F6; height:auto !important;  height:202px; min-height:202px}
+#BoxNews{padding:6px 0; margin:0}
+#BoxNews p{color:#B30002; font-weight:bold; padding:5px 0; margin:0; text-align:justify; line-height:1.1em}
+#BoxNews a{font-weight:normal}
+#BoxNewsDown{background:#E6E5E7; padding:2px 12px 0 12px; margin:0; height:auto !important; height:20px;  min-height:20px}
+#RSS{float:left; padding-right:15px; margin:0; font-size:.9em}
+#RSS .logoRSS{float:left; background-image:url('../img/sprite-boxFSNews.gif'); background-position:-11px -65px; width:14px; height:14px; margin:2px 3px 0 0}
+#RSS a{line-height:18px}
+#allNews{padding:0; margin:0}
+#allNews .r2{float:right; padding:2px 0 0 8px; background:url('/cms-file/common/img/arrowLink.gif') left center no-repeat}
+#allNews a{font-weight:bold; color:#B30002}

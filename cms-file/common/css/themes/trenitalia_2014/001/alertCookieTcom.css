@@ -1,0 +1,130 @@
+
+#titleCookieBanner{ 
+	font-weight: bold; 
+}
+#cookie_banner_container {
+	max-width: 1400px;
+	min-height: 50px;
+	max-height: 50px;
+	height: auto;
+	display: none;
+	z-index: 9999;
+	position: relative !important;
+}
+#cookie_banner_inner{
+	width: 100%;
+	max-width: 1400px;
+	height: auto;
+	min-height: 50px;
+	max-height: 50px;  
+	background-color: #5a5a5a;
+	background-color: #f8f8f8;
+	position: fixed;
+}
+#cookie_banner {
+	text-align: center;
+	height: auto;
+	max-height: 50px;
+	margin-top: 0.7em;
+	margin-left: 10px;
+	margin-right: 0;
+	background-color: #f8f8f8;  
+	color: #969696;
+}
+#privacy_link {
+	color: #c41329;
+	text-decoration: underline;
+}
+#cookie_banner_close_02{
+	color: #fff;
+	display: inline-block;
+	border-radius: 3px;
+	text-decoration: none;
+	padding: 6px 10px 6px 10px;
+	margin-right: 36%;
+	background-color: #c41329;
+	float: right;
+	margin-top: 7px;
+}
+#cookie_banner_close_01{
+	float: right;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: sans-serif;
+	margin-top: 10px;
+}
+#cookie_btnTxt_box_right{ 
+    float: right;
+    margin-right: 5px;
+	width: 15%;
+}
+#cookie_btnTxt_box_left{
+	margin-left: 15.5%;
+    float: left;
+	width: 81%;
+}
+#cookieAlertBtnBox{ 
+	float:left; 
+	width:auto; 
+	margin-left: 12px; 
+	font-size: 9.3pt; 
+	font-weight: bold;
+}
+#cookieAlertTxtBox{
+	float:left;
+	width:85%;
+line-height: 14px;
+font-size: 0.957em;
+font-family: Verdana, Geneva, sans-serif;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 960px){
+	#cookie_banner_container_02{
+		position: relative; 
+		height: auto; 
+		background-color:#f8f8f8;
+		max-height: none;
+		margin-top: 0px;
+		margin-bottom: 15px;
+	}
+	#cookie_banner_container{
+		max-height: none;
+		position: absolute !important;  
+	}
+	#cookie_banner_inner{
+		height: auto;
+		max-height: none;
+		background-color: #f8f8f8;
+		border-bottom: 1px solid #c41329;
+	}
+	#cookie_banner{
+		text-align: left;	
+		max-height: none;
+		margin-top:5px;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	#cookie_banner_close_02{
+		margin-bottom: 5px;
+		margin-top: 7px;
+		margin-right: 10px;
+	}
+	#cookie_banner_close_01{
+		margin-bottom: 5px;
+		display:block;
+	}
+	#cookie_btnTxt_box_right{ 
+		float:right; 
+	}
+	#cookie_btnTxt_box_left{ 
+		margin-left: 5px;
+		float:left; 
+		width: 99%;
+	}	
+	#cookieAlertTxtBox{ float:left;width:97%; }
+	#cookieAlertBtnBox{ float:right; }
+}

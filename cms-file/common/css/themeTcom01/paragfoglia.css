@@ -1,0 +1,31 @@
+/*Tabella Generica - Usata per tutte le tabelle prodotte da Excel*/
+.contentable{background-color: #F7F7F9; padding-bottom: 20px; padding-left: 10px; padding-right: 10px; padding-top: 12px;}
+.dataTab{background-color:#f7f7f9; /*padding:5px 10px 20px 10px*/}
+.dataTab td{font-size:1em;color:#3e3e3e}
+.dataTab .pari td, .dataTab .dispari td{
+	font-size:1em;color:#3e3e3e;background-color:#fff;border-right:1px solid #d2d2d2; 
+	padding-bottom: 18px; padding-top: 18px; padding-left: 6px;  padding-right: 6px;
+}
+.dataTab .dispari td{background-color:#ebecf0}
+.dataTab th, .dataTab td{border-left:1px solid #f7f7f9;}
+.dataTab th{
+	vertical-align:top;padding:6px;font-size:1.1em;color:#fff;background-color:#a3a4a6;
+	border-top:5px solid #f7f7f9;border-left:0px none #f7f7f9;border-right:0px none #f7f7f9;border-bottom:1px solid #f7f7f9
+}
+.dataTab td.last, .dataTab .tcomrow th.last{border-right-width:0}
+.dataTab .tcomrow{font-weight:bold}
+.dataTab .tcomrow th{background:#FFF; color:#B30002; font-weight:bold; border-left:1px solid #E5E5E5; border-bottom:1px solid #E5E5E5}
+.dataTab th a.titoloTab, .dataTab th a:hover.titoloTab{color:#ffffff;font-weight:bold}
+.dataTab{width:100%}
+.dataTab th{ 
+	height:6px;padding:6px;padding-top:10px;font-size:1.1em;color:#fff;background-color:#de1327;vertical-align:top;border-top:0px solid #de1327;
+	border-bottom-width:1px;border-right:1px solid #f8f8f6;font-weight:bold
+}
+.dataTab th{
+	padding-bottom: 22px; padding-top: 16px; padding-left: 6px; padding-right: 6px; 
+	font-size:1.1em;color:#fff;background-color:#de1327;
+	vertical-align:top;border-top:0px solid #de1327;
+}
+
+
+.listaPuntoNero{display:list-item;list-style:none url(/cms-file/common/img/themeTcom01/bg-qlink2.gif) outside;color:#000;line-height:15px;margin-left:20px;}

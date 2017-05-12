@@ -1,0 +1,68 @@
+/* Style Pagina Ferservizi - Google Map */
+
+.clearDiv{clear:both}
+
+#containerTop{font-family:Arial, Helvetica, sans-serif; background:#F7F7F9}
+#containerTop a{color:#000; text-decoration:none}
+#containerTop a:hover{color:#B30002; text-decoration:underline}
+#containerTop a.selected{font-weight:bold; color:#B30002; text-decoration:none}
+#containerTop a:hover.selected{text-decoration:underline}
+
+/* Header - stili comuni */
+input.campoR{width:222px; height:16px; padding:2px 3px 2px 12px; border:0; font-size:1em; background:url('../img/bg_input_ricerca.gif') top left no-repeat; float:left;}
+.buttonCerca{margin:0; width:56px; height:20px; border:0;}
+
+/*COLORE VERDE - HEADER PAGINE INTERNE*/
+#headerVerde{background:url('../img/bg_header_verde.gif') bottom left repeat-x; height:auto !important; padding:0; margin:0; min-height:115px; height:115px; font-size:8pt;}
+#headerVerde div.headerTop{padding:12px 25px 0 25px;}
+#headerVerde div.headerTop div.headerLeftNav{width:36%; padding:0; margin:0; height:auto !important; min-height:10px; height:10px; float:left;}
+#headerVerde div.headerTop div.headerRightNav{margin-left:37%;}
+#headerVerde div.ricerca{float:right; margin-top:-2px;}
+#headerVerde div.ricerca p{padding:0; margin:0;}
+#headerVerde div.headerRightNavLeft{float:right; margin-right:10px; white-space:nowrap;}
+#headerVerde div.headerBottom{padding:0;	margin:0; height:auto !important; min-height:82px; height:82px;}
+#headerVerde div.headerBottomRight{float:left; padding:0; margin:0; width:25.6%; height:82px; text-align:right;}
+#headerVerde div.headerBottomLeft{padding:0; margin:0 0 0 26.8%; height:82px; background:url('../img/bg_header_dx_verde.gif') bottom right repeat-x;}
+#headerVerde div.headerBottomLeftIn{padding:0; margin:0; height:82px; background:url('../img/bg_header_br_verde.gif') bottom left no-repeat;}
+
+/*Menu di Livello 1*/
+#navigation{margin:0; padding:5px 24px; font-size:1.2em; font-weight:bold; height:auto !important; height:30px; min-height:30px;	background:#EAE8EB url('../img/bg_menu.gif') top left repeat-x}
+#navigation2{margin:0; padding:5px 24px; font-size:1.2em; font-weight:bold;	height:auto !important; height:30px; min-height:30px; background:#FFF}
+#navigation div.menuInt,
+#navigation2 div.menuInt{background:#FFF url('../img/bg_menu_int.gif') bottom left repeat-x; padding:0;	margin:0; height:auto !important; height:30px;	min-height:30px}
+#navigation div.menuIntLeftRow,
+#navigation2 div.menuIntLeftRow{background:url('../img/bg_menu_int_lr.gif') top left repeat-y; padding:0; margin:0; height:auto !important; height:30px; min-height:30px}
+#navigation div.menuIntRightRow,
+#navigation2 div.menuIntRightRow{background:url('../img/bg_menu_int_lr.gif') top right repeat-y; padding:0;	margin:0; height:auto !important; height:30px;	min-height:30px}
+
+#navigation div.menuIntTopLeft{background:url('../img/bg_menu_int_tl.gif') top left no-repeat; padding:0; margin:0; height:auto !important; height:30px;	min-height:30px}
+#navigation div.menuIntTopRight{background:url('../img/bg_menu_int_tr.gif') top right no-repeat; padding:0;	margin:0; height:auto !important; height:30px;	min-height:30px}
+
+#navigation div.menuIntBotLeft{background:url('../img/bg_menu_int_bl.gif') bottom left no-repeat; padding:0; margin:0; height:auto !important; height:30px; min-height:30px}
+#navigation div.menuIntBotRight{background:url('../img/bg_menu_int_br.gif') bottom right no-repeat; padding:0; margin:0; height:auto !important; height:30px; min-height:30px}
+#navigation2 div.menuIntBotLeft{background:url('../img/bg_menu2_int_bl.gif') bottom left no-repeat; padding:0; margin:0; height:auto !important; height:30px;	min-height:30px}
+#navigation2 div.menuIntBotRight{background:url('../img/bg_menu2_int_br.gif') bottom right no-repeat; padding:0;	margin:0; height:auto !important; height:30px;	min-height:30px}
+#navigation ul#menu1,
+#navigation2 ul#menu2{list-style-type:none; margin:0; padding:0; text-align:center; width:100%; height:auto !important; height:30px; min-height:30px; overflow:hidden}
+
+#navigation ul#menu1 li,
+#navigation2 ul#menu2 li{float:left; height:auto !important; height:30px; min-height:30px; overflow:hidden; line-height:1em}
+#navigation ul#menu1 a,
+#navigation2 ul#menu2 a{color:#000; display:block; text-decoration:none; padding:6px 0px}
+#navigation ul#menu1 a:hover,
+#navigation2 ul#menu2 a:hover{color:#B30002; text-decoration:underline}
+#navigation ul#menu1 a.menu1attivo,
+#navigation2 ul#menu2 a.menu1attivo{color:#B30002; text-decoration:none}
+#navigation ul#menu1 a:hover.menu1attivo,
+#navigation2 ul#menu2 a:hover.menu1attivo{color:#B30002; text-decoration:underline}
+
+/*Menu 6 Link*/
+#navigation ul#menu1 li.M6cellaprima{width:15.5%; background:url('../img/separatore.gif') right center no-repeat}
+#navigation ul#menu1 li.M6cellaunica{width:17%; background:url('../img/separatore.gif') right center no-repeat}
+#navigation ul#menu1 li.M6cellaultima{width:15.5%}
+
+/* link 'stampa' e 'cancella tutto' */
+/*#topLink{background-color:#F1F1F1; border-top:1px solid #e2e2d8; border-bottom:1px solid #e2e2d8; padding:4px 30px; text-align:right}*/
+#topLink{background-color:#FFFFF; border-top:1px solid #FFFFF; border-bottom:1px solid #FFFFF; padding:4px 30px; text-align:right}
+#topLink img{margin-right:4px; margin-top:2px}
+#topLink a:hover{text-decoration:none}

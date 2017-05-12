@@ -1,0 +1,271 @@
+/*IE6*/
+
+#HPheader .headerBottomRightIn{overflow:visible}
+#HPheader .headerBottomRightIn .bannerLeft{padding:74px 0 0 100px; margin:0}
+#HPheader .headerBottomRightIn .bannerRight p{height:72px}
+#HPheader .headerBottomRightIn .bannerRight a{width:98%}
+
+#HPheader div.headerBottomRightIn div.R2 p{padding:0.5% 0}
+.contentHpR1Right{margin-left:50.3%}
+.contentHpR1Left div.rbtopr h3,
+.contentHpR1Right div.rbtopr h3{margin:4px 0 0 14px; padding:0}
+.contentHpR1IntTop,
+.contentHpR1IntBot,
+.Row1sxInt{overflow:visible}
+
+.listaPuntoNero {list-style:square url(/cms-file/common/img/puntoNeroIE.gif) inside; text-indent:-.5em}
+
+#navigation #menu1,
+#navigation #menu1 li{overflow:visible}
+
+#content{overflow:visible; height:0}
+#content .contentLeft {display:inline}
+#contentBox{height:0}
+#content .contentLeft #menu2 a.primoAttivo{padding:7px 0 6px 0}
+#content .contentLeft #menu2 a.Attivo{padding:13px 0 4px 0}
+#content .contentLeft #menu3{margin:0}
+#content .contentLeft li#menu2,
+#content .contentLeft li#menu3{display:inline}
+#content .contentLeft ul#menu2 a,
+#content .contentLeft ul#menu3 a{height:0}
+
+#menuNav{overflow:visible}
+
+.ContParagForm{height:100px}
+
+.ContParag,
+.RightColContentLinks,
+.RightColTitoliSez h4,
+.RightColImmBox div.staccoTxt,
+.RightColContParag,
+.ContAncore,
+.RigaSeparazione,
+.TornaSu,
+.titoloPag,
+.contcbox2{height:0}/*Importante*/
+
+.RightColImmBox{overflow:visible}/*Importante*/
+.RightColTitoliSez{margin-left:2px; padding-left:3px}/*Add margin-left BC.*/
+.RightColImgParag{margin-left:2px; padding-left:3px}/*Add margin-left BC.*/
+.RightColContParag{padding-left:3px}/*Add padding-left BC.*/
+.RightColContParag div.FrecciaLnk{margin-left:3px}
+
+.ArchivioImgLeft,
+.ArchivioImgRight{margin-bottom:15px}
+
+.ArchivioImgLeft a,
+.ArchivioImgRight a,
+.ContImgParagWP a{background:url('/cms-file/common/img/freccia_puntatore.gif') 3px 0 no-repeat}
+.ContImgParag{overflow:visible}
+
+.RigaSeparazione3{height:0; margin-right:4px}
+
+.BoxIntIconeLeft{margin-left:7px; padding-bottom:0}
+.BoxIntIconeRight{padding-bottom:0; margin-right:0}
+
+.BoxIntSocietImgDx div{padding-top:175px}
+
+#cruscotto .tab .off{padding:10px}
+#cruscotto .tab .off a{padding:5px 0}
+#cruscotto .textRicercaAR{padding:3px 0}
+#cruscotto input{text-indent:2px}
+#cruscotto .textRicercaAR span.lbl1{width:9%}
+#cruscotto .textRicercaAR span.lbl2{width:5%; padding-right:5px}
+#cruscotto .textRicercaAR span.lbl3{width:5%}
+#cruscotto .textRicercaAR span.lbl4{width:5%; padding-left:2px}
+#cruscotto .textRicercaAR span.lbl5{width:5px}
+
+/*Add x cruscotto spalla dx*/
+.cruscotto {width:170px; margin-left:auto; margin-right:auto; background-color:#ebebeb}
+.cruscotto fieldset {position:static; background-color:#ebebeb}
+.cruscotto .form-row label {display:block;float:none;width:auto;padding-left:0;text-align:left}
+.cruscotto .alternate {position:static; padding:5px}
+
+#formGen .btnInviaCrusc{position:relative; top:2px}
+
+#AreaRiservata div{padding-bottom:2px}
+
+.contentHpR1IntTop,
+.HpTrenContLeftBoxInt,
+.HpTrenContLeft .Box .Box4Img{overflow:visible}
+
+.contentHpR2Right{margin-left:50.3%}
+.contentHpR2Left1Dx{margin-left:50.2%}
+.contentHpR2Left2{margin-left:66.8%}
+.contentHpR2RightDx{margin-left:64%}
+.contentHpR2RightDxV2{margin-left:36%}
+
+.BoxIntDxBannerDx{height:1px}
+.HpTrenContLeftBoxIntDx .BoxIntAR,
+.boxBanner{height:1px}
+
+.contentHpR1IntTopRight .BoxIntAR .BoxIntbotl,
+.contentHpR1IntTopRight .BoxIntAR .BoxIntbotr,
+.contentHpR1IntTopRight .BoxIntBeG .BoxIntbotl,
+.contentHpR1IntTopRight .BoxIntBeG .BoxIntbotr,
+.contentHpR1IntTopRight .BoxIntxFor .BoxIntbotl,
+.contentHpR1IntTopRight .BoxIntxFor .BoxIntbotr,
+.contentHpR1IntTopLeft .BoxSociet .BoxIntbotl,
+.contentHpR1IntTopLeft .BoxSociet .BoxIntbotr{margin-top:-6px}
+
+.contentHpR1IntTopRight .BoxIntSC .BoxIntbotl,
+.contentHpR1IntTopRight .BoxIntSC .BoxIntbotr{margin-top:-6px}
+
+.BoxIntBeG .btEntra img{padding:0 8px 0px 0}
+
+.contentHpR1IntBot .BoxIntbotl,
+.contentHpR1IntBot .BoxIntbotr{margin-top:-4px}
+
+.BoxIntSocietImgDx div{padding:150px 0 1px 0}
+
+.contHpGruppoRight .Box2Left {width:48%}
+.contHpGruppoRight .Box2Right{width:48%; margin-left:0; height:0; float:right}
+
+.roundButtonGray .roundCont p{padding:0; margin:14px 12px 0 0}
+.roundButtonCurve{width:32.6%}
+
+.ContBoxLabelAR div.BotForm div.R1{margin-top:-8px}
+
+#content .FSNewsRight .FSNewsRightCol{height:1px}/*Importante!*/
+.boxFotoSet .boxFotoSetTop{padding:0; margin:0}
+.boxFotoSet .boxFotoSetTop img{margin:6px 0 0 0}
+
+.cboxIntTab{padding:24px 12px}
+
+#footer,
+#footer .bgRight{height:114px}
+#footerTre,
+#footerTre .bgRight{height:132px}
+#footerFS,
+#footerFS .bgRight{height:132px}
+
+#mooqueeStart{margin:0;padding:0}
+
+#formMetropark .Txt .TxtRight2 input{width:9.6%}
+#formMetropark .Txt .TxtLeft3{padding-left:3px}
+.titoloPag{border:1px solid #F7F7F9; border-top:0; border-bottom:0}
+
+.ricercaMpk{padding:0px 2px 0px 4px; height:1px}
+.ricercaMpk p{padding:3px 0 0 0; margin:0; height:1px}
+.ricercaMpk label{margin:6px 4px 0 1%}
+.ricercaMpk input.campoR{padding:4px 3px 0 12px; margin-top:4px}
+.ricercaMpk .buttonCerca{margin:4px 0 0 3px}
+
+/*Risultati della ricerca*/
+.ContResultTop{height:0}
+
+/*Versione Sinistra 3 box*/
+.box3Left1{width:32%}
+.box3Left2{width:32%; margin-left:3px}
+.box3Left3{margin-left:64%}
+
+/*Home Page WebInfoPoint*/
+.contHpWPILeftBot .ContBotRight{margin:0 0 0 42%}
+.contHpWPILeftBot .ContBotLeft{width:41%}
+
+/*FSNEWS ANSA*/
+#content .FSNewsRight{margin:15px 0 0 3px; width:74%}
+#content #boxContAnsa .dettNews .dataSx, #content #boxContAnsa .dettNews .dataDx{background:#5A595B}
+#content #boxContAnsa .dettNews .botNews .botNewsSx{padding:14px 6px; border-right:1px solid #EEE}
+#content #boxContAnsa .dettNews .botNews .botNewsDx{margin:0 0 0 380px; padding:14px 0 14px 6px}
+#content #boxContAnsa .dettNews .botNews .rowNews,
+.boxAnsa .contIntNews .ore{border-bottom:1px solid #EEE}
+#content #boxContAnsa .dettNews .botVideo .botVideoSx{border-right:1px solid #EEE}
+#content #boxContAnsa .dettNews .botVideo .botVideoDx .botVideoDxtop{overflow:hidden}
+.boxAnsa .contIntVideo .videoTop .play{background:url('/cms-file/common/img/playAnsa_IE6.gif')}
+
+/*Box TAB*/
+.boxTab .botRightTopTab, .boxTab .botLeft, .boxTab .botRight, .boxTab .topLeftOn, .boxTab .topRightOn, .boxTab .topLeftOff, .boxTab .topRightOff, .boxTab .botLeftOff{overflow:hidden}
+.boxTab .topRightOn, .boxTab .botRight{right:-2px}
+.boxTab .topRightOff, .boxTab .botRightTopTab{right:-1px}
+.boxTab .botLeftOff{bottom:-6px}
+
+/*Box Cerca*/
+.boxCerca .corner, .boxCerca .topLeft, .boxCerca .topRight, .boxCerca .botLeft, .boxCerca .botRight{overflow:hidden}
+.boxCerca .topRight, .boxCerca .botRight{right:-1px}
+.boxCerca input.campoR{padding:4px 3px 0 4px}
+
+/*4 Box News Primo piano*/
+.BoxFSNewsCenterBox4 .botLeft, .BoxFSNewsCenterBox4 .botRight{overflow:hidden; right:-1px}
+
+/*BOX FSNews - 3 tipologie*/
+.boxFSNews .topLeft, .boxFSNews .topRight, .boxFSNews .botLeft, .boxFSNews .botRight, .boxFSNews .topLeftT3, .boxFSNews .topRightT3,
+.topLeftT5, .topRightT5, .botLeftT5, .botRightT5, .topLeftT6B, .topRightT6B, .topLeftT6A, .topRightT6A, .botLeftT6A, .botRightT6A,
+.botLeftT6B, .botRightT6B{overflow:hidden}
+.boxFSNews .topRight, .boxFSNews .topRightT4{right:-2px}
+.boxFSNews .botLeft{bottom:-2px; left:-1px; line-height:0px}
+.boxFSNews .botRight{bottom:-2px; right:-2px; line-height:0px}
+.boxFSNewsT5 .topRightT5, .boxFSNewsT6 .topRightT6B, .boxFSNewsT6 .topRightT6A{right:-1px}
+.boxFSNewsT5 .botRightT5{right:-1px}
+.boxFSNewsT6 .botRightT6A, .boxFSNewsT6 .botRightT6B{right:-1px; bottom:-1px}
+.boxFSNewsT6 .botLeftT6A, .boxFSNewsT6 .botLeftT6B{bottom:-1px}
+
+/*Social Network*/
+.socialNet li a{text-indent:-9999px}                                                      
+
+/*Form Centostazioni*/
+#contForm .ie6_ie7 input.altro{float:right; position:relative; right:204px}
+#contForm .rowTop{line-height:0px; overflow:hidden}
+#contForm .rowTop label{position:relative; top:12px}
+#contForm .rowTop{line-height:0px; overflow:hidden}
+#contForm .rowTop label{position:relative; top:12px}
+legend{width:760px; margin-bottom:1em}
+#contForm .row .dx{overflow:hidden}
+#contForm input.radio{top:2px}
+
+/*Menu Livello 1 - Css sprite*/
+#menuLiv1 .int, #navigation .int, #navigation2.int{height:0px}
+#menuLiv1 .int .topLeft, #menuLiv1 .int .botLeft,
+#navigation .int .topLeft, #navigation .int .botLeft,
+#navigation2 .int .topLeft, #navigation2 .int .botLeft{overflow:hidden}
+#menuLiv1 .int .topRight, #menuLiv1 .int .botRight,
+#navigation .int .topRight, #navigation .int .botRight,
+#navigation2 .int .topRight, #navigation2 .int .botRight{overflow:hidden; right:-2px}
+#menuLiv1 .int .botLeft, #menuLiv1 .int .botRight,
+#navigation .int .botLeft, #navigation .int .botRight,
+#navigation2 .int .botLeft, #navigation2 .int .botRight{bottom:-2px}
+#menuLiv1 ul#menu1, #menuLiv1 ul#menu1 li,
+#navigation ul#menu1, #navigation ul#menu1 li,
+#navigation2 ul#menu2, #navigation2 ul#menu2 li{overflow:visible}
+
+/*Rounded Content Box - CSS Sprite*/
+#roundContBox{padding:8px}
+#roundContBox, .roundContBox, #roundContBox .ContAncore .titolo, #roundContBox, #roundContBox .ContAncore2 .titolo{height:0px}
+#roundContBox .corner, #roundContBox .topLeft, #roundContBox .topRight, #roundContBox .botLeft, #roundContBox .botRight,
+.roundContBox .corner, .roundContBox .topLeft, .roundContBox .topRight, .roundContBox .botLeft, .roundContBox .botRight,
+#roundContBox .ContAncore .titolo .tL, #roundContBox .ContAncore .titolo .tR{overflow:hidden}
+#roundContBox .botLeft, #roundContBox .botRight, .roundContBox .botLeft, .roundContBox .botRight{bottom:-2px}
+#roundContBox .topRight, #roundContBox .botRight, .roundContBox .topRight, .roundContBox .botRight{right:-2px}
+
+.FSNewsLeftCol .ContBoxCurva a.arrowLink{background-position:2px 2px}
+.FSNewsLeftCol .ContBoxCurva .boxFSNewsT6 a.arrowLink, .FSNewsLeftCol .ContBoxCurva .BoxFSNews a.arrowLink{background-position:2px 6px}
+
+/* Box Img Left - Css Sprite */
+#boxImgLeft_r .botLeft, #boxImgLeft_v .botLeft{overflow:hidden; bottom:-1px}
+#boxImgLeft_r .botRight, #boxImgLeft_v .botRight{overflow:hidden; bottom:-1px}
+
+/*Button Curve Css Sprite (HP-RFI)*/
+.ButtonCurve .tl, .ButtonCurve .tr, .ButtonCurve .bl, .ButtonCurve .br{overflow:hidden}
+.ButtonCurve .tr, .ButtonCurve .br{right:-1px}
+
+/*Box label verde e rossa - Css Sprite*/
+.boxlabelV .int, .boxlabelR .int{overflow:visible}
+.boxlabelV .topRight, .boxlabelR .topRight{right:-2px}
+.boxlabelV .botLeft, .boxlabelR .botLeft{bottom:-2px}
+.boxlabelV .botRight, .boxlabelR .botRight{bottom:-2px; right:-2px}
+
+/*Angoli Box Icona - Css Sprite*/
+.boxIco .topLeft, .boxIco .topRight{overflow:hidden}
+.boxIco .botLeft, .boxIco .botRight{bottom:0px}
+
+/*Box Label Area Riservata - Cargo*/
+.LabelAR .tl{overflow:hidden}
+.LabelAR .tr{top:-1px; right:-2px; overflow:hidden}
+
+/*LAFRECCIATV*/
+#boxContTV .cont2 .botVideo .VideoDx .minVideo, .tagCloud .tL, .tagCloud .tR, .tagCloud .bL, .tagCloud .bR{overflow:hidden}
+
+/* HP FSLogistica - Box Tab Mappe*/
+.boxMappa .conTab{overflow:hidden; width:306px}
+.boxMappa .conTab .tabOff2, .boxMappa .conTab .tabOn2{width:99px}
+.boxMappa .conTab .tabOff3, .boxMappa .conTab .tabOn3{margin-left:203px; background-position:-1px 0}

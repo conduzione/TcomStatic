@@ -1,0 +1,672 @@
+/*HOME*/
+
+/*Home Page - Il Gruppo*/
+.contHpGruppoLeft{float:left; width:37%; margin:5% 0 5% 0}
+.contHpGruppoLeftInt{height:auto !important; height:292px; min-height:292px}
+.contHpGruppoLeftInt div{text-align:center; padding-top:266px; font-size:1.2em}
+.contHpGruppoLeftInt div a{color:#000; font-weight:bold}
+
+.contHpGruppoRight{height:auto !important; height:309px; min-height:309px; margin:5% 0 5% 38%}
+.contHpGruppoRight .Box2Left{float:left; width:49%; height:auto !important; height:309px; min-height:309px}
+.contHpGruppoRight .Box2LeftTop{height:auto !important; height:150px; min-height:150px; margin-bottom:6px}
+.contHpGruppoRight .Box2LeftBot{height:auto !important; height:150px; min-height:150px;  margin-bottom:10px}
+.contHpGruppoRight .Box2Right{margin-left:50%; height:auto !important; height:309px; min-height:309px}
+
+.cbox2IcoSx{height:auto !important; height:150px; min-height:150px; margin:0}
+.cbox2IcoDx{padding-left:37%;  height:auto !important; height:150px; min-height:150px; margin:0; background:url('/cms-file/common/img/gruppo-bgRight.gif') bottom right no-repeat}
+
+.contHpGruppoRight .titolo{height:auto !important; height:60px; min-height:60px}
+.contHpGruppoLeft h4, .contHpGruppoRight h4{font-size:1.4em; padding:18px .7em 0 0; margin:0}
+.contHpGruppoLeft a, .contHpGruppoRight a{color:#B30002}
+.contHpGruppoLeft p, .contHpGruppoRight p{padding:1.5em .7em .3em 0; margin:0}
+
+/*Sub Home Page Sinistra*/
+.contHpRFILeft {float:left; width:34%; margin:12px 0 5px 0}
+
+/*Sub Home Page - Interno Colonna Sinistra Img*/
+.contSubHpImgLeft{height:auto !important; height:395px; min-height:395px}
+.contSubHpImgLeft .R1{height:331px; padding:0; margin:0}
+.contSubHpImgLeft .R1Mappa{height:321px; text-align:center; padding:10px 0 0 0; margin:0}
+.contSubHpImgLeft .R1Mappa img{border:none}
+
+/*Sub Home Page - METROPARK*/
+.contSubHpMpkImgLeft{height:auto !important; height:468px; min-height:468px}
+.contSubHpMpkImgLeft .R1{height:auto !important; height:385px; min-height:385px; padding:0; margin:0}
+.contSubHpMpkImgLeft .R1Mappa{height:auto !important; height:375px; min-height:375px; text-align:center; padding:10px 0 0 0; margin:0}
+.contSubHpMpkImgLeft .R1Mappa img{border:none; margin-top:20px}
+/*box ricerca*/
+.ricercaMpk{padding:8px 2px 4px 4px; height:auto !important; min-height:20px}
+.ricercaMpk label{float:left; color:#B30002; font-weight:bold; font-size:1em; margin:4px 6px 0 2%}
+.ricercaMpk input.campoR{ width:120px; height:18px; padding:3px 3px 0 12px; border:0; font-size:1em; background:url('/cms-file/common/img/bg_camporicercaMpk.gif') top left no-repeat}
+.ricercaMpk .buttonCerca{margin:0 0 0 6px; width:56px; height:20px; border:0;}
+.banner_epacongress{position:relative; float:right; width:5px; right:5px; top:5px;}
+
+/*Eliminare queste 8 righe se viene scelta la versione titolo editabile*/
+.contSubHpImgLeft .R2Ferservizi{height:36px; padding:0; margin:0 10px; background:url('/cms-file/common/img/bg_ImgCol_tit_Ferservizi.gif') top left no-repeat}
+.contSubHpImgLeft .R2Italferr{height:36px; padding:0; margin:0 10px; background:url('/cms-file/common/img/bg_ImgCol_tit_Italferr.gif') top left no-repeat}
+.contSubHpImgLeft .R2Centostazioni{height:36px; padding:0; margin:0 10px; background:url('/cms-file/common/img/bg_ImgCol_tit_Centostazioni.gif') top left no-repeat}
+.contSubHpImgLeft .R2Cargo{height:36px; padding:0; margin:0 10px; background:url('/cms-file/common/img/bg_ImgCol_tit_Cargo.gif') top left no-repeat}
+.contSubHpImgLeft .R2RFI{height:36px; padding:0; margin:0 10px; background:url('/cms-file/common/img/bg_ImgCol_tit_RFI.gif') top left no-repeat}
+.contSubHpImgLeft .R2inStazione{height:36px; padding:0; margin:0 10px; background:url('/cms-file/common/img/bg_ImgCol_tit_inStazione.gif') top left no-repeat}
+.contSubHpImgLeft .R2Grandistazioni{height:36px; padding:0; margin:0 10px; background:url('/cms-file/common/img/bg_ImgCol_tit_Grandistazioni.gif') top left no-repeat}
+.contSubHpImgLeft .R2LcN{height:36px; padding:0; margin:0 10px; background:url('/cms-file/common/img/bg_ImgCol_tit_LcN.gif') top left no-repeat}
+
+/*Box angoli stondati - Css Sprite*/
+.roundContBox{position:relative; margin:0; padding:9px; background:#FFF; border:1px solid #E9E7EA}
+.roundContBox .corner{position:absolute; width:6px; height:6px; background:url('/cms-file/common/img/sprite-roundContBox.gif')}
+.roundContBox .topLeft{top:-1px; left:-1px; background-position:0 0}
+.roundContBox .topRight{top:-1px; right:-1px; background-position:-7px 0px}
+.roundContBox .topRight2{top:-1px; right:-1px; background-position:-7px -14px}
+.roundContBox .botLeft{bottom:-1px; left:-1px; background-position:0 -7px}
+.roundContBox .botRight{bottom:-1px; right:-1px; background-position:-7px -7px}
+.bgtransp{background:transparent}
+
+/*Box Img Left Rosso - Css Sprite*/
+#boxImgLeft_r{position:relative; margin:0; padding:0; background:transparent; height:auto !important; min-height:64px; height:64px}
+#boxImgLeft_r .corner{position:absolute; background:url('/cms-file/common/img/sprite-Box_SubHP_r.gif') no-repeat;}
+#boxImgLeft_r .topLeft{top:0px; left:0px; background-position:0 0; width:216px; height:31px; font-size:1.8em; font-weight:bold; color:#FFF; padding:6px 0 0 20px}
+#boxImgLeft_r .topRight{top:0px; right:0px; background-position:-237px 0px; width:24px; height:36px}
+#boxImgLeft_r .botLeft{background-color:#B30002; bottom:0px; left:0px; background-position:0px -37px; width:24px; height:28px}
+#boxImgLeft_r .botRight{background-color:#B30002; bottom:0px; right:0px; background-position:-23px -37px; width:24px; height:28px}
+#boxImgLeft_r .contTop{height:35px}
+#boxImgLeft_r .contBot{height:auto !important; min-height:30px; height:30px; margin:0}
+#boxImgLeft_r .bg{background:#B30002 url('/cms-file/common/img/sprite-Box_SubHP_r.gif') 0 -66px repeat-x; height:35px; margin:0px 23px}
+#boxImgLeft_r .txt{background:#B30002; height:auto !important; min-height:30px; height:30px; padding:3px 23px 3px 23px; color:#FFF; font-weight:bold; font-size:1em}
+#boxImgLeft_r a{color:#FFF; text-decoration:none}
+#boxImgLeft_r a:hover{text-decoration:underline}
+
+/*Box Img Left Verde - Css Sprite*/
+#boxImgLeft_v{position:relative; margin:0; padding:0; background:transparent; height:auto !important; min-height:64px; height:64px}
+#boxImgLeft_v .corner{position:absolute; background:url('/cms-file/common/img/sprite-Box_SubHP_v.gif') no-repeat;}
+#boxImgLeft_v .topLeft{top:0px; left:0px; background-position:0 0; width:216px; height:31px; font-size:1.8em; font-weight:bold; color:#FFF; padding:6px 0 0 20px}
+#boxImgLeft_v .topRight{top:0px; right:0px; background-position:-237px 0px; width:24px; height:36px}
+#boxImgLeft_v .botLeft{background-color:#006362; bottom:0px; left:0px; background-position:0px -37px; width:24px; height:28px}
+#boxImgLeft_v .botRight{background-color:#006362; bottom:0px; right:0px; background-position:-23px -37px; width:24px; height:28px}
+#boxImgLeft_v .contTop{height:35px}
+#boxImgLeft_v .contBot{height:auto !important; min-height:30px; height:30px; margin:0}
+#boxImgLeft_v .bg{background:#006362 url('/cms-file/common/img/sprite-Box_SubHP_v.gif') 0 -66px repeat-x; height:35px; margin:0px 23px}
+#boxImgLeft_v .txt{background:#006362; height:auto !important; min-height:30px; height:30px; padding:3px 24px; color:#FFF; font-weight:bold; font-size:1em}
+#boxImgLeft_v a{color:#FFF; text-decoration:none}
+#boxImgLeft_v a:hover{text-decoration:underline}
+
+/*Sub Home Page Destra*/
+.contHpRFIRight{height:auto !important; height:414px; min-height:414px; margin:12px 0 5px 35%}
+.contHpRFIRight .Box2Left{float:left; width:52%; height:auto !important; height:414px; min-height:414px}
+.contHpRFIRight .Box2LeftTop{height:auto !important; height:250px; min-height:250px; margin-bottom:6px}
+.contHpRFIRight .Box2LeftTop2{height:auto !important; height:140px; min-height:140px; margin-bottom:6px}
+.contHpRFIRight .Box2LeftBot{height:auto !important; height:126px; min-height:126px;  margin-bottom:8px}
+.contHpRFIRight .Box2Right{margin-left:53%; height:auto !important; height:418px; min-height:418px}
+.ContBoxCurva{margin:0; padding:0}
+.ContBoxCurva .TopTitolo{height:25px; margin:0px; padding-left:20px; background:#F5F4F6 url('/cms-file/common/img/bg_box_curva1.gif') top right no-repeat}
+.ContBoxCurva .TopTitolo2{height:29px; margin:0px; padding-left:20px; background:#F5F4F6 url('/cms-file/common/img/bg_box_curva1.gif') top right no-repeat}
+.ContBoxCurva .TopTitolo3{height:auto !important; min-height:14px; height:14px; margin:0px; padding:10px 0 0 12px; background:#F5F4F6}
+.ContBoxCurva .BotImgTesto{overflow:hidden; padding:8px; background:#F5F4F6}
+.ContBoxCurva .BotImgTesto2{margin:0; background:#F5F4F6; height:auto !important; height:116px; min-height:120px;} /*Add Fercredit*/
+.ContBoxCurva .BotImgTesto2 div.contInner{height:auto !important; min-height:14px; height:14px; margin:0px; padding:10px 0 6px 12px}/*Add Fercredit*/
+.ContBoxCurva .TopTitolo .titoloredboldmed a,
+.ContBoxCurva .TopTitolo3 .titoloredboldmed a {color:#B30002}
+.contHpRFIBot{margin:5px 0 10px 38%}
+
+/*Box label verde Css Sprite - Italferr/Ferservizi/Centostazioni/Cargo*/
+.boxlabelV{position:relative; background:#FFF; padding:9px; height:auto !important; height:50px; min-height:50px; border:1px solid #ECEBEE; border-top:0}
+.boxlabelV .corner{position:absolute; background-image:url('../img/sprite-boxSubHP.gif'); width:16px; height:16px}
+.boxlabelV .topLeft{top:0px; left:-1px; background-position:0px 0px; width:16px; height:25px}
+.boxlabelV .topRight{top:0px; right:-1px; background-position:0px -26px; width:85px; height:25px}
+.boxlabelV .botLeft{bottom:-1px; left:-1px; background-position:-52px 0px}
+.boxlabelV .botRight{bottom:-1px; right:-1px; background-position:-69px 0px}
+.boxlabelV .int{position:relative; background:#F5F4F6; height:auto !important; height:50px; min-height:50px; margin-top:9px; overflow:hidden; padding-bottom:5px}
+.boxlabelV .title{background:#006362; height:auto !important; height:20px; min-height:20px; padding-bottom:3px}
+.boxlabelV .title h4{padding:6px 0 0 12px}
+.boxlabelV .titolowhiteboldmed a{color:#FFF}
+.ptop{padding-top:0px}
+.boxlabelV .BotImgTesto{padding:6px 12px; margin:0; background:#F5F4F6; height:auto !important; height:50px; min-height:50px}
+
+/*Box label rosso Css Sprite - Terminali Italia*/
+.boxlabelR{position:relative; background:#FFF; padding:9px; height:auto !important; height:50px; min-height:50px; border:1px solid #ECEBEE; border-top:0}
+.boxlabelR .corner{position:absolute; background-image:url('../img/sprite-boxSubHP.gif'); width:16px; height:16px}
+.boxlabelR .topLeft{top:0px; left:-1px; background-position:0px -78px; width:16px; height:25px}
+.boxlabelR .topRight{top:0px; right:-1px; background-position:0px -52px; width:85px; height:25px}
+.boxlabelR .botLeft{bottom:-1px; left:-1px; background-position:-52px 0px}
+.boxlabelR .botRight{bottom:-1px; right:-1px; background-position:-69px 0px}
+.boxlabelR .int{position:relative; background:#F5F4F6; height:auto !important; height:50px; min-height:50px; margin-top:9px; overflow:hidden; padding-bottom:5px}
+.boxlabelR .title{background:#BA0A0A; height:auto !important; height:20px; min-height:20px; padding-bottom:3px}
+.boxlabelR .title h4{padding:6px 0 0 12px}
+.boxlabelR .titolowhiteboldmed a{color:#FFF}
+.ptop{padding-top:0px}
+.boxlabelR .BotImgTesto{padding:6px 12px; margin:0; background:#F5F4F6; height:auto !important; min-height:50px; height:50px}
+
+/*Box Icona - Italferr / Ferservizi / Cargo*/
+.cbox3IcoSx{height:auto !important; height:136x; min-height:138px; margin:0; background:#FFF}
+.cbox3IcoDx{padding-left:37%; height:auto !important; height:136px; min-height:138px; margin:0}
+.cbox3IcoDx .titolo{height:auto !important; height:60px; min-height:60px}
+.cbox3IcoDx .titolo h4{font-size:1.4em; padding:14px .7em 0 0; margin:0}
+.cbox3IcoDx a{color:#B30002}
+.cbox3IcoDx p{padding:.3em .7em .3em 0; margin:0}
+/*Altezza Box Icona Ferservizi*/
+.minH137{height:auto !important; height:137px; min-height:137px}
+
+/*Angoli Box Icona - Css Sprite*/
+.boxIco{position:relative; padding:0 7px 0 0; background:#FFF; border:1px solid #E9E7EA}
+.boxIco .corner{position:absolute; width:6px; height:6px; background:url('/cms-file/common/img/sprite-Box_SubHP_Ico.gif')}
+.boxIco .topLeft{top:-1px; left:-1px; background-position:0 0}
+.boxIco .topRight{top:-1px; right:-1px; background-position:-9px 0px}
+.boxIco .botLeft{bottom:-1px; left:-1px; background-position:-0px -7px; width:8px; height:93px}
+.boxIco .botRight{bottom:-1px; right:-1px; background-position:-10px -7px; width:8px; height:93px}
+
+/*Box Label Area Riservata - Cargo*/
+.LabelAR{background:url('/cms-file/common/img/bg_box_labelAR.gif') top right no-repeat; position:relative}
+.LabelAR .cornerWhite{position:absolute; z-index:20; background:url('/cms-file/common/img/sprite-boxSubHP.gif'); width:5px; height:5px}
+.LabelAR .tl{top:-1px; left:-1px; background-position:-17px -17px}
+.LabelAR .tr{top:-1px; right:-1px; background-position:-23px -17px}
+.roundContBox{}
+.ContBoxLabelAR{margin:0; padding:0e}
+.ContBoxLabelAR .TopTitolo{color:#FFF; height:21px; margin:0px; padding-left:13px}
+.ContBoxLabelAR .BotForm{padding:0 12px 10px 0; margin:0; background:#F5F4F6; height:auto !important; height:62px; min-height:62px}
+#AreaRiservata div input{width:60%; height:14px; font-weight:bold; font-size:1em; margin:.2em 0 0 0; padding:0; text-indent:.2em}
+#AreaRiservata div input.but_Entra{width:35px; height:15px; border:none}
+.ContBoxLabelAR .BotForm .R1{padding:0 0 0 12px; margin-top:-16px}
+.ContBoxLabelAR .BotForm .R2{padding:0 0 0 12px; margin:0px}
+
+/*Box ViaggiaTreno - Cargo*/
+.ContBoxCurva .BoxViaggiatreno{height:auto !important; height:104px; min-height:104px; background:url('/cms-file/common/img/bg_box_Cargo_ViaggiaTreno.gif') left top no-repeat}
+.ContBoxCurva .BoxViaggiatreno div{height:auto !important; height:94px; min-height:94px; text-align:right; padding:10px 14px 0 0; background:url('/cms-file/common/img/bg_box_societ.gif') right top repeat-y}
+.ContBoxCurva .BoxViaggiatreno div p{padding:1.5em 1.2em 0 0}
+.ContBoxCurva .BoxViaggiatreno div img.arrowDx{position:relative; top:18px; left:9px; border:none}
+
+/*box fs news*/
+.ContBoxCurva3{margin:0 6px; padding:6px 0}
+
+/*Home Page - FS*/
+.contentHpR1 {padding:.5em 0; height:auto !important; height:335px; min-height:340px}
+.contentHpR1Left{float:left; width:50%; height:auto !important; height:335px; min-height:340px; background:#F5F5F7}
+.contentHpR1Right{margin-left:50.6%; height:auto !important; height:335px; min-height:340px; background:#F5F5F7}
+.contentHpR1Left .rbtopl,
+.contentHpR1Right .rbtopl{color:#FFF;	height:auto !important; height:25px; min-height:25px; background:#006261 url('/cms-file/common/img/bg_rb_tl.gif') top left no-repeat}
+.contentHpR1Left .rbtopr,
+.contentHpR1Right .rbtopr{height:auto !important;	height:25px; min-height:25px; background:url('/cms-file/common/img/bg_rb_tr_img.gif') top right no-repeat}
+.contentHpR1Left .rbtopr h3,
+.contentHpR1Right .rbtopr h3{color:#FFF; font-size:1.3em; padding:4px 0 0 14px; margin:0}
+.contentHpR1Left .rbtopr h3 a,
+.contentHpR1Right .rbtopr h3 a{color:#FFF}/*Aggiunta BC*/
+.contentHpR1Left .rbbotl,
+.contentHpR1Right .rbbotl,
+.contentHpR2Left .rbbotl,
+.contentHpR2Right .rbbotl{height:7px; background:url('/cms-file/common/img/bg_rb_bl.gif') bottom left no-repeat}
+.contentHpR1Left .rbbotr,
+.contentHpR1Right .rbbotr,
+.contentHpR2Left .rbbotr,
+.contentHpR2Right div.rbbotr{height:7px; background:url('/cms-file/common/img/bg_rb_br.gif') bottom right no-repeat}
+.contentHpR1IntTop{background:#F5F5F7; margin-top:4px; padding:0 10px 0 8px; height:auto !important; height:216px; min-height:216px; overflow:hidden}
+.contentHpR1Left .contentHpR1IntTopLeft{float:left; width:65%; height:auto !important; height:216px; min-height:216px}
+.contentHpR1Left .contentHpR1IntTopRight{margin-left:65.6%; height:auto !important; height:216px; min-height:216px}
+.contentHpR1Right .contentHpR1IntTopLeft{float:left; width:60%; height:auto !important; height:200px; min-height:200px}
+.contentHpR1Right .contentHpR1IntTopRight{margin-left:60.6%; height:auto !important; height:200px; min-height:200px}
+.contentHpR1IntBot{background:#F5F5F7; padding:4px 10px 0 8px; height:auto !important; height:90px; min-height:95px}
+.contentHpR2{padding:.5em 0; height:auto !important; height:140px; min-height:140px}
+.contentHpR2Left{float:left; width:50%; height:auto !important; height:140px; min-height:140px; background:#FFF}
+.contentHpR2Right{margin-left:50.6%; height:auto !important; height:140px; min-height:140px; background:#FFF}
+.contentHpR2Left .rbtopl,
+.contentHpR2Right .rbtopl{height:auto !important; height:133px; min-height:133px; background:url('/cms-file/common/img/bg_rb_tl.gif') top left no-repeat}
+.contentHpR2Left .rbtopr,
+.contentHpR2Right .rbtopr{height:auto !important;	height:133px; min-height:133px; background:url('/cms-file/common/img/bg_rb_tr.gif') top right no-repeat}
+.contentHpR2 .txt{padding:1em .5em .5em 1em; font-size:1.1em; color:#FFF}
+.contentHpR2 .txt h3{font-size:1.2em; padding:0; margin:0}
+.contentHpR2 .txt p{ padding:0; margin:0}
+.contentHpR2 .txt a{color:#FFF}
+.contentHpR2 .txt a:hover{color:#FFF}
+.contentHpR2Left1{float:left; width:67%; height:auto !important; height:140px; min-height:140px}
+.contentHpR2Left1Sx{float:left; width:50%; height:auto !important; height:140px; min-height:140px}
+.contentHpR2Left1Dx{margin-left:50.8%; background:#E9E7EA; height:140px}
+.contentHpR2Left2{margin-left:67.5%; height:auto !important; height:140px; min-height:140px}
+.contentHpR2Left2Int{height:auto !important;  height:110px; min-height:110px}
+.contentHpR2Left2 img{float:right; border:0; margin:10px 5px 0 0}
+.contentHpR2Left2 p{padding:0 0 0 10px; line-height:1em}
+.contentHpR2RightSx{float:left; width:64%; height:auto !important; height:140px; min-height:140px}
+.contentHpR2RightSx .r1{height:96px; padding-top:10px; text-align:center; font-size:1.2em; font-weight:bold}
+.contentHpR2RightSx .r2{text-align:right; font-weight:bold; padding:12px 20px 0 0}
+.contentHpR2RightDx{margin-left:64.5%; height:auto !important;  height:140px;  min-height:140px}
+.contentHpR2RightDx img{float:right; border:none; margin:120px 6px 0 0}
+.contentHpR2RightSxV2{float:left; width:36%; height:auto !important; height:140px;  min-height:140px}
+.contentHpR2RightSxV2 .r1{height:106px}
+.contentHpR2RightSxV2 .r2{text-align:right; font-weight:bold; padding:12px 20px 0 0}
+.contentHpR2RightDxV2{margin-left:36.5%; height:auto !important;  height:140px;  min-height:140px}
+.contentHpR2RightDxV2 img{float:right; border:none; margin:120px 6px 0 0}
+.CurvaBanner{background:transparent url('/cms-file/common/img/bg_bot_banner.gif') bottom right no-repeat}
+.contentHpR2Left1Sx img.arrowBanner,
+.contentHpR2Left1Dx img.arrowBanner,
+.contentHpR2Left2 img.arrowBanner,
+.contentHpR2RightSx img.arrowBanner,
+.contentHpR2RightSxV2 img.arrowBanner,
+.contentHpR2RightDxV2 img.arrowBanner{float:right; border:none; margin:122px 6px 0 0}
+
+/*Header Flash HP-FS*/
+div.boxFlash img{border:none; margin:0}
+div.noScript img{border:none; margin:0}
+#headerHPFlash{background:url('/cms-file/common/img/bg_header.gif') bottom left repeat-x; height:auto !important; padding:0; margin:0;	min-height:145px; height:145px; font-size:.7em}
+#headerHPFlash .headerTop{padding:12px 25px 0 25px}
+#headerHPFlash .headerTop .headerRightNav img{float:right; border:none; padding:0 0 0 20px; margin-top:-2px}
+#headerHPFlash .headerTop .headerRightNav{margin-left:37%}
+#headerHPFlash .ricerca{float:right; margin-top:-2px}
+#headerHPFlash .ricerca p{padding:0; margin:0}
+#headerHPFlash .headerRightNavLeft{float:right; margin-right:10px; white-space:nowrap}
+#headerHPFlash .headerBottom{padding:0; margin:0; height:auto !important; min-height:122px; height:122px}
+#headerHPFlash .headerBottomRight{float:left; padding:0; margin:0; width:25.6%; height:122px; text-align:right}
+#headerHPFlash .headerBottomRight img{margin-top:20px}
+#headerHPFlash .headerBottomLeft{padding:0; margin:0 0 0 26.8%; height:122px; background:url('/cms-file/common/img/bg_header_dx.gif') bottom right repeat-x}
+#headerHPFlash .headerBottomLeftIn {padding:0; margin:0; height:122px; background:url('/cms-file/common/img/bg_header_Flash.jpg') bottom left no-repeat}
+#headerHPFlash .headerBottomLeftIn .r1{height:60px; text-align:right; padding:0; margin:0}
+#headerHPFlash .headerBottomLeftIn .r2{padding:6px 0 0 0; height:auto !important; height: 42px; min-height:42px; color:#FFF; font-weight:bold; font-size:1.5em; text-align:center}
+#headerHPFlash .headerBottomLeftIn .r2 a,
+#headerHPFlash .headerBottomLeftIn .r2 a:hover{color:#FFF; text-decoration:none}
+#headerHPFlash .headerBottomLeftIn .r1 img {border:none; margin:0; vertical-align:bottom}
+#headerHPFlash .headerBottomLeftIn .r2 span {background:#B30002}
+
+/*Box Flash HP-FS*/
+.boxFlash{margin:0; padding:0}
+.boxFlash .top{width:7px; float:left}
+.boxFlash .bot{margin-left:7px}
+.boxFlash .bot .c1{width:7px; float:right}
+.boxFlash .bot .c2{text-align:right; margin-right:7px; margin-top:0px !important; margin-top:7px;/*il margine in alto di 7px per la corretta visualiz. su IE6*/}
+		
+/*Box Alta Velocita' Flash HP-FS*/
+.contentHpR2RightSx .r1Flash{height:20px; padding:7px 5px 0px 5px; 10px; text-align:center; font-size:1.1em; font-weight:bold}
+.contentHpR2RightSx .r1Flash div{background:#FFF; height:20px; padding-top:2px}
+.contentHpR2RightSx .rFlash{height:84px; padding:0 5px}
+.contentHpR2RightSx .rFlash div{height:84px; text-align:center}
+.contentHpR2RightSx .r2Flash{font-size:1.1em; text-align:right; font-weight:bold; padding:3px 20px 0 0; background:#E9E7EA}
+
+/*Home Page - TRENITALIA*/
+#content .HpTrenContLeft{float:left; width:69%; margin:15px 0 10px 0; padding:0; height:auto !important; height:220px; min-height:220px}
+#content .HpTrenContRight{margin:15px 0 10px 69.8%; padding:0 0 10px 0; height:auto !important; height:220px; min-height:220px}
+#content .HpTrenContRightBoxInt{margin-bottom:5px; font-size:1.1em}
+#content .HpTrenContRightBoxInt p{padding-top:6px}
+
+/*Pagina con 4 Box*/
+.BoxInt4{height:auto !important; height:85px; min-height:90px; padding:1em 0 0 1em}
+
+/*Pagina con 3 Box*/
+.BoxInt3{height:auto !important; height:124px; min-height:127px; padding:1em 0 0 1em}
+
+/*Pagina con 3 Box*/
+.BoxInt2{height:auto !important; height:203px; min-height:203px; padding:1em 0 0 1em}
+
+/*Pagina con 1 Box*/
+.BoxInt1{height:auto !important; height:438px; min-height:430px; padding:1em 0 0 1em}
+
+/*Angoli Bianchi*/
+.rbtopl{background:url('/cms-file/common/img/bg_rb_tl.gif') top left no-repeat}
+.rbtopr{background:url('/cms-file/common/img/bg_rb_tr.gif') top right no-repeat}
+.rbbotl{background:url('/cms-file/common/img/bg_rb_bl.gif') bottom left no-repeat; height:6px}
+.rbbotr{background:url('/cms-file/common/img/bg_rb_br.gif') bottom right no-repeat; height:6px}
+
+.HpTrenContLeft .Box{background:#F5F5F7; margin:0 0 10px 0}
+.HpTrenContLeft .Box .rbtopl{color:#FFF; height:auto !important; height:25px; min-height:25px; background:#006261 url('/cms-file/common/img/bg_rb_tl.gif') top left no-repeat}
+.HpTrenContLeft .Box .rbtopr{height:auto !important; height:25px; min-height:25px; background:url('/cms-file/common/img/bg_rb_tr_img.gif') top right no-repeat}
+.HpTrenContLeft .Box .rbtopr h3{color:#FFF; font-size:1.3em; padding:4px 0 0 14px; margin:0}
+.HpTrenContLeft .rbtopr h3 a{color:#FFF}/*Aggiunta BC*/
+.HpTrenContLeft .Box .rbtopr .whiteLinksTab{font-size:1.3em; font-weight:bold; padding:0 0 0 0; height:29px; margin:0; background:url('/cms-file/common/img/bg_linkBox4ImgOff1.gif') bottom left repeat-x}
+.HpTrenContLeft .Box .rbtopr .whiteLinksTab div.on{float:left; padding:4px 14px 0 14px; height:25px; text-align:center;  background:url('/cms-file/common/img/bg_linkBox4ImgOn.gif') bottom right no-repeat}
+.HpTrenContLeft .Box .rbtopr .whiteLinksTab div.off{float:left; text-align:center; padding:4px 10px}
+.HpTrenContLeft .Box .rbtopr .whiteLinksTab div.linea{float:left; font-weight:normal; padding-top:2px}
+.HpTrenContLeft .Box a.whiteLinksTab,
+.HpTrenContLeft .Box a:hover.whiteLinksTab{color:#FFF}
+
+.HpTrenContLeft .Box .rbbotl{height:4px; background:url('/cms-file/common/img/bg_rb_bl.gif') bottom left no-repeat}
+.HpTrenContLeft .Box .rbbotr{height:4px; background:url('/cms-file/common/img/bg_rb_br.gif') bottom right no-repeat}
+.HpTrenContLeft .HpTrenContLeftBoxInt{background:#F5F5F7; margin-top:4px; padding:0 10px 0 8px; height:auto !important; height:230px; min-height:216px; overflow:hidden}
+.HpTrenContLeft .HpTrenContLeftBoxIntSx{float:left; width:49%; height:auto !important; height:216px; min-height:216px}
+.HpTrenContLeft .HpTrenContLeftBoxIntDx{margin:8px 0 0 49.3%; height:auto !important; height:216px; min-height:216px}
+
+.BoxIntDxBannerSx{float:left; width:49%}
+.BoxIntDxBannerDx{margin:0 0 0 50.2%}
+
+.HpTrenContLeft .Box .Box4Img{background:#F5F5F7; padding:0 0 0 3%; height:auto !important; height:150px; min-height:150px; overflow:hidden}
+.HpTrenContLeft .Box4Img div{float:left; width:123px; height:auto !important; height:140px; min-height:140px; margin:14px 0 0 0}
+.HpTrenContLeft .Box4Img .riga{width:5.5%; background:url('/cms-file/common/img/bg_dx_box4img.gif') top center no-repeat}
+.HpTrenContLeft .Box4Img .ultimaImg{background-image:none}
+.HpTrenContLeft .Box4Img div img{border:1px solid #C5C5C5; padding:1px}
+.HpTrenContLeft .Box4Img div a:hover{color:#000}
+.HpTrenContLeft .Box4Img div span{color:#016062; font-weight:bold}
+.HpTrenContLeft .Box4Img div p{width:86%}
+.contEntra{padding:25px 0 20px 8px}
+
+/*Box Banner Trenitalia*/
+.boxBanner{height:auto !important; height:200px; min-height:200px}
+.boxBanner p{color:#FFF; padding:0 .5em; padding-top:126px; font-weight:bold; font-size:1.2em; line-height:1.1em}
+.boxBanner a{color:#FFF}
+.boxBanner a:hover{color:#FFF}
+
+/*Home Page - FSNews*/
+#content .FSNewsLeft{float:left; width:20%; margin:15px 0 10px 0; padding:0; position:relative; left:0}
+#content .FSNewsLeftInt{margin-right:6px; padding:0}
+#content .FSNewsRight{margin:15px 0 0 0; padding:0 0 10px 0; width:80%; float:left; position:relative; left:0}
+#content .FSNewsRight .FSNewsLeftCol{width:60%; float:left; margin:0; padding:0}
+#content .FSNewsRight .FSNewsLeftColSx{float:left; width:52%}
+#content .FSNewsRight .FSNewsLeftColDx{margin:0 0 0 53%}
+#content .FSNewsRight .FSNewsRightCol{margin:0 0 0 60%; padding:0 0 0 6px}
+
+/*Box spalla sinistra - HP FSNews*/
+.ContBoxRedTitle{padding:0; margin:0}
+.ContBoxRedTitle img{border:none}
+.ContBoxRedTitle .BoxRedTitleTop{background:#B30002 url('/cms-file/common/img/bg_boxRightFSNews.gif') top right no-repeat}
+.BoxRedTitleTop .titolo{height:auto !important; height:25px; min-height:25px}
+.BoxRedTitleTop .titolo h3{color:#FFF; font-size:1.3em; font-weight:bold; padding:6px 0 0 8px; margin:0}
+.BoxRedTitleTop .titolo h3 a{color:#FFF;}
+.ContBoxRedTitle .BoxRedTitleBot{background-color:#E9E7EA; padding:0 0 6px 0; margin:0}
+.ContBoxRedTitle .BoxRedTitleBot .txt{padding:10px 10px 4px 10px; overflow:hidden!important}
+.ContBoxRedTitle .BoxRedTitleBot .txt h4{color:#B30002; padding:0; margin:0; font-size:1.1em}
+.ContBoxRedTitle .BoxRedTitleBot .txt a.arrowLink{color:#B30002; font-weight: bold; padding-left:15px; background:url('/cms-file/common/img/freccia_puntatore.gif') 2px left no-repeat}
+html>/**/body .ContBoxRedTitle .BoxRedTitleBot .txt a.arrowLink{color:#B30002; background:url('/cms-file/common/img/freccia_puntatore.gif') left center no-repeat}/*FireFox*/
+.ContBoxRedTitle .BoxRedTitleBot .txt img{border:1px solid #C5C5C5; padding:1px; margin:.3em 0 .1em 0}
+.ContBoxRedTitle .BoxRedTitleBot .txt img.alignL{float:left; margin:0 6px 0 0}
+.ContBoxRedTitle .BoxRedTitleBot .txt span{color:#B30002; font-size:1.1em; font-weight:bold}
+.ContBoxRedTitle .BoxRedTitleBot .RightArrow{text-align:right; padding:0 10px 4px; 0}
+.ContBoxRedTitle .BoxRedTitleBot .RightArrowRed{padding:6px 10px 0 0;  font-weight:bold; height:25px; background:url('/cms-file/common/img/bg_boxRightFSNews_link.gif') top right repeat-x}
+.ContBoxRedTitle .BoxRedTitleBot .RightArrowRed p{padding-right:15px; text-align:right; background:url('/cms-file/common/img/freccia_puntatore_red.gif') center right no-repeat}
+.ContBoxRedTitle .BoxRedTitleBot .RightArrowRed a{color:#B30002; display:block}
+.RowBot{border-bottom:1px solid #D7D7D7}
+
+/*Box News in Evidenza*/
+.BoxNewsEv{background:#E6E5E7}
+.BoxNewsEv a{color:#B30002}
+.BoxNewsEv .rowtit h3{padding:.8em .8em .6em .8em; font-weight:bold; font-size:1.2em; color:#B30002; margin:0px}
+.BoxNewsEv .rowimg{background:#C9C8CA; text-align:center; padding-top:3px; border:0}
+.BoxNewsEv .rowtxt{padding:.6em .8em .8em .8em;}
+.BoxNewsEv .rowtxt a{color:#000}
+.BoxNewsEv .rowtxt a:hover{color:#B30002}
+
+/*Box Foto della Settimana - HP FSNews*/
+.boxFotoSet{padding:0; margin:0; height:auto !important; min-height:109px; height:90px; background:#F7F6F8 url('/cms-file/common/img/bg_botFotoSet.gif') left bottom repeat-x}
+.boxFotoSet .boxFotoSetTop{text-align:center; padding:4px 0}
+.boxFotoSet .boxFotoSetBot{height:auto !important; min-height:20px; padding-left:10px; font-weight:bold}
+.boxFotoSet .boxFotoSetBot div{padding-top:3px}
+.boxFotoSet .boxFotoSetBot div p{font-weight:normal; line-height:1em}
+
+/*Box Area Riservata*/
+.BoxIntAR{font-size:1.1em; color:#000; margin-top:8px; height:auto !important; height:90px; min-height:90px; background:#FFF url('/cms-file/common/img/bg_box_gradientTop.gif') top left repeat-x}
+.BoxIntAR div.titolo{height:30px; background:url('/cms-file/common/img/Icona_AR.gif') right center no-repeat}
+.BoxIntAR h4{color:#B30002; font-size:1em; padding:8px; margin:0}
+.BoxIntAR h4 a{color:#B30002}/*Aggiunta BC.*/
+.BoxIntAR span{font-size:.9em; padding-left:12px}
+
+/*Trenitalia*/
+.HpTrenContLeftBoxIntDx .BoxIntAR{margin-top:0;  min-height:200px}
+.HpTrenContLeftBoxIntDx .BoxIntAR div.BoxInttopl{min-height:200px}
+
+/*Box Servizio Clienti*/
+.BoxIntSC{font-size:1.1em; color:#000; margin-top:8px; height:auto !important; height:80px; min-height:80px}
+.BoxIntSC h4{color:#B30002; font-size:1em; padding:8px; margin:0}
+.BoxIntSC ul{font-size:.9em; padding:0 0 4px 12px; margin:0; list-style-type:none}
+
+/*Box Società Immagine RFI*/
+.BoxSociet{font-size:1.1em; color:#000;	margin-top:8px; background:#E9E7EA url('/cms-file/common/img/bg_box_societ.gif') top right repeat-y}
+.BoxIntSociet{padding:8px; padding-right:0; height:auto !important; height:185px; min-height:190px}
+.BoxIntSocietImg{height:auto !important; height:190px;/*IE 6*/ min-height:190px; background:#FFF}
+.BoxIntSocietImgDx{height:auto !important; height:190px;/*IE 6*/ min-height:190px; background:url('/cms-file/common/img/bg_box_societ.gif') top right repeat-y}
+.BoxIntSocietImgDx img{float:right; margin:100px 5px 0 0; border:none}
+.BoxIntSocietImgDx div{color:#000; padding:153px 0 2px 0; margin-right:22px; text-align:center}
+
+/*Box Bandi e Gare*/
+.BoxIntBeG{font-size:1.1em; color:#000; margin-top:8px; height:auto !important; height:90px; min-height:90px;	background:#FFF url('/cms-file/common/img/bg_box_gradientTop.gif') top left repeat-x}
+.BoxIntBeG div.titolo{height:30px; background:url(' /cms-file/common/img/Icona_BeG.gif') right center no-repeat}
+.BoxIntBeG h4{color:#B30002; font-size:1em; padding:8px; margin:0}
+.BoxIntBeG p{font-size:.9em; color:#000; padding:8px 8px 4px 8px}
+.BoxIntBeG .btEntra{text-align:right}
+.BoxIntBeG .btEntra img{padding:0 8px 2px 0; border:none}
+
+/*Box Per i Fornitori*/
+.BoxIntxFor{font-size:1.1em;	color:#000; margin:8px 0 0 0; height:auto !important; height:70px; min-height:80px}
+.BoxIntxFor h4{color:#B30002; font-size:1em; padding:8px; margin:0; width:55%}
+.BoxIntxFor p{color:#000; padding:0 0 0 8px; width:55%}
+.BoxIntxFor .arrowsLinkBlack{margin:0 2px 0 0; text-align:right}
+.BoxIntxFor .arrowsLinkBlack img{border:none}
+
+/*Box Icone*/
+.BoxIntIcone{font-size:1em; color:#000; height:auto !important;	height:70px; min-height:70px; background:#FFF}
+.BoxIntIconeLeft{float:left; width:46%; margin:0 10px 0 14px; padding:6px 0 4px 0; height:auto !important; height:65px; min-height:65px}
+.BoxIntIconeRight{margin:0 14px 0 50.8%; padding:6px 0 4px 0; height:auto !important; height:65px; min-height:65px}
+.BoxIntIconeLeft div {border-right:2px solid #E5E5E7;  height:auto !important; height:40px; min-height:40px}
+.BoxIntIconeRight div{height:auto !important; height:40px; min-height:40px}
+.BoxIntIcone img{float:left; margin-right:8px}
+.BoxIntIcone span{color:#000; font-weight:bold; padding:0; margin:0}
+.BoxIntIcone p{color:#000; padding:0; margin:0}
+
+/*BOX INFOMOBILITA' HP FS*/
+.BoxInfomob{margin:0; padding:0; height:auto !important; height:130px; min-height:130px}
+.BoxInfomob h2{color:#B30002; font-size:1.1em; padding:5px 0 0 11px; margin:0}
+.BoxInfomob p{padding:10px 0 0 11px; font-weight:bold}
+.BoxInfomob a{color:#B30002}
+.BoxInfomob .r1{height:46px}
+.BoxInfomob .r2 ul{list-style-type:none; padding:5px 0 0 10px; margin:0; font-weight:bold; line-height:1.2em}
+.BoxInfomob .r2 a{color:#000}
+
+/*BOX INFOMOBILITA' HP FSNews*/
+.BoxInfomobFsNews{background:#EDECED url('/cms-file/common/img/bg_box_infomob-fsnews.gif') top right no-repeat; margin:0; padding:0; height:auto !important; height:160px; min-height:160px}
+.BoxInfomobFsNews h2{color:#B30002; font-size:1.2em; padding:5px 0 0 11px; margin:0}
+.BoxInfomobFsNews a{color:#B30002}
+.BoxInfomobFsNews .r1{margin:0; padding:0}
+.BoxInfomobFsNews .r1Left{float:left; width:57%; margin:0; padding:0}
+.BoxInfomobFsNews .r1Left p{padding:28px 0 0 11px; font-weight:bold}
+.BoxInfomobFsNews .r1Right{margin:0 0 0 58%;  padding:0; text-align:right}
+.BoxInfomobFsNews .r1Right img {border:none}
+.BoxInfomobFsNews .r2{height:30px}
+.BoxInfomobFsNews .r3 ul{list-style-type:none; padding:5px 0 0 10px; margin:0; font-weight:bold; line-height:1.3em}
+.BoxInfomobFsNews .r3 a{color:#000}
+
+/*Box Alta Velocita' - FSNews*/
+.boxAV .r1{height:70px; padding:7px 0 0 15%; font-size:1em; font-weight:bold; line-height:1em}
+.boxAV .r2{text-align:right; font-weight:bold; padding:12px 22px 0 0}
+
+/*Button Gray + Icona (HP-RFI)*/
+.menuButtonGray{height:auto !important; height:230px; min-height:230px; padding:0; padding-bottom:5px; background:#F4F5F6; border-top:1px solid #F4F5F6;/*importante*/}
+.menuButtonGrayShort{height:auto !important; height:95px; min-height:95px; padding:0; padding-bottom:5px; background:#F4F5F6; border-top:1px solid #F4F5F6;/*importante*/}/*Add Metropark*/
+.roundButtonGray{height:auto !important; height:42px; min-height:42px; background:#E3E0E5 url('/cms-file/common/img/bg_button_gray.gif') top left repeat-x; margin:5px 0}
+.firstRoundButton{margin-top:0}
+.firstRoundButton2{margin-top:6px}
+.roundButtonGray .LineL {background:url('/cms-file/common/img/bg_button_gray_line.gif') top left repeat-y}
+.roundButtonGray .LineR {background:url('/cms-file/common/img/bg_button_gray_line.gif') top right repeat-y}
+.roundButtonGray .LineB {background:url('/cms-file/common/img/bg_button_gray_line.gif') bottom left repeat-x}
+.roundButtonGray .roundTR{background:url('/cms-file/common/img/bg_button_gray_tl.gif') top left no-repeat}
+.roundButtonGray .roundTL{background:url('/cms-file/common/img/bg_button_gray_tr.gif') top right no-repeat}
+.roundButtonGray .roundBL{background:url('/cms-file/common/img/bg_button_gray_bl.gif') bottom left no-repeat; height:auto !important; height:42px; min-height:42px}
+.roundButtonGray .roundBR{background:url('/cms-file/common/img/bg_button_gray_br.gif') bottom right no-repeat; height:auto !important; height:42px; min-height:42px}
+.roundButtonGray .roundCont{font-size:1em; padding:0; margin:0}
+.roundButtonGray .roundCont img{float:left; margin:4px 10px 0 10px}
+.roundButtonGray .roundCont p{line-height:1em; margin:0 12px 0 0; padding:14px 0 0 0; background:url('/cms-file/common/img/freccia_puntatore.gif') bottom right no-repeat}
+.roundButtonGray .roundCont a{display:block; text-decoration:none; font-weight:bold}
+.roundButtonGray .roundCont a:hover{text-decoration:underline}
+
+/* BOX CENTOSTAZIONI "Diventa Nostro Partner" */
+.boxPartner{background:#B30002; margin-top:6px; height:39px; position:relative}
+.boxPartner .txt{padding:12px 0 0 0; text-align:center; font-size:1.2em; font-weight:bold; z-index:1; position:relative}
+.boxPartner .txt a{color:#FFF; display:block}
+.boxPartner .corner{position:absolute; height:39px; width:59px; background:url('/cms-file/common/img/sprite_Box_Partner.gif')}
+.boxPartner .left{background-position:0px 0px; left:0; top:0px}
+.boxPartner .right{background-position:0px -40px; right:0px !important; right:-1px; top:0px}
+/*HP Lavora con noi*/
+.roundButtonGray .roundCont2{font-size:1em; padding:0; margin:0; height:auto !important; height:48px; min-height:48px}
+.roundButtonGray .roundCont2 img{float:left; margin:7px 10px 0 10px}
+.roundButtonGray .roundCont2 p{line-height:1em; margin:0 12px 0 0; padding:18px 0 0 0; background:url('/cms-file/common/img/freccia_puntatore.gif') bottom right no-repeat}
+.roundButtonGray .roundCont2 a{display:block; text-decoration:none; font-weight:bold}
+.roundButtonGray .roundCont2 a:hover{text-decoration:underline}
+
+/* Button Gray + Icona - HP Fercredit */
+.roundButtonGray .roundCont3{height:auto !important; height:38px; min-height:38px; font-size:1em; padding:4px 5px 0 0; margin:0}
+.roundButtonGray .roundCont3 .Cont3{height:auto !important; height:38px; min-height:38px; background:url('/cms-file/common/img/freccia_puntatore.gif') center right no-repeat}
+.roundButtonGray .roundCont3 .Cont3Sx{float:left; width:34px; margin:0 0 0 4px; padding:0}
+.roundButtonGray .roundCont3 .Cont3Dx{margin:0 14px 0 42px; padding:12px 0 4px 0; line-height:1em; height:auto !important; height:1em; min-height:1em}
+.roundButtonGray .roundCont3 .Cont3Dx a{display:block; text-decoration:none; font-weight:bold}
+.roundButtonGray .roundCont3 .Cont3Dx a:hover{text-decoration:underline}
+
+/*HP FSNews*/   /*
+.menuButtonGrayFSNews{height:auto !important; height:40px; min-height:40px; padding:0;	padding-top:5px;	background:#F5F4F6; border-top:1px solid #F4F5F6;}
+.roundButtonGrayFSNews{height:auto !important; height:24px; min-height:24px; background:#E3E0E5 url('/cms-file/common/img/bg_button_gray.gif') top left repeat-x; margin:1px 0}
+.firstRoundButton{margin-top:0}
+.roundButtonGrayFSNews .LineL {background:url('/cms-file/common/img/bg_button_gray_line.gif') top left repeat-y}
+.roundButtonGrayFSNews .LineR {background:url('/cms-file/common/img/bg_button_gray_line.gif') top right repeat-y}
+.roundButtonGrayFSNews .LineB {background:url('/cms-file/common/img/bg_button_gray_line.gif') bottom left repeat-x}
+.roundButtonGrayFSNews .roundTR{background:url('/cms-file/common/img/bg_button_gray_tl.gif') top left no-repeat}
+.roundButtonGrayFSNews .roundTL{background:url('/cms-file/common/img/bg_button_gray_tr.gif') top right no-repeat}
+.roundButtonGrayFSNews .roundBL{background:url('/cms-file/common/img/bg_button_gray_bl.gif') bottom left no-repeat; height:auto !important; height:24px; min-height:24px}
+.roundButtonGrayFSNews .roundBR{background:url('/cms-file/common/img/bg_button_gray_br.gif') bottom right no-repeat; height:auto !important; height:24px; min-height:24px}
+.roundButtonGrayFSNews .roundCont{font-size:1em; padding:0; margin:0}
+.roundButtonGrayFSNews .roundCont p{line-height:1em; margin:0 12px 0 0; padding:5px 0 0 12px; background:url('/cms-file/common/img/freccia_puntatore.gif') bottom right no-repeat}
+.roundButtonGrayFSNews .roundCont a{display:block; text-decoration:none; font-weight:bold}
+.roundButtonGrayFSNews .roundCont a:hover{text-decoration:underline}
+*/
+
+/*Button Curve Css Sprite (HP-RFI)*/
+.menuButtonCurve{height:auto !important; height:42px; min-height:42px; padding:4px 0; margin:0}
+.roundButtonCurve{float:left; height:auto !important; height:38px; min-height:38px; width:32.7%; margin:0; background:#ECEBED url('/cms-file/common/img/sprite-boxSubHP.gif') 0 -143px}
+.firstButtonCurve{margin-right:6px}
+.lastButtonCurve{float:right}
+.ButtonCurve{position:relative; height:auto !important; height:38px; min-height:38px; background:url('/cms-file/common/img/sprite-boxSubHP.gif') right -104px no-repeat}
+.ButtonCurve .corner{position:absolute; background:url('/cms-file/common/img/sprite-boxSubHP.gif'); width:5px; height:5px}
+.ButtonCurve .tl{top:0px; left:0px; background-position:-17px -17px}
+.ButtonCurve .tr{top:0px; right:0px; background-position:-23px -17px}
+.ButtonCurve .bl{bottom:0px; left:0px; background-position:-29px -17px}
+.ButtonCurve .br{bottom:0px; right:0px; background-position:-35px -17px}
+.ButtonCurve p{line-height:1em; margin:0 12px 0 0; padding:12px 0 0 12px; background:url('/cms-file/common/img/freccia_puntatore.gif') bottom right no-repeat}
+.ButtonCurve a{display:block; text-decoration:none; font-weight:bold}
+.ButtonCurve a:hover, .roundButton a:active{text-decoration:underline}
+
+/*Box News - RFI / Lavora con noi / FSNews*/
+#BoxNewsUp{padding:6px 12px 10px 12px; margin:0; background:#F5F4F6; height:auto !important;  height:150px; min-height:150px}
+#BoxNewsUp2{padding:3px 12px; margin:0; background:#F5F4F6; height:auto !important;  height:70px; min-height:70px}
+#BoxNewsUp2 .contBoxNews{margin:.5em 0; padding-bottom:5px}/*Add Fercredit*/
+#BoxNews{padding:6px 0; margin:0}
+#BoxNews p{color:#B30002; font-weight:bold; padding:5px 0; margin:0; text-align:justify; line-height:1.1em}
+#BoxNews p a{font-weight:normal}
+#BoxNewsDown{background:#E6E5E7; padding:2px 12px 0 12px; margin:0; height:auto !important; height:20px;  min-height:20px}
+#RSS{float:left; padding-right:15px; margin:0; font-size:.9em}
+#RSS img{float:left; margin-right:2px; padding:0}
+#allNews{padding:0; margin:0}
+#allNews div.r2{float:right; padding:2px 0 0 8px; background:url('/cms-file/common/img/arrowLink.gif') left center no-repeat}
+#allNews a{font-weight:bold; color:#B30002}
+
+/*Box News - HP In Stazione*/
+#BoxNewsImg{padding:3px 4px 3px 12px; margin:0; background:#F5F4F6; height:auto !important;  height:234px; min-height:233px}
+.BoxNewsImgInt{height:auto !important; height:58px; min-height:58px}
+.BoxNewsImgInt p{color:#B30002; font-weight:bold; padding:0px 1em 0px 0; margin:0; text-align:left; line-height:1em; background:url('/cms-file/common/img/freccia_puntatore.gif') center right no-repeat}
+.BoxNewsImgInt p a{font-weight:normal; display:block}
+
+/*Box News - HP FSNews*/
+.TopTitFSNews{height:32px; margin:0px; padding-left:20px; background:#F5F4F6 url('/cms-file/common/img/bg_box_curva2.gif') top right no-repeat}
+.TopTitFSNews h4{margin-top:7px}
+.BoxFSNewsUp{padding:6px 12px; margin:0; background:#F5F4F6; height:auto !important;  height:134px; min-height:134px}
+.BoxFSNews{padding:6px 0; margin:0}
+.BoxFSNews p{color:#B30002; font-weight:bold; padding:5px 0; margin:0; text-align:justify; line-height:1.1em}
+.BoxFSNews p a{font-weight:normal}
+.BoxFSNewsCenter{padding:6px 0}
+.FSNewsLeftCol .ContBoxCurva a.arrowLink{color:#B30002; font-weight: bold; padding-left:15px; background:url('/cms-file/common/img/freccia_puntatore.gif') 2px left no-repeat}
+html>/**/body .FSNewsLeftCol .ContBoxCurva a.arrowLink{color:#B30002; background:url('/cms-file/common/img/freccia_puntatore.gif') left center no-repeat} /*FireFox*/
+
+/*spalletta a destra */
+.BoxFSNewsCenterLeft{float:right; width:144px; background:#E6E5E7; margin:0; height:auto !important; height:60px; min-height:60px}
+.BoxFSNewsCenterLeft .titolo{padding:12px 8px 4px 8px}
+.BoxFSNewsCenterLeft .titolo img{border:1px solid #C5C5C5; padding:1px; margin:.3em 0 .1em 0}
+.BoxFSNewsCenterLeft .testo{padding:6px 8px 2px 8px; background:#F5F4F6}
+.BoxFSNewsCenterLeft .rbbotl{background-color:#F5F4F6}
+.BoxFSNewsCenterRight{margin:0 144px 0 0; padding:6px 0}
+.BoxFSNewsCenterRight .FSNewsImgInt {padding-right:12px}
+html>/**/body div.BoxFSNewsCenterRight .FSNewsImgInt{overflow:hidden}/*FireFox*/
+
+/*spalletta a sinistra*/
+.BoxFSNewsCenterSpSx{float:left; width:144px; background:#E6E5E7; margin:0;  height:auto !important; height:60px; min-height:60px}
+.BoxFSNewsCenterSpSx .titolo{padding:12px 8px 4px 8px}
+.BoxFSNewsCenterSpSx .titolo img{border:1px solid #C5C5C5; padding:1px; margin:.3em 0 .1em 0}
+.BoxFSNewsCenterSpSx .testo{padding:6px 8px 2px 8px; background:#F5F4F6}
+.BoxFSNewsCenterSpSx .rbbotl{background-color:#F5F4F6}
+.BoxFSNewsCenterDx{ margin:0 0 0 144px; padding:6px 12px 6px 0}
+.BoxFSNewsCenterDx .FSNewsImgInt{height:auto !important; height:40px; min-height:40px; border-top:1px solid #E1E1E1; padding:6px 0 4px 7px}
+html>/**/body .BoxFSNewsCenterDx .FSNewsImgInt{overflow:hidden;}/*FireFox*/
+.BoxFSNewsCenterDx .firstNews{border-top:0px}
+
+.BoxFSNewsCenter2{padding:6px 12px}
+.BoxFSNewsDown{padding:6px 12px}
+.FSNewsImgInt{height:auto !important; height:40px; min-height:40px; border-top:1px solid #E1E1E1; padding:6px 0 4px 0}
+.firstNews{border-top:0px}
+
+/*Home Page - Bandi e Gare - Trenitalia*/
+body.bodyHPBandi{background:#195E59 url('/cms-file/common/img/bg_hpBandi.jpg') top left no-repeat}
+#containerHPBandi{position:absolute; top:0; left:0; width:100%;	margin:0; padding:0}
+body>#containerHPBandi{height:auto}
+#headerHPBandi{margin:0; padding:0; width:100%}
+body>#containerHPBandi>div#headerHPBandi{display:table}
+#logoHPBandi{height:72px;	margin:0; padding:0; float:left}
+#logoHPBandi img{margin-left:0px; display:block}
+#bannerHPBandi{padding:0; margin:0; height:338px}
+#bannerHPBandi img{border:0}
+
+/*Home Page WebInfoPoint*/
+.contHpWPIRight{height:auto !important; height:216px; min-height:216px; margin:12px 0 5px 66%}
+.contHpWPIRight div#BoxNews{height:auto !important; height:130px; min-height:130px}
+.contHpWPILeft {float:left; width:65%; margin:12px 0 5px 0}
+.contHpWPILeftTop, .contHpWPILeftTop div{height:auto !important; height:80px; min-height:80px}
+.contHpWPILeftBot{margin-top:6px}
+.contBgImg{margin:10px 10px 7px 10px; padding:0; text-align:center}
+html>/**/body .contBgImg{margin:0px 10px; padding:10px 0px 7px 0px}/* FireFox*/
+.contBgImg img{border:none; padding:0; margin:0}
+.contHpWPILeftBot .ContBotRight{margin:0 0 0 43%}
+.contHpWPILeftBot .ContBotRightInt{height:auto !important; height:197px; min-height:197px; margin-bottom:6px}
+.contHpWPILeftBot .ContBotRight div.BotImgTesto{padding:6px 12px; height:auto !important; height:197px; min-height:197px}
+.contHpWPILeftBot .ContBotLeft{float:left; width:42%}
+.contHpWPILeftBot .ContBotLeft .ContBotLeftInt{height:auto !important; height:102px; min-height:102px; margin-bottom:6px}
+.contHpWPILeftBot .ContBotLeft .ContBotLeftInt .ContBoxCurva{height:auto !important; height:102px; min-height:102px}
+.contHpWPILeftBot .ContBotLeft .TopTitolo, .contHpWPILeftBot .ContBotRight .TopTitolo{height:22px; margin:0px; padding-left:10px; background:#FFF; background-image:none}
+.contHpWPILeftBot .ContBotLeft .BotImgTesto{padding:6px 12px; height:auto !important; height:68px; min-height:68px}
+.contHpWPILeftBot .ContBotLeft .ImgCenter, .contHpWPILeftBot .ContBotRight .ImgCenter{text-align:center; border:none; padding-top:5px}
+
+
+/*Home Page RFI-Risponde*/
+.contHpRFIRRight{height:auto !important; height:216px; min-height:216px; margin:12px 0 5px 34%}
+.contHpRFIRRight div#BoxNews{height:auto !important; height:130px; min-height:130px}
+.contHpRFIRLeft {float:left; width:33%; margin:12px 0 5px 0}
+.contHpRFIRLeftTop, .contHpRFIRLeftTop div{height:auto !important; height:80px; min-height:80px}
+.contHpRFIRLeftBot{margin-top:6px}
+.contRFIRBgImg{margin:10px 10px 7px 10px; padding:0; text-align:center}
+html>/**/body .contRFIRBgImg{margin:0px 10px; padding:10px 0px 7px 0px}/* FireFox*/
+.contRFIRBgImg img{border:none; padding:0; margin:0}
+.contHpRFIRLeftBot .ContBotRight{margin:0 0 0 50%}
+.contHpRFIRLeftBot .ContBotRightInt{height:auto !important; height:197px; min-height:197px; margin-bottom:6px}
+.contHpRFIRLeftBot .ContBotRight div.BotImgTesto{padding:6px 12px; height:auto !important; height:197px; min-height:197px}
+.contHpRFIRLeftBot .ContBotLeft{float:left; width:49%}
+.contHpRFIRLeftBot .ContBotLeft .ContBotLeftInt{height:auto !important; height:102px; min-height:102px; margin-bottom:6px}
+.contHpRFIRLeftBot .ContBotLeft .ContBotLeftInt .ContBoxCurva{height:auto !important; height:102px; min-height:102px}
+.contHpRFIRLeftBot .ContBotLeft .TopTitolo, .contHpRFIRLeftBot .ContBotRight .TopTitolo{height:22px; margin:0px; padding-left:10px; background:#FFF; background-image:none}
+.contHpRFIRLeftBot .ContBotLeft .BotImgTesto{padding:6px 12px; height:auto !important; height:68px; min-height:68px}
+.contHpRFIRLeftBot .ContBotLeft .ImgCenter, .contHpRFIRLeftBot .ContBotRight .ImgCenter{text-align:center; border:none; padding-top:5px}
+
+/* BOX RFI  "risponde" */
+.boxRFIrisponde{background:#c0bfc0; margin-top:6px; height:39px; position:relative}
+.boxRFIrisponde .txt{padding:12px 0 0 0; text-align:center; font-size:1.2em; font-weight:bold; z-index:1; position:relative;color: #B40001;}
+.boxRFIrisponde .txt a{color:#b40001; display:block}
+.boxRFIrisponde .corner{position:absolute; height:39px; width:59px; background:url('/cms-file/common/img/sprite_Box_RFI_r.gif')}
+.boxRFIrisponde .left{background-position:0px 0px; left:0; top:0px}
+.boxRFIrisponde .right{background-position:0px -40px; right:0px !important; right:-1px; top:0px}
+.contSubHpImgLeft{height:auto !important; height:395px; min-height:230px}
+
+/*Box Ultime Notizie FS*/
+#boxUltimeNewsRFI{background:#C9C8CA url('/cms-file/common/img/bg_boxUltimeNews.gif') 0 0 repeat-x; height:auto !important; height:230px; min-height:230px}
+#boxUltimeNewsRFI .tl{background:url('/cms-file/common/img/bg_boxUltimeNews_tl.gif') top left no-repeat; height:auto !important; height:230px; min-height:230px}
+#boxUltimeNewsRFI .tr{background:url('/cms-file/common/img/bg_boxUltimeNews_tr.gif') top right no-repeat; height:auto !important; height:230px; min-height:230px}
+#boxUltimeNewsRFI .bl{background:url('/cms-file/common/img/bg_boxUltimeNews_bl.gif') bottom left no-repeat; height:auto !important; height:230px; min-height:230px}
+#boxUltimeNewsRFI .br{background:url('/cms-file/common/img/bg_boxUltimeNews_br.gif') bottom right no-repeat; height:auto !important; height:230px; min-height:230px; padding-bottom:1px}
+#boxUltimeNewsRFI .title{padding:1px 0 0 12px}
+#boxUltimeNewsRFI .title h4{color:#FFF; font-size:1.2em; padding:0; margin:0}
+#boxUltimeNewsRFI .int{margin:10px; background:#F5F4F6 url('/cms-file/common/img/bg_boxUltimeNews_int.gif') bottom left repeat-x; height:auto !important; height:187px; min-height:187px}
+#boxUltimeNewsRFI .int .tl{background:url('/cms-file/common/img/bg_boxUltimeNews_int_tl.gif') top left no-repeat; height:auto !important; height:187px; min-height:187px}
+#boxUltimeNewsRFI .int .tr{background:url('/cms-file/common/img/bg_boxUltimeNews_int_tr.gif') top right no-repeat; height:auto !important; height:187px; min-height:187px}
+#boxUltimeNewsRFI .int .bl{background:url('/cms-file/common/img/bg_boxUltimeNews_int_bl.gif') bottom left no-repeat; height:auto !important; height:187px; min-height:187px}
+#boxUltimeNewsRFI .int .br{background:url('/cms-file/common/img/bg_boxUltimeNews_int_br.gif') bottom right no-repeat; height:auto !important; height:187px; min-height:187px}
+#boxUltimeNewsRFI #BoxNewsUp{background:none; padding:6px 12px 10px 12px; margin:0; height:auto !important;  height:148px; min-height:148px}
+#boxUltimeNewsRFI #BoxNews{padding:6px 0; margin:0}
+#boxUltimeNewsRFI #BoxNews p{color:#B30002; font-weight:bold; padding:5px 0; margin:0; text-align:justify; line-height:1.1em}
+#boxUltimeNewsRFI #BoxNews a{font-weight:normal}
+#boxUltimeNewsRFI #BoxNewsDown{background:none; padding:4px 3px 0 2px; margin:0; height:auto !important; height:20px;  min-height:20px}
+#boxUltimeNewsRFI #BoxNewsDown #RSS{float:left;padding-right: 0px; margin:0; font-size:.9em}
+#boxUltimeNewsRFI #BoxNewsDown #allNews a{font-weight: normal; color:#B30002}
+
+/* Modifiche HOME RFI */
+.Box2LeftTop .TopTitolo {display: none;}
+.Box2LeftTop .menuButtonGray {background:none;border-top:none;}

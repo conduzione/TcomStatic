@@ -1,0 +1,54 @@
+.titCruscottoTxtW {background:#ffffff;color:#969696;font-size:16px;margin:0px;padding:4px;border: 1px solid #AAACAD !important;}
+
+.ButtonTuttiTreni,.ButtonTuttiTreni:hover{
+	background:transparent;
+	background: url("/cms-file/common/img/themeTcom01/Cerca_rosso.png") repeat-x scroll left top;
+    width:112px;
+	height:32px;
+	border-radius: 0px;
+    box-shadow: 0 0 0px #666666;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 8px;
+    text-transform: uppercase;
+	border:0px;
+}
+   
+.ButtonFrecce,.ButtonFrecce:hover{
+    background:transparent;
+	background: url("/cms-file/common/img/themeTcom01/Cerca_Bianco.png") repeat-x scroll left top;
+    width:112px;
+	height:32px;
+	border-radius: 0px;
+    box-shadow: 0 0 0px #666666;
+    color: #8A000B;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 8px;
+    text-transform: uppercase;
+	border:0px;
+}
+   
+   
+.cruscottoBOXAcqRED {
+	background: url("/cms-file/common/img/themeTcom01/650X300_rosso.jpg");
+	width: 650px;
+	height: 250px;
+	margin: 40px 20px 15px;
+	padding: 5px;
+	}
+		
+		
+.cruscottoBOXAcqGREY {
+	background: url("/cms-file/common/img/themeTcom01/650X300_grigio.jpg");
+	width: 650px;
+	height: 250px;
+	margin: 40px 20px 15px;
+	padding: 5px;
+}
+.ui-autocomplete-input{font-size: 16px !important;}
+.ui-widget {FONT-SIZE: 16px !important;}
+.formcontTime{font-size: 15px !important;}

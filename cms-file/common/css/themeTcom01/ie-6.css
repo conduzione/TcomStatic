@@ -1,0 +1,369 @@
+.submenu { background-color: #E9E7EA; }
+li.submenu:hover { background-color: #E9E7EA; }
+
+ul.menuTrenitalia {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.navigationTrenitalia {
+	height:42px;
+	background-color: #dd002e;
+	position:relative;
+	margin:16px 0 0 0;
+	padding:0;
+	z-index:100000000000000000;
+	float:right;
+}
+
+.navigationTrenitalia  li {
+	float: left;
+	margin: 0;
+	padding:0;
+	height: 100%;
+	list-style-type: none;
+	display:inline;
+	background: url(/cms-file/common/img/themeTcom01/bgMenu.gif) repeat-x scroll center center #e1dfe2;
+}
+
+.navigationTrenitalia li.stl005tabsGrey, .navigationTrenitalia li.stl005tabsGreyLast {
+	float: left;
+	margin: 0;
+	padding:0;
+	height: 100%;
+	/* width:auto; */ /* (!!!) */
+	list-style-type: none;
+	display:inline;
+	background: url(/cms-file/common/img/themeTcom01/bgMenuGrey.gif) repeat-x scroll center center #DC002E;
+}
+
+.navigationTrenitalia li.stl005tabsGreyLast a  {
+	float: left;
+	/* padding: 9px 12px 0 13px; */
+	padding: 0; /* (!!!) */
+	text-align: center;
+	width:100%; /* (!!!) */
+	text-decoration: none;
+	height: 42px;
+	line-height: 42px;
+	color: #fff;
+	display: block;
+	font-size:1.4em;	
+	background-image: none;
+}
+
+.navigationTrenitalia  li  ul li div div div h3.voceSecLiv ul li{border-right-width:0;}
+.navigationTrenitalia  li  ul li div div div.boxMenu  a.voceSecLiv, .navigationTrenitalia  li  ul li div div div.boxMenuSec a.voceSecLiv, .navigationTrenitalia  li  ul li div div div.boxMenuUltimo a.voceSecLiv{font-size:1.2em;margin:0 0 0 0 !important;padding:15px 0 0 0;color:#000;font-weight:bold;display:block;width:240px;height:20px;text-align:left}
+.contTabMenuInt{background-image:url(/cms-file/common/img/themeTcom01/bg-contSecLiv.gif);background-repeat:repeat-y;width:811px;height:307px;margin:25px 0 16px 11px;}
+.navigationTrenitalia  li  ul li div div div.boxMenu ul,.navigationTrenitalia  li  ul li div div div.boxMenuSec ul, .navigationTrenitalia  li  ul li div div div.boxMenuUltimo ul{margin:0 0 10px 0 !important;padding:0 0 10px 0 !important;background-color:transparent !important;}
+.navigationTrenitalia  li  ul li div div div.boxMenu ul li, .navigationTrenitalia  li  ul li div div div.boxMenuSec ul li,.navigationTrenitalia  li  ul li div div div.boxMenuUltimo ul li {list-style: none;margin:0  0 7px 1px !important;padding:0 0 0 1px !important;border-right-width:0;height: 12px;width:240px;background-image:none !important;color:#000;text-align:left;line-height:12px;height: 12px;font-weight:normal;}
+.navigationTrenitalia  li  ul li div div div.boxMenu ul li a,.navigationTrenitalia  li  ul li div div div.boxMenuSec ul li a, .navigationTrenitalia  li  ul li div div div.boxMenuUltimo ul li a,.navigationTrenitalia  li  ul li div div div.boxMenu ul li a:hover,.navigationTrenitalia  li  ul li div div div.boxMenuSec ul li a:hover, .navigationTrenitalia  li  ul li div div div.boxMenuUltimo ul li a:hover{color:#000;font-size:1em;background-image: url(/cms-file/common/img/themeTcom01/list-menu.gif) !important;background-repeat:no-repeat;display:block;padding:0 0 0 10px;margin:0;height: 12px;font-weight:normal;width:240px;line-height:12px;text-align:left}
+.navigationTrenitalia  li  ul li div div div.boxMenu{width:279px;float:left;}
+.navigationTrenitalia  li  ul li div div div.boxMenuSec{width:269px;float:left;}
+.navigationTrenitalia  li  ul li div div div.boxMenuUltimo{width:245px;float:left;padding-left:10px}
+#navigationTrenitalia  li  ul li div div div ul li, #navigationTrenitalia  li  ul li div div div ul,  #navigationTrenitalia  li  ul li div div div ul li a{width:240px}
+.navigationTrenitalia  li  ul li div div div.boxMenuUltimo ul li{}
+
+
+.navigationTrenitalia  li.widthTrasporto{border-right-width:0;}
+
+.navigationTrenitalia  li  a:hover {
+	background: #350709;
+	color:#f2003d;
+}
+
+.navigationTrenitalia li ul {
+	background: #E9E7EA;
+	clear: both;
+	position: absolute;
+	top: -1000em;
+}
+
+.navigationTrenitalia li ul li {
+	display: block;
+	margin:  0;
+	padding:0;
+	height:0 !important;
+}
+
+
+
+.navigationTrenitalia li.submenu{	z-index:100000000000000000;}
+
+.navigationTrenitalia li.submenu:hover ul {
+	position: static !important;
+	display:block !important;
+	margin:0;
+	padding:0;
+	z-index:100000000000000000;
+
+	
+}
+
+.navigationTrenitalia li.submenu:hover ul li{	margin:0;	padding:0;}
+
+
+.navigationTrenitalia  li:last-child{border-right-width:0;}
+.navigationTrenitalia  li.stl006tabs{width: 130px;}
+.navigationTrenitalia  li.stl007tabs{width: 112px;}
+.navigationTrenitalia  li.stl008tabs{width: 96px;}
+.navigationTrenitalia  li.stl009tabs{width: 87px;}
+
+.navigationTrenitalia  li.last-child{border-right-width:0;}
+
+
+
+.navigationTrenitalia  li  a {
+	float: left;
+	padding: 6px 0 3px 3px; /* (!!!) */
+	text-align: center;
+	width:96%; /* (!!!) */
+	text-decoration: none;
+	height: 46px;
+	line-height: 15px;
+	font-weight: normal;
+	color: #3c3a3d;
+	display: block;
+	font-size:1.2em;	
+}
+
+.navigationTrenitalia li.stl005tabsRed a {
+	float: left;
+	padding: 0; /* (!!!) */
+	text-align: center;
+	width:100%; /* (!!!) */
+	text-decoration: none;
+	height: 42px;
+	line-height: 42px;
+	color: #fff;
+	display: block;
+	font-size:1.4em;	
+	background: url(/cms-file/common/img/themeTcom01/bgMenuPipe.gif) no-repeat scroll right center transparent;
+}
+
+.navigationTrenitalia li.stl005tabsGrey a  {
+	float: left;
+	padding: 0; /* (!!!) */
+	text-align: center;
+	width:100%; /* (!!!) */
+	text-decoration: none;
+	height: 42px;
+	line-height: 42px;
+	color: #fff;
+	display: block;
+	font-size:1.4em;	
+	background: url(/cms-file/common/img/themeTcom01/bgMenuPipeGrey.gif) no-repeat scroll right center transparent;
+}
+
+.navigationTrenitalia li.stl006tabsGreyLast a  {
+	float: left;
+	padding: 0; /* (!!!) */
+	text-align: center;
+	width:100%; /* (!!!) */
+	text-decoration: none;
+	height: 42px;
+	line-height: 42px;
+	color: #fff;
+	display: block;
+	font-size:1.4em;	
+	background-image: none;
+}
+
+.navigationTrenitalia  li  a:hover {
+
+	color:#f50238;
+	background-color:#e1dfe2
+}
+
+.boxMenu a.voceSecLiv, .boxMenuUltimo a.voceSecLiv, .boxMenuSec a.voceSecLiv {
+    color: #3C3A3D;
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 0 20px;
+    padding: 0;
+}
+.boxMenu ul li, .boxMenuSec ul li,.boxMenuUltimo ul li {list-style: none;margin:0  0 7px 1px !important;padding:0 0 0 1px !important;}
+.boxMenu ul li a,.boxMenuSec ul li a, .boxMenuUltimo ul li a,.boxMenu ul li a:hover,.boxMenuSec ul li a:hover, .boxMenuUltimo ul li a:hover{color:#3c3a3d;font-size:1em;background-image: url(../../img/themeTcom01/list-menu.gif) !important;background-repeat:no-repeat;display:block;padding-left:10px}
+.boxMenu ul li a:hover,.boxMenuSec ul li a:hover, .boxMenuUltimo ul li a:hover{color:#F50238;text-decoration:none}
+
+.navigationTrenitalia  li.stl008tabs  a{	width:97%;}
+.navigationTrenitalia  li.stl007tabs  a{	width:98%;}
+.navigationTrenitalia  li.stl006tabs  a{	width:98%;}
+
+li.submenu:hover  a.accendiAhover  {color: #F50238;background-color:#e1dfe2}
+li.submenu  a.accendiAhoverOn {background-color:#e9e7ea; color: #F50238}
+li.submenu  a.accendiAhoverOn:hover{background-color: #e1dfe2; }
+
+
+.contTabMenu{background-color:#e1dfe2;min-height:348px;position:absolute !important;right:0;width:811px;z-index:1000000000000000000000000000}
+
+
+.widthOrari{width:150px}
+.widthOfferte{width:156px}
+.widthInformazioni{width:126px}
+.widthCartaF{width:127px}
+.widthAziende{width:109px}
+.widthTrasporto{width:149px}
+
+
+
+li.widthOrari  a {width:137px}
+li.widthOfferte  a {width:143px}
+li.widthInformazioni  a {width:113px}
+li.widthCartaF  a {width:114px}
+li.widthAziende  a {width:96px}
+ li.widthTrasporto  a {width:136px}
+ 
+ 
+ /*		AGGIUNTE PER NUOVO MENU*/
+/* MENU ROSSO E GRIGIO CORPORATE*/
+li.stl005tabsRed:hover  a.accendiAhover, li.stl005tabsGrey:hover  a.accendiAhover , li.stl005tabsGreyLast:hover  a.accendiAhover   {color: #F50238;background: url(/cms-file/common/img/themeTcom01/bgMenuActive.gif) repeat-x scroll center center #DC002E;}
+li.stl005tabsRed  a.accendiAhoverOn {background-color:#e9e7ea; color: #F50238}
+li.stl005tabsRed  a.accendiAhoverOn:hover{background-color: #e1dfe2; }
+
+.navigationTrenitalia li.stl005tabsRed a, .navigationTrenitalia li.stl005tabsGrey a, .navigationTrenitalia li.stl005tabsGreyLast a{	width:100%;}
+.navigationTrenitalia li.stl005tabsRed, .navigationTrenitalia li.stl005tabsGrey, .navigationTrenitalia li.stl005tabsGreyLast a {width: 150px;}
+
+
+/* FINE AGGIUNTA NUOVO MENU */
+ 
+ 
+ .boxFooter{float:left;width:26%;background-image:url(../../img/themeTcom01/bg-boxFooter.gif);background-repeat:repeat-y;background-position:right;height:319px !important; margin: 0 auto;min-height:319px;}
+ .boxFooter div.boxFooterCont ul li {text-align:left;list-style: none;margin:0  0 0 0 !important;padding:0 0 0 1px !important;height:11px !important}
+  .boxFooter div.boxFooterCont ul li a{height:11px}
+  
+#cruscottoFull .cruscotto-buttons ul li { width: 33%; }
+#cruscottoFull .cruscotto-buttons ul li a { font-size: .75em; white-space: nowrap }
+
+.spallaSx { width: 67.5%; }
+.spallaDx { width: 31.5%; margin-right: -5px; overflow: hidden; }
+
+.banner_box ul { margin-left: -18px !important; }
+
+/* Accordion home */
+.travel_accordion .list-item img { width: 88px; height: 77px; }
+#vacc h2 { background: #9fc653; padding: 3px 0 3px 0;  }
+#vacc span.ui-icon { display: none; }
+#vacc span { padding: 0 0 0 35px; border: 0; color: #fff; font-weight: normal; font-size: 1.4em; border: 0; display: block; }
+#vacc .items-container { height: 191px; overflow: auto; }
+#vacc .item-hotel span { background: #9fc653 url(../../img/themeTcom01/ie-ico-hotel.gif) no-repeat 6px center; }
+#vacc .item-hotel h2 { background-color: #9fc653; }
+#vacc .item-trenibus span { background: #e2a105 url(../../img/themeTcom01/ie-ico-bus.gif) no-repeat 6px center; }
+#vacc .item-trenibus h2 { background-color: #e2a105; }
+#vacc .item-autonoleggi span { background: #cdcd00 url(../../img/themeTcom01/ie-ico_autonoleggio.gif) no-repeat 6px center; }
+#vacc .item-autonoleggi h2 { background-color: #cdcd00; }
+#vacc .item-ideeviaggio span { background: #2294cb url(../../img/themeTcom01/ie-ico-star.gif) no-repeat 6px center; }
+#vacc .item-ideeviaggio h2 { background-color: #2294cb; }
+
+.spallaDxInfo {float: right; width: 27%; padding: 1% 1%; }
+ .spallaSxComm { float:left; width: 67%; }
+ .widthParagEvidenCommHalf{width:55%}
+.widthFortyComm{width:45%}
+.bgboxCommHalf{background-image:url(/cms-file/common/img/themeTcom01/bg-spacer-comm.gif);background-repeat:repeat-y;background-position:center;border:1px solid #fff}
+
+
+.spallaDxInfo .cruscotto-buttons ul, .spallaDxInfo .cruscotto-buttons li {  display:inline;list-style: none; margin: 0; padding: 0; }
+.spallaDxInfo .cruscotto-buttons{margin-bottom:3px}
+.spallaDxInfo .cruscotto-buttons ul li { display:inline;float: left; vertical-align: middle; background: url(../../img/themeTcom01/rbtnsx.png) no-repeat left top; }
+.spallaDxInfo .cruscotto-buttons ul li.frecciaLong{width:38% !important}
+.spallaDxInfo .cruscotto-buttons ul li.frecciaFS{width:80px !important}
+.spallaDxInfo .cruscotto-buttons ul li.frecciaWR{width:32% !important}
+ .spallaDxInfo .cruscotto-buttons ul li img { vertical-align: middle; }
+.spallaDxInfo .cruscotto-buttons ul li a{ margin: 0 2px 0 9px; vertical-align: middle; text-transform: uppercase; line-height: 1.5em; display: block; background: url(../../img/themeTcom01/rbtndx.png) no-repeat right top;  /*background: #fff url(../../img/themeTcom01/bg-cruscotto-buttons.gif) repeat-x left center;*/ padding: 2px 7px 2px 0; /*border-radius: 8px;*/ color: #dc002e; font-size: .9em; }
+.spallaDxInfo .cruscotto-buttons ul li a{ margin: 0 2px 0 7px;font-size:.8em; line-height: 18px; padding: 1px 6px 2px 0;}
+.spallaDxInfo .cruscotto-buttons ul {padding-top:10px;height:45px;}
+/*
+.accordion-home-box .travel_accordion .item-hotel div { background: #9fc653; }
+.accordion-home-box .travel_accordion .item-hotel h2 span { background: #9fc653 url(../../img/themeTcom01/ico-hotel.gif) no-repeat 6px center; padding-left: 30px; text-align: left; }
+.accordion-home-box .travel_accordion .item-trenibus div { background: #e2a105; }
+.accordion-home-box .travel_accordion .item-trenibus h2 span { background: #e2a105 url(../../img/themeTcom01/ico-bus.gif) no-repeat 6px center; padding-left: 30px; text-align: left; }
+.accordion-home-box .travel_accordion .item-autonoleggi div { background: #cdcd00; }
+.accordion-home-box .travel_accordion .item-autonoleggi h2 span { background: #cdcd00 url(../../img/themeTcom01/ico_autonoleggio.gif) no-repeat 6px center; padding-left: 30px; text-align: left; }
+.accordion-home-box .travel_accordion .item-ideeviaggio div { background: #2294cb; }
+.accordion-home-box .travel_accordion .item-ideeviaggio h2 span { background: #2294cb url(../../img/themeTcom01/ico-star.gif) no-repeat 6px center; padding-left: 30px; text-align: left; }
+.accordion-home-box .accordion-container .list-item { padding-bottom: 2px; clear: both }
+.accordion-home-box .accordion-container .list-item img { width: 88px; float: left; }
+.accordion-home-box .accordion-container .list-item p { float: left; font-size: 1.05em; color: #333; width: 58%; margin: 3px 0 0 1%; text-align:left}
+*/
+
+/* stili cruscotto spalla destra */
+.spallaCruscotto { background: #fff; z-index: 2; }
+.spallaCruscotto fieldset { border: 0; padding: 2% 3%; }
+.spallaCruscotto fieldset input, .spallaCruscotto fieldset select { border: 1px solid #aaacad; box-shadow: 0px 0px 4px #aaa; background: #fff; color: #333; padding: 2px 0; }
+.spallaCruscotto fieldset select { padding: 0 0; }
+.spallaCruscotto fieldset * { vertical-align: middle; }
+.spallaCruscotto hr,  hr.separatLine{ border: 0; border-top: 1px solid #d1d2d3; height:1px;line-height:1px }
+.spallaCruscotto .hr-spacer { border: 0; margin: 0; clear: both; display: block; height: 6px; float: none; list-style: none; border: 0; }
+.spallaCruscotto fieldset label { float: left; margin-right: 2.5%; color: #333; font-size: 1.1em; line-height: 1.9em; height:20px }
+.spallaCruscotto fieldset input,
+.spallaCruscotto fieldset select { float: left; }
+.spallaCruscotto fieldset.biglietti_ar { padding-top: 10px; }
+.spallaCruscotto fieldset.biglietti_ar label { font-size: 1.2em; }
+.spallaCruscotto fieldset.biglietti_ar input { margin: 2% 3% 2% 0; }
+.spallaCruscotto fieldset.biglietti_ar input { border: 0; }
+.spallaCruscotto fieldset.biglietti_ar #biglietti_ar { margin-left: 5%; }
+.spallaCruscotto fieldset.biglietti_from_to label { width: 10%; margin-bottom: 7px; }
+.spallaCruscotto fieldset.biglietti_from_to input { width: 85%; margin-bottom: 7px; }
+.spallaCruscotto fieldset.biglietti_data_ora { border: 0; }
+.spallaCruscotto fieldset .biglietti_data_ora_label { width:24%; }
+.spallaCruscotto fieldset .biglietti_data_input { width: 32%; margin-right: 3%; font-size: 1.1em; line-height: 1.3em; }
+.spallaCruscotto fieldset .biglietti_ora_label { width: 14%; text-align: right; }
+.spallaCruscotto fieldset img.ui-datepicker-trigger { text-align: right; float: left; }
+.spallaCruscotto fieldset .biglietti_ora_input { width: 9%;font-size:1.1em }
+.spallaCruscotto fieldset.biglietti_details  { padding-left: 1%;  }
+.spallaCruscotto fieldset.biglietti_details label { margin-left: 2%;  }
+.spallaCruscotto fieldset.biglietti_details select { float: left; width: 14%; margin-right: 1%; }
+.spallaCruscotto fieldset.biglietti_details #biglietti_adulti,
+.spallaCruscotto fieldset.biglietti_details #biglietti_ragazzi { width: 50px; font-size:1.1em}
+.spallaCruscotto fieldset.biglietti_prezzo label { float: none; }
+.spallaCruscotto fieldset.biglietti_prezzo .fl {width:68%; }
+.spallaCruscotto fieldset.biglietti_prezzo { line-height: 2em; }
+.spallaCruscotto fieldset.biglietti_prezzo .check-wrapper { margin-right: 3%; float: right; }
+.spallaCruscotto fieldset.biglietti_buttons { padding: 4% 3% 2% 3%; }
+.spallaCruscotto fieldset.biglietti_buttons button { float: right; }
+.spallaCruscotto fieldset.biglietti_buttons a { float: left; margin: 4% 0; color: #dc002e; text-decoration: underline; font-size: 1.1em; }
+.spallaCruscotto fieldset.biglietti_prezzo label.labelRicercaPrez{float:left;position:absolute;top:1px;left:0;width:180px;font-weight:bold}
+.spallaCruscottoIcoinfo{float:none;margin-top:1px;vertical-align:middle}
+.spallaCruscottoTitolo h3{background-color:#ebecef;font-size: 1.5em; font-weight: 500;padding:10px 0 0  15px;width:253px;margin-left:0;}
+
+
+form button.roundedIEConf, form button.roundedIEConf:hover{background-image:url(/cms-file/common/img/themeTcom01/bg-bot-conferma.gif);border:0;width:118px;height:38px;background-repeat:no-repeat;background-color: none !important}
+
+form button { cursor: pointer; background-color: none }
+
+
+form button.roundedIEAccServ, form button.roundedIEAccServ:hover{background-image:url(../../img/themeTcom01/bg-bot-accediserv.gif);border:0;width:167px;height:30px;background-repeat:no-repeat;}
+
+form button.roundedIEVai, form button.roundedIEVai:hover{background-image:url(../../img/themeTcom01/bg-bot-vai.gif);border:0;width:52px;height:31px;background-repeat:no-repeat;}
+
+form button.roundedIECerca, form button.roundedIECerca:hover{background-image:url(../../img/themeTcom01/bg-bot-cerca.gif);border:0;width:77px;height:31px;background-repeat:no-repeat;background-color: none }
+
+form button.roundedIEAcqOra, form button.roundedIEAcqOra:hover{background-image:url(../../img/themeTcom01/bg-bot-acq-ora.gif);border:0;width:136px;height:34px}
+
+#cruscottoFull fieldset.biglietti_ar input { margin: 1% 1% 2% 0; }
+
+#cruscottoInt fieldset.biglietti_buttons { padding: 0 0 0 0; clear:both}
+form button.buttonInt, form button.buttonInt:hover{background-image:url(../../img/themeTcom01/bg-bo-conferma-Int.gif);border:0;width:102px;height:30px}
+form button.buttonInt{padding: 5px 7px 3px 7px;}
+
+
+
+.cruSxcruscotto-buttons ul li {width:70px;}
+.cruSxcruscotto-buttons ul li a{width:70px;white-space:nowrap}
+.cruSxspallaDx{ float: left; width: 30%; background: url(/cms-file/common/img/themeTcom01/bg_cruscotto_bottom_sx.gif) no-repeat left top;}
+
+
+/*		AGGIUNTE PER NUOVO MENU*/
+.navigationTrenitalia li.stl005tabs a{	width:100%;}
+.navigationTrenitalia li.stl005tabs:last-child{background-image: url(/cms-file/common/img/themeTcom01/menu5tab-last.jpg);background-repeat:no-repeat;}
+.navigationTrenitalia li.stl005tabs:first-child{background-image: url(/cms-file/common/img/themeTcom01/menu5tab-first.jpg);background-repeat:no-repeat;}
+.navigationTrenitalia li.stl005tabs {width: 150px;}
+.navigationTrenitalia li.stl005tabs:last-child a{width:100%}
+
+/* box immagini sopra al visual */
+.frecceVisual{position:absolute;top:20px;right:19px;z-index:2;width:100px}
+.frecceVisual div{height:94px}
+.frecceVisualNew{position:absolute;top:65px;right:-32px;z-index:2;width:205px}
+.frecceVisualNew div{height:83px}

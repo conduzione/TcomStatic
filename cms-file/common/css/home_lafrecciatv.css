@@ -1,0 +1,189 @@
+/* Dichiarazioni generali */
+body{padding:0; margin:0; font-family:Arial, Helvetica, sans-serif; background:#F7F7F9}
+.pngImage{behavior:expression((this.runtimeStyle.behavior="none") && (this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none", this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')", this.src = "/cms-file/common/img/transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''), this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')", this.runtimeStyle.backgroundImage = "none")),this.pngSet=true))}/*IE6*/
+.clearDiv{clear:both}
+.hidden{position:absolute;	left:-2000px; width:990px}
+a{color:#000; text-decoration:none}
+a:hover{color:#B30002; text-decoration:underline}
+a.selected{font-weight:bold; color:#B30002; text-decoration:none}
+a:hover.selected{text-decoration:underline}
+a img{border:none}
+p{padding:0; margin:0}
+.top6{margin-top:6px}
+
+#container{background:#FFF; margin:0; padding:0}
+#wrapper{width:987px; margin:0 auto}
+#content{margin:0 24px; padding:20px 0; font-size:.7em; overflow:hidden;/*importante*/}
+
+/*Header*/
+input.campoR{width:222px; height:16px; padding:2px 3px 2px 12px; border:0; font-size:1em; background:url('/cms-file/common/img/bg_input_ricerca.gif') 0 0 no-repeat; float:left}
+.buttonCerca{margin:0; width:56px; height:20px; border:0}
+.ricerca{float:right; margin-top:-2px}
+.ricerca p{padding:0; margin:0}
+#header_lafrecciatv{background:url('/cms-file/common/img/bg_header_lafrecciaTV.gif') bottom left repeat-x;	height:auto !important; padding:0; margin:0; min-height:145px; height:145px; font-size:.7em}
+#header_lafrecciatv .Top{padding:12px 25px 0 25px}
+#header_lafrecciatv .LeftNav{width:36%; padding:0; margin:0; height:auto !important; min-height:10px; height:10px; float:left}
+#header_lafrecciatv .RightNav{margin-left:37%}
+#header_lafrecciatv .RightNavLeft{float:right; margin-right:10px; white-space:nowrap}
+#header_lafrecciatv .Bottom{padding:0; margin:0; height:auto !important; min-height:122px; height:122px}
+#header_lafrecciatv .BottomRight{float:left; padding:0; margin:0; width:25.6%; height:122px; text-align:right}
+#header_lafrecciatv .BottomRight img{margin-top:20px}
+#header_lafrecciatv .BottomLeft{padding:0; margin:0 0 0 26.8%; height:122px}
+
+/* Menu livello 1 - css sprite */
+#menuLiv1{margin:0; padding:5px 24px; font-size:.8em; font-weight:bold; height:auto !important; height:20px; min-height:20px; background:#EAE8EB url(/cms-file/common/img/sprite-menuLiv1.gif) 0 -12px repeat-x}
+#menuLiv1 .int{position:relative; background:#FFF url(/cms-file/common/img/bg_menuLiv1_int.gif) 0 bottom repeat-x; border:1px solid #AFADAF; border-top:0px solid #FFF; padding:2px; margin:0; height:auto !important; height:20px; min-height:20px}
+#menuLiv1 .int .corner{position:absolute; background-image:url('/cms-file/common/img/sprite-menuLiv1.gif'); width:5px; height:5px}
+#menuLiv1 .int .topLeft{top:-1px; left:-1px; background-position:0px 0px}
+#menuLiv1 .int .topRight{top:-1px; right:-1px; background-position:-6px 0px}
+#menuLiv1 .int .botLeft{bottom:-2px; left:-1px; background-position:0px -6px}
+#menuLiv1 .int .botRight{bottom:-2px; right:-1px; background-position:-6px -6px}
+#menuLiv1 #menu1{list-style-type:none; margin:0; padding:0; text-align:center; width:100%; height:auto !important; height:20px; min-height:20px; overflow:hidden}
+#menu1 li{float:left; height:auto !important; height:20px; min-height:20px; overflow:hidden; line-height:1em; background:url(/cms-file/common/img/separatore.gif) right center no-repeat}
+#menu1 a{color:#000; display:block; text-decoration:none; padding:6px 0px}
+#menu1 a:hover{color:#B30002; text-decoration:underline}
+#menu1 a.menu1attivo{color:#B30002; text-decoration:none}
+#menu1 a:hover.menu1attivo{color:#B30002; text-decoration:underline}
+
+/*Menu 2 Link*/
+#menu1 li.M2cellaprima{width:49%}
+#menu1 li.M2cellaultima{width:49%; background-image:none}
+
+/*Menu 3 Link*/
+#menu1 li.M3cellaprima{width:32%}
+#menu1 li.M3cellaunica{width:34%}
+#menu1 li.M3cellaultima{width:32%; background-image:none}
+
+/*Menu 4 Link*/
+#menu1 li.M4cellaprima{width:24%}
+#menu1 li.M4cellaunica{width:25%}
+#menu1 li.M4cellaultima{width:24%; background-image:none}
+
+/*Menu 5 Link*/
+#menu1 li.M5cellaprima{width:18%}
+#menu1 li.M5cellaunica{width:21%}
+#menu1 li.M5cellaultima{width:18%; background-image:none}
+
+/*Menu 6 Link*/
+#menu1 li.M6cellaprima{width:15.5%}
+#menu1 li.M6cellaunica{width:17%}
+#menu1 li.M6cellaultima{width:15.5%; background-image:none}
+
+/*Menu 7 Link*/
+#menu1 li.M7cellaprima{width:12%}
+#menu1 li.M7cellaunica{width:15%}
+#menu1 li.M7cellaultima{width:12.3%; background-image:none}
+
+/*Menu 8 Link*/
+#menu1 li.M8cellaprima{width:9.5%}
+#menu1 li.M8cellaunica{width:13.3%}
+#menu1 li.M8cellaultima{width:9%; background-image:none}
+
+/*Menu 9 Link*/
+#menu1 li.M9cellaprima{width:8%}
+#menu1 li.M9cellaunica{width:12.2%}
+#menu1 li.M9cellaultima{width:5%; background-image:none}
+
+/*Menu di navigazione*/
+#menuNav{height:auto !important; height:22px; min-height:22px; overflow:hidden}
+span.navigator{float:left}
+span.navigator span.freccia{font-size:.8em; padding:0 4px 0 7px}
+span.navigator span.frecciaSearch{font-size:.8em;}
+span.navicon{float:right; padding-right:.80%}
+span.navicon img{padding:0 2px 0 12px}
+
+/*Box angoli stondati - Css Sprite*/
+.roundContBox{position:relative; margin:0; padding:3px; background:#FFF; border:1px solid #E9E7EA}
+.roundContBox .corner{position:absolute; width:6px; height:6px; background:url('/cms-file/common/img/sprite-roundContBox.gif')}
+.roundContBox .topLeft{top:-1px; left:-1px; background-position:0 0}
+.roundContBox .topRight{top:-1px; right:-1px; background-position:-7px 0px}
+.roundContBox .topRight2{top:-1px; right:-1px; background-position:-7px -14px}
+.roundContBox .botLeft{bottom:-1px; left:-1px; background-position:0 -7px}
+.roundContBox .botRight{bottom:-1px; right:-1px; background-position:-7px -7px}
+.bgtransp{background:transparent}
+
+/* Box Contenuti Video TV */
+#boxContTV{float:left; width:660px}
+#boxContTV .cont1{padding:0px; background:#F7F7F7 url('../img/bg_boxTV.gif') top left no-repeat}
+#boxContTV .cont2{margin:0; padding:20px 0 0 0; margin:0; height:auto !important; height:50px; min-height:50px}
+#boxContTV .cont2 .topTitle{background:#DEDEDE; color:#DC002E; margin:0 12px; padding:10px; height:auto !important; height:50px; min-height:50px}
+#boxContTV .cont2 .topTitle h2{font-size:1.6em; padding:0; margin:0}
+#boxContTV .cont2 .topTitle h3{font-size:2.5em; color:#999; padding:0; margin:0}
+/* Diretta */
+#boxContTV .cont2 .topTitle .left{float:left; width:428px; height:auto !important; height:50px; min-height:50px}
+#boxContTV .cont2 .topTitle .right{margin-left:429px; text-align:right; padding-left:16px; height:auto !important; height:50px; min-height:50px}
+#boxContTV .cont2 .topTitle .right img{float:right}
+#boxContTV .cont2 .topTitle .right h4{font-size:1.3em; padding:6px 0 0 0; margin:0; height:35px; color:#666; position:relative; right:6px}
+#boxContTV .cont2 .topTitle .right h4 a{color:#DC002E}
+#boxContTV .cont2 .topTitle .right #buttonPL{padding-left:2px}
+#boxContTV .cont2 .topTitle .right #buttoniPL input{border:none; color:#000; cursor:hand; font-size:1em; width:114px; height:24px}
+/*Video*/
+#boxContTV .cont2 .botVideo{height:auto !important; height:50px; min-height:50px}
+#boxContTV .cont2 .botVideo .botVideoSx{float:left; padding:0 10px 22px 10px; margin-top:30px; width:470px; border-right:1px dotted #999}
+#boxContTV .cont2 .botVideo .botVideoSx h4{padding:20px 0 0 12px; margin:0; color:#DC002E; font-size:1.6em}
+#boxContTV .cont2 .botVideo .botVideoSx p{padding:0 0 0 12px; margin:0; color:#333; font-size:1.2em; font-weight:bold}
+#boxContTV .cont2 .botVideo .botVideoDx{margin:0 0 0 500px; padding:30px 0; width:128px}
+#boxContTV .cont2 .botVideo .botVideoDx img{border:1px solid #C7C7C7}
+#boxContTV .cont2 .botVideo .VideoDx{background:#DCDCDC; color:#333; font-weight:bold; padding:0 0 8px 0; margin:0 0 6px 0}
+#boxContTV .cont2 .botVideo .VideoDx div.title{padding:4px 4px 0 6px}
+#boxContTV .cont2 .botVideo .VideoDx a{display:block}
+#boxContTV .cont2 .botVideo .VideoDx .minVideo{background:#9E9E9E; width:126; height:94px}
+#boxContTV .cont2 .botVideo .VideoDx img.play{border:none}
+#boxContTV .cont2 .botVideo .paginaz{text-align:right; font-weight:bold; font-size:1.1em; color:#555; padding:22px 0 0 0}
+#boxContTV .cont2 .botVideo .paginaz img{position:relative; top:4px; border:none}
+
+/* Spalla destra FSNews */
+#content #spDxFSNews{margin:0 0 0 668px; height:auto !important; height:50px; min-height:50px}
+
+/* LAFRECCIATV ULTIM'ORA */
+.ultimora{}
+.ultimora img{float:left}
+.ultimora h3{color:#DC002E; font-size:1.1em; margin:0; padding:7px 0 0 0}
+.ultimora h4{color:#999; font-size:1.6em; margin:0; padding:0}
+.ultimora p{padding:4px 6px 8px 12px}
+.ultimora span.ora{color:#9E9E9E; font-size:1.3em; font-weight:bold}
+.ultimora a{color:#DC002E; font-weight:bold}
+
+/* BOX FSNews - 3 tipologie */
+.boxVideoNews{position:relative; background:#FFF; padding:9px; height:auto !important; min-height:100px; height:100px; border:1px solid #E9E7EA}
+.boxVideoNews .corner{position:absolute; background-image:url('/cms-file/common/img/sprite-boxFSNews.gif'); width:16px; height:16px}
+.boxVideoNews .topLeft{top:-1px; left:-1px; background-position:-11px -80px}
+.boxVideoNews .topRight{top:-1px; right:-1px; background-position:-29px -80px}
+.boxVideoNews .botLeft{bottom:-1px; left:-1px; background-position:0px -17px}
+.boxVideoNews .botRight{bottom:-1px; right:-1px; background-position:-17px -17px}
+.boxVideoNews .type1{position:relative; background:#F5F4F6; height:auto !important; min-height:100px; height:100px}
+.boxVideoNews a{color:#DC002E; font-weight:bold}
+.Up{padding:6px 12px 10px 12px; margin:0; height:auto !important;  height:202px; min-height:202px}
+.VideoNews{padding:6px 0; margin:0}
+.VideoNews h3{color:#DC002E; font-size:1.1em; margin:0; padding:0}
+.VideoNews h4{color:#999; font-size:1.6em; margin:0; padding:0}
+.VideoNews p{color:#000; padding:12px 0 6px 0; margin:0; text-align:justify; line-height:1.1em}
+.Down{padding:0 12px 0 12px; margin:0; height:auto !important; height:20px; min-height:20px;}
+
+/* Tag Cloud */
+.tagCloud{position:relative; background:#9E9E9E; padding:0; height:auto !important; min-height:100px; height:100px}
+.tagCloud .corner{position:absolute; width:5px; height:5px; background:url('/cms-file/common/img/sprite-boxFSNews.gif')}
+.tagCloud .tL{top:0px; left:0px; background-position:0 -116px}
+.tagCloud .tR{top:0px; right:0px; background-position:-6px -116px}
+.tagCloud .bL{bottom:0px; left:0px; background-position:-12px -116px}
+.tagCloud .bR{bottom:0px; right:0px; background-position:-18px -116px}
+.tagCloud h3{color:#FFF; font-size:1.1em; padding:8px 0 0 0; margin:0 0 3px 8px}
+.tagCloud p{padding:0px 8px 8px 8px}
+.tagCloud a{padding-right:4px}
+.tagCloud a:hover{color:#FFF; text-decoration:none}
+.tagCloud .tag1{font-size:1.6em}
+.tagCloud .tag2{font-size:1.4em}
+.tagCloud .tag3{font-size:1.2em}
+.tagCloud .tag4{font-size:1em}
+.tagCloud .tag5{font-size:.8em}
+
+/*Footer*/
+#footerFS{background:#FFF url('/cms-file/common/img/bg_footer_tre.gif') bottom left repeat-x; height:auto; min-height:132px; font-size:.7em; text-align:right; margin:0; padding:0}
+#footerFS .bgRight{background:url('/cms-file/common/img/bg_footer_dx_tre.gif') top right no-repeat; width:auto; height:auto; min-height:132px; margin:0; padding:0}
+#footerFS .footerRightNav{float:right; width:auto; padding:15px 25px 0 0; margin:0}
+#footerFS .footerRightNavImg{float:right; width:auto; padding:13px 25px 0 0; margin:0}
+#footerFS .footerLeftNav{padding:15px 35px 0 0; float:right}
+#footerFS a, #footerFS span{color:#000}
+#footerFS a:hover{color:#B30002}
+#footerFS a.selected{color:#B30002}
+#footerFS img{border:none}

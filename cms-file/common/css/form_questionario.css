@@ -1,0 +1,97 @@
+/* Form Centostazioni Style */
+
+body{padding:0; margin:0; font-family:Arial, Helvetica, sans-serif; background:#F7F7F9}
+
+.clearDiv{clear:both}
+.obbligatorio{color:#B30002}
+.cella{width:60px; text-align:center}
+.txtArea{margin: 0px; height: 100px; width: 440px}
+.txtAreaLong{margin: 0px; height: 100px; width: 890px}
+br.space{line-height:1.8em}
+div.space{height:20px}
+
+a{color:#000; text-decoration:underline}
+a:hover{color:#B30002; text-decoration:underline}
+a.selected{font-weight:bold; color:#B30002; text-decoration:none}
+a:hover.selected{text-decoration:underline}
+a img{border:none}
+
+input, textarea{font-family:Arial; margin:0; padding:0; height:18px; font-size:.9em; border:1px solid #999}
+form{padding:0; margin:0; font-family:Arial; font-size:1em}
+fieldset{margin-top:16px; border:0; padding-top:16px}
+legend.visible{color:#006362; border-bottom:1px solid #006362; font-size:1.1em; text-transform:uppercase; letter-spacing:2px; position:static; width:99%}
+img.alignLeft{float:left; border:1px solid #C5C5C5; padding:1px; margin-right:8px}
+
+p{padding:0; margin:0}
+h1{color:#B30002; font-size:1.3em}
+h2{color:#006362; font-size:1.1em}
+h3{font-size:.9em}
+h1 a{color:#B30002}
+h2 a, h2 a:hover{color:#006362}
+
+#wrapper{width:987px; margin:0 auto}
+html>/**/body #wrapper{width:991px; margin:0 auto}/*Firefox*/
+#container{background:#FFF; padding:0; margin:auto 0; text-align:left}
+#content{clear: both; margin:0 40px; padding:0 0 30px 0; font-size:.8em; overflow:hidden/*importante*/}
+
+/*Header*/
+#header{height:auto !important; min-height:145px; height:145px; padding:0; margin:0}
+#header .left{float:left; width:240px; padding:40px 0 0 40px; margin:0; height:auto !important; min-height:105px; height:105px}
+#header .right{margin-left:262px; height:auto !important; min-height:145px; height:145px}
+#header .right a{background-color:transparent; display:block; height:145px; font-size:1px; color:#FFF}
+#header .right a:hover{background-color:transparent; display:block; text-decoration:none}
+
+/*Form*/
+#contForm{}
+#contForm div.row, #contForm div.rowTop{padding:0 0 0 20px}
+#contForm div.row div.sx, #contForm div.rowTop div.sx{float:left; width:360px; padding:1px 20px 1px 0}
+#contForm div.row div.dx, #contForm div.rowTop div.dx{margin-left:460px; width:380px; padding:1px 0}
+#contForm div.row .multisel{float:left; width:260px}
+#contForm input{width:180px}
+#contForm input.altro{float:none; width:174px}
+#contForm input.radio{float:none; width:auto; margin-right:10px; border:0; position:relative; top:5px; left:0}
+#contForm input.radio2{float:none; width:auto; border:0; position:relative; top:5px; left:0}
+#contForm select{border:1px solid #999}
+#contForm select.small{float:right; width:182px}
+/*#contForm div.row .multisel select{width:226px; height:180px}*/
+/*#contForm div.row textarea{width:744px; height:100px}*/
+#contForm div.row p{margin-bottom:16px}
+/*Captcha*/
+#contForm div.boxCaptcha{clear:both;background:url(/cms-file/common/img/bg_boxcaptchaCentostaz.gif) 0 0 repeat-x; margin:5px 0 0 0; padding:0; text-align:center}
+#contForm .boxCaptcha div.Titolo{font-size:1em; font-weight:bold; padding:18px 12px 5px 12px; margin-bottom:10px}
+#contForm .contCaptcha img{padding-left:1em}
+#contForm .contCaptcha div.botForm{padding:1em}
+#contForm .boxCaptcha input{float:none; border:1px solid #999; width:22%}
+#contForm .boxCaptcha input.btnSubmit{font-size:1em; font-weight:bold; cursor:pointer; color:#FFF; width:64px; height:20px; border:0; background:url(/cms-file/common/img/button_gen.gif) center center no-repeat}
+
+/* Box Errore */
+div.errorBox{background:url('../img/warning.gif') top left no-repeat; height:auto !important; min-height:56px; padding:16px 16px 18px 60px; border:1px dotted #B30002; text-align:left}
+html>/**/body div.errorBox{padding-top:16px; background-position:top left; min-height:22px}/*Firefox*/
+div.errorBox span{color:#B30002; font-weight:bold}
+div.errorBox div{margin:0 auto; text-align:left; width:740px}
+div.errorBox div ul{color:#B30002; margin:10px 0 0 22px; font-weight:bold}
+div.errorBox div ul li{line-height:1.8em}
+
+/* Box Messaggio OK */
+div.MsgOkBox{background:url('../img/accepted.gif') top left no-repeat; height:auto !important; min-height:50px; padding:16px 16px 16px 60px; margin-bottom:240px; border:1px dotted #006362; text-align:left}
+html>/**/body div.MsgOkBox{padding-top:16px; background-position:top left; min-height:18px}/*Firefox*/
+div.MsgOkBox span{color:#006362; font-weight:bold}
+                                                           
+/*Footer*/
+#footerFS{background:#FFF url('/cms-file/common/img/bg_footer_tre.gif') bottom left repeat-x; height:auto; min-height:132px; font-size:.7em; text-align:right; width:987px; margin:0 auto; padding:0}
+#footerFS .bgRight{background:url('/cms-file/common/img/bg_footer_dx_tre.gif') top right no-repeat; width:auto; height:auto; min-height:132px; margin:0; padding:0}
+#footerFS .footerRightNav{float:right; width:auto; padding:20px 25px 0 0; margin:0}
+#footerFS .footerRightNavImg{float:right; width:auto; padding:13px 25px 0 0; margin:0}
+#footerFS .footerLeftNav{padding:20px 35px 0 0; float:right}
+#footerFS a, #footerFS span{color:#000}
+#footerFS a:hover{color:#B30002}
+#footerFS a.selected{color:#B30002}
+#footerFS img{border:none}
+
+#left {float:left;width:47%;}
+#right {float:right;width:47%;}
+#contForm div.row .multisel {width:30%;margin:5px;}
+#contForm div.row .multisel select {width:100%; height:180px;}
+#contForm div.row textarea{width:100%; height:100px}
+.divAltro {display: none;}
+#regioni {display: none;}

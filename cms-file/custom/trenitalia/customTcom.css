@@ -1,0 +1,373 @@
+
+.ui-checkbox {
+    position: relative;
+}
+.ui-checkbox .ui-checkbox-inputwrapper {
+    height: 0;
+    overflow: hidden;
+    width: 0;
+}
+.ui-checkbox label {
+    cursor: pointer;
+    display: block;
+    line-height: 0.9em !important;
+    margin: 0 0 0.3em;
+    padding: 0.5em 30px 0.5em 0;
+    position: relative;
+    z-index: 1;
+}
+.ui-checkbox .ui-checkbox-box {
+    background-color: #E61624;
+    border-color: #666666;
+    height: 1.4em;
+    position: absolute;
+    /*right: 33px;*/
+	right: 25px;
+    top: 3px;
+    width: 1.4em;
+}
+.high-contrast .ui-checkbox .ui-checkbox-inputwrapper {
+    display: inline;
+    height: auto;
+    overflow: auto;
+    width: auto;
+}
+.high-contrast .ui-checkbox-box {
+    display: none;
+}
+.high-contrast .ui-checkbox label {
+    display: inline;
+    padding-left: 0.5em;
+}
+#biglietti_adulti, #biglietti_ragazzi, #subscriptionType, #durationType, #trainType, #typology {
+    font-size: 0.9em;
+    padding: 0 !important;
+}
+.evidence {
+    color: #E61624 !important;
+    font-weight: normal !important;
+}
+.evidence.ui-state-hover {
+    color: #FFFFFF !important;
+}
+.left70 {
+    float: left;
+    width: 70px;
+}
+.left40 {
+    float: left;
+    width: 40px;
+}
+.left120 {
+    float: left;
+    width: 120px;
+}
+.margTop6 {
+    margin-top: 6px;
+}
+.padTopZero {
+    padding-top: 0 !important;
+}
+#cruscotto6Tratte .secondoDivCrInt {
+    border-left: 1px solid #D2D2D2;
+    height: 110px;
+    width: 200px;
+}
+#cruscotto6Tratte .primoDivCrInt {
+    width: 200px;
+}
+#cruscotto6Tratte .terzoDivCrInt {
+    border-left: 1px solid #D2D2D2;
+    height: 110px;
+    width: 208px;
+}
+#cruscotto6Tratte {
+    border: 9px solid #F7F7F9;
+    margin: 0 0 15px;
+}
+#cruscotto6Tratte fieldset {
+    border: 0 none;
+    padding: 5px 7px;
+}
+#cruscotto6Tratte fieldset input, #cruscotto6Tratte fieldset select {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #AAACAD;
+    box-shadow: 0 0 4px #AAAAAA;
+    color: #333333;
+    padding: 0;
+}
+#cruscotto6Tratte fieldset select {
+    display: inline;
+    width: 160px;
+}
+#cruscotto6Tratte fieldset * {
+    vertical-align: middle;
+}
+#cruscotto6Tratte hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #D1D2D3 -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-right: 0 none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+}
+#cruscotto6Tratte .hr-spacer {
+    border: 0 none;
+    clear: both;
+    display: block;
+    float: none;
+    height: 6px;
+    list-style: none outside none;
+    margin: 0;
+}
+#cruscotto6Tratte fieldset label {
+    color: #333333;
+    font-size: 1em;
+    height: 20px;
+    line-height: 1.9em;
+    margin-right: 5px;
+}
+#cruscotto6Tratte fieldset input, #cruscotto6Tratte fieldset select {
+}
+#cruscotto6Tratte fieldset.biglietti_ar {
+    padding-top: 10px;
+}
+#cruscotto6Tratte fieldset.biglietti_ar label {
+    font-size: 1.2em;
+}
+#cruscotto6Tratte fieldset.biglietti_ar input {
+    margin: 3px 5px 0 0;
+}
+#cruscotto6Tratte fieldset.biglietti_ar input {
+    border: 0 none;
+}
+#cruscotto6Tratte fieldset.biglietti_ar #biglietti_ar {
+    margin-left: 5%;
+}
+#cruscotto6Tratte fieldset.biglietti_from_to label {
+    margin-bottom: 7px;
+    width: 140px;
+}
+#cruscotto6Tratte fieldset.biglietti_from_to input {
+    margin-bottom: 7px;
+    width: 85%;
+}
+#cruscotto6Tratte fieldset.biglietti_data_ora {
+    border: 0 none;
+    width: 170px;
+}
+#cruscotto6Tratte fieldset .biglietti_data_ora_label {
+    width: 28%;
+}
+#cruscotto6Tratte fieldset .biglietti_data_input {
+    font-size: 1.1em;
+    margin-right: 5px;
+    width: 75px;
+}
+#cruscotto6Tratte fieldset .biglietti_ora_label {
+    text-align: right;
+    width: 16%;
+}
+#cruscotto6Tratte fieldset img.ui-datepicker-trigger {
+    margin-right: 5px;
+    text-align: right;
+}
+#cruscotto6Tratte fieldset .biglietti_ora_input {
+    font-size: 1.1em;
+    width: 20px;
+}
+#cruscotto6Tratte fieldset.biglietti_details {
+    padding-left: 7px;
+}
+#cruscotto6Tratte fieldset.biglietti_details label {
+    margin-left: 0;
+}
+#cruscotto6Tratte fieldset.biglietti_details select {
+    float: left;
+    margin-right: 1%;
+    width: 14%;
+}
+#cruscotto6Tratte fieldset.biglietti_details #biglietti_adulti, #cruscotto6Tratte fieldset.biglietti_details #biglietti_ragazzi {
+    width: 50px;
+}
+#cruscotto6Tratte fieldset.biglietti_prezzo label {
+    float: none;
+}
+#cruscotto6Tratte fieldset.biglietti_prezzo .fl {
+    width: 58%;
+}
+#cruscotto6Tratte fieldset.biglietti_prezzo {
+    line-height: 2em;
+}
+#cruscotto6Tratte fieldset.biglietti_prezzo .check-wrapper {
+    float: right;
+    margin-right: 3%;
+}
+#cruscotto6Tratte fieldset.biglietti_buttons button {
+    float: right;
+}
+#cruscotto6Tratte fieldset.biglietti_buttons a {
+    color: #DC002E;
+    float: left;
+    font-size: 1.1em;
+    line-height: 1.9em;
+    text-decoration: underline;
+}
+.txtPagAziende {
+    font-size: 1.1em;
+    margin: 10px 10px 0 0;
+}
+.txtPagAziende a {
+    text-decoration: underline;
+}
+.padBoxCarta {
+    padding: 5px 0 10px 10px;
+    width: 240px !important;
+}
+.txtBoxCarta {
+    font-size: 1.2em !important;
+}
+.campiBoxCarta {
+    height: 1.4em;
+    line-height: 1.4em;
+    width: 200px;
+}
+.butBoxCarta {
+    margin-top: 5px;
+    text-align: center;
+}
+.margBotFive {
+    margin-bottom: 5px;
+}
+h3.titBoxCartaFr {
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-bottom: 0;
+}
+h3.titBoxCartaFr {
+    color: #DC002E;
+    margin: 5px 0 5px 8px;
+}
+.txtPNRPoste {
+    background-color: #F7F7F9;
+    color: #000000;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+.ContTxtPNRPoste {
+    background-color: #DD002E;
+    color: #FFFFFF;
+    float: left;
+    font-size: 1.1em;
+    font-weight: bold;
+    height: 30px;
+    padding: 5px 0 0 8px;
+    width: 111px;
+}
+.contInputPNRPoste {
+    float: left;
+    padding: 8px 0 0 13px;
+    width: 179px;
+}
+.PNR_inputPoste {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #AAACAD;
+    box-shadow: 0 0 4px #AAAAAA;
+    color: #333333;
+    margin: 0 auto;
+    padding: 2px 0;
+    vertical-align: middle;
+    width: 165px;
+}
+.whiteBgH27 {
+    background-color: #FFFFFF;
+    height: 27px;
+}
+.ContTxtPNRPosteSmall {
+    background-color: #DD002E;
+    color: #FFFFFF;
+    float: left;
+    font-size: 1.1em;
+    font-weight: bold;
+    height: 30px;
+    margin-left: 10px;
+    padding: 5px 0 0 8px;
+    width: 101px;
+}
+.txtPNRPosteWhiteBg {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.boxRicercaPrezInt .ui-checkbox .ui-checkbox-box {
+    right: -20px;
+}
+
+/*spalla DX modifiche Roberto Sossai*/
+.imgonly_box{margin:10px 0 0 0;}
+.box_roundCS{-moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;}
+.box_roundCS_left{
+    -moz-border-top-left-radius: 3px; -webkit-border-top-left-radius: 3px; border-top-left-radius: 3px; 
+    -moz-border-bottom-left-radius: 3px; -webkit-border-bottom-left-radius: 3px; border-bottom-left-radius: 3px;}
+.avg_font{font-size:1em;}
+@-moz-document url-prefix(){.avg_font{font-size:1.1em;}}
+
+.green_box{padding:15px 0 20px 0; border-top:1px solid #EBECEF; border-bottom:1px solid #EBECEF; background:#F9F9F9 url('/cms-file/immagini/trenitalia/treni_regionali/doppia_linea.png') no-repeat right bottom; color:#333333; width:99%;}
+.green_box h3, .green_box p,.green_box .frecciaLink{margin-left:10px;}
+.green_box h3{font-size:1.5em; color:#8EC73F; margin-right:10px;}
+.green_box .subtesto_box{margin:15px 12px; color:#333333;}
+.green_box .frecciaLink{margin-right:10px;}
+.green_box .frecciaLink a{background-image: url('/cms-file/immagini/trenitalia/treni_regionali/bg-artcorrORANGE.gif'); padding-bottom:1px;}
+.green_box .frecciaLink a:link, .green_box .frecciaLink a:visited{color:#1C3C6A; font-weight:bold; text-decoration:none; margin-bottom:5px;}
+.green_box .frecciaLink a:hover{text-decoration:underline;}
+.green_box .last{margin-bottom:15px;}
+
+.box_head_BLAR{background-color:#ECEDF0; margin:15px 0 0 0; width:99%; padding:0; font-size:1em;}
+.box_head_BLAR .box_head{width:100%; padding:3px;}
+.box_head_BLAR .box_head h3{height:30px; line-height:32px; color:#1C3C6A; margin-left:3px; background-color:#F99F2A; font-weight:bold; padding:0 3px 0 13px; width:208px; font-size:1.2em;}
+@-moz-document url-prefix() {.box_head_BLAR .box_head h3{font-size:1.2em;}}
+.box_head_BLAR #form_reg{margin:15px 15px 15px 10px; display:inline-block;}
+.box_head_BLAR #form_reg div.fl{height:30px;}
+.box_head_BLAR #form_reg select{width:187px; padding:6px 3px 3px 3px; height:30px; border:solid 1px #D4D4D4; color:#1C3C6A; font-size:1.1em; font-weight:bold;}
+.box_head_BLAR #form_reg input{margin:0 0 0 3px; font-size:1em; height:30px; width:50px; background-color:#CC0E18; color:#FFFFFF; font-weight:bold; cursor:pointer;
+background: -moz-linear-gradient(90deg, #8A051F 0%, #C2012B 100%);/* FF3.6+ */
+background: -webkit-gradient(linear, 90deg, color-stop(0%, #8A051F), color-stop(100%, #C2012B));/* Chrome,Safari4+ */
+background: -webkit-linear-gradient(90deg, #8A051F 0%, #C2012B 100%);/* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(90deg, #8A051F 0%, #C2012B 100%);/* Opera 11.10+ */
+background: -ms-linear-gradient(90deg, #8A051F 0%, #C2012B 100%);/* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C2012B', endColorstr='#8A051F', GradientType='0'); /* for IE */
+background: linear-gradient(0deg, #8A051F 0%, #C2012B 100%);/* W3C */
+}
+.box_head_BLAR ul{margin:5px 0 0 0; padding:0 10px 10px 10px; list-style-type:none;}
+.box_head_BLAR ul li{padding:0 10px; height:28px; border-bottom:solid 1px #C1C3C7; background-image:url('/cms-file/immagini/trenitalia/treni_regionali/bg-artcorrORANGE2.gif'); background-position:5px 2px; background-repeat:no-repeat;}
+.box_head_BLAR ul li a{display:block; margin:0 0 0 28px; line-height:31px; color:#1C3C6A; font-size:1.1em;}
+.box_head_BLAR ul .last{border-bottom:none;}
+
+.blue_box_link{margin-top:10px; background-color:#1C3C6A; padding:15px 0; width:99%;color:white;}
+.blue_box_link h3{font-size:1.3em; color:#8EC73F; margin:0 0 10px 10px;}
+.blue_box_link p{margin:0 0 10px 13px;}
+.blue_box_link .linkFileStatico{margin-left:10px; /*width:100%;*/}
+.blue_box_link .linkFileStatico a{font-weight:bold; color:#FFFFFF;}
+.blue_box_link .linkFileStatico .txt_lnk_1r,.blue_box_link .linkFileStatico .txt_lnk_2r{margin:0 10px 0 25px;}
+.blue_box_link .linkFileStatico .txt_lnk_1r{line-height:30px;}
+.blue_box_link .linkFileStatico .txt_lnk_2r{line-height:20px; padding-top:4px}
+.blue_box_link .linkFileStatico a:link,.blue_box_link .linkFileStatico a:visited{text-decoration:none;}
+.blue_box_link .linkFileStatico a:hover{text-decoration:underline;}
+.blue_box_link .frecciaLink a {background-image: url(/cms-file/common/img/themeTcom01/arrow_box.png); color:white; padding-left:32px; font-weight: bold;}
+
+.green_box_link{border-top:none; margin:15px 0 0 0;}
+.green_box_link h3{font-weight:normal; font-size:2em; margin-bottom:10px;}
+.green_box_link .frecciaLink{margin-right:10px; padding:5px; line-height:25px}
+.green_box_link .txt_lnk_1r{line-height:25px;}
+.green_box_link .txt_lnk_2r{line-height:13px;}
+.green_box_link .frecciaLinkSEPD{border-bottom:dotted 1px #333333;}
+.green_box_link .frecciaLink a{font-weight:bold;}
+.green_box_link .last{margin-bottom:15px;}
+
+.primo_box{margin-top:5px;}
+.ultimo_box{margin-bottom:10px;}

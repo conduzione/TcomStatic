@@ -1,0 +1,81 @@
+.clear,.clearDiv {height:0em!important; line-height:0em!important; padding:0!important; margin:0!important; float:none; clear:both; font-size:0em;background:none!important;overflow:hidden;}
+
+.buttonNS{background:url(/cms-file/common/img/buttonNS_bg.gif) no-repeat left top;float:left;position:relative;display:inline;}
+.buttonNS A{color:#fff;margin:0px 8px 0px 12px;position:relative;top:4px;font-weight:bold;float:left;}
+.buttonNS A:hover{color:#fff!important;}
+
+#contentBoxRightCol div.RightColImmBox div.contButtonImg{text-align:right; padding:10px 12px 0 0}
+#contentBoxRightCol div.RightColImmBox .ButtonImg{background:#F7F7F9; border:none; width:52px; height:20px}
+
+.content_hpfedelta{background:#fff;margin:0px 0px; margin-left:-3px !important; padding:5px 0px 0px 0px}
+.content_hpfedelta .fedelta_emotional,.content_hpfedelta  .fedelta_boxdouble{background:url(/cms-file/common/img/hpfedelta_box_bg.gif) no-repeat left top;width:704px;overflow:hidden;position:relative;}
+.content_hpfedelta .fedelta_emotional .cnt{padding:6px;}
+.content_hpfedelta .fedelta_emotional .foot,.content_hpfedelta .fedelta_boxdouble .foot{height:13px;}
+.content_hpfedelta .fedelta_emotional .foot IMG, .content_hpfedelta .fedelta_boxdouble .foot IMG{display:block}
+
+.content_hpfedelta .fedelta_boxdouble .cnt{padding:6px;}
+
+.fedelta_emotional .em_all{height:260px;width:687px;white-space:nowrap;position:relative;top:7px;left:9px;overflow:scroll;}
+.fedelta_emotional .em_scroll{width:687px;overflow:visible;height:260px;position:relative;}
+.fedelta_emotional .em_sng{float:left;width:687px;height:260px;position:relative;}
+.fedelta_emotional .em_sng .link_vaia{position:absolute;right:10px;bottom:10px;font-size:1.4em;}
+.fedelta_emotional .em_sng .link_vaia.grey A{color:#666666!important}
+.fedelta_emotional .em_sng .link_vaia A{color:#fff;font-weight:bold;}
+.fedelta_emotional .puls_pause{position:absolute;right:10px;top:10px;}
+
+
+.em_buttons{position:absolute;top:10px;left:14px;width:110px;}
+.em_buttons .buttons_el{position:relative;width:110px;height:61px;overflow:hidden;margin-top:2px;cursor:pointer;}
+
+.buttons_el .bg{position:absolute;z-index:2;left:0px;top:0px;}
+.buttons_el .img{position:absolute;z-index:3;left:2px;top:2px;}
+.buttons_el .tx{position:absolute;bottom:0px;left:5px;z-index:4;font-size:.8em;}
+
+.buttons_el .tx A{font-weight:normal;color:#000;}
+.buttons_el.on .tx A{color:#b30002;}
+
+.buttons_el.on .bg{filter:alpha(opacity=100);-moz-opacity:1;opacity:1;}
+.buttons_el .bg{filter:alpha(opacity=80);-moz-opacity:.80;opacity:.80;}
+
+.fedelta_boxdouble,.fedelta_news{position:relative;}
+.fedelta_bannerorizz{float:left;width:233px;height:76px;margin-right:2px;}
+.fedelta_bannerorizz.last{margin:0!important;float:right;}
+
+
+.fedelta_boxdouble .cnt{background:url(/cms-file/common/img/fedelta_boxdouble_bg.gif) no-repeat left top;width:100%;margin-left:6px;margin-top:7px;}
+.boxdouble_sng{float:left;width:345px;}
+.boxdouble_sng H4{font-weight:bold;padding-bottom:15px;text-transform:uppercase;}
+.boxdouble_sng H4 A{color:#fff;}
+.boxdouble_sng H4 A:hover{color:#fff;}
+.boxdouble_sng IMG{float:left;margin:0px 10px 0px 10px;}
+.boxdouble_sng .tx{width:195px;float:left;font-size:.9em;padding-top:8px;}
+.boxdouble_sng .tx A,.fedelta_news .tx A{color:#b30002;font-size:1.2em;font-weight:bold;}
+.boxdouble_sng .tx A,.fedelta_news .tx A.simple{color:#000;font-size:1em;font-weight:normal;}
+
+.fedelta_news{background:url(/cms-file/common/img/fedelta_boxnovita.gif) no-repeat left top;width:704px;height:127px;}
+.fedelta_news .tx{position:relative;left:125px;top:20px;width:521px;font-size:.9em;/*background:url(/cms-file/common/img/arrow_link.gif) no-repeat left 5px;*/padding-left:13px;}
+.fedelta_news .archivio_link{position:absolute;right:15px;bottom:8px;}
+.fedelta_news .archivio_link A{color:#b30002;font-weight:bold;}
+
+
+
+
+
+
+#contentBoxRightCol .bannerDx{background:#fff;height:76px;text-align:center;position:relative;top:13px;}
+#contentBoxRightCol .bannerDx IMG{margin-top:15px;}
+
+#contentBoxRightCol .staccoLink{text-align:left;padding:1px 3px 5px 6px;}
+.RightColImmBox .buttonNS{margin-left:60px;}
+
+#fedelta_login .buttonNS{float:right;margin-top:10px;margin-right:10px;}
+#fedelta_login INPUT{border:1px solid #cccccc;width:95%;}
+#fedelta_login LABEL{font-size:1em;}
+
+.staccoLink A{background:url(/cms-file/common/img/arrow_link_mini.gif) no-repeat left center;padding-left:13px;}
+.staccoTxt,.staccoLink,.RightColImmBox,.RightColTitoliSez,#contentBoxRightCol{position:relative}
+#contentBoxRightCol{margin:0;float:left;width:26%;}
+
+.copyright{font-size:.9em;text-align:right;font-style:italic;padding-top:5px;}
+.staccoLink2{text-align:right;}
+.staccoLink2 A{color:#B30002;margin-right:5px;}

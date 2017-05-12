@@ -1,0 +1,174 @@
+/*160713*/
+.submenu { background-color: #E9E7EA; }
+.submenu:hover { background-color: #E9E7EA; }
+
+
+ul.menuTrenitalia {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: left;
+}
+
+.navigationTrenitalia {
+	height:42px;
+	background-color: #dd002e;
+	position:relative;
+	margin:4px 0 0 0;
+	padding:0;
+	z-index:2147483646;
+	float:right;
+}
+
+
+.navigationTrenitalia > li {
+	float: left;
+	margin: 0;
+	padding:0;
+	height: 100%;
+	/* width:auto; */ /* (!!!) */
+	list-style-type: none;
+	display:inline;
+	background: url(/cms-file/common/img/themeTcom01/bgMenu.gif) repeat-x scroll center center #e1dfe2;
+	
+}
+/*
+.navigationTrenitalia > li {
+	float: left;
+	margin: 0;
+	padding:0;
+	height: 100%;	
+	list-style-type: none;
+	border-right:1px solid #fff;
+	display:inline;
+}
+*/
+
+/* (!!!) */
+.navigationTrenitalia > li:last-child{border-right-width:0;}
+.navigationTrenitalia > li.stl005tabs{width: 164px;}
+.navigationTrenitalia > li.stl006tabs{width: 137px;}
+.navigationTrenitalia > li.stl007tabs{width: 112px;}
+.navigationTrenitalia > li.stl008tabs{width: 102px;}
+.navigationTrenitalia > li.stl009tabs{width: 87px;}
+
+.navigationTrenitalia > li.last-child{border-right-width:0;}
+/* (!!!) */
+
+.navigationTrenitalia > li > a {
+	float: left;
+	/* padding: 9px 12px 0 13px; */
+	padding: 6px 0 3px 3px; /* (!!!) */
+	text-align: center;
+	width:96%; /* (!!!) */
+	text-decoration: none;
+	height: 46px;
+	line-height: 15px;
+	color: #3c3a3d;
+	display: block;
+	font-size:1.3em;	
+
+}
+
+.navigationTrenitalia > li > a:hover {
+
+	color:#f50238;
+}
+
+.navigationTrenitalia > li.stl008tabs > a{	width:99%;}
+.navigationTrenitalia > li.stl007tabs > a{	width:98%;}
+.navigationTrenitalia > li.stl006tabs > a{	width:99%;}
+.navigationTrenitalia > li.stl005tabs > a{	width:99%;}
+.navigationTrenitalia li ul {
+	background: #E9E7EA;
+	clear: both;
+	position: absolute;
+	top: -1000em;
+
+}
+
+.navigationTrenitalia li ul li {
+	display: block;
+	margin:  0;
+	padding:0;
+}
+
+.navigationTrenitalia li ul li a:hover {
+
+}
+
+.navigationTrenitalia li.submenu{ z-index:100000000000000000; }
+
+.navigationTrenitalia li.submenu:hover ul {
+	position: static;
+	display:block;
+	margin:0;
+	padding:0;
+	z-index:100000000000000000;
+}
+
+.contTabMenu{background-color:#e1dfe2;min-height:48px;position:absolute;right:0;width:822px;z-index:100000000000000000}
+.contTabMenu-1col{background-color:#e1dfe2;min-height:48px;position:absolute;width:274px;z-index:100000000000000000}
+.contTabMenu-1colLast{background-color:#e1dfe2;min-height:48px;position:absolute;width:274px;right:0;z-index:100000000000000000}
+.contTabMenu-2col{background-color:#e1dfe2;min-height:48px;position:absolute;width:548px;z-index:100000000000000000}
+.1col-First{right:548px}
+.1col-Last{background-color:#e1dfe2;position:absolute;width:274px;left: 546px;z-index:100000000000000000}
+.widthOrari{width:150px}
+.widthOfferte{width:156px}
+.widthInformazioni{width:126px}
+.widthCartaF{width:127px}
+.widthAziende{width:109px}
+.widthTrasporto{width:149px}
+
+.navigationTrenitalia > li.widthOrari > a {width:137px}
+.navigationTrenitalia > li.widthOfferte > a {width:143px}
+.navigationTrenitalia > li.widthInformazioni > a {width:113px}
+.navigationTrenitalia > li.widthCartaF > a {width:114px}
+.navigationTrenitalia > li.widthAziende > a {width:96px}
+.navigationTrenitalia > li.widthTrasporto > a {width:136px}
+
+li.submenu:hover  a.accendiAhover  {color: #F50238;background-color:#e1dfe2}
+li.submenu  a.accendiAhoverOn {background-color:#e9e7ea; color: #F50238}
+li.submenu  a.accendiAhoverOn:hover{background-color: #e1dfe2; }
+
+.navigationTrenitalia > li.stl006tabs, .navigationTrenitalia > li.stl005tabs  ,.navigationTrenitalia > li.stl008tabs  {        
+    display: inline;
+    float: left;
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigationTrenitalia > li.stl006tabs > a, .navigationTrenitalia > li.stl005tabs > a,.navigationTrenitalia > li.stl008tabs > a {       
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 1.2em;
+    height: 42px;
+    line-height: 42px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+ #menu_1 , #menu_2	, #menu_3 {
+background: url("/cms-file/common/img/themeTcom01/bgMenuPipe.gif")  scroll right center transparent;
+}
+
+ #menu_4, #menu_5, #menu_6 ,#menu_7 , #menu_8 {
+background: url("/cms-file/common/img/themeTcom01/bgMenuPipeGrey.gif")  scroll right center transparent;
+}
+
+ #menu_1 > a, #menu_2 > a, #menu_3  > a {
+background: url("/cms-file/common/img/themeTcom01/bgMenu.gif")  scroll right center transparent;
+}
+
+ #menu_4 > a, #menu_5 > a, #menu_6  > a, #menu_7  > a, #menu_8  > a {
+background: url("/cms-file/common/img/themeTcom01/bgMenuGrey.gif")  scroll right center transparent;
+}
+
+ #menu_1:hover  a.accendiAhover, #menu_2:hover  a.accendiAhover, #menu_3:hover   a.accendiAhover, #menu_4:hover   a.accendiAhover , #menu_5:hover   a.accendiAhover , #menu_6:hover   a.accendiAhover , #menu_7:hover   a.accendiAhover, #menu_8:hover   a.accendiAhover {
+background: url("/cms-file/common/img/themeTcom01/bgMenuActive.gif")  scroll right center transparent;
+width:100%;
+}
