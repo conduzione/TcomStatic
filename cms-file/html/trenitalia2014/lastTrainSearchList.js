@@ -102,7 +102,7 @@ function toggleLastTrainSearchList(){
 		if(trainSearchList.length>0){
 			$("#trainSearchListSel").empty();
 			for (var j = 0; j < trainSearchList.length; j++){
-				$("#trainSearchListSel").append("<li><a href='#' class='chooseTrainSearchItem'>"+ trainSearchList[j].replace('$',' <label id="deskS">-</label><label id="mobS"><br></label> ') +"</a><a href='#' class='removeTrainSearchListItem'><img src='cms-file/immagini/trenitalia2014/Homepage/x_close.png'></a><div class='cl'></div></li>");
+				$("#trainSearchListSel").append("<li><a href='#' class='chooseTrainSearchItem'>"+ trainSearchList[j].replace('$',' <label id="deskS">-</label><label id="mobS"><br></label> ') +"</a><a href='#' class='removeTrainSearchListItem'><img src='/cms-file/immagini/trenitalia2014/Homepage/x_close.png'></a><div class='cl'></div></li>");
 			}
 			$(".removeTrainSearchListItem" ).on("click", removeTrainSearchListItem);
 			$(".chooseTrainSearchItem" ).on("click", chooseTrainSearchItem);
@@ -140,11 +140,11 @@ var getBrowser = function() {
         userAgent = userAgent.substring(userAgent.indexOf('chrome/') + 7);
         userAgent = userAgent.substring(0, userAgent.indexOf('.'));
         version = userAgent;
-        // Non è Safari!
+        // Non Ã¨ Safari!
         $.browser.safari = false;
         browser = "Chrome";
     }
-
+	
     // Safari?
     if ($.browser.safari) {
         userAgent = userAgent.substring(userAgent.indexOf('safari/') + 7);
@@ -197,7 +197,7 @@ if(trainSearchListStr.length>2){
 }
 removeOldSearch();
 
-//Adattare la finestra alla stringa di ricerca più lunga
+//Adattare la finestra alla stringa di ricerca piÃ¹ lunga
 mustLongString=function(){
 	var strLong='';
 	for(var i = 0; i < arguments.length; i++) {
@@ -218,7 +218,7 @@ var UA = getBrowser();
 var browserType = UA.ua;
 var browserVersion = UA.ver;
 
-/*Se il browser è IE9 e minore, non vengono vsualizzate le ultime ricerche*/
+/*Se il browser Ã¨ IE9 e minore, non vengono vsualizzate le ultime ricerche*/
 if (browserType == "Internet Explorer" && browserVersion <= 9){
 	$(".buttonsLastTrainSearchList").hide();
 }else{
@@ -266,25 +266,30 @@ if (browserType == "Internet Explorer" && browserVersion <= 9){
 		
 		/* ### Rendering Box e Bottoni x per lista ultimi treni ###  */
 		$('.boxUltimeRicerche').remove();
-		$('.inputHidden').after("<div id='trainSearchListSelBox'><div id='trainSearchTitle'>ULTIME RICERCHE<a href='#' onclick='return toggleLastTrainSearchList();'><font style='text-decoration: underline !important;'>chiudi</font> <img src='cms-file/immagini/trenitalia2014/Homepage/x_close_red.png'></a></div><ul id='trainSearchListSel'></ul></div>");
+		$('.inputHidden').after("<div id='trainSearchListSelBox'><div id='trainSearchTitle'>ULTIME RICERCHE<a href='#' onclick='return toggleLastTrainSearchList();'><font style='text-decoration: underline !important;'>chiudi</font> <img src='/cms-file/immagini/trenitalia2014/Homepage/x_close_red.png'></a></div><ul id='trainSearchListSel'></ul></div>");
 		$('.inputHidden').after(
 			"<div class='buttonsLastTrainSearchList' style=''>"+
 			"<div class='linkCRUSLast fl' style='width:26%;'><a href='' id='trainSearchListSelButton' onclick='return toggleLastTrainSearchList();' title=''>"+
-			"ULTIME RICERCHE<img src='cms-file/immagini/trenitalia2014/Homepage/arrow_right.png' class='imgUltimeRIC'></a></div>"+
+			"ULTIME RICERCHE<img src='/cms-file/immagini/trenitalia2014/Homepage/arrow_right.png' class='imgUltimeRIC'></a></div>"+
 			"<div class='fl' style=''><a href='' onclick='return clearFromTo();' title='' style='margin:0; margin-left:5px;background:transparent;border:0px' >"+ 
 			//"Reset <img src='http://findicons.com/files/icons/2139/uidesign/16/delete.png' style='top:3px;margin-left:1px;height:15px;'></a></div>"+
 			"</div>"
 		);
-		if( /iPhone/i.test(navigator.userAgent) ) {
-		 $(".buttonsLastTrainSearchList").css("top", "-5px");
-		  $(".buttonsLastTrainSearchList").css("margin-bottom", "0px");
+		if( /iPhone/i.test(navigator.userAgent) ){
+			$(".buttonsLastTrainSearchList").css("top", "-5px");
+			$(".buttonsLastTrainSearchList").css("margin-bottom", "0px");
 		}
 		
-
 		$('.buttonsLastTrainSearchList').fadeIn('fast');
 		//$('.buttonsLastTrainSearchList').fadeOut('fast').fadeIn('slow');
 		//$('.buttonsLastTrainSearchList').fadeOut('slow').fadeIn('fast');
-		/*$('.cruscottoBiglietti').css('height','425px'); /* SU NUOVO FORM CERT SOLO! */
+		/* css fix spaziatura form su smartphone Android */
+		if($(window).width() <= tcom14.mSize){
+			$(".linkFineCrus").css("top", "25px");
+			$("fieldset.biglietti_buttons").css("margin-top", "0px");
+			$(".cruscottoBiglietti").css("height","445px");
+			$(".inputHidden").css("height", "1px"); // fix blackberry
+		}
 		
 		$(document).mouseup(function(e){
 			/* console.log('< event target='+$(e.target).html().substring(0, 50)+' - test1='+test1+' - test2='+test2); */
@@ -300,8 +305,6 @@ if (browserType == "Internet Explorer" && browserVersion <= 9){
 
 }
 
-
-
 /* ############### DA aggiungere alla fine di tcom14.checkForm... POICHE' ABBIAMO LA VALIDAZIONE DELLE STAZIONI!!! */ 
 tcom14.checkFormOLD = tcom14.checkForm;
 tcom14.checkForm = function(e){
@@ -311,11 +314,10 @@ tcom14.checkForm = function(e){
 	}
 	return resCheck;
 };
-/* modalità di inclusione utilizzata in tcom_engine.js
+/* modalitÃ  di inclusione utilizzata in tcom_engine.js
 if(navigator.cookieEnabled){
 	setTimeout(function(){ 
-		$.getScript('cms-file/html/trenitalia2014/lastTrainSearchList.js'); 		
+		$.getScript('/cms-file/html/trenitalia2014/lastTrainSearchList.js'); 		
 	}, 1000);
 }
 */
-
