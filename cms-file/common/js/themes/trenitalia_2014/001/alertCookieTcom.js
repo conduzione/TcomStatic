@@ -44,7 +44,8 @@ function addFsCookieBannerContainer(curCookieDomain){
 		cookie_banner.style.display = 'none';
 		time += 3600 * 1000 * 24 * 365 * 10;
 		date.setTime(time);
-		document.cookie = cookie_name + '=true; expires=' + date.toGMTString() + ';domain='+curCookieDomain+'; path=/';
+		//document.cookie = cookie_name + '=true; expires=' + date.toGMTString() + ';domain='+curCookieDomain+'; path=/';		
+		document.cookie = cookie_name + '=true; expires=' + date.toGMTString() + '; path=/';
 	}
 	if(!close_btn_1.addEventListener) {
 		close_btn_1.attachEvent('onclick', closeBanner);
