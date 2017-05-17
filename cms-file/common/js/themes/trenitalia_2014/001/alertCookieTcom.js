@@ -27,6 +27,7 @@ if(myWindowWidth<700){
 }
 
 function addFsCookieBannerContainer(curCookieDomain){
+	curCookieDomain = ".";
 	var cookie_banner = document.getElementById('cookie_banner_container'), close_btn_1 = document.getElementById('cookie_banner_close_01'), close_btn_2 = document.getElementById('cookie_banner_close_02'), cookie_name = 'FsBannerAcceptedCookiePolicy', closeBanner;	
 	// display banner if no cookie found
 	if(document.cookie.indexOf(cookie_name) === -1) {
