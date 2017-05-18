@@ -1,4 +1,4 @@
-# Il pacchetto è scaricabile al seguente URL [link to tcomstatic!](https://github.com/conduzione/TcomStatic/archive/master.zip)
+# Il pacchetto è scaricabile cliccando [qui](https://github.com/conduzione/TcomStatic/archive/master.zip)
 
 # Lo scarico è stato effettuato con HTTrack puntando al sito http://www.trenitalia.com/ 
 
